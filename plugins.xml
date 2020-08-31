@@ -2991,6 +2991,36 @@
 			<certification type="reviewed"/>
 			<description>Initial release</description>
 		</release>
+		<release date="2020-08-31" version="1.0.0.1" md5="1ff62ad750333ffdbb0db358e8a4a6f1">
+			<package>https://github.com/RBoelter/announcementsBlock/releases/download/v1_0_0-1/announcementsBlock-v1_0_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.1.2.4</version>
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Arabic translation added and minor fixes</description>
+		</release>
 	</plugin>
 	<plugin category="gateways" product="swordServer">
 		<name locale="en_US">Sword Server Plugin</name>
