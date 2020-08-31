@@ -2938,6 +2938,36 @@
 			<certification type="reviewed"/>
 			<description>Added a message to remind administrators to make an appropriate entry in the cookie policy.</description>
 		</release>
+		<release date="2020-08-31" version="1.0.0.2" md5="7f176fc4d224c6e0abbc73d000786725">
+			<package>https://github.com/RBoelter/twitterBlock/releases/download/v1_0_0-2/twitterBlock-v1_0_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.1.2.4</version>
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Compatibility checks for OPM 3.2 and OPS 3.2 added, Spanish translation added, minor fixes</description>
+		</release>
 	</plugin>
 	<plugin category="blocks" product="announcementsBlock">
 		<name locale="en_US">Announcements Block</name>
