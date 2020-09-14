@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
-	<plugin category="generic" product="tutorialExample">
+	<plugin category="generic" product="epubJsViewer">
 		<name locale="en_US">EpubJsViewer</name>
 		<homepage>https://github.com/EKT/epubJsViewer-ojs</homepage>
 		<summary locale="en_US">This plugin uses the <a href=\"https://github.com/futurepress/epub.js\">epub.js library</a> to embed EPUB files on the article and issue galley view pages.</summary>
