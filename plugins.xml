@@ -3,7 +3,7 @@
 	<plugin category="generic" product="epubJsViewer">
 		<name locale="en_US">EPUB Viewer</name>
 		<homepage>https://github.com/EKT/epubJsViewer-ojs</homepage>
-		<summary locale="en_US">This plugin uses the <a target="_blank" href=\"https://github.com/futurepress/epub.js\">epub.js library</a> to embed EPUB files on the article and issue galley view pages.</summary>
+		<summary locale="en_US"><![CDATA[This plugin uses the (<a target="_blank" href="https://github.com/futurepress/epub.js">epub.js library</a>) to embed EPUB files on the article and issue galley view pages.]]></summary>
 		<description locale="en_US"><![CDATA[<p>EpubJsViewer plugin integrates epub.js in OJS articles and issues permitting the user the view EPUB files.</p>]]></description>
 		<maintainer>
 			<name>Dimitris Sioulas</name>
