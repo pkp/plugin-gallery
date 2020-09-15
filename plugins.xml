@@ -1,5 +1,24 @@
 <?xml version="1.0"?>
 <plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
+	<plugin category="generic" product="epubJsViewer">
+		<name locale="en_US">EPUB Viewer</name>
+		<homepage>https://github.com/EKT/epubJsViewer-ojs</homepage>
+		<summary locale="en_US">This plugin uses the <a target="_blank" href=\"https://github.com/futurepress/epub.js\">epub.js library</a> to embed EPUB files on the article and issue galley view pages.</summary>
+		<description locale="en_US"><![CDATA[<p>EpubJsViewer plugin integrates epub.js in OJS articles and issues permitting the user the view EPUB files.</p>]]></description>
+		<maintainer>
+			<name>Dimitris Sioulas</name>
+			<institution>National Documentation Center</institution>
+			<email>dsioulas@ekt.gr</email>
+		</maintainer>
+		<release date="2020-09-10" version="1.0.0.0" md5="2d335ad4b1ff014b2afff97964a9a5c7">
+			<package>https://github.com/EKT/epubJsViewer-ojs/releases/download/1.0.0.0/epubJsViewer.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.1</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Update to be compatible with OJS 3.2.1.1</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="hypothesis">
 		<name locale="en_US">Hypothes.is</name>
 		<homepage>https://github.com/asmecher/hypothesis</homepage>
