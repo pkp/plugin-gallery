@@ -3289,4 +3289,25 @@
 			<description>PKP|PN for OJS 3.2.1-x.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="ror">
+		<name locale="en_US">Research Organization Registry(ROR) Plugin</name>
+		<homepage>https://github.com/withanage/ror/</homepage>
+		<summary locale="en_US">OJS 3 Plugin for adding Organization names for author affiliations provided by ROR.org</summary>
+		<description locale="en_US"><![CDATA[<p>The ROR plugin integrates support for <a href="https://ror.org/">ROR</a>. Organizations maintained by ROR.org are automatically fetched using an auto suggesting function. For multilingual journals, additionally supported languages will be pre-filled given, ROR.org has the corresponding names in the OJS supported languages. </p>]]>></description>
+		<maintainer>
+			<name>Dulip Withanage</name>
+			<institution>German National Library of Science and Technology (TIB), Hannover, Germany </institution>
+			<email>dulip.withanage@gmail.com</email>
+		</maintainer>
+		<release date="2019-11-25" version="1.0.0.0" md5="b18b3a94e249778feda0265f36fa59b6">
+			<package>https://github.com/withanage/ror/releases/download/v1_0_0-0/ror-v1_0_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Initial release</description>
+		</release>
+	</plugin>
 </plugins>
