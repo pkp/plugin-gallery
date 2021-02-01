@@ -3858,7 +3858,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Public Knowledge Project</institution>
 			<email>jason.nugent@gmail.com</email>
 		</maintainer>
-		<release date="2021-02-01" version="1.0.0.0" md5="afc381d5ca06b460222372daaf81016d">
+		<release date="2021-02-02" version="1.0.0.0" md5="417c92c4a70c47f5c8723311b2cfff76">
 			<package>https://github.com/jnugent/advancedSearch/releases/download/v1.0.0.0/advancedSearch-1.0.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.1.0</version>
