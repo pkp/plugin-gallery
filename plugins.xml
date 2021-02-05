@@ -2939,6 +2939,17 @@
 			<certification type="partner"/>
 			<description>OJS 3.2 : Image support</description>
 		</release>
+		<release date="2021-02-05" version="4.0.0.2" md5="ec0e08f14a976d50995a1925160eeacc">
+			<package>https://github.com/withanage/lensGalleyBits/releases/download/v4_0_0-2/lensGalleyBits-v4_0_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Update article fetch for 3.2 compatibility</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="reviewerCredits">
 		<name locale="en_US">ReviewerCredits Plugin</name>
