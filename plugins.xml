@@ -1269,8 +1269,8 @@
 			<certification type="reviewed"/>
 			<description>Update for compatibility with v3.2.</description>
 		</release>
-		<release date="2021-02-07" version="2.1.4.0" md5="de80f946b6825506415aa969b334878d">
-			<package>https://github.com/ajnyga/funding/releases/download/2.1.4.0/funding.tar.gz</package>
+		<release date="2021-02-07" version="2.1.4.1" md5="60a17f023e44921d1bf190ecb2cd56e6">
+			<package>https://github.com/ajnyga/funding/releases/download/2.1.4.1/funding.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.1</version>
 				<version>3.3.0.2</version>
