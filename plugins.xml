@@ -1269,6 +1269,21 @@
 			<certification type="reviewed"/>
 			<description>Update for compatibility with v3.2.</description>
 		</release>
+		<release date="2021-02-07" version="2.1.4.1" md5="60a17f023e44921d1bf190ecb2cd56e6">
+			<package>https://github.com/ajnyga/funding/releases/download/2.1.4.1/funding.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Update for compatibility with v3.3.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="customHeader">
 		<name locale="en_US">Custom Header Plugin</name>
@@ -3040,6 +3055,17 @@
 			</compatibility>
 			<certification type="partner"/>
 			<description>OJS 3.2 : Image support</description>
+		</release>
+		<release date="2021-02-05" version="4.0.0.2" md5="ec0e08f14a976d50995a1925160eeacc">
+			<package>https://github.com/withanage/lensGalleyBits/releases/download/v4_0_0-2/lensGalleyBits-v4_0_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Update article fetch for 3.2 compatibility</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="reviewerCredits">
