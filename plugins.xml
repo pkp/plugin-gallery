@@ -2433,6 +2433,17 @@
 			<certification type="official"/>
 			<description>OJS 3.2+ (V2.4.3.3) JATS mixed citation support for substance texture</description>
 		</release>
+		<release date="2021-02-17" version="2.4.3.8" md5="228c773c4ec32c32b6dec6922f71be9e">
+			<package>https://github.com/pkp/texture/releases/download/v2_4_3-8/texture-v2_4_3-8.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>This release updates texture plugin compatible with OJS 3.3.0.0 and after versions </description>
+		</release>
+
 	</plugin>
 	<plugin category="generic" product="crossrefReferenceLinking">
 		<name locale="en_US">Crossref Reference Linking Plugin</name>
