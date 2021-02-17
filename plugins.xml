@@ -2436,6 +2436,7 @@
 		<release date="2021-02-17" version="2.4.3.8" md5="228c773c4ec32c32b6dec6922f71be9e">
 			<package>https://github.com/pkp/texture/releases/download/v2_4_3-8/texture-v2_4_3-8.tar.gz</package>
 			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
 				<version>3.3.0.2</version>
 				<version>3.3.0.3</version>
