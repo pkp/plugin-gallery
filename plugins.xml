@@ -2443,7 +2443,6 @@
 			<certification type="official"/>
 			<description>This release updates texture plugin compatible with OJS 3.3.0.0 and after versions </description>
 		</release>
-
 	</plugin>
 	<plugin category="generic" product="crossrefReferenceLinking">
 		<name locale="en_US">Crossref Reference Linking Plugin</name>
