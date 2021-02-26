@@ -10,5 +10,5 @@ before_install:
 
 script:
   - xmllint --schema http://pkp.sfu.ca/ojs/xml/plugins.xsd ./plugins.xml --noout
-  - if [[ $TRAVIS_PULL_REQUEST == 'false' && $TRAVIS_BRANCH == 'master' ]]; then pkp-plugin validate-all-releases --input $TRAVIS_BUILD_DIR/plugins.xml; fi
+  - if [[ $TRAVIS_PULL_REQUEST == 'false' && $TRAVIS_BRANCH == 'main' ]]; then pkp-plugin validate-all-releases --input $TRAVIS_BUILD_DIR/plugins.xml; fi
   - if [ $TRAVIS_PULL_REQUEST != 'false' ]; then pkp-plugin validate-new-release; fi

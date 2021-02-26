@@ -1220,6 +1220,17 @@
 			<certification type="official" />
 			<description>Initial release of the SubscriptionSSO plugin for OJS 3.2.1.</description>
 		</release>
+		<release date="2021-02-17" version="1.0.3.4" md5="ff056604e66ed0fe81666b210ebbabc1">
+			<package>https://github.com/asmecher/subscriptionSSO/releases/download/v1_0_3-4/subscriptionSSO-v1_0_3-4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Maintenance release of the SubscriptionSSO plugin for OJS 3.3.x.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="funding">
 		<name locale="en_US">Funding</name>
@@ -2433,6 +2444,17 @@
 			<certification type="official"/>
 			<description>OJS 3.2+ (V2.4.3.3) JATS mixed citation support for substance texture</description>
 		</release>
+		<release date="2021-02-17" version="2.4.3.8" md5="228c773c4ec32c32b6dec6922f71be9e">
+			<package>https://github.com/pkp/texture/releases/download/v2_4_3-8/texture-v2_4_3-8.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>This release updates texture plugin compatible with OJS 3.3.0.0 and after versions </description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="crossrefReferenceLinking">
 		<name locale="en_US">Crossref Reference Linking Plugin</name>
@@ -2768,6 +2790,18 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>This release fixes a problem where multiple ORCID icons sometimes appeared on the article landing page.</description>
+		</release>
+		<release date="2021-02-26" version="1.1.1.8" md5="045e7d98a454756f3f1041ea73c10eee">
+			<package>https://github.com/pkp/orcidProfile/releases/download/v1_1_1-8/orcidProfile-v1_1_1-8.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>API failure handling</description>
 		</release>
 		<release date="2020-12-05" version="1.1.2.6" md5="23322f89d69629b02daa4800d7a2f8dd">
 			<package>https://github.com/pkp/orcidProfile/releases/download/v1_1_2-6/orcidProfile-v1_1_2-6.tar.gz</package>
