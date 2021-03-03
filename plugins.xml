@@ -4351,4 +4351,35 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>mEDRA plugin for OJS 3.3.0-x</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="openid">
+		<name locale="en_US">OpenID Authentication Plugin</name>
+		<homepage>https://github.com/leibniz-psychology/openid</homepage>
+		<summary locale="en_US">This plugin allows users to register and login with an OpenID Connect provider such as Keycloak, Google, Orchid, Microsoft and Apple</summary>
+		<description locale="en_US"><![CDATA[<p>This plugin enables logging in to PKP applications using OpenID Connect providers. It currently supports Google, Apple ID, Microsoft Azure AD and Orchid. It is also possible to configure a custom OpenID Connect provider such as Keycloak.</p><p>For more information check <a href="https://github.com/leibniz-psychology/openid">GitHub</a><br><strong>Read the <a href="https://github.com/leibniz-psychology/openid/wiki">wiki</a> if you need help with the configuration.</strong></p>]]></description>
+		<maintainer>
+			<name>Ronny Bölter</name>
+			<institution>Leibniz Institute for Psychology (ZPID), Trier, Germany</institution>
+			<email>rb@leibniz-psychology.org</email>
+		</maintainer>
+		<release date="2021-03-03" version="3.3.0.6" md5="3122fbf0257ada5fc24a6898a425fed4">
+			<package>https://github.com/leibniz-psychology/openid/releases/download/v3_3_0-6/openid-v3_3_0-6.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>OpenID plugin for OJS 3.3.0-x (first release)</description>
+		</release>
+	</plugin>
 </plugins>
