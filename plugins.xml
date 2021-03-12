@@ -4397,5 +4397,25 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="reviewed" />
 			<description>OpenID plugin for OJS 3.3.0-x (first release)</description>
 		</release>
+		<release date="2021-03-12" version="3.3.0.7" md5="6e100455fb0f53e0fbf817f14f3d036a">
+			<package>https://github.com/leibniz-psychology/openid/releases/download/v3_3_0-7/openid-v3_3_0-7.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>PHP warning fixed and registration as reviewer added</description>
+		</release>
 	</plugin>
 </plugins>
