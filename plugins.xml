@@ -4539,4 +4539,27 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>OpenID plugin for OJS 3.3.0-x (first release)</description>
 		</release>
 	</plugin>
+	<plugin category="importexport" product="datacite">
+		<name locale="en_US">Datacite</name>
+		<homepage>https://github.com/withanage/datacite</homepage>
+		<summary locale="en_US">This plugin allows DOI registration via Datacite</summary>
+		<description locale="en_US"></description>
+		<maintainer>
+			<name>Dulip Withanage</name>
+			<institution>Public Knowledge Project</institution>
+			<email>pkp.contact@gmail.com</email>
+		</maintainer>
+		<release date="2021-03-08" version="1.0.0.2" md5="10d10bbb3112cc41347e64037411a6cb">
+			<package>https://github.com/withanage/datacite/releases/download/v1_0_0-1/datacite-v1_0_0-1.tar.gz</package>
+			<compatibility application="omp">
+				<version>3.1.0.0</version>
+				<version>3.1.1.0</version>
+				<version>3.1.1.1</version>
+				<version>3.1.1.2</version>
+				<version>3.1.1.3</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Initial Release of Datacite plugin for OMP 3.1.x.</description>
+		</release>
+	</plugin>
 </plugins>
