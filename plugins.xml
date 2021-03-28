@@ -4549,7 +4549,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Public Knowledge Project</institution>
 			<email>pkp.contact@gmail.com</email>
 		</maintainer>
-		<release date="2021-03-08" version="1.0.0.2" md5="10d10bbb3112cc41347e64037411a6cb">
+		<release date="2021-03-08" version="1.0.0.2" md5="a4116dd8ce1ac80b0ad427195eac768a">
 			<package>https://github.com/withanage/datacite/releases/download/v1_0_0-1/datacite-v1_0_0-1.tar.gz</package>
 			<compatibility application="omp">
 				<version>3.1.0.0</version>
