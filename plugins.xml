@@ -4667,4 +4667,38 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>OpenID plugin for OJS 3.3.0-x (first release)</description>
 		</release>
 	</plugin>
+	<plugin category="reports" product="scieloSubmissionsReport">
+		<name locale="en_US">SciELO Submissions Report</name>
+		<name locale="es_ES">Relatorio de Envíos de SciELO</name>
+		<name locale="pt_BR">Relatório de Submissões SciELO</name>
+		<homepage>https://github.com/lepidus/scieloSubmissionsReport</homepage>
+		<summary locale="en_US">This plugin generates a CSV spreadsheet with submissions information that is usually requested by SciELO</summary>
+		<summary locale="es_ES">Este módulo genera un informe CSV con la información de los envíos que normalmente solicita SciELO.</summary>
+		<summary locale="pt_BR">Este plugin gera um relatório CSV com informação das submissões que é normalmente requisitada pela SciELO.</summary>
+		<description locale="en_US"><![CDATA[<p>This plugin generates a CSV spreadsheet with information that is usually requested by SciELO, based on the website submissions.</p>]]></description>
+		<maintainer>
+			<name>SciELO Brazil Online Submission and Preprints Unit</name>
+			<institution>SciELO in collaboration with Lepidus</institution>
+			<email>scielo.submission@scielo.org</email>
+		</maintainer>
+		<release date="2021-04-08" version="1.4.10.0" md5="6bde636164d6c2c1b4960d5076e31953">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v1.4.10.0/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Improves UTF-8 enconding support; First release ready to PKP Plugin Gallery.</description>
+		</release>
+	</plugin>
 </plugins>
