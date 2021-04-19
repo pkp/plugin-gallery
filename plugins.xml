@@ -4681,8 +4681,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>SciELO in collaboration with Lepidus</institution>
 			<email>scielo.submission@scielo.org</email>
 		</maintainer>
-		<release date="2021-04-08" version="1.4.10.0" md5="6bde636164d6c2c1b4960d5076e31953">
-			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v1.4.10.0/scieloSubmissionsReport.tar.gz</package>
+		<release date="2021-04-19" version="1.4.11.0" md5="5f267019d57a3c6fd7d167409d673416">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v1.4.11.0/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.1.0</version>
 				<version>3.2.1.1</version>
@@ -4698,7 +4698,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.2.1.4</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description>Improves UTF-8 enconding support; First release ready to PKP Plugin Gallery.</description>
+			<description>Improves UTF-8 enconding support and prevents SQL injections. First release sent to PKP Plugin Gallery.</description>
 		</release>
 	</plugin>
 </plugins>
