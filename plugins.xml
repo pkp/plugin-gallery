@@ -811,6 +811,52 @@
 			<description>Update for compatibility with v3.2.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="authorsHistory">
+		<name locale="en_US">Authors History</name>
+		<name locale="es_ES">Historia de los autores</name>
+		<name locale="pt_BR">Histórico dos autores</name>
+		<homepage>https://github.com/lepidus/authorsHistory</homepage>
+		<summary locale="en_US">This plugin adds a tab in the submission view, where all submissions from each contributor are listed.</summary>
+		<summary locale="es_ES">Este módulo agrega una pestaña en la vista de envío, donde se enumeran todos los envíos de cada colaborador.</summary>
+		<summary locale="pt_BR">Este plugin adiciona uma aba na visualização da submissão, onde todos as submissões de cada contribuidor são listadas.</summary>
+		<description locale="en_US"><![CDATA[<p>This plugin adds a tab in the submission view, where all submissions from each contributor are listed.</p>]]></description>
+		<maintainer>
+			<name>SciELO Brazil Online Submission and Preprints Unit</name>
+			<institution>SciELO in collaboration with Lepidus</institution>
+			<email>scielo.submission@scielo.org</email>
+		</maintainer>
+		<release date="2021-04-22" version="1.0.5.0" md5="5da3cf00376d352f5ab23c7a65e26aa1">
+			<package>https://github.com/lepidus/authorsHistory/releases/download/v1.0.5/authorsHistory.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Fixes security problem with SQL queries. First release to be sent to plugin gallery.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="piwik">
 		<name locale="en_US">Matomo</name>
 		<homepage>https://github.com/pkp/piwik</homepage>
