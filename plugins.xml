@@ -4817,6 +4817,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<summary locale="es_ES">Este módulo genera un informe CSV con la información de los envíos que normalmente solicita SciELO.</summary>
 		<summary locale="pt_BR">Este plugin gera um relatório CSV com informação das submissões que é normalmente requisitada pela SciELO.</summary>
 		<description locale="en_US"><![CDATA[<p>This plugin generates a CSV spreadsheet with information that is usually requested by SciELO, based on the website submissions.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este módulo genera un informe CSV con información que normalmente solicita SciELO, según los envíos del sitio web.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Este plugin gera um relatório CSV com informações que são normalmente solicitadas pela SciELO, com base nas submissões do website.</p>]]></description>
 		<maintainer>
 			<name>SciELO Brazil Online Submission and Preprints Unit</name>
 			<institution>SciELO in collaboration with Lepidus</institution>
@@ -4839,7 +4841,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.2.1.4</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description>Improves UTF-8 enconding support and prevents SQL injections. First release sent to PKP Plugin Gallery.</description>
+			<description locale="en_US">Improves UTF-8 enconding support and prevents SQL injections. First release sent to PKP Plugin Gallery.</description>
+			<description locale="es_ES">Mejora la compatibilidad con la codificación UTF-8 y evita las inyecciones de SQL. Primera versión que se enviará a la galería de módulos de PKP.</description>
+			<description locale="pt_BR">Melhora suporte a codificação UTF-8 e previne injeções SQL. Primeira versão a ser enviada à galeria de plugins da PKP.</description>
 		</release>
 	</plugin>
 </plugins>
