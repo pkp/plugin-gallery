@@ -820,13 +820,15 @@
 		<summary locale="es_ES">Este módulo agrega una pestaña en la vista de envío, donde se enumeran todos los envíos de cada colaborador.</summary>
 		<summary locale="pt_BR">Este plugin adiciona uma aba na visualização da submissão, onde todos as submissões de cada contribuidor são listadas.</summary>
 		<description locale="en_US"><![CDATA[<p>This plugin adds a tab in the submission view, where all submissions from each contributor are listed.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este complemento agrega una pestaña en la vista de envío, donde se enumeran todos los envíos de cada colaborador.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este plugin adiciona uma guia na visualização da submissão, onde todos as submissões de cada contribuidor são listadas</p>]]></description>
 		<maintainer>
 			<name>SciELO Brazil Online Submission and Preprints Unit</name>
 			<institution>SciELO in collaboration with Lepidus</institution>
 			<email>scielo.submission@scielo.org</email>
 		</maintainer>
-		<release date="2021-04-22" version="1.0.5.0" md5="5da3cf00376d352f5ab23c7a65e26aa1">
-			<package>https://github.com/lepidus/authorsHistory/releases/download/v1.0.5/authorsHistory.tar.gz</package>
+		<release date="2021-04-28" version="1.0.6.0" md5="f89a0727b9056c9e9bd9e5001f9f576c">
+			<package>https://github.com/lepidus/authorsHistory/releases/download/v1.0.6/authorsHistory.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.1.0</version>
 				<version>3.2.1.1</version>
@@ -854,7 +856,9 @@
 				<version>3.3.0.5</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description>Fixes security problem with SQL queries. First release to be sent to plugin gallery.</description>
+			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add a tab in the submission view where all submission from each contributor are listed.</description>
+			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP. Su funcionalidad principal es agregar una pestaña en la vista de envío donde se enumeran todos los envíos de cada colaborador.</description>
+			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada para a galeria de plugins da PKP. Sua principal funcionalidade é adicionar uma guia na visualização da submissão, onde todos as submissões de cada contribuidor são listadas.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
