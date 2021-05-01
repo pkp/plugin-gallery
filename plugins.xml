@@ -4821,6 +4821,61 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Bugfix release of the plugin for OJS 3.3.0</description>
 		</release>
 	</plugin>
+	<plugin category="pubIds" product="ark">
+		<name locale="en_US">ARK</name>
+		<homepage>https://github.com/yasielpv/pkp-ark-pubid</homepage>
+		<summary locale="en_US">Allows assign ARK ID to issue, article and galley.</summary>
+		<description locale="en_US"><![CDATA[<p>The ARK plugin enables the asignation and management of ARK ID to issue, article and galley.</p>]]></description>
+		<maintainer>
+			<name>Yasiel Perez Vera</name>
+			<institution>Universidad La Salle</institution>
+			<email>yasielpv@gmail.com</email>
+		</maintainer>
+		<release date="2021-05-01" version="1.0.0.0" md5="9db3f6fc9f59a793bf94718e0cd676c7">
+			<package>https://github.com/yasielpv/pkp-ark-pubid/releases/download/ojs-3.1/ark.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.0.0.0</version>
+				<version>3.0.1.0</version>
+				<version>3.0.2.0</version>
+				<version>3.1.0.0</version>
+				<version>3.1.0.1</version>
+				<version>3.1.1.0</version>
+				<version>3.1.1.1</version>
+				<version>3.1.1.2</version>
+				<version>3.1.1.4</version>
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>				
+			</compatibility>
+			<certification type="" />
+			<description>ARK plugin for OJS 3.0.x.x - 3.1.x.x</description>
+		</release>
+		<release date="2021-05-01" version="1.0.1.0" md5="9cf409fd0fe5ca652d2dc6046208d05c">
+			<package>https://github.com/yasielpv/pkp-ark-pubid/releases/download/ojs-3.3/ark.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+			</compatibility>
+			<certification type="" />
+			<description>ARK plugin for OJS 3.2.x.x - 3.3.x.x</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="openid">
 		<name locale="en_US">OpenID Authentication Plugin</name>
 		<homepage>https://github.com/leibniz-psychology/openid</homepage>
