@@ -4825,7 +4825,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<name locale="en_US">ARK</name>
 		<homepage>https://github.com/yasielpv/pkp-ark-pubid</homepage>
 		<summary locale="en_US">Allows assign ARK ID to issue, article and galley.</summary>
-		<description locale="en_US"><![CDATA[<p>The ARK plugin enables the asignation and management of ARK ID to issue, article and galley.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>The ARK plugin enables the assignation and management of ARK ID to issue, article and galley.</p>]]></description>
 		<maintainer>
 			<name>Yasiel Perez Vera</name>
 			<institution>Universidad La Salle</institution>
