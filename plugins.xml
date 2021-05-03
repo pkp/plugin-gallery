@@ -827,8 +827,8 @@
 			<institution>SciELO in collaboration with Lepidus</institution>
 			<email>scielo.submission@scielo.org</email>
 		</maintainer>
-		<release date="2021-04-28" version="1.0.6.0" md5="f89a0727b9056c9e9bd9e5001f9f576c">
-			<package>https://github.com/lepidus/authorsHistory/releases/download/v1.0.6/authorsHistory.tar.gz</package>
+		<release date="2021-05-03" version="1.0.7.0" md5="886332d530db5937d77f13679d68834a">
+			<package>https://github.com/lepidus/authorsHistory/releases/download/v1.0.7/authorsHistory.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.1.0</version>
 				<version>3.2.1.1</version>
