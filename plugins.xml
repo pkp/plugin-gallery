@@ -4831,8 +4831,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Universidad La Salle</institution>
 			<email>yasielpv@gmail.com</email>
 		</maintainer>
-		<release date="2021-05-01" version="1.0.0.0" md5="9db3f6fc9f59a793bf94718e0cd676c7">
-			<package>https://github.com/yasielpv/pkp-ark-pubid/releases/download/ojs-3.1/ark.tar.gz</package>
+		<release date="2021-05-01" version="1.0.1.0" md5="9fc548a9be4f39264fd2a9cc75acdcf1">
+			<package>https://github.com/yasielpv/pkp-ark-pubid/releases/download/ojs-3.1/pkp-ark-pubid-ojs-3.1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.0.0.0</version>
 				<version>3.0.1.0</version>
@@ -4852,8 +4852,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="" />
 			<description>ARK plugin for OJS 3.0.x.x - 3.1.x.x</description>
 		</release>
-		<release date="2021-05-01" version="1.0.1.0" md5="9cf409fd0fe5ca652d2dc6046208d05c">
-			<package>https://github.com/yasielpv/pkp-ark-pubid/releases/download/ojs-3.3/ark.tar.gz</package>
+		<release date="2021-05-01" version="1.0.1.0" md5="a5df447ba2847da0204a8ae7c15b0ac3">
+			<package>https://github.com/yasielpv/pkp-ark-pubid/releases/download/ojs-3.3/pkp-ark-pubid-ojs-3.3.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.0.0</version>
 				<version>3.2.0.1</version>
