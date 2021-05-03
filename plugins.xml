@@ -4849,7 +4849,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.1.2.3</version>
 				<version>3.1.2.4</version>				
 			</compatibility>
-			<certification type="" />
+			<certification type="official" />
 			<description>ARK plugin for OJS 3.0.x.x - 3.1.x.x</description>
 		</release>
 		<release date="2021-05-01" version="1.0.1.0" md5="a5df447ba2847da0204a8ae7c15b0ac3">
@@ -4872,7 +4872,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.5</version>
 				<version>3.3.0.6</version>
 			</compatibility>
-			<certification type="" />
+			<certification type="official" />
 			<description>ARK plugin for OJS 3.2.x.x - 3.3.x.x</description>
 		</release>
 	</plugin>
