@@ -3459,7 +3459,7 @@
 				<version>3.2.1.1</version>
 			</compatibility>
 			<certification type="partner" />
-			<description>Legacy release of the Plum Analytics plugin for OJS 3.1.</description>
+			<description>Release of the Plum Analytics plugin for OJS 3.1/3.2.</description>
 		</release>
 		<release date="2021-04-30" version="1.3.0.2" md5="01930734957aa7ea70c1ff7ea501cb01">
 			<package>https://github.com/ulsdevteam/ojs-plum-plugin/releases/download/v1.3.0-2/plumAnalytics-1.3.0-2.tgz</package>
@@ -3472,7 +3472,7 @@
 				<version>3.1.2.4</version>
 			</compatibility>
 			<certification type="partner" />
-			<description>Release of the Plum Analytics plugin for OJS 3.1/3.2.</description>
+			<description>Legacy release of the Plum Analytics plugin for OJS 3.1.</description>
 		</release>
 		<release date="2021-05-03" version="1.4.0.0" md5="1fed8dabfd5eeb1a0a6606acfb19a963">
 			<package>https://github.com/ulsdevteam/ojs-plum-plugin/releases/download/v1.4.0-0/plumAnalytics-1.4.0-0.tgz</package>
