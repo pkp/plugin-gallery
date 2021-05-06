@@ -5068,5 +5068,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Mejora la compatibilidad con la codificación UTF-8 y evita las inyecciones de SQL. Primera versión que se enviará a la galería de módulos de PKP.</description>
 			<description locale="pt_BR">Melhora suporte a codificação UTF-8 e previne injeções SQL. Primeira versão a ser enviada à galeria de plugins da PKP.</description>
 		</release>
+		<release date="2021-05-05" version="1.4.12.0" md5="ec9db1a2a2f77bab39120d724c6792d9">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v1.4.12.0/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Fixes bug with the report filter by final decision date. This bug affected the submissions included in the report in both OPS and OJS.</description>
+			<description locale="es_ES">Corrige bug con el filtro de la fecha de decisión final. Este error afectó los envíos incluidos en el informe tanto en OPS como en OJS.</description>
+			<description locale="pt_BR">Corrige bug com o filtro por data de decisão final. Esse bug afetava as submissões incluidas no relatório tanto no OPS quanto no OJS.</description>
+		</release>
 	</plugin>
 </plugins>
