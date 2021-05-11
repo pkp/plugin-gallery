@@ -5129,9 +5129,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.2.1.4</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en_US">Fixes bug with filtering by final decision date that affected filtering by submission date, resulting in empty reports.</description>
-			<description locale="es_ES">Corrige el error con el filtrado por fecha de decisión final que afectó al filtrado por fecha de envío, lo que resultó en informes vacíos.</description>
-			<description locale="pt_BR">Corrige bug com filtragem por data de decisão final que afetou a filtragem por data de submissão, resultando em relatórios vazios.</description>
+			<description locale="en_US">Correction in filtering by submission date that resulted in empty reports</description>
+			<description locale="es_ES">Corrección en el filtrado por fecha de envío que resultó en informes vacíos</description>
+			<description locale="pt_BR">Correção na filtragem por data de submissão que resultava em relatórios vazios</description>
 		</release>
 	</plugin>
 </plugins>
