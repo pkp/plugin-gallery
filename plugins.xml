@@ -5112,5 +5112,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Corrige bug con el filtro de la fecha de decisión final. Este error afectó los envíos incluidos en el informe tanto en OPS como en OJS.</description>
 			<description locale="pt_BR">Corrige bug com o filtro por data de decisão final. Esse bug afetava as submissões incluidas no relatório tanto no OPS quanto no OJS.</description>
 		</release>
+		<release date="2021-05-11" version="1.4.13.0" md5="94ecb1c4174ad01a89eaedbcc01a2260">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v1.4.13.0/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Fixes bug with filtering by final decision date that affected filtering by submission date, resulting in empty reports.</description>
+			<description locale="es_ES">Corrige el error con el filtrado por fecha de decisión final que afectó al filtrado por fecha de envío, lo que resultó en informes vacíos.</description>
+			<description locale="pt_BR">Corrige bug com filtragem por data de decisão final que afetou a filtragem por data de submissão, resultando em relatórios vazios.</description>
+		</release>
 	</plugin>
 </plugins>
