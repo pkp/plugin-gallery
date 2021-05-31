@@ -3502,7 +3502,7 @@
 			<institution>ReviewerCredits</institution>
 			<email>matteo.mondini@gmail.com</email>
 		</maintainer>
-		<release date="2020-5-19" version="1.0.4.1" md5="357dc2b227ffad21610775de250c13b4">
+		<release date="2020-05-28" version="1.0.6.0" md5="10f24f3906b3c3cb2e568bd5688c3355">
 			<package>https://www.reviewercredits.com/wp-content/uploads/2021/05/reviewerCredits.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.4</version>
