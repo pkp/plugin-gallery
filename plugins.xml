@@ -906,6 +906,7 @@
 				<version>3.3.0.3</version>
 				<version>3.3.0.4</version>
 				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
 			</compatibility>
 			<compatibility application="ops">
 				<version>3.2.1.0</version>
@@ -919,6 +920,7 @@
 				<version>3.3.0.3</version>
 				<version>3.3.0.4</version>
 				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
 			</compatibility>
 			<certification type="reviewed"/>
 			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add a tab in the submission view where all submission from each contributor are listed.</description>
@@ -956,6 +958,7 @@
 				<version>3.3.0.3</version>
 				<version>3.3.0.4</version>
 				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
 			</compatibility>
 			<compatibility application="omp">
 				<version>3.2.1.0</version>
@@ -969,6 +972,7 @@
 				<version>3.3.0.3</version>
 				<version>3.3.0.4</version>
 				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
 			</compatibility>
 			<compatibility application="ops">
 				<version>3.2.1.0</version>
@@ -982,6 +986,7 @@
 				<version>3.3.0.3</version>
 				<version>3.3.0.4</version>
 				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
 			</compatibility>
 			<certification type="reviewed"/>
 			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add a notification in the Website Settings informing which plugins have an upgrade available.</description>
