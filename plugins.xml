@@ -927,6 +927,41 @@
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP. Su funcionalidad principal es agregar una pestaña en la vista de envío donde se enumeran todos los envíos de cada colaborador.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada para a galeria de plugins da PKP. Sua principal funcionalidade é adicionar uma guia na visualização da submissão, onde todos as submissões de cada contribuidor são listadas.</description>
 		</release>
+		<release date="2021-06-16" version="1.0.8.0" md5="a3f654491ce8a422f1f0054e2ae6673e">
+			<package>https://github.com/lepidus/authorsHistory/releases/download/v1.0.8/authorsHistory.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release fixes a bug that occurred when deleting one of the previous submissions from one of the submission's authors</description>
+			<description locale="es_ES">Esta versión corrige un error que se produjo al eliminar uno de los envíos anteriores de uno de los autores del envío</description>
+			<description locale="pt_BR">Essa versão corrige um problema que ocorria quando se excluia uma das submissões passadas de um dos autores da submissão</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="pluginUpdateNotification">
 		<name locale="en_US">Plugins update notification</name>
