@@ -956,6 +956,7 @@
 				<version>3.3.0.4</version>
 				<version>3.3.0.5</version>
 				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
 			</compatibility>
 			<compatibility application="ops">
 				<version>3.2.1.0</version>
@@ -970,6 +971,7 @@
 				<version>3.3.0.4</version>
 				<version>3.3.0.5</version>
 				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
 			</compatibility>
 			<certification type="reviewed"/>
 			<description locale="en_US">This release fixes a bug that occurred when deleting one of the previous submissions from one of the submission's authors</description>
