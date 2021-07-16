@@ -4834,22 +4834,13 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<release date="2021-05-01" version="1.0.1.0" md5="9fc548a9be4f39264fd2a9cc75acdcf1">
 			<package>https://github.com/yasielpv/pkp-ark-pubid/releases/download/ojs-3.1/pkp-ark-pubid-ojs-3.1.tar.gz</package>
 			<compatibility application="ojs2">
-				<version>3.0.0.0</version>
-				<version>3.0.1.0</version>
-				<version>3.0.2.0</version>
-				<version>3.1.0.0</version>
-				<version>3.1.0.1</version>
-				<version>3.1.1.0</version>
-				<version>3.1.1.1</version>
-				<version>3.1.1.2</version>
-				<version>3.1.1.4</version>
 				<version>3.1.2.0</version>
 				<version>3.1.2.1</version>
 				<version>3.1.2.2</version>
 				<version>3.1.2.3</version>
 				<version>3.1.2.4</version>				
 			</compatibility>
-			<certification type="official" />
+			<certification type="reviewed" />
 			<description>ARK plugin for OJS 3.0.x.x - 3.1.x.x</description>
 		</release>
 		<release date="2021-05-01" version="1.0.1.0" md5="a5df447ba2847da0204a8ae7c15b0ac3">
@@ -4873,7 +4864,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.6</version>
 				<version>3.3.0.7</version>
 			</compatibility>
-			<certification type="official" />
+			<certification type="reviewed" />
 			<description>ARK plugin for OJS 3.2.x.x - 3.3.x.x</description>
 		</release>
 	</plugin>
