@@ -4871,6 +4871,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.4</version>
 				<version>3.3.0.5</version>
 				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
 			</compatibility>
 			<certification type="official" />
 			<description>ARK plugin for OJS 3.2.x.x - 3.3.x.x</description>
