@@ -3762,6 +3762,35 @@
 			<description>Plugin to enable the integration with ReviewerCredits.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="clamav">
+		<name locale="en_US">Clam Antivirus plugin</name>
+		<homepage>https://github.com/ulsdevteam/pkp-clamav</homepage>
+		<summary locale="en_US">This plugin scans submission files using Clam Antivirus, blocking files with a known virus signature.</summary>
+		<description locale="en_US">When uploading a submission file through the Author Submission Steps, or via the Editorial interface, or via the Review process, the submission file will be scanned. If a virus is detected, the upload will be canceled and warning notification will be displayed.</description>
+		<maintainer>
+			<name>University Library System</name>
+			<institution>University of Pittsburgh</institution>
+			<email>uls-systemsdevelopment@pitt.edu</email>
+		</maintainer>
+		<release date="2021-07-22" version="3.0.0.0" md5="0c5b6c3484503615a7cbb440d88f6ea8">
+			<package></package>
+			<compatibility application="ojs2">
+				<version>3.1.1.4</version>
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the ClamAV plugin for OJS 3.1.1/3.1.2.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="plumAnalytics">
 		<name locale="en_US">Plum Analytics Artifact Widget</name>
 		<homepage>https://github.com/ulsdevteam/ojs-plum-plugin</homepage>
