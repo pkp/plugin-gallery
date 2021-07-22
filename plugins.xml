@@ -254,7 +254,7 @@
 			<certification type="official" />
 			<description>Release of the Shibboleth plugin for 3.2 and later.</description>
 		</release>
-		<release date="2021-07-19" version="1.2.0.0" md5="dbd83be2456833db986e7d8dc7428af0">
+		<release date="2021-07-19" version="1.2.0.0" md5="a1ca79d9218d7050066bad4d615a1844">
 			<package>https://github.com/pkp/shibboleth/releases/download/v1.2.0-0/shibboleth-v1_2_0_0.tgz</package>
 			<compatibility application="ojs2">
 				<version>3.2.0.0</version>
