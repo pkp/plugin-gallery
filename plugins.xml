@@ -2838,7 +2838,7 @@
 			<certification type="official"/>
 			<description>OJS 3.1 (V2.4.1.0) Final substance texture version release</description>
 		</release>
-		<release date="2020-11-17" version="2.4.2.3" md5="d117d9494a0d1712e7009304f3b30010">
+		<release date="2020-11-17" version="2.4.3.3" md5="d117d9494a0d1712e7009304f3b30010">
 			<package>https://github.com/pkp/texture/releases/download/v2_4_3-3/texture-v2_4_3-3.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.0.0</version>
