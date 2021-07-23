@@ -3762,6 +3762,42 @@
 			<description>Plugin to enable the integration with ReviewerCredits.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="emailIssueToc">
+		<name locale="en_US">Email Issue Table of Contents</name>
+		<homepage>https://github.com/ulsdevteam/pkp-emailIssueToc</homepage>
+		<summary locale="en_US">This plugin embeds the table of contents within the default notification email sent when publishing an issue.</summary>
+		<description locale="en_US">This plugin embeds the table of contents within the default notification email sent when publishing an issue.</description>
+		<maintainer>
+			<name>University Library System</name>
+			<institution>University of Pittsburgh</institution>
+			<email>uls-systemsdevelopment@pitt.edu</email>
+		</maintainer>
+		<release date="2020-06-29" version="1.0.1.0" md5="e8e758d90c484fedff207e24152adf2c">
+			<package>https://github.com/ulsdevteam/pkp-emailIssueToc/releases/download/v1.0.1-0/emailIssueToc-1.0.1.0.tgz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the emailIssueToc plugin for OJS 3.2.</description>
+		</release>
+		<release date="2020-06-29" version="1.0.0.0" md5="789e6f18c743359bc548c5455efebd5f">
+			<package>https://github.com/ulsdevteam/pkp-emailIssueToc/releases/download/v1.0.0-0/emailIssueToc-1.0.0.0.tgz</package>
+			<compatibility application="ojs2">
+				<version>3.1.1.4</version>
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the emailIssueToc plugin for OJS 3.1.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="clamav">
 		<name locale="en_US">Clam Antivirus plugin</name>
 		<homepage>https://github.com/ulsdevteam/pkp-clamav</homepage>
