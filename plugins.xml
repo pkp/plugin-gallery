@@ -3951,6 +3951,55 @@
 			<certification type="partner" />
 			<description>Release of the Akismet plugin for OJS 3.1.1 and OJS/OMP 3.1.2.</description>
 		</release>
+		<release date="2021-07-23" version="1.2.2.2" md5="57a0f93820f53de15d7e1db329518602">
+			<package>https://github.com/ulsdevteam/pkp-akismet/releases/download/v1.2.2-2/akismet-1.2.2-2.tgz</package>
+			<compatibility application="ojs2">
+				<version>3.1.1.4</version>
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the Akismet plugin for OJS/OMP 3.1 / 3.2 and OPS 3.2.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="formHoneypot">
 		<name locale="en_US">Form Honeypot</name>
