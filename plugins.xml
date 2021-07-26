@@ -3957,6 +3957,66 @@
 			<description>Release of the Better Password plugin for OJS/OMP 3.1.2.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="sitesearch">
+		<name locale="en_US">Sitesearch</name>
+		<homepage>https://github.com/ulsdevteam/pkp-sitesearch</homepage>
+		<summary locale="en_US">This plugin forces public searches for a context to be re-scoped to the site.</summary>
+		<description locale="en_US">This plugin rewrites the search for a context to the site level. This is used, for example, in the case where one journal has assumed the operations of one or more other journals (which are installed in the same site).</description>
+		<maintainer>
+			<name>University Library System</name>
+			<institution>University of Pittsburgh</institution>
+			<email>uls-systemsdevelopment@pitt.edu</email>
+		</maintainer>
+		<release date="2020-02-17" version="1.0.0.0" md5="5ceb1912c3faf36c5b13d3da45793eaa">
+			<package>https://github.com/ulsdevteam/pkp-sitesearch/releases/download/v1.0.0-0/sitesearch-1.0.0-0.tgz</package>
+			<compatibility application="ojs2">
+				<version>3.1.1.4</version>
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the Sitesearch plugin for OJS/OMP 3.1 / 3.2 and OPS 3.2.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="akismet">
 		<name locale="en_US">Akismet</name>
 		<homepage>https://github.com/ulsdevteam/pkp-akismet</homepage>
