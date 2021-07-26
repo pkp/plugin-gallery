@@ -3926,6 +3926,28 @@
 			<certification type="partner" />
 			<description>Release of the SUSHI-Lite plugin for OJS 3.1.1/3.1.2.</description>
 		</release>
+		<release date="2020-11-09" version="1.1.2.0" md5="7f38f28edbcf861e76c6877b4a81fb62">
+			<package>https://github.com/ulsdevteam/ojs-sushiLite-plugin/releases/download/v1.1.2-0/sushiLite-1.1.2-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.1.1.4</version>
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the SUSHI-Lite plugin for OJS 3.1/3.2.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="betterPassword">
 		<name locale="en_US">Better Password</name>
