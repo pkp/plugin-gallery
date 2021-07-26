@@ -3808,7 +3808,7 @@
 			<institution>University of Pittsburgh</institution>
 			<email>uls-systemsdevelopment@pitt.edu</email>
 		</maintainer>
-		<release date="2021-07-26" version="1.0.0.1" md5="0c5b6c3484503615a7cbb440d88f6ea8">
+		<release date="2021-07-26" version="1.0.0.1" md5="a3ee5f5430db108b4bf454ddaed38e7e">
 			<package>https://github.com/ulsdevteam/pkp-editorialBio/releases/download/v1.0.0-1/editorialBio-1.0.0-1.tgz</package>
 			<compatibility application="ojs2">
 				<version>3.1.1.4</version>
