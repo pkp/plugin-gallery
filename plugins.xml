@@ -5565,18 +5565,18 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>ARK plugin for OJS 3.2.x.x - 3.3.x.x</description>
 		</release>
 	</plugin>
-	<plugin category="pubIds" product="ark">
-		<name locale="en_US">ARK</name>
-		<homepage>https://github.com/yasielpv/pkp-ark-pubid</homepage>
-		<summary locale="en_US">Allows assign ARK ID to issue, article and galley.</summary>
-		<description locale="en_US"><![CDATA[<p>The ARK plugin enables the assignation and management of ARK ID to issue, article and galley.</p>]]></description>
+	<plugin category="pubIds" product="purl">
+		<name locale="en_US">PURL</name>
+		<homepage>https://github.com/yasielpv/pkp-purl-pubid</homepage>
+		<summary locale="en_US">Allows assign PURL ID to issue, article and galley.</summary>
+		<description locale="en_US"><![CDATA[<p>The PURL plugin enables the assignation and management of PURL ID to issue, article and galley.</p>]]></description>
 		<maintainer>
 			<name>Yasiel Perez Vera</name>
 			<institution>Universidad La Salle</institution>
 			<email>yasielpv@gmail.com</email>
 		</maintainer>
-		<release date="2021-05-01" version="1.0.1.0" md5="9fc548a9be4f39264fd2a9cc75acdcf1">
-			<package>https://github.com/yasielpv/pkp-ark-pubid/releases/download/ojs-3.1/pkp-ark-pubid-ojs-3.1.tar.gz</package>
+		<release date="2021-04-21" version="1.0.0.0" md5="7b1f5190076c0540ea8769f40d1026ca">
+			<package>https://github.com/yasielpv/pkp-purl-pubid/releases/download/v1_0_0-0/pkp-purl-pubid-v1_0_0-0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.1.2.0</version>
 				<version>3.1.2.1</version>
@@ -5585,10 +5585,10 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.1.2.4</version>				
 			</compatibility>
 			<certification type="reviewed" />
-			<description>ARK plugin for OJS 3.0.x.x - 3.1.x.x</description>
+			<description>PURL plugin for OJS 3.0.x.x - 3.1.x.x</description>
 		</release>
-		<release date="2021-05-01" version="1.0.1.0" md5="a5df447ba2847da0204a8ae7c15b0ac3">
-			<package>https://github.com/yasielpv/pkp-ark-pubid/releases/download/ojs-3.3/pkp-ark-pubid-ojs-3.3.tar.gz</package>
+		<release date="2021-05-01" version="1.0.1.0" md5="4bdc81d534df8b3aee002d3028d880dc">
+			<package>https://github.com/yasielpv/pkp-purl-pubid/releases/download/v1_0_1-0/pkp-purl-pubid-v1_0_1-0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.0.0</version>
 				<version>3.2.0.1</version>
@@ -5609,7 +5609,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.7</version>
 			</compatibility>
 			<certification type="reviewed" />
-			<description>ARK plugin for OJS 3.2.x.x - 3.3.x.x</description>
+			<description>PURL plugin for OJS 3.2.x.x - 3.3.x.x</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="openid">
