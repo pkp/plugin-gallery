@@ -4294,7 +4294,7 @@
 		<name locale="en_US">Author Requirements</name>
 		<homepage>https://github.com/ewhanson/authorRequirements</homepage>
 		<summary locale="en_US">Make certain author fields optional.</summary>
-		<description locale="en_US">This plugin makes it possible to add an author to a list of contributors without using certain requried fields (e.g. email). This is useful in cases where required information does not exist for authors.</description>
+		<description locale="en_US">This plugin makes it possible to add an author to a list of contributors without using certain required fields (e.g. email). This is useful in cases where required information does not exist for authors.</description>
 		<maintainer>
 			<name>Erik Hanson</name>
 			<institution>Public Knowledge Project</institution>
@@ -4360,6 +4360,31 @@
 			</compatibility>
 			<certification type="partner"/>
 			<description>Release of the authorRequirements plugin for OJS/OMP 3.3.0</description>
+		</release>
+		<release date="2021-08-16" version="1.0.1.1" md5="910e86d153ff882355be2c2bce08f3b0">
+			<package>https://github.com/ewhanson/authorRequirements/releases/download/v1.0.1-1/authorRequirements-1.0.1-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Update to authorRequirements plugin fixing compatability issues  in OMP 3.3</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="registrationNotification">
@@ -5623,7 +5648,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.1.2.1</version>
 				<version>3.1.2.2</version>
 				<version>3.1.2.3</version>
-				<version>3.1.2.4</version>				
+				<version>3.1.2.4</version>
 			</compatibility>
 			<certification type="reviewed" />
 			<description>ARK plugin for OJS 3.0.x.x - 3.1.x.x</description>
