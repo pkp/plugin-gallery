@@ -2761,6 +2761,25 @@
 			<description>A minor update to support changes to the default theme in OJS 3.3.</description>
 		</release>
 	</plugin>
+	<plugin category="themes" product="material">
+		<name locale="en_US">Material Theme</name>
+		<homepage>https://github.com/madi-nuralin/material.git</homepage>
+		<summary locale="en_US">Material Theme (MDBootstrap based)</summary>
+		<description locale="en_US"><![CDATA[<p>Material Theme (MDBootstrap based), adaptive stylesheet for both fronted and backend templates.</p>]]></description>
+		<maintainer>
+			<name>Madi Nuralin</name>
+			<institution>International Information Technology University</institution>
+			<email>nmdbzk@gmail.com</email>
+		</maintainer>
+		<release date="2021-08-26" version="1.0.0.0" md5="d2125c06df6bbf4fbbaf8780a207d803">
+			<package>https://github.com/madi-nuralin/material/releases/download/v1_0_0-0/material-v1_0_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.7</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Initial release.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="texture">
 		<name locale="en_US">Texture plugin</name>
 		<homepage>https://github.com/pkp/texture</homepage>
