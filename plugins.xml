@@ -5470,6 +5470,20 @@
 			<certification type="reviewed"/>
 			<description>Spanish translation added and curl replaced with Guzzle</description>
 		</release>
+		<release date="2021-08-11" version="3.3.0.2" md5="d25c95cc78a3a68b7cd5015aaf5de4c3">
+			<package>https://github.com/RBoelter/citations/releases/download/v3_3_0-2/citations-v3_3_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Added Crossref contact information to request permission to use the cited-by service.</description>
+		</release>
 	</plugin>
 	<plugin category="importexport" product="portico">
 		<name locale="en_US">Portico Plugin</name>
