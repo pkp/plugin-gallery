@@ -3935,17 +3935,6 @@
 			<certification type="partner"/>
 			<description>Plugin to enable the integration with ReviewerCredits.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="reviewerCredits">
-		<name locale="en_US">ReviewerCredits Plugin</name>
-		<homepage>https://gitlab.com/reviewercredits/reviewercredits-ojs-plugin</homepage>
-		<summary locale="en_US">This plugin enable the integration with ReviewerCredits (www.reviewercredits.com).</summary>
-		<description locale="en_US"><![CDATA[This plugin enable the integration with ReviewerCredits using REST APIs. The main goal is to create and approve Peer Review Claims on the ReviewerCredits website.]]></description>
-		<maintainer>
-			<name>Matteo Mondini</name>
-			<institution>ReviewerCredits</institution>
-			<email>matteo.mondini@gmail.com</email>
-		</maintainer>
 		<release date="2020-10-14" version="1.0.0.1" md5="c011f3d86c0cefafd011b6427cdc3d5f">
 			<package>https://www.reviewercredits.com/wp-content/uploads/2020/10/reviewerCredits.tar.gz</package>
 			<compatibility application="ojs2">
