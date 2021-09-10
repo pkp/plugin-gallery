@@ -2828,7 +2828,7 @@
 			<certification type="official" />
 			<description>Initial release.</description>
 		</release>
-		<release date="2021-09-10" version="1.0.0.1" md5="0bb57c84ee73ad75ae97516d8661a3b4">
+		<release date="2021-09-10" version="1.0.0.1" md5="f520bdda5c21404f50b5cbcf6fca21ff">
 			<package>https://github.com/madi-nuralin/material/releases/download/v1_0_0-1/material-v1_0_0-1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
