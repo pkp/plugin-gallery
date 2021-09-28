@@ -4591,7 +4591,34 @@
 				<version>3.3.0.8</version>
 			</compatibility>
 			<certification type="partner"/>
-			<description>Update to authorRequirements plugin fixing compatability issues  in OMP 3.3</description>
+			<description>Update to authorRequirements plugin fixing compatability issues in OMP 3.3</description>
+		</release>
+		<release date="2021-09-27" version="1.0.1.2" md5="24ff4f6ad97f6efd89bacc6375fd87dd">
+			<package>https://github.com/ewhanson/authorRequirements/releases/download/v1.0.1-2/authorRequirements-1.0.1-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Updated for cross-application compatibility.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="registrationNotification">
