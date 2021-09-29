@@ -2408,6 +2408,31 @@
 			<certification type="reviewed"/>
 			<description>OJS 3.2.x and OJS 3.3.0-x compatible version. Resize the plugin area, changes the font family to serif and add opacity and font size variation to the keywords.</description>
 		</release>
+		<release date="2021-09-29" version="1.1.0.6" md5="3ac419c083143c68469c3c6e53f3005a">
+			<package>https://github.com/lepidus/keywordCloud/releases/download/v1.1.0.6/keywordCloud.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>OJS 3.2.x and OJS 3.3.0-x compatible version. Fix an cache-related error that occurred when calling getFileCache with no callback.</description>	
+		</release>
 	</plugin>
 	<plugin category="themes" product="bootstrap3">
 		<name locale="en_US">Bootstrap3</name>
