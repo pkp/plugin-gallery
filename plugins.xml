@@ -1056,6 +1056,45 @@
 			<description locale="es_ES">Esta versión corrige un error que se produjo al eliminar uno de los envíos anteriores de uno de los autores del envío</description>
 			<description locale="pt_BR">Essa versão corrige um problema que ocorria quando se excluia uma das submissões passadas de um dos autores da submissão</description>
 		</release>
+		<release date="2021-09-17" version="1.0.9.0" md5="ed7072fc46935d34c07a0e147dd26d7b">
+			<package>https://github.com/lepidus/authorsHistory/releases/download/v1.0.9/authorsHistory.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Improves plugin's performance and adds checking for cases in which different authors use the same email.</description>
+			<description locale="es_ES">Mejora el rendimiento del módulo y agrega verificación cuando diferentes autores usan el mismo correo electrónico.</description>
+			<description locale="pt_BR">Melhora performance do plugin e adiciona verificação para quando diferentes autores usam o mesmo e-mail.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="pluginUpdateNotification">
 		<name locale="en_US">Plugins update notification</name>
