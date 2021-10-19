@@ -1168,6 +1168,41 @@
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada à Galeria de Plugins da PKP. Sua principal funcionalidade é adicionar uma notificação nas Configurações do Website, informando quais plugins possuem uma atualização disponível.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="contentAnalysis">
+		<name locale="en_US">Content Analysis</name>
+		<name locale="es_ES">Análisis del contenido</name>
+		<name locale="pt_BR">Análise de Conteúdo</name>
+		<homepage>https://github.com/lepidus/contentAnalysis</homepage>
+		<summary locale="en_US">This plugin checks the content of the submitted document for certain submission information and metadata</summary>
+		<summary locale="es_ES">Este módulo verifica el contenido del documento de envío en busca de cierta información de envío y metadatos</summary>
+		<summary locale="pt_BR">Este plugin verifica o conteúdo do documento da submissão em busca de certas informações e metadados da submissão</summary>
+		<description locale="en_US"><![CDATA[<p>This plugin checks the content of the submitted document for certain submission information and metadata. Then, it shows a report of which elements had been found on the submission page.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este módulo verifica el contenido del documento de envío en busca de cierta información de envío y metadatos. Luego muestra un informe de los elementos que se encontraron en la página de envío.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Este plugin verifica o conteúdo do documento da submissão em busca de certas informações e metadados da submissão. Então, ele exibe um relatório de quais elementos foram encontrados na página da submissão.</p>]]></description>
+		<maintainer>
+			<name>SciELO Brazil Online Submission and Preprints Unit</name>
+			<institution>SciELO in collaboration with Lepidus</institution>
+			<email>scielo.submission@scielo.org</email>
+		</maintainer>
+		<release date="2021-10-06" version="1.2.4.0" md5="46c88057656fa5bfe2e04f8b5ae0aaca">
+			<package>https://github.com/lepidus/contentAnalysis/releases/download/v1.2.4/contentAnalysis.tar.gz</package>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery.</description>
+			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP.</description>
+			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada à Galeria de Plugins da PKP.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="piwik">
 		<name locale="en_US">Matomo</name>
 		<homepage>https://github.com/pkp/piwik</homepage>
