@@ -6408,8 +6408,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta es la primera versión de este módulo compatible con OJS y OPS en las versiones 3.3.0-x.</description>
 			<description locale="pt_BR">Esta é a primeira release deste plugin a ser compatível com OJS e OPS nas versões 3.3.0-x.</description>
 		</release>
-		<release date="2021-10-21" version="2.0.5.0" md5="9ca2ac28bd5b5b6a291c0689a9ac6548">
-			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.0.5.0/scieloSubmissionsReport.tar.gz</package>
+		<release date="2021-10-26" version="2.0.6.0" md5="1c83dd6e2fa52bff002b58f16a437926">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.0.6.0/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.1</version>
 				<version>3.3.0.2</version>
@@ -6431,9 +6431,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.8</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en_US">Adds support for uncovered editor decisions in the Last Decision column</description>
-			<description locale="es_ES">Agrega soporte para decisiones editoriales que no se cubrieron en la columna Última decisión</description>
-			<description locale="pt_BR">Dá suporte a decisões editoriais que não eram cobertas na coluna da Última Decisão</description>
+			<description locale="en_US">Adds support for uncovered editor decisions in the Last Decision column and fixes bug that prevented the loading of the Plugins page at Site Settings</description>
+			<description locale="es_ES">Agrega soporte para decisiones editoriales que no se cubrieron en la columna Última decisión y corrige el error que impedía la carga de la página de módulos en la Configuración del sitio</description>
+			<description locale="pt_BR">Dá suporte a decisões editoriais que não eram cobertas na coluna da Última Decisão e corrige erro que impedia o carregamento da página de plugins nas Configurações do Portal</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="lucene">
