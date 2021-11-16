@@ -6493,5 +6493,51 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial Release of Lucene/Solr plugin for OJS 3.2</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="epubViewer">
+		<name locale="en_US">Bibi Epub Viewer</name>
+		<name locale="pt_BR">Visualizador de EPUB Bibi</name>
+		<name locale="es_ES">Visor EPUBs Bibi</name>
+		<homepage>https://github.com/lepidus/epubViewer</homepage>
+		<summary locale="en_US">A plugin for viewing embedded EPUBs in Open Journal Systems and Open Monograph Press using Bibi Epub Reader.</summary>
+		<summary locale="pt_BR">Plugin para visualização embutida de EPUBs no Open Journal Systems e Open Monograph Press utilizando o Bibi Epub Reader.</summary>
+		<summary locale="en_US">Módulo para visualización incrustada de EPUB en Open Journal Systems y Open Monograph Press con Bibi EPUB Reader.</summary>
+		<description locale="en_US"><![CDATA[<p>A plugin for viewing embedded EPUBs in Open Journal Systems and Open Monograph Press using Bibi Epub Reader.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Módulo para visualización incrustada de EPUB en Open Journal Systems y Open Monograph Press con Bibi EPUB Reader.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Plugin para visualização embutida de EPUBs no Open Journal Systems e Open Monograph Press utilizando o Bibi Epub Reader.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2021-11-08" version="1.0.5.0" md5="77b5a5e6f7e66e72bf894eda4b8261e9">
+			<package>https://github.com/lepidus/epubViewer/releases/download/v1.0.5/epubViewer.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.4</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+
+			<certification type="reviewed"/>
+			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to display embedded EPUBs files in publications.</description>
+			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP. Su funcionalidad principal es mostrar archivos EPUBs incrustados en publicaciones.</description>
+			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada para a galeria de plugins da PKP. Sua principal funcionalidade é exibir arquivos EPUBs embutidos nas publicações.</description>
+		</release>
+	</plugin>
 </plugins>
 
