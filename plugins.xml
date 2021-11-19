@@ -5383,8 +5383,8 @@
 			<institution>Universidad La Salle</institution>
 			<email>yasielpv@gmail.com</email>
 		</maintainer>
-		<release date="2021-10-15" version="1.0.1.0" md5="d24109f9fb868b7252cb6f52ce96b0c0">
-			<package>https://github.com/yasielpv/pubIdResolver/releases/download/v1_0_1-0/pubIdResolver-v1_0_1-0.tar.gz</package>
+		<release date="2021-11-19" version="1.0.2.0" md5="e503d4323e8eca75c0063d3872ff6d62">
+			<package>https://github.com/yasielpv/pubIdResolver/releases/download/v1_0_2-0/pubIdResolver-v1_0_2-0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.1.2.0</version>
 				<version>3.1.2.1</version>
