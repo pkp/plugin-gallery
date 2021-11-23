@@ -6538,6 +6538,33 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Agrega soporte para decisiones editoriales que no se cubrieron en la columna Última decisión y corrige el error que impedía la carga de la página de módulos en la Configuración del sitio</description>
 			<description locale="pt_BR">Dá suporte a decisões editoriais que não eram cobertas na coluna da Última Decisão e corrige erro que impedia o carregamento da página de plugins nas Configurações do Portal</description>
 		</release>
+		<release date="2021-11-23" version="2.0.7.0" md5="feb97e017e410b27c50e2d64b7ea7417">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.0.7.0/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Fixes problem that occurred when a submitter didn't have a country filled</description>
+			<description locale="es_ES">Soluciona el problema que se producía cuando el autor que realizaba el envío no tenía la afiliación completa</description>
+			<description locale="pt_BR">Corrige problema que ocorria quando o autor submissor não possuía a afiliação preenchida</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="lucene">
 		<name locale="en_US">Lucene/Solr Plugin</name>
