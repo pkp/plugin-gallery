@@ -6581,6 +6581,33 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Soluciona el problema que se producía cuando el autor que realizaba el envío no tenía la afiliación completa</description>
 			<description locale="pt_BR">Corrige problema que ocorria quando o autor submissor não possuía a afiliação preenchida</description>
 		</release>
+		<release date="2021-11-24" version="2.1.0.0" md5="693dd103de4a95009da119a260a8e6f5">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.1.0.0/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Increases overall plugin performance. Now it only takes 20% of the time it took to generate the report before.</description>
+			<description locale="es_ES">Aumenta el rendimiento general del módulo. Ahora solo toma el 20% del tiempo que tomaba generar el informe antes.</description>
+			<description locale="pt_BR">Aumenta o desempenho geral do plugin. Agora, é necessário apenas 20% do tempo necessário anteriormente para gerar o relatório.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="lucene">
 		<name locale="en_US">Lucene/Solr Plugin</name>
