@@ -6719,5 +6719,40 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada para a galeria de plugins da PKP. Sua principal funcionalidade é exibir arquivos EPUBs embutidos nas publicações.</description>
 		</release>
 	</plugin>
-</plugins>
+	<plugin category="generic" product="reviewReminders">
+		<name locale="en_US">Extended Review Reminders</name>
+		<name locale="de_DE">Erweiterte Gutachten-Erinnerungen</name>
 
+		<homepage>https://github.com/weizenbaum-it/ojs-reminders</homepage>
+
+		<summary locale="en_US">A plugin for OJS 3.3.0+, which allows users to configure multiple email reminders for reviews.</summary>
+		<summary locale="de_DE">Ein Plugin für OJS 3.3.0+, welches dem Nutzer erlaubt mehrere E-Mail-Erinnerungen für Gutachten zu konfigurieren.</summary>
+
+		<description locale="en_US"><![CDATA[<p>A plugin for OJS 3.3.0+, which allows users to configure multiple email reminders for reviews. Reminders can be configured to be send at specific points in time before or after the response or review deadline respectively. Reminders can also be configured to use different built-in or custom email templates.</p>]]></description>
+		<description locale="de_DE"><![CDATA[<p>Ein Plugin für OJS 3.3.0+, welches dem Nutzer erlaubt mehrere E-Mail-Erinnerungen für Gutachten zu konfigurieren. Erinnerungen können zu konfigurierbaren Zeitpunkten sowohl vor als auch nach der Antwort- oder Begutachtungs-Deadline versendet werden. Erinnerungen können außerdem verschiedene integrierte oder benutzerdefinierte E-Mail-Vorlagen verwenden.</p>]]></description>
+
+		<maintainer>
+			<name>Team Kommunikation</name>
+			<institution>Weizenbaum-Institut e.V.</institution>
+			<email>presse@weizenbaum-institut.de</email>
+		</maintainer>
+
+		<release date="2021-12-15" version="1.0.0.0" md5="3cb54d2fc25b0cd71fb4330c37bad9dd">
+			<package>https://github.com/weizenbaum-it/ojs-reminders/releases/download/v1.0.0/reviewReminders-v1_0_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+
+			<certification type="reviewed"/>
+			<description locale="en_US">Initial release.</description>
+			<description locale="de_DE">Erstveröffentlichung.</description>
+		</release>
+	</plugin>
+</plugins>
