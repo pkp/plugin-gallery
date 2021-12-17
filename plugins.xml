@@ -1358,8 +1358,8 @@
 		<summary locale="en_US">This plugin integrates the shariff solution for social media buttons in OJS and OMP.</summary>
 		<description locale="en_US"><![CDATA[This plugin integrates the shariff solution(<a href="https://github.com/heiseonline/shariff" target="_blank">https://github.com/heiseonline/shariff</a>) to your website, allowing you to add social media buttons to your journal without compromising the privacy of website users.]]></description>
 		<maintainer>
-			<name>Svantje Lilienthal</name>
-			<institution>Freie Universität Berlin</institution>
+			<name>e-Publishing Team FU Berlin</name>
+			<institution>Universitätsbibliothek/Cedis, Freie Universität Berlin</institution>
 			<email>e-publishing@cedis.fu-berlin.de</email>
 		</maintainer>
 		<release date="2017-12-04" version="1.0.0.0" md5="e9f2bc26611a4d5632c91257c2edc73f">
@@ -1390,6 +1390,16 @@
 				<version>3.1.1.4</version>
 			</compatibility>
 			<certification type="partner"/><description>Release of the Shariff plugin for OJS 3.0.0.</description>
+		</release>
+		<release date="2021-12-08" version="3.3.0.0" md5="8902638153d04e16007601099843cdd3">
+			<package>https://github.com/ojsde/shariff/releases/download/v3_3_0/shariff-3_3_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.8</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.8</version>
+			</compatibility>
+			<certification type="partner"/><description>Release of the Shariff plugin for OJS 3.3.0.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="addThis">
