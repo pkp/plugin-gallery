@@ -565,7 +565,7 @@
 	</plugin>
 	<plugin category="generic" product="plagiarism">
 		<name locale="en_US">iThenticate</name>
-		<homepage>https://github.com/asmecher/plagiarism</homepage>
+		<homepage>https://github.com/pkp/plagiarism</homepage>
 		<summary locale="en_US">This plugin permits automatic submission of uploaded content to the iThenticate service for plagiarism checking.</summary>
 		<description locale="en_US"><![CDATA[<p>This plugin permits automatic submission of uploaded content to the <a href="http://www.ithenticate.com/" target="_new">iThenticate service</a> for plagiarism checking.</p><p>See the README document included in this plugin for installation instructions.</p>]]></description>
 		<maintainer>
@@ -661,6 +661,31 @@
 			</compatibility>
 			<certification type="official" />
 			<description>Release of the iThenticate plugin for OJS/OMP 3.3.0.</description>
+		</release>
+		<release date="2022-01-26" version="1.0.5.0" md5="06c4d79ed982f6212b65f1cb69981df5">
+			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_5-0/plagiarism-v1_0_5-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Adds new translations and bug fixes.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="coins">
