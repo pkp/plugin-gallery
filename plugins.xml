@@ -687,6 +687,31 @@
 			<certification type="official" />
 			<description>Adds new translations and bug fixes.</description>
 		</release>
+		<release date="2022-02-17" version="1.0.5.1" md5="6a9a64da645a0e70ac355e83de25425e">
+			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_5-1/plagiarism-v1_0_5-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Fix missing dependency in release version.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="coins">
 		<name locale="en_US">COinS</name>
