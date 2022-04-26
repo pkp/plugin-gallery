@@ -3208,6 +3208,24 @@
 			<certification type="official" />
 			<description>A minor update to support the material theme in OJS 3.3.0 with bugfixes.</description>
 		</release>
+		<release date="2022-04-26" version="2.0.0.0" md5="7b38d448a69465aab9617a659a5389b4">
+			<package>https://github.com/madi-nuralin/material/releases/download/v2_0_0-0/material-v2_0_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Restyled Material 2.0.0 theme for OJS 3.3.0 with bugfixes.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="texture">
 		<name locale="en_US">Texture plugin</name>
