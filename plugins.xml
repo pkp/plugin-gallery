@@ -4602,7 +4602,6 @@
 			<certification type="partner" />
 			<description>Release of the emailIssueToc plugin for OJS 3.2+.</description>
 		</release>
-
 	</plugin>
 	<plugin category="generic" product="editorialBio">
 		<name locale="en_US">EditorialBio plugin</name>
