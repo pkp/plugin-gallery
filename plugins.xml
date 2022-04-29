@@ -4513,30 +4513,6 @@
 			<institution>University of Pittsburgh</institution>
 			<email>uls-systemsdevelopment@pitt.edu</email>
 		</maintainer>
-		<release date="2022-01-04" version="1.0.2.1" md5="be0c232acab4777cab1e89976473ccb8">
-			<package>https://github.com/ulsdevteam/pkp-emailIssueToc/releases/download/v1.0.2-1/emailIssueToc-1.0.2.1.tgz</package>
-			<compatibility application="ojs2">
-				<version>3.2.1.0</version>
-				<version>3.2.1.1</version>
-				<version>3.2.1.2</version>
-				<version>3.2.1.3</version>
-				<version>3.2.1.4</version>
-			</compatibility>
-			<certification type="partner" />
-			<description>Release of the emailIssueToc plugin for OJS 3.2, with English, German, and Italian locales.</description>
-		</release>
-		<release date="2020-06-29" version="1.0.1.0" md5="e8e758d90c484fedff207e24152adf2c">
-			<package>https://github.com/ulsdevteam/pkp-emailIssueToc/releases/download/v1.0.1-0/emailIssueToc-1.0.1.0.tgz</package>
-			<compatibility application="ojs2">
-				<version>3.2.1.0</version>
-				<version>3.2.1.1</version>
-				<version>3.2.1.2</version>
-				<version>3.2.1.3</version>
-				<version>3.2.1.4</version>
-			</compatibility>
-			<certification type="partner" />
-			<description>Release of the emailIssueToc plugin for OJS 3.2.</description>
-		</release>
 		<release date="2020-06-29" version="1.0.0.0" md5="789e6f18c743359bc548c5455efebd5f">
 			<package>https://github.com/ulsdevteam/pkp-emailIssueToc/releases/download/v1.0.0-0/emailIssueToc-1.0.0.0.tgz</package>
 			<compatibility application="ojs2">
@@ -4550,6 +4526,83 @@
 			<certification type="partner" />
 			<description>Release of the emailIssueToc plugin for OJS 3.1.</description>
 		</release>
+		<release date="2020-06-29" version="1.0.1.0" md5="e8e758d90c484fedff207e24152adf2c">
+			<package>https://github.com/ulsdevteam/pkp-emailIssueToc/releases/download/v1.0.1-0/emailIssueToc-1.0.1.0.tgz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the emailIssueToc plugin for OJS 3.2.</description>
+		</release>
+
+		<release date="2022-01-04" version="1.0.2.1" md5="be0c232acab4777cab1e89976473ccb8">
+			<package>https://github.com/ulsdevteam/pkp-emailIssueToc/releases/download/v1.0.2-1/emailIssueToc-1.0.2.1.tgz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the emailIssueToc plugin for OJS 3.2, with English, German, and Italian locales.</description>
+		</release>
+		<release date="2022-04-29" version="1.0.2.2" md5="4456324a6deb504831e11c328bd49fa3">
+			<package>https://github.com/ulsdevteam/pkp-emailIssueToc/releases/download/v1.0.2-2/emailIssueToc-1.0.2-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+			</compatibility>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the emailIssueToc plugin for OJS 3.2+.</description>
+		</release>
+
 	</plugin>
 	<plugin category="generic" product="editorialBio">
 		<name locale="en_US">EditorialBio plugin</name>
