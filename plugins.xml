@@ -7472,6 +7472,37 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Aumenta el rendimiento general del módulo. Ahora solo toma el 20% del tiempo que tomaba generar el informe antes.</description>
 			<description locale="pt_BR">Aumenta o desempenho geral do plugin. Agora, é necessário apenas 20% do tempo necessário anteriormente para gerar o relatório.</description>
 		</release>
+		<release date="2022-05-13" version="2.1.1.0" md5="e3ecc6fa71c62ee35d646b3e6c9783db">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.1.1.0/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">For OPS: Shows all assigned area moderators to submission and adds the column "SciELO Journal" to inform if submitter is a SciELO journal.</description>
+			<description locale="es_ES">A OPS: Muestra todos los moderadores de área asignados al envío y agrega la columna "Revista SciELO" para informar si el usuario que envía es una revista SciELO.</description>
+			<description locale="pt_BR">Para OPS: Exibe todos os moderadores de área designados à submissão e adiciona a coluna "Periódico SciELO" para informar se o usuário submissor é um periódico SciELO.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="lucene">
 		<name locale="en_US">Lucene/Solr Plugin</name>
