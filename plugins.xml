@@ -7499,9 +7499,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.10</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en_US">For OPS: Shows all assigned area moderators to submission and adds the column "SciELO Journal" to inform if submitter is a SciELO journal.</description>
-			<description locale="es_ES">A OPS: Muestra todos los moderadores de área asignados al envío y agrega la columna "Revista SciELO" para informar si el usuario que envía es una revista SciELO.</description>
-			<description locale="pt_BR">Para OPS: Exibe todos os moderadores de área designados à submissão e adiciona a coluna "Periódico SciELO" para informar se o usuário submissor é um periódico SciELO.</description>
+			<description locale="en_US">The last release adds the following for OPS: shows all assigned area moderators to submission and adds the column "SciELO Journal" to inform if submitter is a SciELO journal.</description>
+			<description locale="es_ES">La última versión agrega lo siguiente a OPS: auestra todos los moderadores de área asignados al envío y agrega la columna "Revista SciELO" para informar si el usuario que envía es una revista SciELO.</description>
+			<description locale="pt_BR">A última versão adiciona o seguinte para OPS: exibe todos os moderadores de área designados à submissão e adiciona a coluna "Periódico SciELO" para informar se o usuário submissor é um periódico SciELO.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="lucene">
