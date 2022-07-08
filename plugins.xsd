@@ -67,9 +67,7 @@
 		<sequence>
 			<element name="version" minOccurs="1" maxOccurs="unbounded">
 				<simpleType>
-					<restriction base="string">
-						<pattern value="\d+\.\d+\.\d+\.\d+" />
-					</restriction>
+					<restriction base="string" />
 				</simpleType>
 			</element>
 		</sequence>
