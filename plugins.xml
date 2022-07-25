@@ -7808,5 +7808,71 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Release of the inlineHtmlGalley plugin for OJS 3.x </description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="plaudit">
+		<name locale="en_US">Plaudit</name>
+		<name locale="pt_BR">Plaudit</name>
+		<name locale="es_ES">Plaudit</name>
+		<homepage>https://github.com/lepidus/plaudit</homepage>
+		<summary locale="en_US">This plugin adds the Plaudit widget to the submission details in the public site.</summary>
+		<summary locale="pt_BR">Este plugin adiciona o widget Plaudit aos detalhes do envio no site público.</summary>
+		<summary locale="es_ES">Este complemento agrega el widget Plaudit a los detalles de envío en el sitio público.</summary>
+		<description locale="en_US"><![CDATA[<p>This plugin adds the Plaudit widget to the submission details in the public site.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Este plugin adiciona o widget Plaudit aos detalhes do envio no site público.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este complemento agrega el widget Plaudit a los detalles de envío en el sitio público.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2022-07-25" version="1.0.1.0" md5="42b2f43bdcbbaaeaa4b0e0fafbc76725">
+			<package>https://github.com/lepidus/plaudit/releases/download/v1.0.1/plaudit.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add the Plaudit widget to the submission details on the public website.</description>
+			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP. Su funcionalidad principal es agregar el widget Plaudit a los detalles de envío en el sitio web público.</description>
+			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada para a galeria de plugins da PKP. Sua principal funcionalidade é adicionar o widget Plaudit aos detalhes do envio no site público.</description>
+		</release>
+	</plugin>
 </plugins>
 
