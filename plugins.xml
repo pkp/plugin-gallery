@@ -7813,11 +7813,11 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<name locale="pt_BR">Plaudit</name>
 		<name locale="es_ES">Plaudit</name>
 		<homepage>https://github.com/lepidus/plaudit</homepage>
-		<summary locale="en_US">This plugin adds the Plaudit widget to the submission details in the public site.</summary>
-		<summary locale="pt_BR">Este plugin adiciona o widget Plaudit aos detalhes do envio no site público.</summary>
+		<summary locale="en_US">This plugin adds the Plaudit widget to the submission details on the submission's landing page.</summary>
+		<summary locale="pt_BR">Este plugin adiciona o widget Plaudit aos detalhes na página pública da submissão.</summary>
 		<summary locale="es_ES">Este complemento agrega el widget Plaudit a los detalles de envío en el sitio público.</summary>
-		<description locale="en_US"><![CDATA[<p>This plugin adds the Plaudit widget to the submission details in the public site.</p>]]></description>
-		<description locale="pt_BR"><![CDATA[<p>Este plugin adiciona o widget Plaudit aos detalhes do envio no site público.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin adds the Plaudit widget to the submission details on the submission's landing page.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Este plugin adiciona o widget Plaudit aos detalhes na página pública da submissão.</p>]]></description>
 		<description locale="es_ES"><![CDATA[<p>Este complemento agrega el widget Plaudit a los detalles de envío en el sitio público.</p>]]></description>
 		<maintainer>
 			<name>Lepidus Tecnologia Team</name>
@@ -7841,9 +7841,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.11</version>
 			</compatibility>
 			<certification type="reviewed" />
-			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add the Plaudit widget to the submission details on the public website.</description>
+			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add the Plaudit widget to the submission details on the submission's landing page.</description>
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP. Su funcionalidad principal es agregar el widget Plaudit a los detalles de envío en el sitio web público.</description>
-			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada para a galeria de plugins da PKP. Sua principal funcionalidade é adicionar o widget Plaudit aos detalhes do envio no site público.</description>
+			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada para a galeria de plugins da PKP. Sua principal funcionalidade é adicionar o widget Plaudit aos detalhes na página pública da submissão.</description>
 		</release>
 	</plugin>
 </plugins>
