@@ -7826,35 +7826,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</maintainer>
 		<release date="2022-07-25" version="1.0.1.0" md5="42b2f43bdcbbaaeaa4b0e0fafbc76725">
 			<package>https://github.com/lepidus/plaudit/releases/download/v1.0.1/plaudit.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>3.3.0.11</version>
-			</compatibility>
 			<compatibility application="ops">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>3.3.0.11</version>
-			</compatibility>
-			<compatibility application="omp">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
 				<version>3.3.0.2</version>
