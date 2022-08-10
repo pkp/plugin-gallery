@@ -8035,9 +8035,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.11</version>
 			</compatibility>
 			<certification type="reviewed" />
-			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add the Plaudit widget to the submission details on the submission's landing page.</description>
-			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP. Su funcionalidad principal es agregar el widget Plaudit a los detalles de envío en el sitio web público.</description>
-			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada para a galeria de plugins da PKP. Sua principal funcionalidade é adicionar o widget Plaudit aos detalhes na página pública da submissão.</description>
+			<description locale="en_US">This release adds support for OJS and OMP in versions 3.3.0-x. Its main functionality is to add the Plaudit widget to the submission details on the submission's landing page.</description>
+			<description locale="es_ES">Esta versión agrega compatibilidad con OJS y OMP en las versiones 3.3.0-x. Su funcionalidad principal es agregar el widget Plaudit a los detalles de envío en el sitio web público.</description>
+			<description locale="pt_BR">Esta versão adiciona suporte para o OJS e OMP nas versões 3.3.0-x. Sua principal funcionalidade é adicionar o widget Plaudit aos detalhes na página pública da submissão.</description>
 		</release>
 	</plugin>
 </plugins>
