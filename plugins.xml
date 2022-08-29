@@ -7960,7 +7960,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<homepage>https://github.com/lepidus/plaudit</homepage>
 		<summary locale="en_US">This plugin adds the Plaudit widget to the submission details on the submission's landing page.</summary>
 		<summary locale="pt_BR">Este plugin adiciona o widget Plaudit aos detalhes na página pública da submissão.</summary>
-		<summary locale="es_ES">Este complemento agrega el widget Plaudit a los detalles de envío en el sitio público.</summary>
+		<summary locale="es_ES">Este módulo agrega el widget Plaudit a los detalles de envío en el sitio público.</summary>
 		<description locale="en_US"><![CDATA[<p>This plugin adds the Plaudit widget to the submission details on the submission's landing page.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Este plugin adiciona o widget Plaudit aos detalhes na página pública da submissão.</p>]]></description>
 		<description locale="es_ES"><![CDATA[<p>Este complemento agrega el widget Plaudit a los detalles de envío en el sitio público.</p>]]></description>
@@ -8084,9 +8084,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.11</version>
 			</compatibility>
 			<certification type="reviewed" />
-			<description locale="en_US">This release makes it mandatory to enter an integration token for plugin functionality.</description>
-			<description locale="es_ES">Esta versión hace que sea obligatorio ingresar un token de integración para la funcionalidad del complemento.</description>
-			<description locale="pt_BR">Esta versão torna obrigatório inserir um token de integração para a funcionalidade do plug-in.</description>
+			<description locale="en_US">This is the first version of the plugin compatible with OJS and OMP, in versions 3.3.0-x. It brings usability improvements over the previous version.</description>
+			<description locale="es_ES">Esta es la primera versión del módulo compatible con OJS y OMP, en las versiones 3.3.0-x. Trae mejoras de usabilidad en comparación con la versión anterior.</description>
+			<description locale="pt_BR">Esta é a primeira versão do plugin compatível com OJS e OMP, nas versões 3.3.0-x. Traz melhorias de usabilidade em relação à versão anterior.</description>
 		</release>
 	</plugin>
 </plugins>
