@@ -8140,7 +8140,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	</plugin>
 	<plugin category="generic" product="toggleRequiredMetadata">
 		<name locale="en_US">Toggle Required Metadata</name>
-		<name locale="pt_BR">Alternar Metadatos requeridos</name>
+		<name locale="pt_BR">Alternar Metadados requeridos</name>
 		<name locale="es_ES">Alternar los metadatos requeridos</name>
 		<homepage>https://github.com/lepidus/toggleRequiredMetadata</homepage>
 		<summary locale="en_US">This plugin makes the "affiliation" field required.</summary>
