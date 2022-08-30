@@ -8138,5 +8138,72 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Esta é a primeira versão do plugin compatível com OJS e OMP, nas versões 3.3.0-x. Traz melhorias de usabilidade em relação à versão anterior.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="toggleRequiredMetadata">
+		<name locale="en_US">Toggle Required Metadata</name>
+		<name locale="pt_BR">Alternar Metadatos requeridos</name>
+		<name locale="es_ES">Alternar los metadatos requeridos</name>
+		<homepage>https://github.com/lepidus/toggleRequiredMetadata</homepage>
+		<summary locale="en_US">This plugin makes the "affiliation" field required.</summary>
+		<summary locale="pt_BR">Este plugin torna o campo "afiliação" de preenchimento obrigatório.</summary>
+		<summary locale="es_ES">Este plugin hace que el campo "afiliación" sea obligatorio.</summary>
+		<description locale="en_US"><![CDATA[<p>This plugin makes the "affiliation" field required.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Este plugin torna o campo "afiliação" obrigatório</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este plugin hace que el campo "afiliación" sea obligatorio.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2022-08-29" version="1.0.0.0" md5="efe3aeb9c9f0289129fcc0c9d9a7b889">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v1.0.0/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en_US"> Makes it required for the authors/contributors of the submission to fill in the "affiliation" field. </description>
+			<description locale="es_ES"> Obliga a los autores/colaboradores del envío a rellenar el campo "afiliación".</description>
+			<description locale="pt_BR"> Torna obrigatório o preenchimento do campo "afiliação" pelos autores/contribuidores da submissão.</description>
+		</release>
+	</plugin>
+
 </plugins>
 
