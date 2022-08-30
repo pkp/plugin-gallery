@@ -8199,11 +8199,10 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.11</version>
 			</compatibility>
 			<certification type="reviewed" />
-			<description locale="en_US"> Makes it required for the authors/contributors of the submission to fill in the "affiliation" field. </description>
-			<description locale="es_ES"> Obliga a los autores/colaboradores del envío a rellenar el campo "afiliación".</description>
-			<description locale="pt_BR"> Torna obrigatório o preenchimento do campo "afiliação" pelos autores/contribuidores da submissão.</description>
+			<description locale="en_US">Makes it required for the authors/contributors of the submission to fill in the "affiliation" field.</description>
+			<description locale="es_ES">Obliga a los autores/colaboradores del envío a rellenar el campo "afiliación".</description>
+			<description locale="pt_BR">Torna obrigatório o preenchimento do campo "afiliação" pelos autores/contribuidores da submissão.</description>
 		</release>
 	</plugin>
-
 </plugins>
 
