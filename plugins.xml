@@ -8148,7 +8148,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<summary locale="es_ES">Este plugin hace que los campos "afiliación" y "ORCID" sean obligatorios.</summary>
 		<description locale="en_US"><![CDATA[<p>This plugin makes the "affiliation" and "ORCID" fields required.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Este plugin torna os campos "afiliação" e "ORCID" de preenchimento obrigatório.</p>]]></description>
-		<description locale="es_ES"><![CDATA[<p>Este plugin hace que los campos "afiliación" y "ORCID" sean obligatorios.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este módulo hace que los campos "afiliación" y "ORCID" sean obligatorios.</p>]]></description>
 		<maintainer>
 			<name>Lepidus Tecnologia Team</name>
 			<institution>Lepidus Tecnologia</institution>
