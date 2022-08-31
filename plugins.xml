@@ -8088,7 +8088,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta versión agrega compatibilidad con OJS y OMP en las versiones 3.3.0-x.</description>
 			<description locale="pt_BR">Esta versão adiciona suporte para o OJS e OMP nas versões 3.3.0-x.</description>
 		</release>
-		<release date="2022-08-24" version="1.0.3.0" md5="6dcf36db86be9d335a198bf39eab9699">
+		<release date="2022-08-24" version="1.0.3.0" md5="ada945224cf8cb5db0b03cb91621d474">
 			<package>https://github.com/lepidus/plaudit/releases/download/v1.0.3/plaudit.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
