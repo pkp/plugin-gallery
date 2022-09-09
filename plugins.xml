@@ -1125,7 +1125,7 @@
 		<summary locale="es_ES">Este módulo agrega una pestaña en la vista de envío, donde se enumeran todos los envíos de cada colaborador.</summary>
 		<summary locale="pt_BR">Este plugin adiciona uma aba na visualização da submissão, onde todos as submissões de cada contribuidor são listadas.</summary>
 		<description locale="en_US"><![CDATA[<p>This plugin adds a tab in the submission view, where all submissions from each contributor are listed.</p>]]></description>
-		<description locale="es_ES"><![CDATA[<p>Este complemento agrega una pestaña en la vista de envío, donde se enumeran todos los envíos de cada colaborador.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este módulo agrega una pestaña en la vista de envío, donde se enumeran todos los envíos de cada colaborador.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Este plugin adiciona uma guia na visualização da submissão, onde todos as submissões de cada contribuidor são listadas</p>]]></description>
 		<maintainer>
 			<name>SciELO Brazil Online Submission and Preprints Unit</name>
@@ -1277,7 +1277,7 @@
 		<summary locale="es_ES">Este módulo genera una notificación cada vez que se encuentra disponible una actualización de un módulo de la galería</summary>
 		<summary locale="pt_BR">Este plugin gera uma notificação sempre que há uma atualização disponível de um plugin da galeria</summary>
 		<description locale="en_US"><![CDATA[<p>This plugin generates a notification in the Website Settings informing which plugins have an upgrade available at the plugin gallery</p>]]></description>
-		<description locale="es_ES"><![CDATA[<p>Este complemento genera una notificación en los Ajustes del sítio web que informa qué módulos tienen una actualización disponible en la galería de módulos</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este módulo genera una notificación en los Ajustes del sítio web que informa qué módulos tienen una actualización disponible en la galería de módulos</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Esse plugin gera uma notificação nas Configurações do Website informando quais plugins possuem uma atualização disponível através da galeria de plugins</p>]]></description>
 		<maintainer>
 			<name>SciELO Brazil Online Submission and Preprints Unit</name>
@@ -8082,7 +8082,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<summary locale="es_ES">Este módulo agrega el widget Plaudit a los detalles de envío en el sitio público.</summary>
 		<description locale="en_US"><![CDATA[<p>This plugin adds the Plaudit widget to the submission details on the submission's landing page.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Este plugin adiciona o widget Plaudit aos detalhes na página pública da submissão.</p>]]></description>
-		<description locale="es_ES"><![CDATA[<p>Este complemento agrega el widget Plaudit a los detalles de envío en el sitio público.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este módulo agrega el widget Plaudit a los detalles de envío en el sitio público.</p>]]></description>
 		<maintainer>
 			<name>Lepidus Tecnologia Team</name>
 			<institution>Lepidus Tecnologia</institution>
