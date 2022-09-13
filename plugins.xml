@@ -8341,6 +8341,55 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Hace que el campo "ORCID" sea obligatorio.</description>
 			<description locale="pt_BR">Torna o campo "ORCID" obrigatório.</description>
 		</release>
-	</plugin>
+    <release date="2022-09-13" version="1.2.2.0" md5="2fcbc6ada36b1c84bf78fdeeac4a16e8">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v1.2.2/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en_US">Allows configuring the fields to be required through the plugin settings. Checks if ORCID Profile Plugin is disabled to be able to require "ORCID" field.</description>
+			<description locale="es_ES">Permite configurar los campos a ser requeridos a través de la configuración del módulo. Comprueba si el módulo de Perfil ORCID está deshabilitado para poder solicitar el campo "ORCID".</description>
+			<description locale="pt_BR">Permite configurar os campos a serem requeridos através das configurações do plugin. Verifica se o plugin Perfil ORCID está desativado para que seja possível requerer o campo "ORCID".</description>
+		</release>
+    </plugin>
 </plugins>
 
