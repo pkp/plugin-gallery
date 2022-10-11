@@ -5098,7 +5098,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the emailIssueToc plugin for OJS 3.3.</description>
@@ -5122,7 +5122,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the emailIssueToc plugin for OJS 3.2+.</description>
@@ -5206,7 +5206,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="omp">
 				<version>3.3.0.0</version>
@@ -5220,7 +5220,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="ops">
 				<version>3.3.0.0</version>
@@ -5234,7 +5234,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the Editorial Bio plugin for OJS 3.3</description>
@@ -5282,7 +5282,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="omp">
 				<version>3.3.0.0</version>
@@ -5296,7 +5296,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="ops">
 				<version>3.3.0.0</version>
@@ -5310,7 +5310,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the ClamAV plugin for OJS/OMP/OPS 3.3</description>
@@ -5318,13 +5318,13 @@
 		<release date="2022-09-01" version="4.0.0.1" md5="def1fa6f7ca2d5872be3140b1653dd17">
 			<package>https://github.com/ulsdevteam/pkp-clamav/releases/download/v4.0.0-1/clamav-4.0.0-1.tar.gz</package>
 			<compatibility application="ojs2">
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="omp">
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="ops">
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>ClamAV patch</description>
@@ -5404,7 +5404,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the Plum Analytics plugin for OJS 3.2+.</description>
@@ -5469,7 +5469,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the SUSHI-Lite  plugin for OJS 3.3</description>
@@ -5545,7 +5545,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="omp">
 				<version>3.3.0.0</version>
@@ -5559,7 +5559,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="ops">
 				<version>3.3.0.0</version>
@@ -5573,7 +5573,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the Better Password plugin for OJS/OMP/OPS 3.3</description>
@@ -5667,7 +5667,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="omp">
 				<version>3.1.2.0</version>
@@ -5695,7 +5695,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="ops">
 				<version>3.2.0.0</version>
@@ -5718,7 +5718,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the Sitesearch plugin for OJS/OMP/OPS 3.3</description>
@@ -5817,7 +5817,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="omp">
 				<version>3.3.0.0</version>
@@ -5831,7 +5831,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="ops">
 				<version>3.3.0.0</version>
@@ -5845,7 +5845,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the Akismet plugin for OJS/OMP/OPS 3.3</description>
@@ -5896,7 +5896,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="omp">
 				<version>3.2.0.0</version>
@@ -5918,7 +5918,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<compatibility application="ops">
 				<version>3.2.0.0</version>
@@ -5940,7 +5940,7 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the Form Honeypot plugin for OJS 3.2+.</description>
@@ -8041,7 +8041,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3</version>
+				<version>^3.3</version>
 			</compatibility>
 			<certification type="official" />
 			<description>Browse By Section for OJS 3.3 (first release)</description>
