@@ -3346,6 +3346,26 @@
 			<certification type="official"/>
 			<description>This release updates a theme to be compatible with OJS 3.3.0.1, fixes display of multilingual keywords on article landing page as well as displays article's license terms, and adds section policies on a submission page</description>
 		</release>
+		<release date="2022-10-28" version="1.1.1.0" md5="7bd73866300bb7993ef950ddbcea3ca2">
+			<package>https://github.com/pkp/classic/releases/download/1.1.1/classic-1.1.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Adds compatibility with PHP 8.1</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="healthSciences">
 		<name locale="en_US">Health Sciences</name>
@@ -3467,6 +3487,26 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>This release updates a theme to be compatible with OJS 3.3.0.1, fixes display of multilingual keywords on article landing page as well as displays article's license terms, and adds section policies on a submission page</description>
+		</release>
+		<release date="2020-10-28" version="1.1.1.0" md5="49fd4c9f56babd644325692e004f0656">
+			<package>https://github.com/pkp/healthSciences/releases/download/1.1.1/healthSciences-1.1.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Adds compatibility with PHP 8.1</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="defaultManuscript">
@@ -4022,6 +4062,26 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>This release updates a theme to be compatible with OJS 3.3.0.1 and fixes minor bugs</description>
+		</release>
+		<release date="2022-10-28" version="1.1.1.0" md5="ccd7d1d983b47a63ab9e85e67c94d72f">
+			<package>https://github.com/pkp/immersion/releases/download/1.1.1/immersion-1.1.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Adds compatibility with PHP 8.1</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="orcidProfile">
@@ -7333,6 +7393,26 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>This release updates a theme to be compatible with OJS 3.3.0.1, fixes display of multilingual keywords on article landing page as well as displays article's license terms</description>
+		</release>
+		<release date="2022-10-31" version="1.1.1.0" md5="8ef80667d513b8164f49c6229c1ed8f8">
+			<package>https://github.com/pkp/pragma/releases/download/1.1.1/pragma-1.1.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Adds compatibility with PHP 8.1</description>
 		</release>
 	</plugin>
 	<plugin category="importexport" product="archivematicaExport">
