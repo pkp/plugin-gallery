@@ -8671,6 +8671,11 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<release date="2022-01-14" version="1.4.15.0" md5="5cee20e2239bd6f91830f791dbb60dd9">
 			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v1.4.15.0/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.0.4</version>
 				<version>3.2.1.0</version>
 				<version>3.2.1.1</version>
 				<version>3.2.1.2</version>
