@@ -9392,7 +9392,6 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Permite configurar el campo Resumen de Biografía como obligatorio.</description>
 			<description locale="pt_BR">Permite configurar o campo Resumo da Biografia como obrigatório.</description>
 		</release>
-
 		<release date="2022-11-01" version="1.2.4.0" md5="5bab040207792101515c43db91eca25f">
 			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v1.2.4/toggleRequiredMetadata.tar.gz</package>
 			<compatibility application="ojs2">
@@ -9448,7 +9447,61 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Añadir comprobación CSRF.</description>
 			<description locale="pt_BR">Adiciona checagem CSRF.</description>
 		</release>
-
+		<release date="2022-12-12" version="1.2.5.0" md5="e6641d60c966c98716e6296b78409325">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v1.2.5/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en_US">Feat Bio Statement field required</description>
+			<description locale="es_ES">Campo obligatorio de declaración de biografía del autor</description>
+			<description locale="pt_BR">Campo de declaração de biografia do autor obrigatório</description>
+		</release>
 	</plugin>
 </plugins>
 
