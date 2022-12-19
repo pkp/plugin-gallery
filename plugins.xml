@@ -9507,6 +9507,61 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Campo obligatorio de declaración de biografía del autor</description>
 			<description locale="pt_BR">Campo de declaração de biografia do autor obrigatório</description>
 		</release>
+		<release date="2022-12-19" version="1.2.7.0" md5="262e778ec9a12b5f2e93eaf6b53ab08d">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v1.2.7/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en_US">Adds new acceptance test scenarios</description>
+			<description locale="es_ES">Agrega nuevos escenarios de prueba de aceptación.</description>
+			<description locale="pt_BR">Adiciona novos cenários dos teste de aceitação.</description>
+		</release>
 	</plugin>
 </plugins>
 
