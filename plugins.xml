@@ -6331,6 +6331,83 @@
 			<certification type="partner" />
 			<description>Release of the Form Honeypot plugin for OJS 3.2+.</description>
 		</release>
+		<release date="2021-12-08" version="1.4.0.1" md5="05834f060d753a2779fcd914607a608f">
+			<package>https://github.com/ulsdevteam/pkp-formHoneypot/releases/download/v1.4.0-1/formHoneypot-1.4.0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.0.4</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.2.1.5</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>^3.3</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.0.4</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.2.1.5</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>^3.3</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.0.4</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.2.1.5</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>^3.3</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the Form Honeypot plugin for OJS 3.2+.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="authorRequirements">
 		<name locale="en_US">Author Requirements</name>
