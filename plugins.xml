@@ -3805,6 +3805,27 @@
 			<certification type="reviewed" />
 			<description>This release upgrades Material plugin to version 2.0.1-0</description>
 		</release>
+		<release date="2023-02-03" version="2.1.0.0" md5="03ad0d44d87047bf0275b40fd918338c">
+			<package>https://github.com/madi-nuralin/material/releases/download/v2_1_0-0/material-v2_1_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>Material plugin (version 2.1.1-0), includes localization extension.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="texture">
 		<name locale="en_US">Texture plugin</name>
