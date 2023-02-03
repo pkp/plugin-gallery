@@ -1,7 +1,6 @@
 language: node_js
 dist: focal
-node_js:
-  - node
+node_js: 16
 before_install:
   # install dependencies
   - travis_retry sudo apt-get update -qq
