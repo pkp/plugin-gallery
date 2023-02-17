@@ -5125,6 +5125,19 @@
 			<certification type="official"/>
 			<description locale="en_US"><![CDATA[<p><ul> <li><h4>Additions</h4></li> <ol> <li>Improved display of the official orcid symbol on the article landing page</li> <li>Better handling of garbled titles in articles/prints</li> <li>Display of the orcid symbol on the article landing page only for authenticated authors </li> </ol> <li><h4>Changes</h4></li> <ol> <li>Co-Author for UI is changed</li> <li><b style="color:#d00a0a">Important: </b>For co authors, the  readonly field includes an additional <b>override</b > button, which will be removed </li> <li><b style="color:#d00a0a">Important: </b>Only for co-authors: after validation the orcidButton is not available, which will be implemented soon</li> </ol> </ul></p>]]></description>
 		</release>
+		<release date="2023-02-17" version="1.3.4.3" md5="6e8fd5108ee219b01055c93c742cec43">
+			<package>https://github.com/pkp/orcidProfile/releases/download/v1_3_4-3/orcidProfile-v1_3_4-3.tar.gz
+			</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description locale="en_US">
+				<![CDATA[<p><ul> <li><h4>Additions</h4></li> <ol> <li>Improved display of the official orcid symbol on the article landing page</li> <li>Better handling of garbled titles in articles/prints</li> <li>Display of the orcid symbol on the article landing page only for authenticated authors </li> </ol> <li><h4>Changes</h4></li> <ol> <li>Co-Author for UI is changed</li> <li><b style="color:#d00a0a">Important: </b>For co authors, the  readonly field includes an additional <b>override</b > button, which will be removed </li> <li><b style="color:#d00a0a">Important: </b>Only for co-authors: after validation the orcidButton is not available, which will be implemented soon</li> </ol> </ul></p>]]></description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="defaultTranslation">
 		<name locale="en_US">Default Translation</name>
