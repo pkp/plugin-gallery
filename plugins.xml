@@ -10214,5 +10214,41 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Campo de declaração de biografia do autor obrigatório</description>
 		</release>
 	</plugin>
+	<plugin category="themes" product="gopher">
+		<name locale="en">Gopher Theme</name>
+		<name locale="en_US">Gopher Theme</name>
+		<homepage>https://github.com/UMNLibraries/ojs-gopher-theme</homepage>
+		<summary locale="en">A modern, simple theme with a focus on accessibility.</summary>
+		<summary locale="en_US">A modern, simple theme with a focus on accessibility.</summary>
+		<description locale="en"><![CDATA[<p>A modern, simple theme with a focus on accessibility. This theme was developed by PKP with the support of the University of Minnesota Libraries.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>A modern, simple theme with a focus on accessibility. This theme was developed by PKP with the support of the University of Minnesota Libraries.</p>]]></description>
+		<maintainer>
+			<name>Publishing Team</name>
+			<institution>University of Minnesota Libraries</institution>
+			<email>libpubs@umn.edu/email>
+		</maintainer>
+		<release date="2023-03-01" version="1.0.0.0" md5="56fba42d7e83acc55c23def8795cb33a">
+			<package>https://github.com/UMNLibraries/ojs-gopher-theme/archive/1_0_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+			</compatibility>
+			<certification type="" />
+			<description>Initial release.</description>
+		</release>
+	</plugin>
 </plugins>
 
