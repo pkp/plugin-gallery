@@ -10214,5 +10214,30 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Campo de declaração de biografia do autor obrigatório</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="restrictNavigation">
+	  <name locale="en_US">Restrict Navigation</name>
+	  <homepage>https://github.com/marlara/restrictNavigation</homepage>
+
+	  <summary locale="en_US">This plugin restricts the backend navigation to Site Admin for some sections.</summary>
+
+	  <description locale="en_US"><![CDATA[<p>A plugin for OJS 3.3x to restrinct the Backend navigation: only the Site Admin can see and operate in the "Tools" and "Settings" sections.</p><p>Within the Settings form, you can choose to restrict the backend only for the "Tools" and/or "Workflow" and/or "General Settings" (everything under "Settings" except for "Workflow") submenus.</p>]]></description>
+
+	  <maintainer>
+	    <name>Lara Marziali</name>
+	    <institution>Bologna University Press</institution>
+	    <email>lara.marzi@gmail.com</email>
+	  </maintainer>
+
+	  <release date="2023-03-01" version="1.0.0.0" md5="a89f7bb0d328e77c8ee3d004b5470b76">
+	    <package>https://github.com/marlara/restrictNavigation/archive/refs/tags/v1_0-0-0.tar.gz</package>
+	    <compatibility application="ojs2">
+		<version>3.3.0.14</version>
+	    </compatibility>
+	    <compatibility application="ojs2">
+		<version>3.3.0.13</version>
+	    </compatibility>
+	    <description>Initial release.</description>
+	  </release>
+	</plugin>
 </plugins>
 
