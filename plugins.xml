@@ -3767,6 +3767,14 @@
 			<certification type="official"/>
 			<description>Adds compatibility with PHP 8.1</description>
 		</release>
+		<release date="2023-03-02" version="1.1.2.0" md5="dd1a5c5cfbc26499a697997c2fde6bc4">
+			<package>https://github.com/pkp/classic/releases/download/1.1.2/classic-1.1.2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Compatibility release for OJS 3.4.0</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="healthSciences">
 		<name locale="en">Health Sciences</name>
@@ -3917,6 +3925,13 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>Adds compatibility with PHP 8.1</description>
+		</release>
+		<release date="2023-03-02" version="1.1.2.0" md5="17d9943067afa6d9952bb392d810382f">
+			<package>https://github.com/pkp/healthSciences/releases/download/1.1.2/healthSciences-1.1.2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+			</compatibility>
+			<description>Compatibility release for OJS 3.4.0</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="defaultManuscript">
@@ -4554,6 +4569,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>Adds compatibility with PHP 8.1</description>
+		</release>
+		<release date="2023-03-01" version="1.1.2.0" md5="7339f0d3946c5a1dc6391f02d6044cef">
+			<package>https://github.com/pkp/immersion/releases/download/1.1.2/immersion-1.1.2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>The release updates the theme to be compatible with OJS 3.4.0</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="orcidProfile">
@@ -8250,6 +8273,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>Adds compatibility with PHP 8.1</description>
+		</release>
+		<release date="2023-03-01" version="1.1.2.0" md5="78b56cba195dbc6eb573c28b98de27f2">
+			<package>https://github.com/pkp/pragma/releases/download/1.1.2/pragma-1.1.2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>This release updates the theme to be compatible with OJS 3.4.0</description>
 		</release>
 	</plugin>
 	<plugin category="importexport" product="archivematicaExport">
