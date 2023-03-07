@@ -10228,8 +10228,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	    <email>lara.marzi@gmail.com</email>
 	  </maintainer>
 
-	  <release date="2023-03-01" version="1.0.0.0" md5="a89f7bb0d328e77c8ee3d004b5470b76">
-	    <package>https://github.com/marlara/restrictNavigation/archive/refs/tags/v1_0-0-0.tar.gz</package>
+	  <release date="2023-03-01" version="1.0.0.0" md5="e672fbe3dc2251efc180d136a97a5cb1">
+	    <package>https://github.com/marlara/restrictNavigation/releases/download/v1_0_0-0/restrictNavigation-v1_0_0-0.tar.gz</package>
 	    <compatibility application="ojs2">
 		<version>3.3.0.14</version>
 	    </compatibility>
