@@ -10246,7 +10246,6 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.13</version>
 				<version>3.3.0.14</version>
 			</compatibility>
-			<certification type="" />
 			<description>Initial release.</description>
 		</release>
 	</plugin>
