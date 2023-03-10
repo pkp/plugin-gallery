@@ -10220,8 +10220,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<homepage>https://github.com/UMNLibraries/ojs-gopher-theme</homepage>
 		<summary locale="en">A modern, simple theme with a focus on accessibility.</summary>
 		<summary locale="en_US">A modern, simple theme with a focus on accessibility.</summary>
-		<description locale="en"><![CDATA[<p>A modern, simple theme with a focus on accessibility. This theme was developed by PKP with the support of the University of Minnesota Libraries.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>A modern, simple theme with a focus on accessibility. This theme was developed by PKP with the support of the University of Minnesota Libraries.</p>]]></description>
+		<description locale="en"><![CDATA[<p>A modern, simple theme with a focus on accessibility. This theme was developed by PKP with the support of the University of Minnesota Libraries. The initial release supports OJS 3.3.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>A modern, simple theme with a focus on accessibility. This theme was developed by PKP with the support of the University of Minnesota Libraries. The initial release supports OJS 3.3.</p>]]></description>
 		<maintainer>
 			<name>Publishing Team</name>
 			<institution>University of Minnesota Libraries</institution>
