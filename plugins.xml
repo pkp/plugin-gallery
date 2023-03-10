@@ -10227,7 +10227,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>University of Minnesota Libraries</institution>
 			<email>libpubs@umn.edu</email>
 		</maintainer>
-		<release date="2023-03-01" version="1.0.0.0" md5="de24f1cc2ed356c9987728528873551d">
+		<release date="2023-03-01" version="1.0.0.0" md5="dd0d88ec507b11115cb48263584dd048">
 			<package>https://github.com/UMNLibraries/ojs-gopher-theme/releases/download/1_0_0-0/ojs-gopher-theme-1_0_0-0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
