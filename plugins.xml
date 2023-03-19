@@ -1,9 +1,12 @@
 <?xml version="1.0"?>
 <plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
 	<plugin category="generic" product="epubJsViewer">
+		<name locale="en">EPUB Viewer</name>
 		<name locale="en_US">EPUB Viewer</name>
 		<homepage>https://github.com/EKT/epubJsViewer-ojs</homepage>
+		<summary locale="en"><![CDATA[This plugin uses the (<a href="https://github.com/futurepress/epub.js" target="_blank">epub.js library</a>) to embed EPUB files on the articles and issues galley view pages.]]></summary>
 		<summary locale="en_US"><![CDATA[This plugin uses the (<a href="https://github.com/futurepress/epub.js" target="_blank">epub.js library</a>) to embed EPUB files on the articles and issues galley view pages.]]></summary>
+		<description locale="en"><![CDATA[<p>EpubJsViewer plugin integrates epub.js in OJS articles and issues permitting the user the view EPUB files.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>EpubJsViewer plugin integrates epub.js in OJS articles and issues permitting the user the view EPUB files.</p>]]></description>
 		<maintainer>
 			<name>Dimitris Sioulas</name>
@@ -24,9 +27,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="hypothesis">
+		<name locale="en">Hypothes.is</name>
 		<name locale="en_US">Hypothes.is</name>
 		<homepage>https://github.com/asmecher/hypothesis</homepage>
+		<summary locale="en">This plugin integrates the Hypothes.is annotation tool into articles.</summary>
 		<summary locale="en_US">This plugin integrates the Hypothes.is annotation tool into articles.</summary>
+		<description locale="en"><![CDATA[This plugin integrates Hypothes.is (<a href="http://hypothes.is" target="_blank">http://hypothes.is</a>) in OJS articles, permitting annotation and commenting.]]></description>
 		<description locale="en_US"><![CDATA[This plugin integrates Hypothes.is (<a href="http://hypothes.is" target="_blank">http://hypothes.is</a>) in OJS articles, permitting annotation and commenting.]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -186,9 +192,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="shibboleth">
+		<name locale="en">Shibboleth</name>
 		<name locale="en_US">Shibboleth</name>
 		<homepage>https://github.com/pkp/shibboleth</homepage>
+		<summary locale="en">This plugin adds Shibboleth support.</summary>
 		<summary locale="en_US">This plugin adds Shibboleth support.</summary>
+		<description locale="en">This plugin allows third-party authentication via a Shibboleth service.</description>
 		<description locale="en_US">This plugin allows third-party authentication via a Shibboleth service.</description>
 		<maintainer>
 			<name>Chris Maden</name>
@@ -394,9 +403,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="translator">
+		<name locale="en">Translator</name>
 		<name locale="en_US">Translator</name>
 		<homepage>https://github.com/pkp/translator</homepage>
+		<summary locale="en">This plugin permits translations to be updated and edited.</summary>
 		<summary locale="en_US">This plugin permits translations to be updated and edited.</summary>
+		<description locale="en"><![CDATA[This plugin allows site administrators to edit the translation files that ship with the software. See <a href="https://pkp.sfu.ca/wiki/index.php/Translating_OxS" target="_blank">https://pkp.sfu.ca/wiki/index.php/Translating_OxS</a> for information on translation management and contributing back.]]></description>
 		<description locale="en_US"><![CDATA[This plugin allows site administrators to edit the translation files that ship with the software. See <a href="https://pkp.sfu.ca/wiki/index.php/Translating_OxS" target="_blank">https://pkp.sfu.ca/wiki/index.php/Translating_OxS</a> for information on translation management and contributing back.]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -464,9 +476,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="backup">
+		<name locale="en">Backup</name>
 		<name locale="en_US">Backup</name>
 		<homepage>https://github.com/asmecher/backup</homepage>
+		<summary locale="en">This plugin permits backups to be downloaded from within OJS.</summary>
 		<summary locale="en_US">This plugin permits backups to be downloaded from within OJS.</summary>
+		<description locale="en">This plugin allows site administrators to download backups of the system.</description>
 		<description locale="en_US">This plugin allows site administrators to download backups of the system.</description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -665,9 +680,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="plagiarism">
+		<name locale="en">iThenticate</name>
 		<name locale="en_US">iThenticate</name>
 		<homepage>https://github.com/pkp/plagiarism</homepage>
+		<summary locale="en">This plugin permits automatic submission of uploaded content to the iThenticate service for plagiarism checking.</summary>
 		<summary locale="en_US">This plugin permits automatic submission of uploaded content to the iThenticate service for plagiarism checking.</summary>
+		<description locale="en"><![CDATA[<p>This plugin permits automatic submission of uploaded content to the <a href="http://www.ithenticate.com/" target="_new">iThenticate service</a> for plagiarism checking.</p><p>See the README document included in this plugin for installation instructions.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin permits automatic submission of uploaded content to the <a href="http://www.ithenticate.com/" target="_new">iThenticate service</a> for plagiarism checking.</p><p>See the README document included in this plugin for installation instructions.</p>]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -855,9 +873,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="coins">
+		<name locale="en">COinS</name>
 		<name locale="en_US">COinS</name>
 		<homepage>https://github.com/pkp/coins</homepage>
+		<summary locale="en">This plugin embeds OpenURL COinS in OJS articles.</summary>
 		<summary locale="en_US">This plugin embeds OpenURL COinS in OJS articles.</summary>
+		<description locale="en"><![CDATA[This plugin embeds OpenURL COinS (<a href="http://ocoins.info/" target="_blank">http://ocoins.info/</a>) in OJS articles, permitting tools like Zotero (<a href="http://www.zotero.org" target="_blank">http://www.zotero.org</a>) to grab citations.]]></description>
 		<description locale="en_US"><![CDATA[This plugin embeds OpenURL COinS (<a href="http://ocoins.info/" target="_blank">http://ocoins.info/</a>) in OJS articles, permitting tools like Zotero (<a href="http://www.zotero.org" target="_blank">http://www.zotero.org</a>) to grab citations.]]></description>
 		<maintainer>
 			<name>Dimitris Efstathiou</name>
@@ -931,9 +952,12 @@
 		</release>
 	</plugin>
 	<plugin category="importexport" product="quickSubmit">
+		<name locale="en">QuickSubmit</name>
 		<name locale="en_US">QuickSubmit</name>
 		<homepage>https://github.com/pkp/quickSubmit</homepage>
+		<summary locale="en">The QuickSubmit plugin permits Journal Managers to quickly enter submissions through the OJS website, bypassing the editorial workflow.</summary>
 		<summary locale="en_US">The QuickSubmit plugin permits Journal Managers to quickly enter submissions through the OJS website, bypassing the editorial workflow.</summary>
+		<description locale="en"><![CDATA[<p>The QuickSubmit plugin permits Journal Managers to quickly enter submissions through the OJS website, bypassing the editorial workflow.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>The QuickSubmit plugin permits Journal Managers to quickly enter submissions through the OJS website, bypassing the editorial workflow.</p>]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -1122,11 +1146,14 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="allowedUploads">
+		<name locale="en">Allowed Uploads</name>
 		<name locale="en_US">Allowed Uploads</name>
 		<name locale="fi_FI">Sallitut tiedostomuodot</name>
 		<homepage>https://github.com/ajnyga/allowedUploads</homepage>
+		<summary locale="en">Allowed Uploads plugin enables to choose the filetypes that are allowed when submitting a manuscript.</summary>
 		<summary locale="en_US">Allowed Uploads plugin enables to choose the filetypes that are allowed when submitting a manuscript.</summary>
 		<summary locale="fi_FI">Tämän lisäosan avulla voit rajoittaa niitä tiedostomuotoja, joita voi lähettää käsikirjoituksen yhteyteen.</summary>
+		<description locale="en"><![CDATA[<p>Allowed Uploads plugin enables to choose the filetypes that are allowed when submitting a manuscript.</p><p><strong>NOTE!</strong> This is not a security plugin! Please make sure that the files directory is outside the web root.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>Allowed Uploads plugin enables to choose the filetypes that are allowed when submitting a manuscript.</p><p><strong>NOTE!</strong> This is not a security plugin! Please make sure that the files directory is outside the web root.</p>]]></description>
 		<description locale="fi_FI"><![CDATA[<p>Tämän lisäosan avulla voit rajoittaa niitä tiedostomuotoja, joita voi lähettää käsikirjoituksen yhteyteen.</p><p><strong>HUOM!</strong> Tätä lisäosaa ei ole tarkoitettu parantamaan järjestelmän tietoturvaa! Huolehdi, että järjestelmän tiedostot-hakemisto on sijoitettu tai suojattu oikein.</p>]]></description>
 		<maintainer>
@@ -1254,13 +1281,16 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="authorsHistory">
+		<name locale="en">Authors History</name>
 		<name locale="en_US">Authors History</name>
 		<name locale="es_ES">Historia de los autores</name>
 		<name locale="pt_BR">Histórico dos autores</name>
 		<homepage>https://github.com/lepidus/authorsHistory</homepage>
+		<summary locale="en">This plugin adds a tab in the submission view, where all submissions from each contributor are listed.</summary>
 		<summary locale="en_US">This plugin adds a tab in the submission view, where all submissions from each contributor are listed.</summary>
 		<summary locale="es_ES">Este módulo agrega una pestaña en la vista de envío, donde se enumeran todos los envíos de cada colaborador.</summary>
 		<summary locale="pt_BR">Este plugin adiciona uma aba na visualização da submissão, onde todos as submissões de cada contribuidor são listadas.</summary>
+		<description locale="en"><![CDATA[<p>This plugin adds a tab in the submission view, where all submissions from each contributor are listed.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin adds a tab in the submission view, where all submissions from each contributor are listed.</p>]]></description>
 		<description locale="es_ES"><![CDATA[<p>Este módulo agrega una pestaña en la vista de envío, donde se enumeran todos los envíos de cada colaborador.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Este plugin adiciona uma guia na visualização da submissão, onde todos as submissões de cada contribuidor são listadas</p>]]></description>
@@ -1318,6 +1348,7 @@
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add a tab in the submission view where all submission from each contributor are listed.</description>
 			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add a tab in the submission view where all submission from each contributor are listed.</description>
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP. Su funcionalidad principal es agregar una pestaña en la vista de envío donde se enumeran todos los envíos de cada colaborador.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada para a galeria de plugins da PKP. Sua principal funcionalidade é adicionar uma guia na visualização da submissão, onde todos as submissões de cada contribuidor são listadas.</description>
@@ -1371,6 +1402,7 @@
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">This release fixes a bug that occurred when deleting one of the previous submissions from one of the submission's authors</description>
 			<description locale="en_US">This release fixes a bug that occurred when deleting one of the previous submissions from one of the submission's authors</description>
 			<description locale="es_ES">Esta versión corrige un error que se produjo al eliminar uno de los envíos anteriores de uno de los autores del envío</description>
 			<description locale="pt_BR">Essa versão corrige um problema que ocorria quando se excluia uma das submissões passadas de um dos autores da submissão</description>
@@ -1424,6 +1456,7 @@
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">Improves plugin's performance and adds checking for cases in which different authors use the same email.</description>
 			<description locale="en_US">Improves plugin's performance and adds checking for cases in which different authors use the same email.</description>
 			<description locale="es_ES">Mejora el rendimiento del módulo y agrega verificación cuando diferentes autores usan el mismo correo electrónico.</description>
 			<description locale="pt_BR">Melhora performance do plugin e adiciona verificação para quando diferentes autores usam o mesmo e-mail.</description>
@@ -1477,19 +1510,23 @@
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">This release adds translation support for Russian language.</description>
 			<description locale="en_US">This release adds translation support for Russian language.</description>
 			<description locale="es_ES">Esta versión agrega soporte de traducción para el idioma ruso.</description>
 			<description locale="pt_BR">Essa versão adiciona um suporte de tradução para a linguagem russa.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="pluginUpdateNotification">
+		<name locale="en">Plugins update notification</name>
 		<name locale="en_US">Plugins update notification</name>
 		<name locale="es_ES">Notificación de actualización de módulos</name>
 		<name locale="pt_BR">Notificação de atualização de plugins</name>
 		<homepage>https://github.com/lepidus/pluginUpdateNotification</homepage>
+		<summary locale="en">This plugin generates a notification whenever an update to a gallery plugin is available</summary>
 		<summary locale="en_US">This plugin generates a notification whenever an update to a gallery plugin is available</summary>
 		<summary locale="es_ES">Este módulo genera una notificación cada vez que se encuentra disponible una actualización de un módulo de la galería</summary>
 		<summary locale="pt_BR">Este plugin gera uma notificação sempre que há uma atualização disponível de um plugin da galeria</summary>
+		<description locale="en"><![CDATA[<p>This plugin generates a notification in the Website Settings informing which plugins have an upgrade available at the plugin gallery</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin generates a notification in the Website Settings informing which plugins have an upgrade available at the plugin gallery</p>]]></description>
 		<description locale="es_ES"><![CDATA[<p>Este módulo genera una notificación en los Ajustes del sítio web que informa qué módulos tienen una actualización disponible en la galería de módulos</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Esse plugin gera uma notificação nas Configurações do Website informando quais plugins possuem uma atualização disponível através da galeria de plugins</p>]]></description>
@@ -1570,19 +1607,23 @@
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add a notification in the Website Settings informing which plugins have an upgrade available.</description>
 			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add a notification in the Website Settings informing which plugins have an upgrade available.</description>
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP. Su principal funcionalidad es agregar una notificación en los Ajustes del sítio web informando qué módulos tienen una actualización disponible.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada à Galeria de Plugins da PKP. Sua principal funcionalidade é adicionar uma notificação nas Configurações do Website, informando quais plugins possuem uma atualização disponível.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="contentAnalysis">
+		<name locale="en">Content Analysis</name>
 		<name locale="en_US">Content Analysis</name>
 		<name locale="es_ES">Análisis del contenido</name>
 		<name locale="pt_BR">Análise de Conteúdo</name>
 		<homepage>https://github.com/lepidus/contentAnalysis</homepage>
+		<summary locale="en">This plugin checks the content of the submitted document for certain submission information and metadata</summary>
 		<summary locale="en_US">This plugin checks the content of the submitted document for certain submission information and metadata</summary>
 		<summary locale="es_ES">Este módulo verifica el contenido del documento de envío en busca de cierta información de envío y metadatos</summary>
 		<summary locale="pt_BR">Este plugin verifica o conteúdo do documento da submissão em busca de certas informações e metadados da submissão</summary>
+		<description locale="en"><![CDATA[<p>This plugin checks the content of the submitted document for certain submission information and metadata. Then, it shows a report of which elements had been found on the submission page.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin checks the content of the submitted document for certain submission information and metadata. Then, it shows a report of which elements had been found on the submission page.</p>]]></description>
 		<description locale="es_ES"><![CDATA[<p>Este módulo verifica el contenido del documento de envío en busca de cierta información de envío y metadatos. Luego muestra un informe de los elementos que se encontraron en la página de envío.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Este plugin verifica o conteúdo do documento da submissão em busca de certas informações e metadados da submissão. Então, ele exibe um relatório de quais elementos foram encontrados na página da submissão.</p>]]></description>
@@ -1611,15 +1652,19 @@
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">This is the first release of this plugin to be sent to PKP Plugin Gallery.</description>
 			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery.</description>
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada à Galeria de Plugins da PKP.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
+		<name locale="en">Matomo</name>
 		<name locale="en_US">Matomo</name>
 		<homepage>https://github.com/pkp/piwik</homepage>
+		<summary locale="en">Permits usage statistics tracking using Matomo (formerly Piwik).</summary>
 		<summary locale="en_US">Permits usage statistics tracking using Matomo (formerly Piwik).</summary>
+		<description locale="en"><![CDATA[<p>The Matomo plugin (formerly Piwik) allows managers to track website usage statistics.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>The Matomo plugin (formerly Piwik) allows managers to track website usage statistics.</p>]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -1782,9 +1827,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="shariff">
+		<name locale="en">Shariff Plugin</name>
 		<name locale="en_US">Shariff Plugin</name>
 		<homepage>https://github.com/ojsde/shariff</homepage>
+		<summary locale="en">This plugin integrates the shariff solution for social media buttons in OJS and OMP.</summary>
 		<summary locale="en_US">This plugin integrates the shariff solution for social media buttons in OJS and OMP.</summary>
+		<description locale="en"><![CDATA[This plugin integrates the shariff solution(<a href="https://github.com/heiseonline/shariff" target="_blank">https://github.com/heiseonline/shariff</a>) to your website, allowing you to add social media buttons to your journal without compromising the privacy of website users.]]></description>
 		<description locale="en_US"><![CDATA[This plugin integrates the shariff solution(<a href="https://github.com/heiseonline/shariff" target="_blank">https://github.com/heiseonline/shariff</a>) to your website, allowing you to add social media buttons to your journal without compromising the privacy of website users.]]></description>
 		<maintainer>
 			<name>Team Open Access und wissenschaftliches Publizieren</name>
@@ -1864,11 +1912,27 @@
 			</compatibility>
 			<certification type="partner"/><description>This release of the Shariff plugin for OJS/OMP 3.3.0 fixes a compatibility issue with PHP 8.</description>
 		</release>
+		<release date="2023-02-21" version="3.4.0.0" md5="319d33932cc130e592768e6d9575f63a">
+			<package>https://github.com/ojsde/shariff/releases/download/v3_4_0/shariff-3_4_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner"/><description>This plugin adds social media buttons to your web site without compromising the privacy of website users.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="addThis">
+		<name locale="en">AddThis</name>
 		<name locale="en_US">AddThis</name>
 		<homepage>https://github.com/pkp/addThis</homepage>
+		<summary locale="en">Permits social media sharing of published content using AddThis.</summary>
 		<summary locale="en_US">Permits social media sharing of published content using AddThis.</summary>
+		<description locale="en"><![CDATA[<p><a href="http://www.addthis.com">AddThis</a> permits easy social media sharing by integrating tools for several platforms into a compact set of configurable buttons. This plugin integrates AddThis into OJS/OMP for quick sharing of published content.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p><a href="http://www.addthis.com">AddThis</a> permits easy social media sharing by integrating tools for several platforms into a compact set of configurable buttons. This plugin integrates AddThis into OJS/OMP for quick sharing of published content.</p>]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -2053,9 +2117,12 @@
 		</release>
 	</plugin>
 	<plugin category="importexport" product="copernicus">
+		<name locale="en">OJS to Copernicus Citation Index xml export plugin</name>
 		<name locale="en_US">OJS to Copernicus Citation Index xml export plugin</name>
 		<homepage>https://github.com/a-vodka/ojs_copernicus_export_plugin/</homepage>
+		<summary locale="en">Allows to export article metadata in Copernicus Index in xml format</summary>
 		<summary locale="en_US">Allows to export article metadata in Copernicus Index in xml format</summary>
+		<description locale="en"><![CDATA[<p>This release support all necessary items to export issues to Copernicus Citation Index using xml]]></description>
 		<description locale="en_US"><![CDATA[<p>This release support all necessary items to export issues to Copernicus Citation Index using xml]]></description>
 		<maintainer>
 			<name>Oleksii Vodka</name>
@@ -2095,9 +2162,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="subscriptionSSO">
+		<name locale="en">Subscription SSO</name>
 		<name locale="en_US">Subscription SSO</name>
 		<homepage>https://github.com/asmecher/subscriptionSSO</homepage>
+		<summary locale="en">This plugin permits delegation of OJS subscription checks to a third-party web service.</summary>
 		<summary locale="en_US">This plugin permits delegation of OJS subscription checks to a third-party web service.</summary>
+		<description locale="en"><![CDATA[<p>This plugin permits delegation of OJS subscription checks to a third-party web service.</p><p>See <a href="https://github.com/asmecher/subscriptionSSO" target="_blank">https://github.com/asmecher/subscriptionSSO</a> for details.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin permits delegation of OJS subscription checks to a third-party web service.</p><p>See <a href="https://github.com/asmecher/subscriptionSSO" target="_blank">https://github.com/asmecher/subscriptionSSO</a> for details.</p>]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -2201,9 +2271,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="funding">
+		<name locale="en">Funding</name>
 		<name locale="en_US">Funding</name>
 		<homepage>https://github.com/ajnyga/funding/</homepage>
+		<summary locale="en">Adds submission funding data using the Crossref funders registry.</summary>
 		<summary locale="en_US">Adds submission funding data using the Crossref funders registry.</summary>
+		<description locale="en"><![CDATA[<p>This plugin adds submission funding data using the Crossref funders registry, considers the data in the Crossref and DataCite XML export and displays them on the submission view page.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin adds submission funding data using the Crossref funders registry, considers the data in the Crossref and DataCite XML export and displays them on the submission view page.</p>]]></description>
 		<maintainer>
 			<name>Antti-Jussi Nygård</name>
@@ -2287,11 +2360,81 @@
 			<certification type="reviewed"/>
 			<description>Update for compatibility with v3.3.</description>
 		</release>
+		<release date="2023-02-17" version="3.4.0.0" md5="5ba098875697577c5ee87f0231902186">
+			<package>https://github.com/ajnyga/funding/releases/download/3.4.0.0/funding.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Update for compatibility with v3.4.</description>
+		</release>
+		<release date="2023-02-17" version="2.1.4.2" md5="e51bad76697fd6746de343a2c4f50414">
+			<package>https://github.com/ajnyga/funding/releases/download/2.1.4.2/funding.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>This release adds support for OPS 3.3.0. It also adds translation for Brazilian Portuguese</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="customHeader">
+		<name locale="en">Custom Header Plugin</name>
 		<name locale="en_US">Custom Header Plugin</name>
 		<homepage>https://github.com/asmecher/customHeader/</homepage>
+		<summary locale="en">Permits the addition of custom headers to the website.</summary>
 		<summary locale="en_US">Permits the addition of custom headers to the website.</summary>
+		<description locale="en"><![CDATA[<p>This plugin permits the addition of custom headers to the website. This can be used e.g. to add arbitrary Javascript to the front-end.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin permits the addition of custom headers to the website. This can be used e.g. to add arbitrary Javascript to the front-end.</p>]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -2507,9 +2650,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="customLocale">
+		<name locale="en">Custom Locale Plugin</name>
 		<name locale="en_US">Custom Locale Plugin</name>
 		<homepage>https://github.com/pkp/customLocale/</homepage>
+		<summary locale="en">Permits the customization of interface text.</summary>
 		<summary locale="en_US">Permits the customization of interface text.</summary>
+		<description locale="en"><![CDATA[<p>This plugin permits the customization of interface text (usually kept in the language files that come with the software) on a per-context (journal, press, or server) basis. This can be used to tweak details that would otherwise require a file modification on the server.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin permits the customization of interface text (usually kept in the language files that come with the software) on a per-context (journal, press, or server) basis. This can be used to tweak details that would otherwise require a file modification on the server.</p>]]></description>
 		<maintainer>
 			<name>Public Knowledge Project</name>
@@ -2703,9 +2849,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="jatsTemplate">
+		<name locale="en">JATS Template Plugin</name>
 		<name locale="en_US">JATS Template Plugin</name>
 		<homepage>https://github.com/pkp/jatsTemplate/</homepage>
+		<summary locale="en">Permits the automatic generation of a simple (incomplete) JATS XML document.</summary>
 		<summary locale="en_US">Permits the automatic generation of a simple (incomplete) JATS XML document.</summary>
+		<description locale="en"><![CDATA[<p>This plugin permits the automatic generation of a simple JATS XML document where a better file is not otherwise available. This can be used e.g. in connection with the <a href="https://github.com/pkp/oaiJats">OAI JATS plugin</a> to deliver metadata in a JATS format.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin permits the automatic generation of a simple JATS XML document where a better file is not otherwise available. This can be used e.g. in connection with the <a href="https://github.com/pkp/oaiJats">OAI JATS plugin</a> to deliver metadata in a JATS format.</p>]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -2874,9 +3023,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="sword">
+		<name locale="en">SWORD Client Plugin</name>
 		<name locale="en_US">SWORD Client Plugin</name>
 		<homepage>https://github.com/asmecher/sword/</homepage>
+		<summary locale="en">Permits the use of the SWORD protocol to deposit documents from OJS into other systems.</summary>
 		<summary locale="en_US">Permits the use of the SWORD protocol to deposit documents from OJS into other systems.</summary>
+		<description locale="en"><![CDATA[<p>This plugin permits the use of the <a href="http://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to deposit documents into other systems.</p><p>The deposit can be performed manually, automatically upon acceptance, and manually by the author.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin permits the use of the <a href="http://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to deposit documents into other systems.</p><p>The deposit can be performed manually, automatically upon acceptance, and manually by the author.</p>]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -2978,9 +3130,12 @@
 		</release>
 	</plugin>
 	<plugin category="oaiMetadataFormats" product="oaiJats">
+		<name locale="en">OAI JATS Plugin</name>
 		<name locale="en_US">OAI JATS Plugin</name>
 		<homepage>https://github.com/pkp/oaiJats/</homepage>
+		<summary locale="en">Permits the delivery of JATS XML via the OAI interface.</summary>
 		<summary locale="en_US">Permits the delivery of JATS XML via the OAI interface.</summary>
+		<description locale="en"><![CDATA[<p>This plugin permits the delivery of JATS XML via the OAI interface. Note that it <strong>does not</strong> generate the JATS document itself -- this will need to be done using the <a href="https://github.com/asmecher/jatsTemplate">JATS Template Plugin</a>, or using an external tool such as Open Typesetting Stack.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin permits the delivery of JATS XML via the OAI interface. Note that it <strong>does not</strong> generate the JATS document itself -- this will need to be done using the <a href="https://github.com/asmecher/jatsTemplate">JATS Template Plugin</a>, or using an external tool such as Open Typesetting Stack.</p>]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -3134,9 +3289,12 @@
 		</release>
 	</plugin>
 	<plugin category="blocks" product="keywordCloud">
+		<name locale="en">Keyword Cloud Plugin</name>
 		<name locale="en_US">Keyword Cloud Plugin</name>
 		<homepage>https://github.com/lepidus/ojs3-keywordcloud-plugin</homepage>
+		<summary locale="en">A block plugin to provide a tag cloud of article keywords.</summary>
 		<summary locale="en_US">A block plugin to provide a tag cloud of article keywords.</summary>
+		<description locale="en"><![CDATA[<p>A sidebar block plugin for Open Journal Systems and Open Monograph Press which displays a tag cloud of keywords.</p><p><img src="https://github.com/ali-sokhandan/ojs3-keywordcloud-plugin/raw/master/snapshot.gif"></p>]]></description>
 		<description locale="en_US"><![CDATA[<p>A sidebar block plugin for Open Journal Systems and Open Monograph Press which displays a tag cloud of keywords.</p><p><img src="https://github.com/ali-sokhandan/ojs3-keywordcloud-plugin/raw/master/snapshot.gif"></p>]]></description>
 		<maintainer>
 			<name>Alireza Sokhandan</name>
@@ -3282,9 +3440,12 @@
 		</release>
 	</plugin>
 	<plugin category="themes" product="bootstrap3">
+		<name locale="en">Bootstrap3</name>
 		<name locale="en_US">Bootstrap3</name>
 		<homepage>https://github.com/NateWr/bootstrap3</homepage>
+		<summary locale="en">A template Bootstrap3 theme for OJS 3.1.1+.</summary>
 		<summary locale="en_US">A template Bootstrap3 theme for OJS 3.1.1+.</summary>
+		<description locale="en"><![CDATA[<p>A template Boostrap3 theme for OJS 3.1.1+.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>A template Boostrap3 theme for OJS 3.1.1+.</p>]]></description>
 		<maintainer>
 			<name>Nate Wright</name>
@@ -3479,9 +3640,12 @@
 		</release>
 	</plugin>
 	<plugin category="themes" product="classic">
+		<name locale="en">Classic</name>
 		<name locale="en_US">Classic</name>
 		<homepage>https://github.com/pkp/classic</homepage>
+		<summary locale="en">An official theme that plays on colour and font contrasts based on literary classicism.</summary>
 		<summary locale="en_US">An official theme that plays on colour and font contrasts based on literary classicism.</summary>
+		<description locale="en"><![CDATA[<p>An official theme for OJS 3.1.1.2+ designed with a classic style.</p>
 		<description locale="en_US"><![CDATA[<p>An official theme for OJS 3.1.1.2+ designed with a classic style.</p>
 <p>Classic theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<maintainer>
@@ -3605,9 +3769,12 @@
 		</release>
 	</plugin>
 	<plugin category="themes" product="healthSciences">
+		<name locale="en">Health Sciences</name>
 		<name locale="en_US">Health Sciences</name>
 		<homepage>https://github.com/pkp/healthSciences</homepage>
+		<summary locale="en">An official theme designed to maximize legibility and content clarity.</summary>
 		<summary locale="en_US">An official theme designed to maximize legibility and content clarity.</summary>
+		<description locale="en"><![CDATA[<p>An official theme designed for health science journals or any journal that wants a clean, modern appearance. The theme features a light grey-blue color scheme that evokes medical settings, but the color can be changed to fit any journal's needs.</p>
 		<description locale="en_US"><![CDATA[<p>An official theme designed for health science journals or any journal that wants a clean, modern appearance. The theme features a light grey-blue color scheme that evokes medical settings, but the color can be changed to fit any journal's needs.</p>
 <p>Health Sciences theme was designed and developed by Sophy Ouch, Nate Wright, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<maintainer>
@@ -3753,9 +3920,12 @@
 		</release>
 	</plugin>
 	<plugin category="themes" product="defaultManuscript">
+		<name locale="en">Manuscript (Default child theme)</name>
 		<name locale="en_US">Manuscript (Default child theme)</name>
-		<homepage>https://github.com/NateWr/defaultManuscript</homepage>
+		<homepage>https://github.com/pkp/defaultManuscript</homepage>
+		<summary locale="en">A clean, simple theme with a boxed layout that mimics a paper document.</summary>
 		<summary locale="en_US">A clean, simple theme with a boxed layout that mimics a paper document.</summary>
+		<description locale="en"><![CDATA[<p>A clean, simple theme with a boxed layout that mimics a paper document. It features a similar layout as the default theme, with a different look and feel for your OJS 3 journal. You can customize the primary and accent colors to match your branding.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>A clean, simple theme with a boxed layout that mimics a paper document. It features a similar layout as the default theme, with a different look and feel for your OJS 3 journal. You can customize the primary and accent colors to match your branding.</p>]]></description>
 		<maintainer>
 			<name>Nate Wright</name>
@@ -3763,7 +3933,7 @@
 			<email>pkp.contact@gmail.com</email>
 		</maintainer>
 		<release date="2017-02-07" version="1.0.0.0" md5="2d400e6321130a7ea624639adf1a6c9a">
-			<package>https://github.com/NateWr/defaultManuscript/releases/download/1.0.0/defaultManuscript-1.0.0.0.tar.gz</package>
+			<package>https://github.com/pkp/defaultManuscript/releases/download/1.0.0/defaultManuscript-1.0.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.0.2.0</version>
 			</compatibility>
@@ -3771,7 +3941,7 @@
 			<description>Initial release.</description>
 		</release>
 		<release date="2017-10-24" version="1.0.1.0" md5="96d8c468065e9702218800b00b25f5df">
-			<package>https://github.com/NateWr/defaultManuscript/releases/download/1.0.1/defaultManuscript-1.0.1.0.tar.gz</package>
+			<package>https://github.com/pkp/defaultManuscript/releases/download/1.0.1/defaultManuscript-1.0.1.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.1.0.0</version>
 				<version>3.1.0.1</version>
@@ -3780,7 +3950,7 @@
 			<description>This release provides a few updates to improve compatibility with OJS 3.1, and adds a German translation.</description>
 		</release>
 		<release date="2018-04-10" version="1.0.2.0" md5="ec2d5884b32a268f3894404f7846c903">
-			<package>https://github.com/NateWr/defaultManuscript/releases/download/1.0.2/defaultManuscript-1.0.2.tar.gz</package>
+			<package>https://github.com/pkp/defaultManuscript/releases/download/1.0.2/defaultManuscript-1.0.2.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.1.1.0</version>
 				<version>3.1.1.1</version>
@@ -3796,7 +3966,7 @@
 			<description>This release provides a few updates to improve compatibility with OJS 3.1.1/3.1.2, and updates the German and Spanish translations.</description>
 		</release>
 		<release date="2020-02-27" version="1.0.3.0" md5="272b641ed37a75e073b5344dc3106937">
-			<package>https://github.com/NateWr/defaultManuscript/releases/download/1.0.3/defaultManuscript-1.0.3.0.tar.gz</package>
+			<package>https://github.com/pkp/defaultManuscript/releases/download/1.0.3/defaultManuscript-1.0.3.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.0.0</version>
 				<version>3.2.0.1</version>
@@ -3814,7 +3984,7 @@
 			<description>This release makes the theme compatible with OJS v3.2.</description>
 		</release>
 		<release date="2021-01-28" version="1.0.3.1" md5="b5364afaf97fc3d44db4582ac1e5259d">
-			<package>https://github.com/NateWr/defaultManuscript/releases/download/v1_0_3-1/defaultManuscript-v1_0_3-1.tar.gz</package>
+			<package>https://github.com/pkp/defaultManuscript/releases/download/v1_0_3-1/defaultManuscript-v1_0_3-1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -3837,9 +4007,12 @@
 		</release>
 	</plugin>
 	<plugin category="themes" product="material">
+		<name locale="en">Material Theme</name>
 		<name locale="en_US">Material Theme</name>
 		<homepage>https://github.com/madi-nuralin/material.git</homepage>
+		<summary locale="en">Material Theme (MDBootstrap based)</summary>
 		<summary locale="en_US">Material Theme (MDBootstrap based)</summary>
+		<description locale="en"><![CDATA[<p>Material Theme (MDBootstrap based), adaptive stylesheet for both fronted and backend templates.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>Material Theme (MDBootstrap based), adaptive stylesheet for both fronted and backend templates.</p>]]></description>
 		<maintainer>
 			<name>Madi Nuralin</name>
@@ -3951,9 +4124,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="texture">
+		<name locale="en">Texture plugin</name>
 		<name locale="en_US">Texture plugin</name>
 		<homepage>https://github.com/pkp/texture</homepage>
+		<summary locale="en">Integrates the Substance Texture JATS XML Editor with OJS.</summary>
 		<summary locale="en_US">Integrates the Substance Texture JATS XML Editor with OJS.</summary>
+		<description locale="en"><![CDATA[<p>This plugin integrates the <a target="_new" href="http://substance.io/texture">Texture</a> JATS XML editor with OJS, permitting in-place editing of article content.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin integrates the <a target="_new" href="http://substance.io/texture">Texture</a> JATS XML editor with OJS, permitting in-place editing of article content.</p>]]></description>
 		<maintainer>
 			<name>Dulip Withanage</name>
@@ -4155,9 +4331,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="crossrefReferenceLinking">
+		<name locale="en">Crossref Reference Linking Plugin</name>
 		<name locale="en_US">Crossref Reference Linking Plugin</name>
 		<homepage>https://github.com/pkp/crossrefReferenceLinking</homepage>
+		<summary locale="en">Automatically add the extracted article references to the DOI registration with Crossref</summary>
 		<summary locale="en_US">Automatically add the extracted article references to the DOI registration with Crossref</summary>
+		<description locale="en"><![CDATA[<p>This plugin will automatically add the extracted article references to the DOI registration with Crossref. Crossref will then automatically check if any DOIs can be found for the submitted references. Shortly after that, using the scheduled task, the plugin will check for the found references DOIs. If article references change once they are registered, the article DOI with the new references will have to be registered anew. Then the check for the found references DOIs will be done again.</p>
 		<description locale="en_US"><![CDATA[<p>This plugin will automatically add the extracted article references to the DOI registration with Crossref. Crossref will then automatically check if any DOIs can be found for the submitted references. Shortly after that, using the scheduled task, the plugin will check for the found references DOIs. If article references change once they are registered, the article DOI with the new references will have to be registered anew. Then the check for the found references DOIs will be done again.</p>
 <p>This plugin requires Crossref DOIs to be assigned to articles, article references to be separately entered and extracted, as well as article DOIs to be deposited to Crossref from within OJS. It uses the Crossref Export/Registration plugin settings: Crossref credentials (username and password), as well as the setting for the testing mode.</p>]]></description>
 		<maintainer>
@@ -4228,9 +4407,12 @@
 		</release>
 	</plugin>
 	<plugin category="themes" product="immersion">
+		<name locale="en">Immersion</name>
 		<name locale="en_US">Immersion</name>
 		<homepage>https://github.com/pkp/immersion</homepage>
+		<summary locale="en">An official theme focused on full-page visuals, large typefaces, and bold color blocks.</summary>
 		<summary locale="en_US">An official theme focused on full-page visuals, large typefaces, and bold color blocks.</summary>
+		<description locale="en"><![CDATA[<p>The Immersion theme emphasizes the reading experience and offers bold design options such as a full-width header image and per-section color choices. This theme may work best for arts and culture journals which want to present a more ambitious visual profile.</p>
 		<description locale="en_US"><![CDATA[<p>The Immersion theme emphasizes the reading experience and offers bold design options such as a full-width header image and per-section color choices. This theme may work best for arts and culture journals which want to present a more ambitious visual profile.</p>
 <p>Immersion theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<maintainer>
@@ -4375,9 +4557,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="orcidProfile">
+		<name locale="en">ORCiD Profile</name>
 		<name locale="en_US">ORCiD Profile</name>
 		<homepage>https://github.com/pkp/orcidProfile</homepage>
+		<summary locale="en">ORCiD integration for users and authors</summary>
 		<summary locale="en_US">ORCiD integration for users and authors</summary>
+		<description locale="en"><![CDATA[<p>The ORCiD Profile plugin integrates support for <a href="https://orcid.org/">ORCiD</a> identifiers for authors and users. This includes tools to submit new content to an author's ORCiD profile.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>The ORCiD Profile plugin integrates support for <a href="https://orcid.org/">ORCiD</a> identifiers for authors and users. This includes tools to submit new content to an author's ORCiD profile.</p>]]></description>
 		<maintainer>
 			<name>Dulip Withanage; Clinton Graham; Nils Weiher</name>
@@ -5140,9 +5325,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="defaultTranslation">
+		<name locale="en">Default Translation</name>
 		<name locale="en_US">Default Translation</name>
 		<homepage>https://github.com/pkp/defaultTranslation</homepage>
+		<summary locale="en">Make OJS fall back on English when elements of the software translation are missing.</summary>
 		<summary locale="en_US">Make OJS fall back on English when elements of the software translation are missing.</summary>
+		<description locale="en"><![CDATA[<p>This plugin, when enabled, will cause OJS to fall back on the English language translations for elements of the software that haven't been translated into the user's language.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin, when enabled, will cause OJS to fall back on the English language translations for elements of the software that haven't been translated into the user's language.</p>]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
@@ -5263,9 +5451,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="paperbuzz">
+		<name locale="en">Paperbuzz</name>
 		<name locale="en_US">Paperbuzz</name>
 		<homepage>https://github.com/pkp/paperbuzz</homepage>
+		<summary locale="en">Display free altmetrics based on open data from Paperbuzz.</summary>
 		<summary locale="en_US">Display free altmetrics based on open data from Paperbuzz.</summary>
+		<description locale="en"><![CDATA[<p>This plugin will display free altmetrics based on open data from <a href="http://paperbuzz.org">Paperbuzz</a>, a free and open service built by Impactstory that itself relies on <a href="https://www.crossref.org/services/event-data/">Crossref Event Data</a>. To use this plugin, your journal must have DOIs assigned to articles and properly deposited with Crossref.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin will display free altmetrics based on open data from <a href="http://paperbuzz.org">Paperbuzz</a>, a free and open service built by Impactstory that itself relies on <a href="https://www.crossref.org/services/event-data/">Crossref Event Data</a>. To use this plugin, your journal must have DOIs assigned to articles and properly deposited with Crossref.</p>]]></description>
 		<maintainer>
 			<name>Bozana Bokan</name>
@@ -5356,9 +5547,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="openAIRE">
+		<name locale="en">OpenAIRE Plugin 2.0</name>
 		<name locale="en_US">OpenAIRE Plugin 2.0</name>
 		<homepage>https://github.com/ojsde/openAIRE</homepage>
+		<summary locale="en">This plugin adds a new OAI-PMH metadata format to Open Journal Systems that complements the OpenAIRE Guidelines for Literature Repository Managers v4.</summary>
 		<summary locale="en_US">This plugin adds a new OAI-PMH metadata format to Open Journal Systems that complements the OpenAIRE Guidelines for Literature Repository Managers v4.</summary>
+		<description locale="en"><![CDATA[<p>For detailed instructions, see plugin Readme file https://github.com/ojsde/openAIRE/blob/master/readme.md.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>For detailed instructions, see plugin Readme file https://github.com/ojsde/openAIRE/blob/master/readme.md.</p>]]></description>
 		<maintainer>
 			<name>Antti-Jussi Nygård</name>
@@ -5442,9 +5636,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="lensGalleyBits">
+		<name locale="en">Lens Viewer for Monographs and Journal Articles</name>
 		<name locale="en_US">Lens Viewer for Monographs and Journal Articles</name>
 		<homepage>https://github.com/withanage/lensGalleyBits</homepage>
+		<summary locale="en">An extended version of the Lens Viewer that supports books and articles.</summary>
 		<summary locale="en_US">An extended version of the Lens Viewer that supports books and articles.</summary>
+		<description locale="en"><![CDATA[<p>This plugin provides an extended version of the Lens Viewer with support for books with BITS extensions. It also supports articles.</p><p>Do not use this plugin alongside the official Lens Viewer plugin. Only use one or the other, depending on your needs.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin provides an extended version of the Lens Viewer with support for books with BITS extensions. It also supports articles.</p><p>Do not use this plugin alongside the official Lens Viewer plugin. Only use one or the other, depending on your needs.</p>]]></description>
 		<maintainer>
 			<name>Dulip Withanage</name>
@@ -5507,9 +5704,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="reviewerCredits">
+		<name locale="en">ReviewerCredits Plugin</name>
 		<name locale="en_US">ReviewerCredits Plugin</name>
 		<homepage>https://gitlab.com/reviewercredits/reviewercredits-ojs-plugin</homepage>
+		<summary locale="en">This plugin enable the integration with ReviewerCredits (www.reviewercredits.com).</summary>
 		<summary locale="en_US">This plugin enable the integration with ReviewerCredits (www.reviewercredits.com).</summary>
+		<description locale="en"><![CDATA[This plugin enable the integration with ReviewerCredits using REST APIs. The main goal is to create and approve Peer Review Claims on the ReviewerCredits website.]]></description>
 		<description locale="en_US"><![CDATA[This plugin enable the integration with ReviewerCredits using REST APIs. The main goal is to create and approve Peer Review Claims on the ReviewerCredits website.]]></description>
 		<maintainer>
 			<name>Matteo Mondini</name>
@@ -5565,9 +5765,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="emailIssueToc">
+		<name locale="en">Email Issue Table of Contents</name>
 		<name locale="en_US">Email Issue Table of Contents</name>
 		<homepage>https://github.com/ulsdevteam/pkp-emailIssueToc</homepage>
+		<summary locale="en">This plugin embeds the table of contents within the default notification email sent when publishing an issue.</summary>
 		<summary locale="en_US">This plugin embeds the table of contents within the default notification email sent when publishing an issue.</summary>
+		<description locale="en">This plugin embeds the table of contents within the default notification email sent when publishing an issue.</description>
 		<description locale="en_US">This plugin embeds the table of contents within the default notification email sent when publishing an issue.</description>
 		<maintainer>
 			<name>University Library System</name>
@@ -5659,9 +5862,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="editorialBio">
+		<name locale="en">EditorialBio plugin</name>
 		<name locale="en_US">EditorialBio plugin</name>
 		<homepage>https://github.com/ulsdevteam/pkp-editorialBio</homepage>
+		<summary locale="en">This plugin exposes the editorial biographies as pages, as used to be the case with OJS 2.x.</summary>
 		<summary locale="en_US">This plugin exposes the editorial biographies as pages, as used to be the case with OJS 2.x.</summary>
+		<description locale="en">The endpoint {journal_path}/about/editorialTeamBio/{user_id} will respond to display a public editorial bio page, if data is entered in the biography for an editor or journal manager.</description>
 		<description locale="en_US">The endpoint {journal_path}/about/editorialTeamBio/{user_id} will respond to display a public editorial bio page, if data is entered in the biography for an editor or journal manager.</description>
 		<maintainer>
 			<name>University Library System</name>
@@ -5735,9 +5941,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="clamav">
+		<name locale="en">Clam Antivirus plugin</name>
 		<name locale="en_US">Clam Antivirus plugin</name>
 		<homepage>https://github.com/ulsdevteam/pkp-clamav</homepage>
+		<summary locale="en">This plugin scans submission files using Clam Antivirus, blocking files with a known virus signature.</summary>
 		<summary locale="en_US">This plugin scans submission files using Clam Antivirus, blocking files with a known virus signature.</summary>
+		<description locale="en">When uploading a submission file through the Author Submission Steps, or via the Editorial interface, or via the Review process, the submission file will be scanned. If a virus is detected, the upload will be canceled and warning notification will be displayed.</description>
 		<description locale="en_US">When uploading a submission file through the Author Submission Steps, or via the Editorial interface, or via the Review process, the submission file will be scanned. If a virus is detected, the upload will be canceled and warning notification will be displayed.</description>
 		<maintainer>
 			<name>University Library System</name>
@@ -5840,9 +6049,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="plumAnalytics">
+		<name locale="en">Plum Analytics Artifact Widget</name>
 		<name locale="en_US">Plum Analytics Artifact Widget</name>
 		<homepage>https://github.com/ulsdevteam/ojs-plum-plugin</homepage>
+		<summary locale="en">This plugin integrates Plum Analytics' Artifact Widget.</summary>
 		<summary locale="en_US">This plugin integrates Plum Analytics' Artifact Widget.</summary>
+		<description locale="en">This plugin provides display of PlumX Metrics from Plum Analytics on the article level for PKP Open Journal Systems.</description>
 		<description locale="en_US">This plugin provides display of PlumX Metrics from Plum Analytics on the article level for PKP Open Journal Systems.</description>
 		<maintainer>
 			<name>University Library System</name>
@@ -5922,9 +6134,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="sushiLite">
+		<name locale="en">SUSHI-Lite</name>
 		<name locale="en_US">SUSHI-Lite</name>
 		<homepage>https://github.com/ulsdevteam/ojs-sushiLite-plugin</homepage>
+		<summary locale="en">This plugin adds SUSHI-Lite (draft) support.</summary>
 		<summary locale="en_US">This plugin adds SUSHI-Lite (draft) support.</summary>
+		<description locale="en">This plugin provides the NISO SUSHI-Lite standard (2015 draft release) for PKP software.</description>
 		<description locale="en_US">This plugin provides the NISO SUSHI-Lite standard (2015 draft release) for PKP software.</description>
 		<maintainer>
 			<name>University Library System</name>
@@ -5990,9 +6205,12 @@
 
 	</plugin>
 	<plugin category="generic" product="betterPassword">
+		<name locale="en">Better Password</name>
 		<name locale="en_US">Better Password</name>
 		<homepage>https://github.com/ulsdevteam/pkp-betterPassword</homepage>
+		<summary locale="en">This plugin adds user restrictions when selecting passwords.</summary>
 		<summary locale="en_US">This plugin adds user restrictions when selecting passwords.</summary>
+		<description locale="en">This plugin provides additional password restriction options when users are selecting their own password.  Please review the NIST recommendations in the README before using arbitrary password complexity requirements.</description>
 		<description locale="en_US">This plugin provides additional password restriction options when users are selecting their own password.  Please review the NIST recommendations in the README before using arbitrary password complexity requirements.</description>
 		<maintainer>
 			<name>University Library System</name>
@@ -6143,9 +6361,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="sitesearch">
+		<name locale="en">Sitesearch</name>
 		<name locale="en_US">Sitesearch</name>
 		<homepage>https://github.com/ulsdevteam/pkp-sitesearch</homepage>
+		<summary locale="en">This plugin forces public searches for a context to be re-scoped to the site.</summary>
 		<summary locale="en_US">This plugin forces public searches for a context to be re-scoped to the site.</summary>
+		<description locale="en">This plugin rewrites the search for a context to the site level. This is used, for example, in the case where one journal has assumed the operations of one or more other journals (which are installed in the same site).</description>
 		<description locale="en_US">This plugin rewrites the search for a context to the site level. This is used, for example, in the case where one journal has assumed the operations of one or more other journals (which are installed in the same site).</description>
 		<maintainer>
 			<name>University Library System</name>
@@ -6300,9 +6521,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="akismet">
+		<name locale="en">Akismet</name>
 		<name locale="en_US">Akismet</name>
 		<homepage>https://github.com/ulsdevteam/pkp-akismet</homepage>
+		<summary locale="en">This plugin integrates the Akismet anti-spam service.</summary>
 		<summary locale="en_US">This plugin integrates the Akismet anti-spam service.</summary>
+		<description locale="en">This plugin verifies new user registrations via the Akismet anti-spam service. Subscription to Akismet is required.</description>
 		<description locale="en_US">This plugin verifies new user registrations via the Akismet anti-spam service. Subscription to Akismet is required.</description>
 		<maintainer>
 			<name>University Library System</name>
@@ -6433,9 +6657,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="formHoneypot">
+		<name locale="en">Form Honeypot</name>
 		<name locale="en_US">Form Honeypot</name>
 		<homepage>https://github.com/ulsdevteam/pkp-formHoneypot</homepage>
+		<summary locale="en">This plugin adds a honeypot to user registration.</summary>
 		<summary locale="en_US">This plugin adds a honeypot to user registration.</summary>
+		<description locale="en">This plugin verifies new user registrations by creating a honeypot on the User Registration form.</description>
 		<description locale="en_US">This plugin verifies new user registrations by creating a honeypot on the User Registration form.</description>
 		<maintainer>
 			<name>University Library System</name>
@@ -6611,9 +6838,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="authorRequirements">
+		<name locale="en">Author Requirements</name>
 		<name locale="en_US">Author Requirements</name>
 		<homepage>https://github.com/ewhanson/authorRequirements</homepage>
+		<summary locale="en">Make certain author fields optional.</summary>
 		<summary locale="en_US">Make certain author fields optional.</summary>
+		<description locale="en">This plugin makes it possible to add an author to a list of contributors without using certain required fields (e.g. email). This is useful in cases where required information does not exist for authors.</description>
 		<description locale="en_US">This plugin makes it possible to add an author to a list of contributors without using certain required fields (e.g. email). This is useful in cases where required information does not exist for authors.</description>
 		<maintainer>
 			<name>Erik Hanson</name>
@@ -6777,9 +7007,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="registrationNotification">
+		<name locale="en">Registration Notification</name>
 		<name locale="en_US">Registration Notification</name>
 		<homepage>https://github.com/pkp/registrationNotification</homepage>
+		<summary locale="en">Sends an email notification to a configurable list of emails whenever a new user is registered.</summary>
 		<summary locale="en_US">Sends an email notification to a configurable list of emails whenever a new user is registered.</summary>
+		<description locale="en"><![CDATA[
 		<description locale="en_US"><![CDATA[
 			<p>Once enabled, the plugin will send an email notification to a configurable list of emails, configurable per journal/press, whenever a new user is registered. The plugin also supports setting up the email template using variables.</p>
 			<p>See <a href="https://github.com/pkp/registrationNotification/blob/master/README.md" target="_blank">https://github.com/pkp/registrationNotification/blob/master/README.md</a> for details.</p>
@@ -6850,9 +7083,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="controlPublicFiles">
+		<name locale="en">Control Public Files</name>
 		<name locale="en_US">Control Public Files</name>
 		<homepage>https://github.com/pkp/controlPublicFiles</homepage>
+		<summary locale="en">Limit who can upload public files and what kind of files they can upload.</summary>
 		<summary locale="en_US">Limit who can upload public files and what kind of files they can upload.</summary>
+		<description locale="en"><![CDATA[
 		<description locale="en_US"><![CDATA[
 			<p>Users can upload images wherever they are presented with a rich text editor that includes the image upload control. This includes places like the About the Journal section as well as the user biography in every user's profile area.</p>
 			<p>This plugin provides settings to restrict who can upload, what kind of files they can upload, and how large their directory of files can grow.</p>
@@ -7094,9 +7330,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="textEditorExtras">
+		<name locale="en">Text Editor Extras</name>
 		<name locale="en_US">Text Editor Extras</name>
 		<homepage>https://github.com/pkp/textEditorExtras</homepage>
+		<summary locale="en">Add controls to the rich text editor to upload images, manipulate the HTML code, and add tables.</summary>
 		<summary locale="en_US">Add controls to the rich text editor to upload images, manipulate the HTML code, and add tables.</summary>
+		<description locale="en"><![CDATA[
 		<description locale="en_US"><![CDATA[
 			<p>This plugin provides settings to turn on extra controls for the rich text editor and to specify which fields should receive the additional controls.</p>
 		]]></description>
@@ -7381,9 +7620,12 @@
 		</release>
 	</plugin>
 	<plugin category="blocks" product="twitterBlock">
+		<name locale="en">Twitter Block Plugin</name>
 		<name locale="en_US">Twitter Block Plugin</name>
 		<homepage>https://github.com/RBoelter/ojs3-twitter-sidebar</homepage>
+		<summary locale="en">This plugin adds a block to display a Twitter feed in the sidebar.</summary>
 		<summary locale="en_US">This plugin adds a block to display a Twitter feed in the sidebar.</summary>
+		<description locale="en"><![CDATA[<p>This plugin makes it easy to include Twitter feeds in a multi-journal instance without the need to create several custom blocks.</p><p>Check the <a href="https://github.com/RBoelter/ojs3-twitter-sidebar">how to use guide</a>.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin makes it easy to include Twitter feeds in a multi-journal instance without the need to create several custom blocks.</p><p>Check the <a href="https://github.com/RBoelter/ojs3-twitter-sidebar">how to use guide</a>.</p>]]></description>
 		<maintainer>
 			<name>Ronny Bölter</name>
@@ -7518,9 +7760,12 @@
 		</release>
 	</plugin>
 	<plugin category="blocks" product="announcementsBlock">
+		<name locale="en">Announcements Block</name>
 		<name locale="en_US">Announcements Block</name>
 		<homepage>https://github.com/RBoelter/announcementsBlock</homepage>
+		<summary locale="en">This plugin adds a block to display announcements in the sidebar.</summary>
 		<summary locale="en_US">This plugin adds a block to display announcements in the sidebar.</summary>
+		<description locale="en"><![CDATA[<p>This plugin makes it easy to show the latest announcements in the sidebar. It allows you to specify how many announcements are displayed.</p><p>Check the "how to use" guide on <a href="https://github.com/RBoelter/announcementsBlock">GitHub</a></p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin makes it easy to show the latest announcements in the sidebar. It allows you to specify how many announcements are displayed.</p><p>Check the "how to use" guide on <a href="https://github.com/RBoelter/announcementsBlock">GitHub</a></p>]]></description>
 		<maintainer>
 			<name>Ronny Bölter</name>
@@ -7636,9 +7881,12 @@
 		</release>
 	</plugin>
 	<plugin category="gateways" product="swordServer">
+		<name locale="en">Sword Server Plugin</name>
 		<name locale="en_US">Sword Server Plugin</name>
 		<homepage>https://github.com/quoideneuf/swordServer</homepage>
+		<summary locale="en">Permits the use of the SWORD protocol to receive deposits from other applications.</summary>
 		<summary locale="en_US">Permits the use of the SWORD protocol to receive deposits from other applications.</summary>
+		<description locale="en"><![CDATA[<p>This plugin permits the use of the <a href="http://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to receive deposit documents from other systems.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin permits the use of the <a href="http://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to receive deposit documents from other systems.</p>]]></description>
 		<maintainer>
 			<name>Public Knowledge Project</name>
@@ -7672,9 +7920,12 @@
 		</release>
 	</plugin>
 	<plugin category="gateways" product="pubIdResolver">
+		<name locale="en">Public Identifier Resolver</name>
 		<name locale="en_US">Public Identifier Resolver</name>
 		<homepage>https://github.com/yasielpv/pubIdResolver</homepage>
+		<summary locale="en">Allows resolving the URL of an issue, article and galley from your public identifier registered in OJS.</summary>
 		<summary locale="en_US">Allows resolving the URL of an issue, article and galley from your public identifier registered in OJS.</summary>
+		<description locale="en"><![CDATA[<p>The Public Identifier Resolver plugin resolves individual articles, issues and galleys in the current OJS installation using the supplied public identifier register in OJS. The public identifier can be DOI, URN, ARK, PURL, etc. Also, It can obtain the element metadata using the format ERC adding question marks at the end of the persistent identifier. ERC format includes the metadata who, what, when, where, how and target.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>The Public Identifier Resolver plugin resolves individual articles, issues and galleys in the current OJS installation using the supplied public identifier register in OJS. The public identifier can be DOI, URN, ARK, PURL, etc. Also, It can obtain the element metadata using the format ERC adding question marks at the end of the persistent identifier. ERC format includes the metadata who, what, when, where, how and target.</p>]]></description>
 		<maintainer>
 			<name>Yasiel Perez Vera</name>
@@ -7721,9 +7972,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="returningAuthorScreening">
+		<name locale="en">Returning Author Screening Plugin</name>
 		<name locale="en_US">Returning Author Screening Plugin</name>
 		<homepage>https://github.com/pkp/returningAuthorScreening</homepage>
+		<summary locale="en">Permits authors who already have at least one published submission to self-publish subsequent submissions.</summary>
 		<summary locale="en_US">Permits authors who already have at least one published submission to self-publish subsequent submissions.</summary>
+		<description locale="en"><![CDATA[<p>This plugin permits authors who already have at least one published submission to self-publish subsequent submissions.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin permits authors who already have at least one published submission to self-publish subsequent submissions.</p>]]></description>
 		<maintainer>
 			<name>Public Knowledge Project</name>
@@ -7750,11 +8004,14 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="openGraph">
+		<name locale="en">Open Graph Plugin</name>
 		<name locale="en_US">Open Graph Plugin</name>
 		<name locale="fi_FI">Open Graph -lisäosa</name>
 		<homepage>https://github.com/ajnyga/openGraph</homepage>
+		<summary locale="en">Open Graph Plugin presents published content using the Open Graph protocol.</summary>
 		<summary locale="en_US">Open Graph Plugin presents published content using the Open Graph protocol.</summary>
 		<summary locale="fi_FI">Open Graph -lisäosa esittää metadatan Open Graph -protokollan mukaisessa muodossa.</summary>
+		<description locale="en"><![CDATA[<p>Open Graph Plugin presents published content using the Open Graph protocol. Open Graph tags are used when you content is shared in Facebook</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>Open Graph Plugin presents published content using the Open Graph protocol. Open Graph tags are used when you content is shared in Facebook</p>]]></description>
 		<description locale="fi_FI"><![CDATA[<p>Open Graph -lisäosa esittää metadatan Open Graph -protokollan mukaisessa muodossa. Tietoja käytetään, kun julkaistua sisältöä jaetaan Facebookissa.</p>]]></description>
 		<maintainer>
@@ -7849,9 +8106,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="publons">
+		<name locale="en">Publons Reviewer Recognition Plugin</name>
 		<name locale="en_US">Publons Reviewer Recognition Plugin</name>
 		<homepage>https://github.com/publons/ojs_3_plugin/</homepage>
+		<summary locale="en">This plugin enables integration with Publons Reviewer Recognition Service.</summary>
 		<summary locale="en_US">This plugin enables integration with Publons Reviewer Recognition Service.</summary>
+		<description locale="en"><![CDATA[In order to provide your reviewers with the opportunity to gain recognition for their reviews on Publons, please register your interest with Publons by visiting https://publons.com/benefits/publishers. Our accounts team will then be in touch to discuss your options and provide further instructions on how to integrate your journal with Publons.]]></description>
 		<description locale="en_US"><![CDATA[In order to provide your reviewers with the opportunity to gain recognition for their reviews on Publons, please register your interest with Publons by visiting https://publons.com/benefits/publishers. Our accounts team will then be in touch to discuss your options and provide further instructions on how to integrate your journal with Publons.]]></description>
 		<maintainer>
 			<name>Publons</name>
@@ -7917,9 +8177,12 @@
 		</release>
 	</plugin>
 	<plugin category="themes" product="pragma">
+		<name locale="en">Pragma</name>
 		<name locale="en_US">Pragma</name>
 		<homepage>https://github.com/pkp/pragma</homepage>
+		<summary locale="en">An official theme for OJS 3.</summary>
 		<summary locale="en_US">An official theme for OJS 3.</summary>
+		<description locale="en"><![CDATA[
 		<description locale="en_US"><![CDATA[
 			<p>A minimalist OJS theme inspired by early periodicals’ tables of contents featuring a bold use of a monochromatic colour palette.</p>
 			<p>Pragma theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>
@@ -8003,9 +8266,12 @@
 		</release>
 	</plugin>
 	<plugin category="importexport" product="archivematicaExport">
+		<name locale="en">Archivematica Export</name>
 		<name locale="en_US">Archivematica Export</name>
 		<homepage>https://github.com/escire/ArchivematicaExportPlugin</homepage>
+		<summary locale="en">Exports articles or issues to Archivematica for its preservation.</summary>
 		<summary locale="en_US">Exports articles or issues to Archivematica for its preservation.</summary>
+		<description locale="en"><![CDATA[<p>This plugin allows you to export articles or full numbers from OJS to an installation of Archivematica preservation software.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin allows you to export articles or full numbers from OJS to an installation of Archivematica preservation software.</p>]]></description>
 		<maintainer>
 			<name>Manuel Campechano</name>
@@ -8039,9 +8305,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="pln">
+		<name locale="en">PKP|PN (PKP Preservation Network) Plugin</name>
 		<name locale="en_US">PKP|PN (PKP Preservation Network) Plugin</name>
 		<homepage>https://github.com/pkp/pln</homepage>
+		<summary locale="en">Supports preservation of published journal content in the PKP Preservation Network.</summary>
 		<summary locale="en_US">Supports preservation of published journal content in the PKP Preservation Network.</summary>
+		<description locale="en"><![CDATA[<pa>This plugin enables the automatic preservation of published journal content in the <a href="https://pkp.sfu.ca/pkp-pn/">PKP Preservation Network</a> (PKP|PN).</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
 		<description locale="en_US"><![CDATA[<pa>This plugin enables the automatic preservation of published journal content in the <a href="https://pkp.sfu.ca/pkp-pn/">PKP Preservation Network</a> (PKP|PN).</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
 		<maintainer>
 			<name>Public Knowledge Project</name>
@@ -8131,9 +8400,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="citations">
+		<name locale="en">Scopus/Crossref Citations Plugin</name>
 		<name locale="en_US">Scopus/Crossref Citations Plugin</name>
 		<homepage>https://github.com/RBoelter/citations</homepage>
+		<summary locale="en">Shows the total number of citations and a "cited by" article list from Scopus and/or Crossref.</summary>
 		<summary locale="en_US">Shows the total number of citations and a "cited by" article list from Scopus and/or Crossref.</summary>
+		<description locale="en"><![CDATA[<p>This plugin uses the DOI of an article to get all citations from Scopus and/or Crossref. Google Scholar and PubMed are also supported. The count and list of citations is displayed in the sidebar of the article details. It is possible to choose between the different providers and display only the amount of results if the list is not desired.</p> <p>For more information check <a href="https://github.com/RBoelter/citations">GitHub</a></p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin uses the DOI of an article to get all citations from Scopus and/or Crossref. Google Scholar and PubMed are also supported. The count and list of citations is displayed in the sidebar of the article details. It is possible to choose between the different providers and display only the amount of results if the list is not desired.</p> <p>For more information check <a href="https://github.com/RBoelter/citations">GitHub</a></p>]]></description>
 		<maintainer>
 			<name>Ronny Bölter</name>
@@ -8272,9 +8544,12 @@
 		</release>
 	</plugin>
 	<plugin category="importexport" product="portico">
+		<name locale="en">Portico Plugin</name>
 		<name locale="en_US">Portico Plugin</name>
 		<homepage>https://github.com/pkp/portico</homepage>
+		<summary locale="en">Supports export of published content to Portico.</summary>
 		<summary locale="en_US">Supports export of published content to Portico.</summary>
+		<description locale="en"><![CDATA[<pa>This plugin enables the digital preservation of published content in the <a href="https://www.portico.org/">Portico</a> preservtion service.</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
 		<description locale="en_US"><![CDATA[<pa>This plugin enables the digital preservation of published content in the <a href="https://www.portico.org/">Portico</a> preservtion service.</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
 		<maintainer>
 			<name>Public Knowledge Project</name>
@@ -8379,9 +8654,12 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="ror">
+		<name locale="en">Research Organization Registry(ROR) Plugin</name>
 		<name locale="en_US">Research Organization Registry(ROR) Plugin</name>
 		<homepage>https://github.com/withanage/ror/</homepage>
+		<summary locale="en">OJS 3 Plugin for adding Organization names for author affiliations provided by ROR.org</summary>
 		<summary locale="en_US">OJS 3 Plugin for adding Organization names for author affiliations provided by ROR.org</summary>
+		<description locale="en"><![CDATA[<p>The ROR plugin integrates support for <a href="https://ror.org/">ROR</a>. Organizations maintained by ROR.org are automatically fetched using an auto suggesting function. For multilingual journals, additionally supported languages will be pre-filled given, ROR.org has the corresponding names in the OJS supported languages. </p>]]>></description>
 		<description locale="en_US"><![CDATA[<p>The ROR plugin integrates support for <a href="https://ror.org/">ROR</a>. Organizations maintained by ROR.org are automatically fetched using an auto suggesting function. For multilingual journals, additionally supported languages will be pre-filled given, ROR.org has the corresponding names in the OJS supported languages. </p>]]>></description>
 		<maintainer>
 			<name>Dulip Withanage</name>
@@ -8473,9 +8751,12 @@
 		</release>
 	</plugin>
 	<plugin category="importexport" product="medra">
+		<name locale="en">DOI to mEDRA xml export and registration plugin</name>
 		<name locale="en_US">DOI to mEDRA xml export and registration plugin</name>
 		<homepage>https://github.com/pkp/medra/</homepage>
+		<summary locale="en">Allows DOI export in ONIX4DOI format and the registration with mEDRA.</summary>
 		<summary locale="en_US">Allows DOI export in ONIX4DOI format and the registration with mEDRA.</summary>
+		<description locale="en"><![CDATA[<p>The mEDRA plugin enables the export of issue, article and galley metadata in ONIX4DOI format and
 		<description locale="en_US"><![CDATA[<p>The mEDRA plugin enables the export of issue, article and galley metadata in ONIX4DOI format and
 the registration of DOIs with mEDRA.</p>]]></description>
 		<maintainer>
@@ -8554,9 +8835,12 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 	</plugin>
 	<plugin category="pubIds" product="ark">
+		<name locale="en">ARK</name>
 		<name locale="en_US">ARK</name>
 		<homepage>https://github.com/yasielpv/pkp-ark-pubid</homepage>
+		<summary locale="en">Allows assign ARK ID to issue, article and galley.</summary>
 		<summary locale="en_US">Allows assign ARK ID to issue, article and galley.</summary>
+		<description locale="en"><![CDATA[<p>The ARK plugin enables the assignation and management of ARK ID to issue, article and galley.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>The ARK plugin enables the assignation and management of ARK ID to issue, article and galley.</p>]]></description>
 		<maintainer>
 			<name>Yasiel Perez Vera</name>
@@ -8655,9 +8939,12 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 	</plugin>
 	<plugin category="pubIds" product="purl">
+		<name locale="en">PURL</name>
 		<name locale="en_US">PURL</name>
 		<homepage>https://github.com/yasielpv/pkp-purl-pubid</homepage>
+		<summary locale="en">Allows assign PURL ID to issue, article and galley.</summary>
 		<summary locale="en_US">Allows assign PURL ID to issue, article and galley.</summary>
+		<description locale="en"><![CDATA[<p>The PURL plugin enables the assignation and management of PURL ID to issue, article and galley.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>The PURL plugin enables the assignation and management of PURL ID to issue, article and galley.</p>]]></description>
 		<maintainer>
 			<name>Yasiel Perez Vera</name>
@@ -8704,9 +8991,12 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="openid">
+		<name locale="en">OpenID Authentication Plugin</name>
 		<name locale="en_US">OpenID Authentication Plugin</name>
 		<homepage>https://github.com/leibniz-psychology/openid</homepage>
+		<summary locale="en">This plugin allows users to register and login with an OpenID Connect provider such as Keycloak, Google, Orchid, Microsoft and Apple</summary>
 		<summary locale="en_US">This plugin allows users to register and login with an OpenID Connect provider such as Keycloak, Google, Orchid, Microsoft and Apple</summary>
+		<description locale="en"><![CDATA[<p>This plugin enables logging in to PKP applications using OpenID Connect providers. It currently supports Google, Apple ID, Microsoft Azure AD and Orchid. It is also possible to configure a custom OpenID Connect provider such as Keycloak.</p><p>For more information check <a href="https://github.com/leibniz-psychology/openid">GitHub</a><br><strong>Read the <a href="https://github.com/leibniz-psychology/openid/wiki">wiki</a> if you need help with the configuration.</strong></p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin enables logging in to PKP applications using OpenID Connect providers. It currently supports Google, Apple ID, Microsoft Azure AD and Orchid. It is also possible to configure a custom OpenID Connect provider such as Keycloak.</p><p>For more information check <a href="https://github.com/leibniz-psychology/openid">GitHub</a><br><strong>Read the <a href="https://github.com/leibniz-psychology/openid/wiki">wiki</a> if you need help with the configuration.</strong></p>]]></description>
 		<maintainer>
 			<name>Ronny Bölter</name>
@@ -8788,9 +9078,12 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 	</plugin>
 	<plugin category="importexport" product="datacite">
+		<name locale="en">Datacite</name>
 		<name locale="en_US">Datacite</name>
 		<homepage>https://github.com/withanage/datacite</homepage>
+		<summary locale="en">This plugin allows DOI registration via Datacite</summary>
 		<summary locale="en_US">This plugin allows DOI registration via Datacite</summary>
+		<description locale="en"></description>
 		<description locale="en_US"></description>
 		<maintainer>
 			<name>Dulip Withanage</name>
@@ -8853,9 +9146,12 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="browseBySection">
+		<name locale="en">Browse By Section Plugin</name>
 		<name locale="en_US">Browse By Section Plugin</name>
 		<homepage>https://github.com/pkp/browseBySection</homepage>
+		<summary locale="en">A plugin which allows visitors to browse published articles by section.</summary>
 		<summary locale="en_US">A plugin which allows visitors to browse published articles by section.</summary>
+		<description locale="en"><![CDATA[<p>This plugin allows the journal to configure new public facing pages for each journal section, which list the published articles in that section by publication date or by title.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin allows the journal to configure new public facing pages for each journal section, which list the published articles in that section by publication date or by title.</p>]]></description>
 		<maintainer>
 			<name>Public Knowledge Project</name>
@@ -8907,13 +9203,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 	</plugin>
 	<plugin category="reports" product="scieloSubmissionsReport">
+		<name locale="en">SciELO Submissions Report</name>
 		<name locale="en_US">SciELO Submissions Report</name>
 		<name locale="es_ES">Relatorio de Envíos de SciELO</name>
 		<name locale="pt_BR">Relatório de Submissões SciELO</name>
 		<homepage>https://github.com/lepidus/scieloSubmissionsReport</homepage>
+		<summary locale="en">This plugin generates a CSV spreadsheet with submissions information that is usually requested by SciELO</summary>
 		<summary locale="en_US">This plugin generates a CSV spreadsheet with submissions information that is usually requested by SciELO</summary>
 		<summary locale="es_ES">Este módulo genera un informe CSV con la información de los envíos que normalmente solicita SciELO.</summary>
 		<summary locale="pt_BR">Este plugin gera um relatório CSV com informação das submissões que é normalmente requisitada pela SciELO.</summary>
+		<description locale="en"><![CDATA[<p>This plugin generates a CSV spreadsheet with information that is usually requested by SciELO, based on the website submissions.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin generates a CSV spreadsheet with information that is usually requested by SciELO, based on the website submissions.</p>]]></description>
 		<description locale="es_ES"><![CDATA[<p>Este módulo genera un informe CSV con información que normalmente solicita SciELO, según los envíos del sitio web.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Este plugin gera um relatório CSV com informações que são normalmente solicitadas pela SciELO, com base nas submissões do website.</p>]]></description>
@@ -8941,6 +9240,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.2.1.5</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">Improves UTF-8 enconding support and prevents SQL injections. First release sent to PKP Plugin Gallery.</description>
 			<description locale="en_US">Improves UTF-8 enconding support and prevents SQL injections. First release sent to PKP Plugin Gallery.</description>
 			<description locale="es_ES">Mejora la compatibilidad con la codificación UTF-8 y evita las inyecciones de SQL. Primera versión que se enviará a la galería de módulos de PKP.</description>
 			<description locale="pt_BR">Melhora suporte a codificação UTF-8 e previne injeções SQL. Primeira versão a ser enviada à galeria de plugins da PKP.</description>
@@ -8964,6 +9264,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.2.1.5</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">Fixes bug with the report filter by final decision date. This bug affected the submissions included in the report in both OPS and OJS.</description>
 			<description locale="en_US">Fixes bug with the report filter by final decision date. This bug affected the submissions included in the report in both OPS and OJS.</description>
 			<description locale="es_ES">Corrige bug con el filtro de la fecha de decisión final. Este error afectó los envíos incluidos en el informe tanto en OPS como en OJS.</description>
 			<description locale="pt_BR">Corrige bug com o filtro por data de decisão final. Esse bug afetava as submissões incluidas no relatório tanto no OPS quanto no OJS.</description>
@@ -8987,6 +9288,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.2.1.5</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">Correction in filtering by submission date that resulted in empty reports</description>
 			<description locale="en_US">Correction in filtering by submission date that resulted in empty reports</description>
 			<description locale="es_ES">Corrección en el filtrado por fecha de envío que resultó en informes vacíos</description>
 			<description locale="pt_BR">Correção na filtragem por data de submissão que resultava em relatórios vazios</description>
@@ -9010,6 +9312,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.2.1.5</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">Fixes plugin gallery problem, upgrades interface and fixes minor problems</description>
 			<description locale="en_US">Fixes plugin gallery problem, upgrades interface and fixes minor problems</description>
 			<description locale="es_ES">Corrige problema con la galería de módulos, actualiza la interfaz y corrige problemas menores</description>
 			<description locale="pt_BR">Corrige problema com a galeria de plugins, atualiza interface e corrige menores problemas</description>
@@ -9038,6 +9341,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.2.1.5</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">Fixes bad request issue on public site pages.</description>
 			<description locale="en_US">Fixes bad request issue on public site pages.</description>
 			<description locale="es_ES">Soluciona el problema de solicitud incorrecta en las páginas del sitio público.</description>
 			<description locale="pt_BR">Corrige problema de má requisição em páginas públicas do site.</description>
@@ -9077,6 +9381,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">This is the first release of this plugin compatible with OJS and OPS in 3.3.0-x versions.</description>
 			<description locale="en_US">This is the first release of this plugin compatible with OJS and OPS in 3.3.0-x versions.</description>
 			<description locale="es_ES">Esta es la primera versión de este módulo compatible con OJS y OPS en las versiones 3.3.0-x.</description>
 			<description locale="pt_BR">Esta é a primeira release deste plugin a ser compatível com OJS e OPS nas versões 3.3.0-x.</description>
@@ -9116,6 +9421,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">Adds support for uncovered editor decisions in the Last Decision column and fixes bug that prevented the loading of the Plugins page at Site Settings</description>
 			<description locale="en_US">Adds support for uncovered editor decisions in the Last Decision column and fixes bug that prevented the loading of the Plugins page at Site Settings</description>
 			<description locale="es_ES">Agrega soporte para decisiones editoriales que no se cubrieron en la columna Última decisión y corrige el error que impedía la carga de la página de módulos en la Configuración del sitio</description>
 			<description locale="pt_BR">Dá suporte a decisões editoriais que não eram cobertas na coluna da Última Decisão e corrige erro que impedia o carregamento da página de plugins nas Configurações do Portal</description>
@@ -9155,6 +9461,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">Fixes problem that occurred when a submitter didn't have a country filled</description>
 			<description locale="en_US">Fixes problem that occurred when a submitter didn't have a country filled</description>
 			<description locale="es_ES">Soluciona el problema que se producía cuando el autor que realizaba el envío no tenía la afiliación completa</description>
 			<description locale="pt_BR">Corrige problema que ocorria quando o autor submissor não possuía a afiliação preenchida</description>
@@ -9194,6 +9501,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">Increases overall plugin performance. Now it only takes 20% of the time it took to generate the report before.</description>
 			<description locale="en_US">Increases overall plugin performance. Now it only takes 20% of the time it took to generate the report before.</description>
 			<description locale="es_ES">Aumenta el rendimiento general del módulo. Ahora solo toma el 20% del tiempo que tomaba generar el informe antes.</description>
 			<description locale="pt_BR">Aumenta o desempenho geral do plugin. Agora, é necessário apenas 20% do tempo necessário anteriormente para gerar o relatório.</description>
@@ -9233,16 +9541,21 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed"/>
+			<description locale="en">This release adds the columns of abstract views and PDF views to the report. This change is currently available only to OPS.</description>
 			<description locale="en_US">This release adds the columns of abstract views and PDF views to the report. This change is currently available only to OPS.</description>
 			<description locale="es_ES">Esta versión agrega las columnas para vistas de PDF y resumen. Estos cambios actualmente solo están disponibles para OPS.</description>
 			<description locale="pt_BR">Essa versão adiciona as colunas de visualizações do PDF e do resumo. Essas mudanças estão disponíveis atualmente apenas para OPS.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="lucene">
+		<name locale="en">Lucene/Solr Plugin</name>
 		<name locale="en_US">Lucene/Solr Plugin</name>
 		<homepage>https://github.com/ojsde/lucene</homepage>
+		<summary locale="en">Solr/Lucene integration for OJS</summary>
 		<summary locale="en_US">Solr/Lucene integration for OJS</summary>
-		<description locale="en_US"><![CDATA[<p>This plugins  integrates the solr/search for  OJS journals.  <b>Warning! </b> Integration requires <b>additional configuration</b>  . Please see the <a href="https://github.com/ojsde/lucene#readme">help</a> page for configuration  and we advise to test it on a test installation, before using on a production server.</p>]]></description>		<maintainer>
+		<description locale="en"><![CDATA[<p>This plugins  integrates the solr/search for  OJS journals.  <b>Warning! </b> Integration requires <b>additional configuration</b>  . Please see the <a href="https://github.com/ojsde/lucene#readme">help</a> page for configuration  and we advise to test it on a test installation, before using on a production server.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugins  integrates the solr/search for  OJS journals.  <b>Warning! </b> Integration requires <b>additional configuration</b>  . Please see the <a href="https://github.com/ojsde/lucene#readme">help</a> page for configuration  and we advise to test it on a test installation, before using on a production server.</p>]]></description>
+		<maintainer>
 			<name>Dulip Withanage</name>
 			<institution>Public Knowledge Project</institution>
 			<email>pkp.contact@gmail.com</email>
@@ -9262,13 +9575,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="epubViewer">
+		<name locale="en">Bibi Epub Viewer</name>
 		<name locale="en_US">Bibi Epub Viewer</name>
 		<name locale="pt_BR">Visualizador de EPUB Bibi</name>
 		<name locale="es_ES">Visor EPUBs Bibi</name>
 		<homepage>https://github.com/lepidus/epubViewer</homepage>
+		<summary locale="en">A plugin for viewing embedded EPUBs in Open Journal Systems and Open Monograph Press using Bibi Epub Reader.</summary>
 		<summary locale="en_US">A plugin for viewing embedded EPUBs in Open Journal Systems and Open Monograph Press using Bibi Epub Reader.</summary>
 		<summary locale="pt_BR">Plugin para visualização embutida de EPUBs no Open Journal Systems e Open Monograph Press utilizando o Bibi Epub Reader.</summary>
 		<summary locale="es_ES">Módulo para visualización incrustada de EPUB en Open Journal Systems y Open Monograph Press con Bibi EPUB Reader.</summary>
+		<description locale="en"><![CDATA[<p>A plugin for viewing embedded EPUBs in Open Journal Systems and Open Monograph Press using Bibi Epub Reader.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>A plugin for viewing embedded EPUBs in Open Journal Systems and Open Monograph Press using Bibi Epub Reader.</p>]]></description>
 		<description locale="es_ES"><![CDATA[<p>Módulo para visualización incrustada de EPUB en Open Journal Systems y Open Monograph Press con Bibi EPUB Reader.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Plugin para visualização embutida de EPUBs no Open Journal Systems e Open Monograph Press utilizando o Bibi Epub Reader.</p>]]></description>
@@ -9315,15 +9631,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			</compatibility>
 
 			<certification type="reviewed"/>
+			<description locale="en">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to display embedded EPUBs files in publications.</description>
 			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to display embedded EPUBs files in publications.</description>
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP. Su funcionalidad principal es mostrar archivos EPUBs incrustados en publicaciones.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada para a galeria de plugins da PKP. Sua principal funcionalidade é exibir arquivos EPUBs embutidos nas publicações.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="inlineHtmlGalley">
+		<name locale="en">Inline Html Galley</name>
 		<name locale="en_US">Inline Html Galley</name>
 		<homepage>https://github.com/ulsdevteam/inlineHtmlGalley</homepage>
+		<summary locale="en">This plugin provides inline display of article galleys.</summary>
 		<summary locale="en_US">This plugin provides inline display of article galleys.</summary>
+		<description locale="en">This plugin provides inline display of article galleys. It replaces the default HTML Article Galley plugin's use of an iframe to deliver the HTML Galleys.</description>
 		<description locale="en_US">This plugin provides inline display of article galleys. It replaces the default HTML Article Galley plugin's use of an iframe to deliver the HTML Galleys.</description>
 		<maintainer>
 			<name>University Library System</name>
@@ -9371,13 +9691,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="plaudit">
+		<name locale="en">Plaudit</name>
 		<name locale="en_US">Plaudit</name>
 		<name locale="pt_BR">Plaudit</name>
 		<name locale="es_ES">Plaudit</name>
 		<homepage>https://github.com/lepidus/plaudit</homepage>
+		<summary locale="en">This plugin adds the Plaudit widget to the submission details on the submission's landing page.</summary>
 		<summary locale="en_US">This plugin adds the Plaudit widget to the submission details on the submission's landing page.</summary>
 		<summary locale="pt_BR">Este plugin adiciona o widget Plaudit aos detalhes na página pública da submissão.</summary>
 		<summary locale="es_ES">Este módulo agrega el widget Plaudit a los detalles de envío en el sitio público.</summary>
+		<description locale="en"><![CDATA[<p>This plugin adds the Plaudit widget to the submission details on the submission's landing page.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin adds the Plaudit widget to the submission details on the submission's landing page.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Este plugin adiciona o widget Plaudit aos detalhes na página pública da submissão.</p>]]></description>
 		<description locale="es_ES"><![CDATA[<p>Este módulo agrega el widget Plaudit a los detalles de envío en el sitio público.</p>]]></description>
@@ -9406,6 +9729,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed" />
+			<description locale="en">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add the Plaudit widget to the submission details on the submission's landing page.</description>
 			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to add the Plaudit widget to the submission details on the submission's landing page.</description>
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP. Su funcionalidad principal es agregar el widget Plaudit a los detalles de envío en el sitio web público.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada para a galeria de plugins da PKP. Sua principal funcionalidade é adicionar o widget Plaudit aos detalhes na página pública da submissão.</description>
@@ -9464,6 +9788,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed" />
+			<description locale="en">This release adds support for OJS and OMP in versions 3.3.0-x.</description>
 			<description locale="en_US">This release adds support for OJS and OMP in versions 3.3.0-x.</description>
 			<description locale="es_ES">Esta versión agrega compatibilidad con OJS y OMP en las versiones 3.3.0-x.</description>
 			<description locale="pt_BR">Esta versão adiciona suporte para o OJS e OMP nas versões 3.3.0-x.</description>
@@ -9522,19 +9847,23 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed" />
+			<description locale="en">This is the first version of the plugin compatible with OJS and OMP, in versions 3.3.0-x. It brings usability improvements over the previous version.</description>
 			<description locale="en_US">This is the first version of the plugin compatible with OJS and OMP, in versions 3.3.0-x. It brings usability improvements over the previous version.</description>
 			<description locale="es_ES">Esta es la primera versión del módulo compatible con OJS y OMP, en las versiones 3.3.0-x. Trae mejoras de usabilidad en comparación con la versión anterior.</description>
 			<description locale="pt_BR">Esta é a primeira versão do plugin compatível com OJS e OMP, nas versões 3.3.0-x. Traz melhorias de usabilidade em relação à versão anterior.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="toggleRequiredMetadata">
+		<name locale="en">Toggle Required Metadata</name>
 		<name locale="en_US">Toggle Required Metadata</name>
 		<name locale="pt_BR">Alternar Metadados requeridos</name>
 		<name locale="es_ES">Alternar los metadatos requeridos</name>
 		<homepage>https://github.com/lepidus/toggleRequiredMetadata</homepage>
+		<summary locale="en">This plugin makes the "affiliation" and "ORCID" fields required.</summary>
 		<summary locale="en_US">This plugin makes the "affiliation" and "ORCID" fields required.</summary>
 		<summary locale="pt_BR">Este plugin torna os campos "afiliação" e "ORCID" de preenchimento obrigatório.</summary>
 		<summary locale="es_ES">Este plugin hace que los campos "afiliación" y "ORCID" sean obligatorios.</summary>
+		<description locale="en"><![CDATA[<p>This plugin makes the "affiliation" and "ORCID" fields required.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin makes the "affiliation" and "ORCID" fields required.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Este plugin torna os campos "afiliação" e "ORCID" de preenchimento obrigatório.</p>]]></description>
 		<description locale="es_ES"><![CDATA[<p>Este módulo hace que los campos "afiliación" y "ORCID" sean obligatorios.</p>]]></description>
@@ -9597,6 +9926,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed" />
+			<description locale="en">Makes it required for the authors/contributors of the submission to fill in the "affiliation" field.</description>
 			<description locale="en_US">Makes it required for the authors/contributors of the submission to fill in the "affiliation" field.</description>
 			<description locale="es_ES">Obliga a los autores/colaboradores del envío a rellenar el campo "afiliación".</description>
 			<description locale="pt_BR">Torna obrigatório o preenchimento do campo "afiliação" pelos autores/contribuidores da submissão.</description>
@@ -9655,6 +9985,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed" />
+			<description locale="en">Makes the "ORCID" field required.</description>
 			<description locale="en_US">Makes the "ORCID" field required.</description>
 			<description locale="es_ES">Hace que el campo "ORCID" sea obligatorio.</description>
 			<description locale="pt_BR">Torna o campo "ORCID" obrigatório.</description>
@@ -9713,6 +10044,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed" />
+			<description locale="en">Allows configuring the fields to be required through the plugin settings. Checks if ORCID Profile Plugin is disabled to be able to require "ORCID" field.</description>
 			<description locale="en_US">Allows configuring the fields to be required through the plugin settings. Checks if ORCID Profile Plugin is disabled to be able to require "ORCID" field.</description>
 			<description locale="es_ES">Permite configurar los campos a ser requeridos a través de la configuración del módulo. Comprueba si el módulo de Perfil ORCID está deshabilitado para poder solicitar el campo "ORCID".</description>
 			<description locale="pt_BR">Permite configurar os campos a serem requeridos através das configurações do plugin. Verifica se o plugin Perfil ORCID está desativado para que seja possível requerer o campo "ORCID".</description>
@@ -9771,6 +10103,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed" />
+			<description locale="en">Allows you to configure the Biography Statement field as required.</description>
 			<description locale="en_US">Allows you to configure the Biography Statement field as required.</description>
 			<description locale="es_ES">Permite configurar el campo Resumen de Biografía como obligatorio.</description>
 			<description locale="pt_BR">Permite configurar o campo Resumo da Biografia como obrigatório.</description>
@@ -9829,6 +10162,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed" />
+			<description locale="en">Add CSRF checks.</description>
 			<description locale="en_US">Add CSRF checks.</description>
 			<description locale="es_ES">Añadir comprobación CSRF.</description>
 			<description locale="pt_BR">Adiciona checagem CSRF.</description>
@@ -9887,6 +10221,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.14</version>
 			</compatibility>
 			<certification type="reviewed" />
+			<description locale="en">Feat Bio Statement field required</description>
 			<description locale="en_US">Feat Bio Statement field required</description>
 			<description locale="es_ES">Campo obligatorio de declaración de biografía del autor</description>
 			<description locale="pt_BR">Campo de declaração de biografia do autor obrigatório</description>
