@@ -10272,7 +10272,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Campo de declaração de biografia do autor obrigatório</description>
 		</release>
 	</plugin>
-	<plugin category="themes" product="ojs-gopher-theme">
+	<plugin category="themes" product="gopher">
 		<name locale="en">Gopher Theme</name>
 		<name locale="en_US">Gopher Theme</name>
 		<homepage>https://github.com/UMNLibraries/ojs-gopher-theme</homepage>
