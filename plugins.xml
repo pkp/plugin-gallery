@@ -10328,6 +10328,28 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Fixed base directory name.</description>
 			<description locale="en_US">Fixed base directory name.</description>
 	</release>
+	<release date="2023-05-10" version="1.0.0.2" md5="3f1a2997c7781b796ed5d37934e9f750">
+			<package>https://github.com/UMNLibraries/ojs-gopher-theme/releases/download/1_0_0-2/gopher-1_0_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+			</compatibility>
+			<description locale="en">Updated version and download metadata to match.</description>
+			<description locale="en_US">Updated version and download metadata to match.</description>
+	</release>
 	</plugin>
 </plugins>
 
