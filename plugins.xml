@@ -7191,6 +7191,51 @@
 			<certification type="partner"/>
 			<description>Updated for cross-application compatibility.</description>
 		</release>
+		<release date="2023-05-17" version="1.0.2.1" md5="d53d5d2b12a04526d1ec4cbf095b81aa">
+			<package>https://github.com/pkp/authorRequirements/releases/download/v1.0.2-1/authorRequirements-v1.0.2-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Updated for OJS/OMP 3.3 compatibility and PHP 8.0 support</description>
+		</release>
+		<release date="2023-05-17" version="2.0.0.0" md5="56a6825b9b6e359901e146af67a4d9ce">
+			<package>https://github.com/pkp/authorRequirements/releases/download/v2.0.0-0/authorRequirements-v2.0.0-0.tar.gz
+			</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Updated for OJS/OMP 3.4 compatibility</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="registrationNotification">
 		<name locale="en">Registration Notification</name>
