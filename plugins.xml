@@ -1587,6 +1587,62 @@
 			<description locale="es_ES">Esta versión agrega soporte de traducción para el idioma ruso.</description>
 			<description locale="pt_BR">Essa versão adiciona um suporte de tradução para a linguagem russa.</description>
 		</release>
+		<release date="2023-07-06" version="1.1.1.0" md5="37580225a89d683fe8a3dd5693b81fe4">
+			<package>https://github.com/lepidus/authorsHistory/releases/download/v1.1.1/authorsHistory.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.2.1.5</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+				<version>3.3.0.15</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.2.1.5</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+				<version>3.3.0.15</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes the link for published articles exhibited in authors history.</description>
+			<description locale="en_US">This release fixes the link for published articles exhibited in authors history.</description>
+			<description locale="es_ES">Esta versión corrige el enlace para los envíos publicados exhibidos en la historia de los autores.</description>
+			<description locale="pt_BR">Esta versão corrige o link para artigos publicados exibido no histórico dos autores.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="pluginUpdateNotification">
 		<name locale="en">Plugins update notification</name>
