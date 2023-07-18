@@ -10912,6 +10912,18 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Corrige problema de compatibilidade com PHP 8</description>
 			<description locale="es_ES">Soluciona un problema de compatibilidad con PHP 8</description>
 		</release>
+		<release date="2023-07-18" version="2.0.0.0" md5="6774de2a1b6a2520e72d005730d0b8d4">
+			<package>https://github.com/lepidus/doiInSummary/releases/download/v2.0.0/doiInSummary.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release adds support for 3.4.0-x application releases</description>
+			<description locale="en_US">This release adds support for 3.4.0-x application releases</description>
+			<description locale="pt_BR">Essa versão adiciona suporte às versões 3.4.0-x das aplicações</description>
+			<description locale="es_ES">Esta versión agrega soporte para las versiones de aplicaciones 3.4.0-x</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="gopher">
 		<name locale="en">Gopher Theme</name>
@@ -11019,4 +11031,3 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 	</plugin>
 </plugins>
-
