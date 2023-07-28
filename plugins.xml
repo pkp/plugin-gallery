@@ -10837,6 +10837,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Campo obligatorio de declaración de biografía del autor</description>
 			<description locale="pt_BR">Campo de declaração de biografia do autor obrigatório</description>
 		</release>
+		<release date="2023-07-28" version="2.0.0.0" md5="6e8223918c3feaab84abe8283daa669d">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v2.0.0/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en">Adapt plugin for OJS 3.4</description>
+			<description locale="en_US">Adapt plugin for OJS 3.4</description>
+			<description locale="es_ES">Adapta el complemento para la versión 3.4 de OJS</description>
+			<description locale="pt_BR">Adapta plugin para a versão 3.4 do OJS</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="doiInSummary">
 		<name locale="en">DOI in Summary</name>
