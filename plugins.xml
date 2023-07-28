@@ -10221,6 +10221,20 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP. Su funcionalidad principal es mostrar archivos EPUBs incrustados en publicaciones.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada para a galeria de plugins da PKP. Sua principal funcionalidade é exibir arquivos EPUBs embutidos nas publicações.</description>
 		</release>
+		<release date="2023-07-28" version="2.0.0.0" md5="bae922a1a1a85da5135e626537d60481">
+			<package>https://github.com/lepidus/epubViewer/releases/download/v2.0.0/epubViewer.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.4.0.0</version>
+			</compatibility>
+
+			<certification type="reviewed"/>
+			<description locale="en">This release adds support for 3.4.0-x application releases.</description>
+			<description locale="es">Esta versión agrega soporte para las versiones de aplicaciones 3.4.0-x</description>
+			<description locale="pt_BR">Essa versão adiciona suporte às versões 3.4.0-x das aplicações.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="inlineHtmlGalley">
 		<name locale="en">Inline Html Galley</name>
