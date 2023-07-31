@@ -10850,8 +10850,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			</compatibility>
 			<certification type="reviewed" />
 			<description locale="en">Adapt plugin for OJS 3.4</description>
-			<description locale="en_US">Adapt plugin for OJS 3.4</description>
-			<description locale="es_ES">Adapta el complemento para la versión 3.4 de OJS</description>
+			<description locale="es">Adapta el complemento para la versión 3.4 de OJS</description>
 			<description locale="pt_BR">Adapta plugin para a versão 3.4 do OJS</description>
 		</release>
 	</plugin>
