@@ -1743,6 +1743,22 @@
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP. Su principal funcionalidad es agregar una notificación en los Ajustes del sítio web informando qué módulos tienen una actualización disponible.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada à Galeria de Plugins da PKP. Sua principal funcionalidade é adicionar uma notificação nas Configurações do Website, informando quais plugins possuem uma atualização disponível.</description>
 		</release>
+		<release date="2023-08-01" version="2.0.0.0" md5="dffca2a2fce29502a645a7b29079cadd">
+			<package>https://github.com/lepidus/pluginUpdateNotification/releases/download/v2.0.0/pluginUpdateNotification.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release brings support for OJS, OPS, and OMP in version 3.4.0. It's main functionality is to add a notification in the Website Settings informing which plugins have an upgrade available.</description>
+			<description locale="es">Esta versión agrega soporte para OJS, OPS y OMP en la versión 3.4.0. Su principal funcionalidad es agregar una notificación en los Ajustes del sítio web informando qué módulos tienen una actualización disponible.</description>
+			<description locale="pt_BR">Esta versão traz suporte ao OJS, OPS e OMP na versão 3.4.0. Sua principal funcionalidade é adicionar uma notificação nas Configurações do Website, informando quais plugins possuem uma atualização disponível.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="contentAnalysis">
 		<name locale="en">Content Analysis</name>
