@@ -4957,9 +4957,19 @@
 			<package>https://github.com/pkp/immersion/releases/download/1.1.2/immersion-1.1.2.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
 			</compatibility>
 			<certification type="official"/>
 			<description>The release updates the theme to be compatible with OJS 3.4.0</description>
+		</release>
+		<release date="2023-08-02" version="1.1.2.1" md5="e13514e3136853dc7605c9e7c2a4cc5e">
+			<package>https://github.com/pkp/immersion/releases/download/1.1.2.1/immersion-1.1.2.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="orcidProfile">
