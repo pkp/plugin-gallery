@@ -4957,7 +4957,6 @@
 			<package>https://github.com/pkp/immersion/releases/download/1.1.2/immersion-1.1.2.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.4.0.0</version>
-				<version>3.4.0.1</version>
 			</compatibility>
 			<certification type="official"/>
 			<description>The release updates the theme to be compatible with OJS 3.4.0</description>
@@ -4966,7 +4965,6 @@
 			<package>https://github.com/pkp/immersion/releases/download/1.1.2.1/immersion-1.1.2.1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.4.0.0</version>
-				<version>3.4.0.1</version>
 			</compatibility>
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
