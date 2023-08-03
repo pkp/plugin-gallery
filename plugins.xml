@@ -4561,6 +4561,14 @@
 			<certification type="reviewed" />
 			<description>Material plugin (version 2.1.1-0), includes localization extension.</description>
 		</release>
+		<release date="2023-08-03" version="2.2.0.0" md5="5297951b665175a35a7fb495fd7695a4">
+			<package>https://github.com/madi-nuralin/material/releases/download/v2_2_0-0/material-v2_2_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>Material plugin, v2.2.0-0. The OJS 3.4 compatible release.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="texture">
 		<name locale="en">Texture plugin</name>
