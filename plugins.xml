@@ -4191,6 +4191,14 @@
 			<certification type="official"/>
 			<description>Compatibility release for OJS 3.4.0</description>
 		</release>
+		<release date="2023-08-09" version="1.1.2.1" md5="ef3e80015a74de7ef1113bfac66f8590">
+			<package>https://github.com/pkp/classic/releases/download/1.1.2.1/classic-1.1.2.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="healthSciences">
 		<name locale="en">Health Sciences</name>
@@ -4350,6 +4358,14 @@
 				<version>3.4.0.0</version>
 			</compatibility>
 			<description>Compatibility release for OJS 3.4.0</description>
+		</release>
+		<release date="2023-08-09" version="1.1.2.1" md5="bd99334cd90b7bcefab52474b75980ec">
+			<package>https://github.com/pkp/healthSciences/releases/download/1.1.2.1/healthSciences-1.1.2.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="defaultManuscript">
@@ -5023,6 +5039,22 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>The release updates the theme to be compatible with OJS 3.4.0</description>
+		</release>
+		<release date="2023-08-02" version="1.1.2.1" md5="e13514e3136853dc7605c9e7c2a4cc5e">
+			<package>https://github.com/pkp/immersion/releases/download/1.1.2.1/immersion-1.1.2.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
+		<release date="2023-08-09" version="1.1.2.2" md5="38222b6a05fbd85be8e8e15adbce4410">
+			<package>https://github.com/pkp/immersion/releases/download/1.1.2.2/immersion-1.1.2.2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="orcidProfile">
@@ -8946,6 +8978,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>This release updates the theme to be compatible with OJS 3.4.0</description>
+		</release>
+		<release date="2023-08-09" version="1.1.2.1" md5="a0f0a24ddc0b455cdca895a5bacb8d54">
+			<package>https://github.com/pkp/pragma/releases/download/1.1.2.1/pragma-1.1.2.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0</description>
 		</release>
 	</plugin>
 	<plugin category="importexport" product="archivematicaExport">
