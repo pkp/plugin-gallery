@@ -6487,6 +6487,39 @@
 			<description>Plugin to enable the integration with ReviewerCredits.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="adminNotificationManager">
+		<name locale="en">Admin Notification Manager</name>
+		<name locale="en_US">Admin Notification Manager</name>
+		<homepage>https://github.com/ulsdevteam/pkp-adminNotificationManager</homepage>
+		<summary locale="en">This plugin disables email notification for all admin users, so they no longer recieve any email notifications from a journal after its creation. This is useful, for example, if the administrator account(s) are not responsible for editorial actions.</summary>
+		<summary locale="en_US">This plugin disables email notification for all admin users, so they no longer recieve any email notifications from a journal after its creation. This is useful, for example, if the administrator account(s) are not responsible for editorial actions.</summary>
+		<description locale="en">Enable this plugin to disable email notifications in the settings for newly created journals. This plugin also allows an administrator to disable email notifications for all existing journals.</description>
+		<description locale="en_US">Enable this plugin to disable email notifications in the settings for newly created journals. This plugin also allows an administrator to disable email notifications for all existing journals.</description>
+		<maintainer>
+			<name>University Library System</name>
+			<institution>University of Pittsburgh</institution>
+			<email>uls-systemsdevelopment@pitt.edu</email>
+		</maintainer>
+		<release date="2023-09-05" version="1.2.0.0" md5="668f04d76253179faecdda8904ac21af">
+			<package>https://github.com/ulsdevteam/pkp-adminNotificationManager/releases/download/v1.2.0.0/adminNotificationManager-v1.2.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the adminNotificationManager plugin for OJS 3.3.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="emailIssueToc">
 		<name locale="en">Email Issue Table of Contents</name>
 		<name locale="en_US">Email Issue Table of Contents</name>
