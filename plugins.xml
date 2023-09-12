@@ -11427,7 +11427,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Design changes and bug fixes.</description>
 			<description locale="en_US">Design changes and bug fixes.</description>
 		</release>
-		<release date="2023-09-12" version="1.0.2.0" md5="f501c73d4124836f879e211ce2af90bc">
+		<release date="2023-09-12" version="1.0.2.0" md5="d37579d6cce74a8a5f58c00bf798cfe1">
 			<package>https://github.com/UMNLibraries/ojs-gopher-theme/releases/download/1_0_2-0/gopher-1_0_2-0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
