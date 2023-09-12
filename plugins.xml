@@ -1,5 +1,27 @@
 <?xml version="1.0"?>
 <plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
+	<plugin category="generic" product="rqc">
+		<name locale="en">RQC Plugin</name>
+		<name locale="en_US">RQC Plugin</name>
+		<homepage>https://github.com/prechelt/ojs-rqcplugin</homepage>
+		<summary locale="en">Submit review data to the Review Quality Collector (RQC) service</summary>
+		<summary locale="en_US">Submit review data to the Review Quality Collector (RQC) service</summary>
+		<description locale="en"><![CDATA[<p><a href="https://reviewqualitycollector.org>RQC</a> supplies a reviewer with receipts (one per journal per year) certifying the quality of their work.<br> The plugin submits reviewing data from OJS to RQC for review grading.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p><a href="https://reviewqualitycollector.org>RQC</a> supplies a reviewer with receipts (one per journal per year) certifying the quality of their work.<br> The plugin submits reviewing data from OJS to RQC for review grading.</p>]]></description>
+		<maintainer>
+			<name>Lutz Prechelt</name>
+			<institution>Freie Universität Berlin</institution>
+			<email>prechelt@inf.fu-berlin.de</email>
+		</maintainer>
+		<release date="2023-09-12"  version="v1.0.0-33" md5="e1590bc4a1d291e37f5e6e1f4cc25f73">
+			<package>https://github.com/prechelt/ojs-rqcplugin/releases/download/v1.0.0-33/rqc-ojs-v1.0.0-33.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>>3.3.0.10</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="epubJsViewer">
 		<name locale="en">EPUB Viewer</name>
 		<name locale="en_US">EPUB Viewer</name>
