@@ -16,7 +16,7 @@
 		<release date="2023-09-12"  version="v1.0.0-33" md5="e1590bc4a1d291e37f5e6e1f4cc25f73">
 			<package>https://github.com/prechelt/ojs-rqcplugin/releases/download/v1.0.0-33/rqc-ojs-v1.0.0-33.tar.gz</package>
 			<compatibility application="ojs2">
-				<version>>3.3.0.10</version>
+				<version>3.3.x</version>
 			</compatibility>
 			<certification type="reviewed"/>
 			<description>Initial release.</description>
