@@ -11370,6 +11370,84 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Adapta el complemento para la versión 3.4 de OJS</description>
 			<description locale="pt_BR">Adapta plugin para a versão 3.4 do OJS</description>
 		</release>
+		<release date="2023-10-11" version="2.0.1.0" md5="c493ec052db4632e7cc99ea460a25c84">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v2.0.1/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en">Fixed an error when enabled via Site Settings. Plugin can only be enabled in journals.</description>
+			<description locale="es">Corregido un error cuando se habilita a través de la Configuración del sitio. El plugin solo se puede habilitar en revistas.</description>
+			<description locale="pt_BR">Corrigido um erro quando habilitado via Configurações do Site. O plugin só pode ser habilitado em periódicos.</description>
+		</release>
+		<release date="2023-10-11" version="1.2.10.0" md5="1e4ece31d9cb68fc3c4c7ed75f1ce503">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v1.2.10/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+				<version>3.3.0.15</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+				<version>3.3.0.15</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+				<version>3.3.0.15</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en">Fixed an error when enabled via Site Settings. Plugin can only be enabled in journals.</description>
+			<description locale="en_US">Fixed an error when enabled via Site Settings. Plugin can only be enabled in journals.</description>
+			<description locale="es_ES">Corregido un error cuando se habilita a través de la Configuración del sitio. El plugin solo se puede habilitar en revistas.</description>
+			<description locale="pt_BR">Corrigido um erro quando habilitado via Configurações do Site. O plugin só pode ser habilitado em periódicos.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="doiInSummary">
 		<name locale="en">DOI in Summary</name>
