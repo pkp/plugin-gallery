@@ -6848,6 +6848,20 @@
 			<certification type="partner" />
 			<description>Release of the Editorial Bio plugin for OJS 3.3</description>
 		</release>
+		<release date="2023-09-22" version="1.1.0.0" md5="2D7A9861FFC364E292A4D0D406739448">
+			<package>https://github.com/ulsdevteam/pkp-editorialBio/releases/download/v1.1.0-0/editorialBio-1.1.0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the Editorial Bio plugin for OJS 3.4</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="clamav">
 		<name locale="en">Clam Antivirus plugin</name>
