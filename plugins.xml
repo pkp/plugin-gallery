@@ -7442,6 +7442,20 @@
 			<certification type="partner" />
 			<description>Release of the Sitesearch plugin for OJS/OMP/OPS 3.3</description>
 		</release>
+		<release date="2023-10-13" version="1.2.0.0" md5="42baddf35fb6f601d1b61d491f616ccb">
+			<package>https://github.com/ulsdevteam/pkp-sitesearch/releases/download/v1.2.0.0/sitesearch-1.2.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.4.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the Sitesearch plugin for OJS/OMP/OPS 3.4</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="akismet">
 		<name locale="en">Akismet</name>
