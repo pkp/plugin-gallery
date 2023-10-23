@@ -4622,7 +4622,7 @@
 		<description locale="en"><![CDATA[<p>A clean, simple theme with a boxed layout that mimics a paper document. It features a similar layout as the default theme, with a different look and feel for your OJS 3 journal. You can customize the primary and accent colors to match your branding.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>A clean, simple theme with a boxed layout that mimics a paper document. It features a similar layout as the default theme, with a different look and feel for your OJS 3 journal. You can customize the primary and accent colors to match your branding.</p>]]></description>
 		<maintainer>
-			<name>Nate Wright</name>
+			<name>Jarda Kotěšovec</name>
 			<institution>Public Knowledge Project</institution>
 			<email>pkp.contact@gmail.com</email>
 		</maintainer>
@@ -4699,6 +4699,14 @@
 			</compatibility>
 			<certification type="official" />
 			<description>A minor update to support changes to the default theme in OJS 3.3.</description>
+		</release>
+		<release date="2023-10-23" version="1.0.4.0" md5="4ee2129b2505fedd10f7bcdaef76a198">
+			<package>https://github.com/pkp/defaultManuscript/releases/download/v1_0_4-0/defaultManuscript-v1_0_4-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility with 3.4.0 version.</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="material">
