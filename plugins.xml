@@ -9705,6 +9705,14 @@
 			<certification type="reviewed"/>
 			<description>Added Crossref contact information to request permission to use the cited-by service.</description>
 		</release>
+		<release date="2023-07-29" version="3.4.0.1" md5="93cbd1cd21fbe518732614966debbb4c">
+			<package>https://github.com/RBoelter/citations/releases/download/v3_4_0-1/citations-v3_4_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>The plugin was completely rewritten for OJS 3.4 and to clean up old (terrible) code and replace it with new, more maintainable, Sonarqube-tested code.</description>
+		</release>
 	</plugin>
 	<plugin category="importexport" product="portico">
 		<name locale="en">Portico Plugin</name>
