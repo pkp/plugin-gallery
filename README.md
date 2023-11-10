@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/pkp/plugin-gallery.svg?branch=master)](https://travis-ci.org/pkp/plugin-gallery)
+[![Build Status](https://app.travis-ci.com/pkp/plugin-gallery.svg?branch=main)](https://travis-ci.org/pkp/plugin-gallery)
 
 # Plugin Gallery
 
