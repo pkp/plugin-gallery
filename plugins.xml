@@ -4950,6 +4950,14 @@
 			<certification type="reviewed" />
 			<description>Material plugin, v2.2.0-0. The OJS 3.4 compatible release.</description>
 		</release>
+		<release date="2023-11-21" version="2.2.1.0" md5="eaaf5444ee669f09e6b0a8ff86dc7978">
+			<package>https://github.com/madi-nuralin/material/releases/download/v2_2_1-0/material-v2_2_1-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description><![CDATA[<p>Resolve:</p><ul><li>Issue <a href="https://github.com/madi-nuralin/material/issues/13">#13</a>: Is there any way to remove the spinner/website loading animation?)</li><li>Issue <a href="https://github.com/madi-nuralin/material/issues/15">#15</a>: How to cite block appearing twice in OJS 3.4.0.3</li><li>Issue <a href="https://github.com/madi-nuralin/material/issues/16">#16</a>: Request to change username to username and email on the login page.</li></ul>]]></description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="texture">
 		<name locale="en">Texture plugin</name>
