@@ -9812,6 +9812,14 @@
 			<certification type="reviewed"/>
 			<description>PKP|PN for OJS 3.3.0-x.</description>
 		</release>
+		<release date="2023-12-02" version="2.0.4.3" md5="4b8d3144108c3261dd537529a3e6932c">
+			<package>https://github.com/pkp/pln/releases/download/v2_0_4-3/pln-v2_0_4-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>PKP|PN for OJS 3.3.0-x. Several issues have been addressed and the error handling has been improved.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="citations">
 		<name locale="en">Scopus/Crossref Citations Plugin</name>
