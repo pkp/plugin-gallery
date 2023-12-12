@@ -12199,4 +12199,36 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">Public release</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="customQuestions">
+		<name locale="en">Custom Questions</name>
+		<name locale="en_US">Custom Questions</name>
+		<name locale="pt_BR">Perguntas Personalizadas</name>
+		<name locale="es_ES">Preguntas personalizadas</name>
+		<homepage>https://github.com/lepidus/customQuestions</homepage>
+		<summary locale="en">Plugin to add custom questions to submission wizard</summary>
+		<summary locale="en_US">Plugin to add custom questions to submission wizard</summary>
+		<summary locale="pt_BR">Plugin para adicionar perguntas personalizadas ao fluxo de submissão</summary>
+		<summary locale="es">Módulo para agregar preguntas personalizadas al asistente de envío.</summary>
+		<summary locale="es_ES">Módulo para agregar preguntas personalizadas al asistente de envío.</summary>
+		<description locale="en"><![CDATA[<p>A plugin to add custom questions to submission wizard</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>A plugin to add custom questions to submission wizard</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Módulo para agregar preguntas personalizadas al asistente de envío.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Módulo para agregar preguntas personalizadas al asistente de envío.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Um plugin para adicionar perguntas personalizadas ao fluxo de submissão</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2023-06-22" version="1.0.0.0" md5="531f79ef8c5a7a6cb8f0a675df6f0469">
+			<package>https://github.com/lepidus/customQuestions/releases/download/v1.0.0/customQuestions.tar.gz</package>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Manage custom questions to be answered by authors during the submission Details step.</description>
+			<description locale="es">Administre preguntas personalizadas que deben ser respondidas por los autores durante el paso Detalles del envío.</description>
+			<description locale="pt_BR">Gerencie perguntas personalizadas a serem respondidas pelos autores durante o passo Detalhes da submissão.</description>
+		</release>
+	</plugin>
 </plugins>
