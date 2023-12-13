@@ -12230,5 +12230,15 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Administre preguntas personalizadas que deben ser respondidas por los autores durante el paso Detalles del envío.</description>
 			<description locale="pt_BR">Gerencie perguntas personalizadas a serem respondidas pelos autores durante o passo Detalhes da submissão.</description>
 		</release>
+		<release date="2023-12-13" version="1.0.1.0" md5="581726c84a77b24caa3445a198947f19">
+			<package>https://github.com/lepidus/customQuestions/releases/download/v1.0.1/customQuestions.tar.gz</package>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Ensures the question is related to the current journal.</description>
+			<description locale="es">Asegura que la pregunta esté relacionada con el diario actual.</description>
+			<description locale="pt_BR">Garante que a pergunta esteja relacionada ao revista atual.</description>
+		</release>
 	</plugin>
 </plugins>
