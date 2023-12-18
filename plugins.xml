@@ -12224,9 +12224,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<description locale="es"><![CDATA[<p>Módulo para agregar preguntas personalizadas al asistente de envío.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Um plugin para adicionar perguntas personalizadas ao fluxo de submissão</p>]]></description>
 		<maintainer>
-			<name>Lepidus Tecnologia Team</name>
-			<institution>Lepidus Tecnologia</institution>
-			<email>contato@lepidus.com.br</email>
+			<name>SciELO Brazil Online Submission and Preprints Unit</name>
+			<institution>SciELO in collaboration with Lepidus</institution>
+			<email>scielo.submission@scielo.org</email>
 		</maintainer>
 		<release date="2023-06-22" version="1.0.0.0" md5="531f79ef8c5a7a6cb8f0a675df6f0469">
 			<package>https://github.com/lepidus/customQuestions/releases/download/v1.0.0/customQuestions.tar.gz</package>
