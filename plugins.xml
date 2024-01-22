@@ -2299,6 +2299,19 @@
 			</compatibility>
 			<certification type="partner"/><description>This release of the Shariff plugin for OJS/OMP/OPS 3.4.0 WCAG compliant button styles.</description>
 		</release>
+		<release date="2023-01-22" version="3.4.3.0" md5="58D648C41009B2E912CF788E78BD59A7">
+			<package>https://github.com/ojsde/shariff/releases/download/v3_4_0-2/shariff-3_4_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner"/><description>This release of the Shariff plugin adds the option to select whether to share the URL to the article page or the DOI-URL.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="addThis">
 		<name locale="en">AddThis</name>
