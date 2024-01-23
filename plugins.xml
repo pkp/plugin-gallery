@@ -12688,7 +12688,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		
 		<release date="2024-01-01" version="3.0" md5="3234a0dd82158ce104dfcf91f070e9a6">
 			<package>https://github.com/dgb-sistemas/plugin_biblat/releases/download/v3.0/biblat.tar.gz</package>
-			<compatibility application="ojs3">
+			<compatibility application="ojs2">
 				<version>3.1.1-4</version>
 				<version>3.1.1-2</version>
 				<version>3.1.1-1</version>
@@ -12705,7 +12705,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		
 		<release date="2024-01-01" version="3.1.2" md5="1a71857163358a567a3a26290eb40600">
 			<package>https://github.com/dgb-sistemas/plugin_biblat/releases/download/v3.1.2/biblat.tar.gz</package>
-			<compatibility application="ojs3">
+			<compatibility application="ojs2">
 				<version>3.1.2-4</version>
 				<version>3.1.2-3</version>
 				<version>3.1.2-2</version>
@@ -12718,7 +12718,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		
 		<release date="2024-01-01" version="3.2" md5="9682fa9259a87f5fbd920c5ee5f8eb8b">
 			<package>https://github.com/dgb-sistemas/plugin_biblat/releases/download/v3.2/biblat.tar.gz</package>
-			<compatibility application="ojs3">
+			<compatibility application="ojs2">
 				<version>3.2.1-4</version>
 				<version>3.2.1-3</version>
 				<version>3.2.1-2</version>
@@ -12735,7 +12735,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		
 		<release date="2024-01-01" version="3.3" md5="9b051821464f0bc7e6c67727d9aca9fd">
 			<package>https://github.com/dgb-sistemas/plugin_biblat/releases/download/v3.3/biblat.tar.gz</package>
-			<compatibility application="ojs3">
+			<compatibility application="ojs2">
 				<version>3.3.0-10</version>
 				<version>3.3.0-9</version>
 				<version>3.3.0-8</version>
@@ -12752,12 +12752,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		
 		<release date="2024-01-01" version="3.3.0.11" md5="46479e77b39b209a3b584fc396176124">
 			<package>https://github.com/dgb-sistemas/plugin_biblat/releases/download/v3.3.0.11/biblat.tar.gz</package>
-			<compatibility application="ojs3">
-				<version>3.3.0-15</version>
-				<version>3.3.0-14</version>
-				<version>3.3.0-13</version>
-				<version>3.3.0-12</version>
-				<version>3.3.0-11</version>
+			<compatibility application="ojs2">
+				<version>~3.3.0-11</version>
 			</compatibility>
 			<certification type="reviewed"/>
 			<description>Update to be compatible with OJS 3.3.11 - 3.4</description>
@@ -12765,9 +12761,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		
 		<release date="2024-01-01" version="3.4" md5="7610b133192b29bd56f7f734723cdfa8">
 			<package>https://github.com/dgb-sistemas/plugin_biblat/releases/download/v3.4/biblat.tar.gz</package>
-			<compatibility application="ojs3">
-				<version>3.4.0-1</version>
-				<version>3.4.0-0</version>
+			<compatibility application="ojs2">
+				<version>~3.4.0-0</version>
 			</compatibility>
 			<certification type="reviewed"/>
 			<description>Update to be compatible with OJS 3.4 or later</description>
