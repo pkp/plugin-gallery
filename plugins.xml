@@ -7082,6 +7082,14 @@
 			<certification type="reviewed" />
 			<description>Update for compatibility with v3.3.</description>
 		</release>
+		<release date="2024-02-22" version="3.4.0.1" md5="58b88ec1c91a0d7ae2da22993713e54b">
+			<package>https://github.com/ojsde/openAIRE/releases/download/3.4.0.1/openAIRE.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>Update for compatibility with v3.4.</description>
+		</release>		
 	</plugin>
 	<plugin category="generic" product="lensGalleyBits">
 		<name locale="en">Lens Viewer for Monographs and Journal Articles</name>
