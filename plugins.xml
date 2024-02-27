@@ -7221,6 +7221,14 @@
 			</compatibility>
 			<certification type="reviewed" />
 			<description>Update for compatibility with v3.4.</description>
+		</release>
+		<release date="2024-02-27" version="3.4.0.2" md5="58d6934467a6ff3b4d8b4e8bcb4af231">
+			<package>https://github.com/ojsde/openAIRE/releases/download/3.4.0.2/openAIRE.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>Update for compatibility with v3.4.</description>
 		</release>		
 	</plugin>
 	<plugin category="generic" product="lensGalleyBits">
