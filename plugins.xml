@@ -3761,6 +3761,24 @@
 			<certification type="official" />
 			<description>Compatibility release of the JATS Template plugin for OJS 3.3.0</description>
 		</release>
+		<release date="2024-03-11" version="1.0.6.2" md5="ec611cf64a6e74cc04a336c2105576ab">
+			<package>https://github.com/pkp/jatsTemplate/releases/download/v1_0_6-2/jatsTemplate-v1_0_6-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Include preferred name and author bio fields</description>
+		</release>
 		<release date="2023-03-31" version="1.0.7.1" md5="7d2b59d87421281db11666c323865ed7">
 			<package>https://github.com/pkp/jatsTemplate/releases/download/v1_0_7-1/jatsTemplate-v1_0_7-1.tar.gz</package>
 			<compatibility application="ojs2">
@@ -4098,6 +4116,24 @@
 			</compatibility>
 			<certification type="official" />
 			<description>Bugfix release of the OAI JATS plugin for OJS 3.3</description>
+		</release>
+		<release date="2024-03-11" version="1.0.4.5" md5="56fe2dcc6f80d48315d3b3063ee72d5a">
+			<package>https://github.com/pkp/oaiJats/releases/download/v1_0_4-5/oaiJats-v1_0_4-5.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Use publication sequence for article sequence information</description>
 		</release>
 		<release date="2023-03-31" version="1.0.5.0" md5="6dac9f370d7a41252a48319195d87786">
 			<package>https://github.com/pkp/oaiJats/releases/download/v1_0_5-0/oaiJats-v1_0_5-0.tar.gz</package>
@@ -6799,6 +6835,39 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>consider old API URL in plugin settings</description>
+		</release>
+		<release date="2024-03-11" version="1.1.3.13" md5="22a254bf284ace8a906853ac3021ac6e">
+			<package>https://github.com/pkp/orcidProfile/releases/download/v1_1_3-13/orcidProfile-v1_1_3-13.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Various bug fixes</description>
 		</release>
 		<release date="2023-08-24" version="1.1.4.3" md5="32bf2228e83262566f03076cf546dc9b">
 			<package>https://github.com/pkp/orcidProfile/releases/download/v1_3_4-4/orcidProfile-v1_3_4-4.tar.gz</package>
