@@ -2403,6 +2403,19 @@
 			</compatibility>
 			<certification type="partner"/><description>This release of the Shariff plugin adds the option to select whether to share the URL to the article page or the DOI-URL.</description>
 		</release>
+		<release date="2024-03-22" version="3.4.3.2" md5="3c7f74dba83049622d1d7473b61f5bdc">
+			<package>https://github.com/ojsde/shariff/releases/download/v3_4_0-4/shariff-3_4_0-4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner"/><description>This release of the Shariff plugin fixes the Url shared via e-mail.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="addThis">
 		<name locale="en">AddThis</name>
