@@ -5146,11 +5146,11 @@
 		<homepage>https://github.com/madi-nuralin/material.git</homepage>
 		<summary locale="en">Material Theme (MDBootstrap based)</summary>
 		<summary locale="en_US">Material Theme (MDBootstrap based)</summary>
-		<description locale="en"><![CDATA[<p>Material Theme (MDBootstrap based), adaptive stylesheet for both fronted and backend templates.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>Material Theme (MDBootstrap based), adaptive stylesheet for both fronted and backend templates.</p>]]></description>
+		<description locale="en"><![CDATA[<p>Material Theme, adaptive stylesheet for fronted templates.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Material Theme, adaptive stylesheet for fronted templates.</p>]]></description>
 		<maintainer>
 			<name>Madi Nuralin</name>
-			<institution>International Information Technology University</institution>
+			<institution/>
 			<email>nmdbzk@gmail.com</email>
 		</maintainer>
 		<release date="2021-08-26" version="1.0.0.0" md5="d2125c06df6bbf4fbbaf8780a207d803">
@@ -5286,6 +5286,14 @@
 			</compatibility>
 			<certification type="reviewed" />
 			<description><![CDATA[<p>Resolve:</p><ul><li>Issue <a href="https://github.com/madi-nuralin/material/issues/13">#13</a>: Is there any way to remove the spinner/website loading animation?)</li><li>Issue <a href="https://github.com/madi-nuralin/material/issues/15">#15</a>: How to cite block appearing twice in OJS 3.4.0.3</li><li>Issue <a href="https://github.com/madi-nuralin/material/issues/16">#16</a>: Request to change username to username and email on the login page.</li></ul>]]></description>
+		</release>
+		<release date="2024-04-09" version="3.0.0.0" md5="74fc4cf791416389ed3353687cdf2a85">
+			<package>https://github.com/madi-nuralin/material/releases/download/v3_0_0-0/material-v3_0_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>This release upgrades Material to version 3.0.0.0</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="texture">
