@@ -11168,6 +11168,15 @@
 			<certification type="partner"/>
 			<description>Adds support for OPS 3.3</description>
 		</release>
+		<release date="2024-04-29" version="3.4.0.2" md5="3707d3442e19f71fdc8bf1c1aa0803fa">
+			<package>https://github.com/withanage/ror/releases/download/v3_4_0-2/ror-v3_4_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>ROR plugin for OJS 3.4.0-x</description>
+		</release>
+
 	</plugin>
 	<plugin category="generic" product="medra">
 		<name locale="en">DOI to mEDRA XML export and registration plugin</name>
