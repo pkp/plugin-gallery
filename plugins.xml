@@ -7575,7 +7575,6 @@
 			<institution>ReviewerCredits</institution>
 			<email>emre.danisan@reviewercredits.com</email>
 		</maintainer>
-		
 		<release date="2024-05-29" version="2.1.3.9" md5="4eefd2fe3d2eada85c047655326cbcfb">
 			<package>https://www.reviewercredits.com/wp-content/uploads/2024/05/reviewerCredits.tar.gz</package>
 			<compatibility application="ojs2">
