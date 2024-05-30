@@ -13466,6 +13466,60 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">Initial release of the CRediT plugin for OJS 3.4.0.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="journalEditorRestriction">
+		<name locale="en">Journal Editor Restriction Plugin</name>
+		<name locale="en_US">Journal Editor Restriction Plugin</name>
+		<homepage>https://openjournaltheme.com/docs/ojs-product-documentation-free/journal-editor-restriction-plugin/</homepage>
+		<summary locale="en">Restricts some access for Journal Editors</summary>
+		<summary locale="en_US">Restricts some access for Journal Editors</summary>
+		<description locale="en"><![CDATA[<p>This plugin will disable access for Journal Editors to the following sections:</p>
+			<ul>
+				<li>Journal Settings</li>
+				<li>Website Settings</li>
+				<li>Workflow Settings</li>
+				<li>Distribution Settings</li>
+				<li>Users & Roles</li>
+				<li>Tools</li>
+			</ul>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin will disable access for Journal Editors to the following sections:</p>
+			<ul>
+				<li>Journal Settings</li>
+				<li>Website Settings</li>
+				<li>Workflow Settings</li>
+				<li>Distribution Settings</li>
+				<li>Users & Roles</li>
+				<li>Tools</li>
+			</ul>]]></description>
+		<maintainer>
+			<name>Open Journal Theme Team</name>
+			<institution>Open Journal Theme</institution>
+			<email>support@openjournaltheme.com</email>
+		</maintainer>
+		<release date="2024-05-02" version="1.0.0.0" md5="18ef7df40a41411df0db76302c7c508f">
+			<package>https://github.com/openjournalteam/journalEditorRestriction/releases/download/1.0.0.0/journalEditorRestriction.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+				<version>3.3.0.15</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release on OJS Plugin Gallery</description>
+		</release>
+	</plugin>
 
 
 </plugins>
