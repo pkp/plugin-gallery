@@ -4791,6 +4791,31 @@
 			<certification type="official" />
 			<description>This is a minor release to improve PHP8.1 compatibility.</description>
 		</release>
+		<release date="2024-07-03" version="3.2.0.6" md5="46064a0f4b4053786be6f0b41aefd4ac">
+			<package>https://github.com/pkp/bootstrap3/releases/download/v3_2_0-6/bootstrap3-v3_2_0-6.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+				<version>3.3.0.15</version>
+				<version>3.3.0.16</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>This release includes entry of reviewer interests, improved links in alert boxes, and minor bugfixes.</description>
+		</release>
 		<release date="2023-04-11" version="3.3.0.0" md5="8b4650bbb1699374913129fafc301057">
 			<package>https://github.com/pkp/bootstrap3/releases/download/v3_3_0-0/bootstrap3-v3_3_0-0.tar.gz</package>
 			<compatibility application="ojs2">
@@ -4814,6 +4839,14 @@
 			</compatibility>
 			<certification type="official" />
 			<description>Fixes version number mismatch</description>
+		</release>
+		<release date="2024-07-03" version="3.4.0.2" md5="61f4ead55c90981003aeb847d2bf3b2e">
+			<package>https://github.com/pkp/bootstrap3/releases/download/v3_4_0-2/bootstrap3-v3_4_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>This release includes entry of reviewer interests, improved links in alert boxes, and minor bugfixes.</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="classic">
