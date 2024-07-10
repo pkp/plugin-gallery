@@ -13444,8 +13444,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Open Journal Theme</institution>
 			<email>support@openjournaltheme.com</email>
 		</maintainer>
-		<release date="2024-05-02" version="1.0.0.0" md5="18ef7df40a41411df0db76302c7c508f">
-			<package>https://github.com/openjournalteam/journalEditorRestriction/releases/download/1.0.0.0/journalEditorRestriction.tar.gz</package>
+		<release date="2024-07-10" version="1.0.0.1" md5="cf4cd4691b5cf2b2738d050d52c8504b">
+			<package>https://github.com/openjournalteam/journalEditorRestriction/releases/download/1.0.0.1/journalEditorRestriction.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
