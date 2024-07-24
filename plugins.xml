@@ -1773,7 +1773,7 @@
 			<description locale="es">Esta versión agrega soporte para OJS, OPS y OMP en la versión 3.4.0. Su principal funcionalidad es agregar una notificación en los Ajustes del sítio web informando qué módulos tienen una actualización disponible.</description>
 			<description locale="pt_BR">Esta versão traz suporte ao OJS, OPS e OMP na versão 3.4.0. Sua principal funcionalidade é adicionar uma notificação nas Configurações do Website, informando quais plugins possuem uma atualização disponível.</description>
 		</release>
-		<release date="2023-11-14" version="2.0.0.1" md5="af0311d4f28e89d8b20c3be9fe682bac">
+		<release date="2023-11-14" version="2.0.1.0" md5="af0311d4f28e89d8b20c3be9fe682bac">
 			<package>https://github.com/lepidus/pluginUpdateNotification/releases/download/v2.0.1/pluginUpdateNotification.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
