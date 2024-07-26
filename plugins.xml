@@ -12371,5 +12371,42 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial release on OJS Plugin Gallery</description>
 		</release>
 	</plugin>
-
+	<plugin category="generic" product="doiForTranslation">
+		<name locale="en_US">DOI For Translation</name>
+		<name locale="pt_BR">DOI Para Tradução</name>
+		<name locale="es_ES">DOI Para La Traducción</name>
+		<homepage>https://github.com/lepidus/doiForTranslation</homepage>
+		<summary locale="en_US">Allows the creation of submissions which are translations of others</summary>
+		<summary locale="pt_BR">Permite a criação de submissões que são traduções de outras</summary>
+		<summary locale="es_ES">Permite crear envíos que son traducciones de otros envíos</summary>
+		<description locale="en_US"><![CDATA[<p>Allows the creation of submissions which are translations of others</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Permite a criação de submissões que são traduções de outras</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Permite crear envíos que son traducciones de otros envíos</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2024-07-25" version="1.0.3.1" md5="07161a2afc2d1f2b4f45f2d73b6fe31a">
+			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v1.0.3.1/doiForTranslation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release allows you to create a copy of a submission, where this new submission represents a translation of the original in a certain language. In addition, it will send Crossref the hasTranslation/isTranslationOf relationship linking the DOI of the original language with the DOI of the submission that is a translation.</description>
+			<description locale="pt_BR">Esta versão permite que você crie uma cópia de uma submissão, em que representa uma tradução do original em um determinado idioma. Além disso, ela enviará ao Crossref a relação hasTranslation/isTranslationOf que vincula o DOI do idioma original ao DOI do envio que é uma tradução.</description>
+			<description locale="es_ES">Esta versión le permite crear una copia de un envío, donde este nuevo envío representa una traducción del original en un idioma determinado. Además, enviará a Crossref la relación hasTranslation/isTranslationOf que vincula el DOI del idioma original con el DOI del envío que es una traducción.</description>
+		</release>
+	</plugin>
 </plugins>
