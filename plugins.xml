@@ -12387,8 +12387,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Lepidus Tecnologia</institution>
 			<email>contato@lepidus.com.br</email>
 		</maintainer>
-		<release date="2024-07-25" version="1.0.3.1" md5="07161a2afc2d1f2b4f45f2d73b6fe31a">
-			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v1.0.3.1/doiForTranslation.tar.gz</package>
+		<release date="2024-07-31" version="1.0.3.2" md5="46c934943baac95a1a84e78bd04f2e92">
+			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v1.0.3.2/doiForTranslation.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
