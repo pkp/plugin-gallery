@@ -4297,7 +4297,7 @@
 		<homepage>https://github.com/pkp/classic</homepage>
 		<summary locale="en">An official theme that plays on colour and font contrasts based on literary classicism.</summary>
 		<summary locale="en_US">An official theme that plays on colour and font contrasts based on literary classicism.</summary>
-		<description locale="en"><![CDATA[<p>An official theme for OJS 3.1.1.2+ designed with a classic style.</p>
+		<description locale="en"><![CDATA[<p>An official theme for OJS 3.1.1.2+ designed with a classic style.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>An official theme for OJS 3.1.1.2+ designed with a classic style.</p>
 <p>Classic theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<maintainer>
@@ -4436,7 +4436,7 @@
 		<homepage>https://github.com/pkp/healthSciences</homepage>
 		<summary locale="en">An official theme designed to maximize legibility and content clarity.</summary>
 		<summary locale="en_US">An official theme designed to maximize legibility and content clarity.</summary>
-		<description locale="en"><![CDATA[<p>An official theme designed for health science journals or any journal that wants a clean, modern appearance. The theme features a light grey-blue color scheme that evokes medical settings, but the color can be changed to fit any journal's needs.</p>
+		<description locale="en"><![CDATA[<p>An official theme designed for health science journals or any journal that wants a clean, modern appearance. The theme features a light grey-blue color scheme that evokes medical settings, but the color can be changed to fit any journal's needs.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>An official theme designed for health science journals or any journal that wants a clean, modern appearance. The theme features a light grey-blue color scheme that evokes medical settings, but the color can be changed to fit any journal's needs.</p>
 <p>Health Sciences theme was designed and developed by Sophy Ouch, Nate Wright, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<maintainer>
