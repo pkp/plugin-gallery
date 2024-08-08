@@ -9768,6 +9768,41 @@
 			<description>Minor improvements for Portuguese translations.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="webOfScience">
+		<name locale="en">Web of Science Reviewer Recognition</name>
+		<name locale="en_US">Web of Science Reviewer Recognition</name>
+		<homepage>https://github.com/clarivate/wos_reviewer_recognition_plugin_ojs_3/</homepage>
+		<summary locale="en">
+			This plugin enables integration with Web of Science Reviewer Recognition Service. To install and use this plugin you must first purchase the Web of Science Reviewer Recognition Service subscription.
+		</summary>
+		<summary locale="en_US">
+			This plugin enables integration with Web of Science Reviewer Recognition Service. To install and use this plugin you must first purchase the Web of Science Reviewer Recognition Service subscription.
+		</summary>
+		<description locale="en">
+			<![CDATA[<p>Web of Science Reviewer Recognition Service is a third-party workflow solution allowing you to provide your reviewers with the opportunity to gain recognition for their reviews on Web of Science.</p><p>To install and use this plugin you must first purchase the Web of Science Reviewer Recognition Service. To do this please register your interest by <a href=\"mailto:reviewservices@clarivate.com\">emailing Clarivate</a>. The Clarivate team will then be in touch to discuss your options and provide further instructions on how to integrate your journal with Web of Science Reviewer Recognition.</p>]]>
+		</description>
+		<description locale="en_US">
+			<![CDATA[<p>Web of Science Reviewer Recognition Service is a third-party workflow solution allowing you to provide your reviewers with the opportunity to gain recognition for their reviews on Web of Science.</p><p>To install and use this plugin you must first purchase the Web of Science Reviewer Recognition Service. To do this please register your interest by <a href=\"mailto:reviewservices@clarivate.com\">emailing Clarivate</a>. The Clarivate team will then be in touch to discuss your options and provide further instructions on how to integrate your journal with Web of Science Reviewer Recognition.</p>]]>
+		</description>
+		<maintainer>
+			<name>Clarivate</name>
+			<institution>Clarivate</institution>
+			<email>reviewservices@clarivate.com</email>
+		</maintainer>
+		<release date="2024-08-08" version="1.3.4.0" md5="72d62768f0db7d460950e6416c467ec5">
+			<package>https://github.com/clarivate/wos_reviewer_recognition_plugin_ojs_3/releases/download/v1.3.4.0/webOfScience.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.1</version>
+				<version>3.4.0.2</version>
+				<version>3.4.0.3</version>
+				<version>3.4.0.4</version>
+				<version>3.4.0.5</version>
+				<version>3.4.0.6</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Support for OJS 3.4, rebrand to Web of Science</description>
+		</release>
+	</plugin>
 	<plugin category="themes" product="pragma">
 		<name locale="en">Pragma</name>
 		<name locale="en_US">Pragma</name>
