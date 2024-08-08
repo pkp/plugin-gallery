@@ -12371,5 +12371,31 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial release on OJS Plugin Gallery</description>
 		</release>
 	</plugin>
-
+	<plugin category="generic" product="reviewReminder">
+		<name locale="en">Review Reminder</name>
+		<name locale="pt_BR">Lembrete de Avaliação</name>
+		<name locale="es">Recordatorio de Revisión</name>
+		<homepage>https://github.com/lepidus/reviewReminder</homepage>
+		<summary locale="en">Sends a review reminder email to assigned reviewers.</summary>
+		<summary locale="pt_BR">Envia um e-mail com lembrete de avaliação para avaliadores designados.</summary>
+		<summary locale="es">Envía un correo electrónico de recordatorio de revisión a los revisores asignados.</summary>
+		<description locale="en"><![CDATA[<p>Sends a review reminder email to assigned reviewers.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Envia um e-mail com lembrete de avaliação para avaliadores designados.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Envía un correo electrónico de recordatorio de revisión a los revisores asignados.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2024-07-30" version="0.0.0.6" md5="09235f785c0b9755ff6d335e648b586f">
+			<package>https://github.com/lepidus/reviewReminder/releases/download/v0.0.0.6/reviewReminder.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This plugin sends a reminder to the reviewer's email address when they are assigned to a submission. The reminder informs them of the review period, which can be added to major digital calendars.</description>
+			<description locale="pt_BR">Esse plugin envia um lembrete para o endereço de e-mail do avaliador quando ele é atribuído a uma submissão. O lembrete os informa sobre o período de revisão, que pode ser adicionado aos principais calendários digitais.</description>
+			<description locale="es">Este módulo envía un recordatorio a la dirección de correo electrónico del revisor cuando se le asigna un envío. El recordatorio les informa del periodo de revisión, que puede añadirse a los principales calendarios digitales.</description>
+		</release>
+	</plugin>
 </plugins>
