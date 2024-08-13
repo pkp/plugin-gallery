@@ -4429,6 +4429,14 @@
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
 		</release>
+		<release date="2024-08-09" version="1.1.2.2" md5="d2f0f9b45e07c3f0503d21312c4dcbfc">
+			<package>https://github.com/pkp/classic/releases/download/v1_1_2-2/classic-v1_1_2-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="healthSciences">
 		<name locale="en">Health Sciences</name>
@@ -4583,6 +4591,14 @@
 		</release>
 		<release date="2023-08-09" version="1.1.2.1" md5="bd99334cd90b7bcefab52474b75980ec">
 			<package>https://github.com/pkp/healthSciences/releases/download/1.1.2.1/healthSciences-1.1.2.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
+		<release date="2024-08-12" version="1.1.2.3" md5="e086369aa1a347cfc2c017700be67730">
+			<package>https://github.com/pkp/healthSciences/releases/download/v1_1_2-3/healthSciences-v1_1_2-3.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
@@ -5256,6 +5272,14 @@
 		</release>
 		<release date="2023-08-09" version="1.1.2.2" md5="38222b6a05fbd85be8e8e15adbce4410">
 			<package>https://github.com/pkp/immersion/releases/download/1.1.2.2/immersion-1.1.2.2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
+		<release date="2024-08-12" version="1.1.2.3" md5="afe2a11c795d7913a3597162e163c95c">
+			<package>https://github.com/pkp/immersion/releases/download/v1_1_2-3/immersion-v1_1_2-3.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
@@ -9860,6 +9884,14 @@
 		</release>
 		<release date="2023-08-09" version="1.1.2.1" md5="a0f0a24ddc0b455cdca895a5bacb8d54">
 			<package>https://github.com/pkp/pragma/releases/download/1.1.2.1/pragma-1.1.2.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
+		<release date="2024-08-09" version="1.1.2.2" md5="7da9d86cef1ac046a8243c30b264b628">
+			<package>https://github.com/pkp/pragma/releases/download/v1_1_2-2/pragma-v1_1_2-2.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
