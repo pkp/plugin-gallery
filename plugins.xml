@@ -4589,6 +4589,14 @@
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
 		</release>
+		<release date="2024-08-12" version="1.1.2.3" md5="e753d01c9865596910f385f1018b98f4">
+			<package>https://github.com/pkp/healthSciences/releases/download/v1_1_2-3/healthSciences-v1_1_2-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="defaultManuscript">
 		<name locale="en">Manuscript (Default child theme)</name>
