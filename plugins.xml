@@ -4429,6 +4429,14 @@
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
 		</release>
+		<release date="2024-08-09" version="1.1.2.2" md5="3f41877d71749a64e844d0ed7327294f">
+			<package>https://github.com/pkp/classic/releases/download/v1_1_2-2/classic-v1_1_2-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="healthSciences">
 		<name locale="en">Health Sciences</name>
