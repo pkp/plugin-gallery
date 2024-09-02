@@ -12476,4 +12476,43 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Este módulo envía un recordatorio a la dirección de correo electrónico del revisor cuando se le asigna un envío. El recordatorio les informa del periodo de revisión, que puede añadirse a los principales calendarios digitales.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="ojtPlugin">
+		<name locale="en">OJT Control Panel</name>
+		<name locale="en_US">OJT Control Panel</name>
+		<homepage>https://openjournaltheme.com/docs/how-to-install-ojtplugin/</homepage>
+		<summary locale="en">Extend functionality of OJS using plugin provided by Open Journal Theme</summary>
+		<summary locale="en_US">Extend functionality of OJS using plugin provided by Open Journal Theme</summary>
+		<description locale="en"><![CDATA[<p>The OJT Control Panel <b>allow us to extend</b> the functionality of the plugin that we have created even further that is not available for some setting by using the standard feature with the plugin provided by OJS. From a technical view, the standard feature of the plugin provided as a standard plugin user interface is highly limited. Plugins such as RePEc, and Letter of Acceptance require extended setting that is possible with the help of the OJT Control Panel.</p>
+			<p>By installing the plugin, you can install many of our products from free to premium products seamlessly</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>The OJT Control Panel <b>allow us to extend</b> the functionality of the plugin that we have created even further that is not available for some setting by using the standard feature with the plugin provided by OJS. From a technical view, the standard feature of the plugin provided as a standard plugin user interface is highly limited. Plugins such as RePEc, and Letter of Acceptance require extended setting that is possible with the help of the OJT Control Panel.</p>
+			<p>By installing the plugin, you can install many of our products from free to premium products seamlessly</p>]]></description>
+		<maintainer>
+			<name>Open Journal Theme Team</name>
+			<institution>Open Journal Theme</institution>
+			<email>support@openjournaltheme.com</email>
+		</maintainer>
+		<release date="2024-09-02" version="2.0.9.0" md5="36b042f58de3b5d912683f72d880ec87">
+			<package>https://github.com/openjournalteam/ojtPlugin/releases/download/2.0.9.0/ojtPlugin.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release on OJS Plugin Gallery</description>
+		</release>
+	</plugin>
 </plugins>
