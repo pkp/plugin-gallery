@@ -12491,7 +12491,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Open Journal Theme</institution>
 			<email>support@openjournaltheme.com</email>
 		</maintainer>
-		<release date="2024-09-02" version="2.0.9.0" md5="36b042f58de3b5d912683f72d880ec87">
+		<release date="2024-09-02" version="2.0.9.0" md5="fe03c097bb0623e40841dc02c43afb33">
 			<package>https://github.com/openjournalteam/ojtPlugin/releases/download/2.0.9.0/ojtPlugin.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.1.1</version>
