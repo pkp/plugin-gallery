@@ -8602,6 +8602,9 @@
 		<summary locale="en">Sends an email notification to a configurable list of emails whenever a new user is registered.</summary>
 		<summary locale="en_US">Sends an email notification to a configurable list of emails whenever a new user is registered.</summary>
 		<description locale="en"><![CDATA[
+			<p>Once enabled, the plugin will send an email notification to a configurable list of emails, configurable per journal/press, whenever a new user is registered. The plugin also supports setting up the email template using variables.</p>
+			<p>See <a href="https://github.com/pkp/registrationNotification/blob/master/README.md" target="_blank">https://github.com/pkp/registrationNotification/blob/master/README.md</a> for details.</p>
+		]]></description>
 		<description locale="en_US"><![CDATA[
 			<p>Once enabled, the plugin will send an email notification to a configurable list of emails, configurable per journal/press, whenever a new user is registered. The plugin also supports setting up the email template using variables.</p>
 			<p>See <a href="https://github.com/pkp/registrationNotification/blob/master/README.md" target="_blank">https://github.com/pkp/registrationNotification/blob/master/README.md</a> for details.</p>
@@ -8678,6 +8681,9 @@
 		<summary locale="en">Limit who can upload public files and what kind of files they can upload.</summary>
 		<summary locale="en_US">Limit who can upload public files and what kind of files they can upload.</summary>
 		<description locale="en"><![CDATA[
+			<p>Users can upload images wherever they are presented with a rich text editor that includes the image upload control. This includes places like the About the Journal section as well as the user biography in every user's profile area.</p>
+			<p>This plugin provides settings to restrict who can upload, what kind of files they can upload, and how large their directory of files can grow.</p>
+		]]></description>
 		<description locale="en_US"><![CDATA[
 			<p>Users can upload images wherever they are presented with a rich text editor that includes the image upload control. This includes places like the About the Journal section as well as the user biography in every user's profile area.</p>
 			<p>This plugin provides settings to restrict who can upload, what kind of files they can upload, and how large their directory of files can grow.</p>
@@ -8959,6 +8965,8 @@
 		<summary locale="en">Add controls to the rich text editor to upload images, manipulate the HTML code, and add tables.</summary>
 		<summary locale="en_US">Add controls to the rich text editor to upload images, manipulate the HTML code, and add tables.</summary>
 		<description locale="en"><![CDATA[
+			<p>This plugin provides settings to turn on extra controls for the rich text editor and to specify which fields should receive the additional controls.</p>
+		]]></description>
 		<description locale="en_US"><![CDATA[
 			<p>This plugin provides settings to turn on extra controls for the rich text editor and to specify which fields should receive the additional controls.</p>
 		]]></description>
@@ -9842,6 +9850,9 @@
 		<summary locale="en">An official theme for OJS 3.</summary>
 		<summary locale="en_US">An official theme for OJS 3.</summary>
 		<description locale="en"><![CDATA[
+			<p>A minimalist OJS theme inspired by early periodicals’ tables of contents featuring a bold use of a monochromatic colour palette.</p>
+			<p>Pragma theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>
+		]]></description>
 		<description locale="en_US"><![CDATA[
 			<p>A minimalist OJS theme inspired by early periodicals’ tables of contents featuring a bold use of a monochromatic colour palette.</p>
 			<p>Pragma theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>
