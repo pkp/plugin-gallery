@@ -4297,7 +4297,8 @@
 		<homepage>https://github.com/pkp/classic</homepage>
 		<summary locale="en">An official theme that plays on colour and font contrasts based on literary classicism.</summary>
 		<summary locale="en_US">An official theme that plays on colour and font contrasts based on literary classicism.</summary>
-		<description locale="en"><![CDATA[<p>An official theme for OJS 3.1.1.2+ designed with a classic style.</p>]]></description>
+		<description locale="en"><![CDATA[<p>An official theme for OJS 3.1.1.2+ designed with a classic style.</p>
+<p>Classic theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>An official theme for OJS 3.1.1.2+ designed with a classic style.</p>
 <p>Classic theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<maintainer>
@@ -4444,7 +4445,8 @@
 		<homepage>https://github.com/pkp/healthSciences</homepage>
 		<summary locale="en">An official theme designed to maximize legibility and content clarity.</summary>
 		<summary locale="en_US">An official theme designed to maximize legibility and content clarity.</summary>
-		<description locale="en"><![CDATA[<p>An official theme designed for health science journals or any journal that wants a clean, modern appearance. The theme features a light grey-blue color scheme that evokes medical settings, but the color can be changed to fit any journal's needs.</p>]]></description>
+		<description locale="en"><![CDATA[<p>An official theme designed for health science journals or any journal that wants a clean, modern appearance. The theme features a light grey-blue color scheme that evokes medical settings, but the color can be changed to fit any journal's needs.</p>
+<p>Health Sciences theme was designed and developed by Sophy Ouch, Nate Wright, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>An official theme designed for health science journals or any journal that wants a clean, modern appearance. The theme features a light grey-blue color scheme that evokes medical settings, but the color can be changed to fit any journal's needs.</p>
 <p>Health Sciences theme was designed and developed by Sophy Ouch, Nate Wright, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<maintainer>
@@ -5047,7 +5049,8 @@
 		<homepage>https://github.com/pkp/crossrefReferenceLinking</homepage>
 		<summary locale="en">Automatically add the extracted article references to the DOI registration with Crossref</summary>
 		<summary locale="en_US">Automatically add the extracted article references to the DOI registration with Crossref</summary>
-		<description locale="en"><![CDATA[<p>This plugin will automatically add the extracted article references to the DOI registration with Crossref. Crossref will then automatically check if any DOIs can be found for the submitted references. Shortly after that, using the scheduled task, the plugin will check for the found references DOIs. If article references change once they are registered, the article DOI with the new references will have to be registered anew. Then the check for the found references DOIs will be done again.</p>]]></description>
+		<description locale="en"><![CDATA[<p>This plugin will automatically add the extracted article references to the DOI registration with Crossref. Crossref will then automatically check if any DOIs can be found for the submitted references. Shortly after that, using the scheduled task, the plugin will check for the found references DOIs. If article references change once they are registered, the article DOI with the new references will have to be registered anew. Then the check for the found references DOIs will be done again.</p>
+<p>This plugin requires Crossref DOIs to be assigned to articles, article references to be separately entered and extracted, as well as article DOIs to be deposited to Crossref from within OJS. It uses the Crossref Export/Registration plugin settings: Crossref credentials (username and password), as well as the setting for the testing mode.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin will automatically add the extracted article references to the DOI registration with Crossref. Crossref will then automatically check if any DOIs can be found for the submitted references. Shortly after that, using the scheduled task, the plugin will check for the found references DOIs. If article references change once they are registered, the article DOI with the new references will have to be registered anew. Then the check for the found references DOIs will be done again.</p>
 <p>This plugin requires Crossref DOIs to be assigned to articles, article references to be separately entered and extracted, as well as article DOIs to be deposited to Crossref from within OJS. It uses the Crossref Export/Registration plugin settings: Crossref credentials (username and password), as well as the setting for the testing mode.</p>]]></description>
 		<maintainer>
@@ -5125,7 +5128,8 @@
 		<homepage>https://github.com/pkp/immersion</homepage>
 		<summary locale="en">An official theme focused on full-page visuals, large typefaces, and bold color blocks.</summary>
 		<summary locale="en_US">An official theme focused on full-page visuals, large typefaces, and bold color blocks.</summary>
-		<description locale="en"><![CDATA[<p>The Immersion theme emphasizes the reading experience and offers bold design options such as a full-width header image and per-section color choices. This theme may work best for arts and culture journals which want to present a more ambitious visual profile.</p>]]></description>
+		<description locale="en"><![CDATA[<p>The Immersion theme emphasizes the reading experience and offers bold design options such as a full-width header image and per-section color choices. This theme may work best for arts and culture journals which want to present a more ambitious visual profile.</p>
+<p>Immersion theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>The Immersion theme emphasizes the reading experience and offers bold design options such as a full-width header image and per-section color choices. This theme may work best for arts and culture journals which want to present a more ambitious visual profile.</p>
 <p>Immersion theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<maintainer>
