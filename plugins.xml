@@ -6,8 +6,8 @@
 		<homepage>https://github.com/prechelt/ojs-rqcplugin</homepage>
 		<summary locale="en">Submit review data to the Review Quality Collector (RQC) service</summary>
 		<summary locale="en_US">Submit review data to the Review Quality Collector (RQC) service</summary>
-		<description locale="en"><![CDATA[<p><a href="https://reviewqualitycollector.org>RQC</a> supplies a reviewer with receipts (one per journal per year) certifying the quality of their work.<br> The plugin submits reviewing data from OJS to RQC for review grading.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p><a href="https://reviewqualitycollector.org>RQC</a> supplies a reviewer with receipts (one per journal per year) certifying the quality of their work.<br> The plugin submits reviewing data from OJS to RQC for review grading.</p>]]></description>
+		<description locale="en"><![CDATA[<p><a href="https://reviewqualitycollector.org">RQC</a> supplies a reviewer with receipts (one per journal per year) certifying the quality of their work.<br> The plugin submits reviewing data from OJS to RQC for review grading.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p><a href="https://reviewqualitycollector.org">RQC</a> supplies a reviewer with receipts (one per journal per year) certifying the quality of their work.<br> The plugin submits reviewing data from OJS to RQC for review grading.</p>]]></description>
 		<maintainer>
 			<name>Lutz Prechelt</name>
 			<institution>Freie Universität Berlin</institution>
