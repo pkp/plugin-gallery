@@ -12562,4 +12562,52 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Este módulo envía un recordatorio a la dirección de correo electrónico del revisor cuando se le asigna un envío. El recordatorio les informa del periodo de revisión, que puede añadirse a los principales calendarios digitales.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="OASwitchboard">
+		<name locale="en">OA Switchboard Plugin</name>
+		<name locale="pt_BR">Plugin OA Switchboard</name>
+		<name locale="es">Módulo de OA Switchboard</name>
+		<homepage>https://github.com/lepidus/OASwitchboard</homepage>
+		<summary locale="en">Allows sending messages to OA Switchboard, automatically, at the publication of an article.</summary>
+		<summary locale="pt_BR">Permite o envio de mensagens para a OA Switchboard, de forma automática, no momento da publicação de um artigo.</summary>
+		<summary locale="es">Permite enviar mensajes a OA Switchboard, de forma automática, al momento de la publicación de un artículo.</summary>
+		<description locale="en"><![CDATA[<p>Allows sending messages to OA Switchboard, automatically, at the publication of an article.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Permite o envio de mensagens para a OA Switchboard, de forma automática, no momento da publicação de um artigo</p>]]></description>
+		<description locale="es"><![CDATA[<p>Permite enviar mensajes a OA Switchboard, de forma automática, al momento de la publicación de un artículo.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2024-10-30" version="1.1.1.7" md5="5299e380b84c94ba93518d4291d6e945">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.1.7/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This plugin sends a P1 message to the OA Switchboard when a submission is published.</description>
+			<description locale="pt_BR">Esse plugin envia uma mensagem P1 para o OA Switchboard quando uma submissão é publicada.</description>
+			<description locale="es_ES">Este módulo envía un mensaje P1 a la OA Switchboard cuando se publica un envío.</description>
+		</release>
+		<release date="2024-10-30" version="2.0.1.12" md5="c4f3e799d45916c15aad2cc6e9f65520">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.1.12/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This plugin sends a P1 message to the OA Switchboard when a submission is published.</description>
+			<description locale="pt_BR">Esse plugin envia uma mensagem P1 para o OA Switchboard quando uma submissão é publicada.</description>
+			<description locale="es">Este módulo envía un mensaje P1 a la OA Switchboard cuando se publica un envío.</description>
+		</release>
+	</plugin>
 </plugins>
