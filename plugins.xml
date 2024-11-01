@@ -10819,9 +10819,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<description locale="en"><![CDATA[<p>This plugin enables logging in to PKP applications using OpenID Connect providers. It currently supports Google, Apple ID, Microsoft Azure AD and Orchid. It is also possible to configure a custom OpenID Connect provider such as Keycloak.</p><p>For more information check <a href="https://github.com/leibniz-psychology/openid">GitHub</a><br><strong>Read the <a href="https://github.com/leibniz-psychology/openid/wiki">wiki</a> if you need help with the configuration.</strong></p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin enables logging in to PKP applications using OpenID Connect providers. It currently supports Google, Apple ID, Microsoft Azure AD and Orchid. It is also possible to configure a custom OpenID Connect provider such as Keycloak.</p><p>For more information check <a href="https://github.com/leibniz-psychology/openid">GitHub</a><br><strong>Read the <a href="https://github.com/leibniz-psychology/openid/wiki">wiki</a> if you need help with the configuration.</strong></p>]]></description>
 		<maintainer>
-			<name>Ronny Bölter</name>
-			<institution>Leibniz Institute for Psychology (ZPID), Trier, Germany</institution>
-			<email>rb@leibniz-psychology.org</email>
+			<name>Public Knowledge Project</name>
+			<institution>Public Knowledge Project</institution>
+			<email>pkp.contact@gmail.com</email>
 		</maintainer>
 		<release date="2021-03-03" version="3.3.0.6" md5="3122fbf0257ada5fc24a6898a425fed4">
 			<package>https://github.com/leibniz-psychology/openid/releases/download/v3_3_0-6/openid-v3_3_0-6.tar.gz</package>
@@ -10865,7 +10865,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.3.0.0</version>
 			</compatibility>
 			<certification type="reviewed" />
-			<description>OpenID plugin for OJS 3.3.0-x (first release)</description>
+			<description>OpenID plugin for OJS 3.3.0-x (first release) - Developed and Maintained by Leibniz Institute for Psychology (ZPID) (Ronny Bölter - rb@leibniz-psychology.org)</description>
 		</release>
 		<release date="2021-03-12" version="3.3.0.7" md5="f82afb94d9d5deb12dab22a7125c3e3c">
 			<package>https://github.com/leibniz-psychology/openid/releases/download/v3_3_0-7/openid-v3_3_0-7.tar.gz</package>
@@ -10885,7 +10885,21 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.3</version>
 			</compatibility>
 			<certification type="reviewed" />
-			<description>Registration as reviewer added. Review interest added. PHP warning fixed</description>
+			<description>Registration as reviewer added. Review interest added. PHP warning fixed - Developed and Maintained by Leibniz Institute for Psychology (ZPID) (Ronny Bölter - rb@leibniz-psychology.org)</description>
+		</release>
+		<release date="2024-11-01" version="4.0.0.0" md5="1079d7810824d92ce5452dbed0372baf">
+			<package>https://github.com/pkp/openid/releases/download/v4_0_0-0/openid-4.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Release of the OpenID plugin for OJS/OMP/OPS 3.4.0.</description>
 		</release>
 	</plugin>
 	<plugin category="importexport" product="datacite">
