@@ -10901,6 +10901,20 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="official" />
 			<description>Release of the OpenID plugin for OJS/OMP/OPS 3.4.0.</description>
 		</release>
+		<release date="2024-11-01" version="3.4.0.0" md5="d3ba48eba255bcfe3aba4a155441d356">
+			<package>https://github.com/pkp/openid/releases/download/v3_4_0-0/openid-v3_4_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Release of the OpenID plugin for OJS/OMP/OPS 3.3.0.</description>
+		</release>
 	</plugin>
 	<plugin category="importexport" product="datacite">
 		<name locale="en">Datacite</name>
