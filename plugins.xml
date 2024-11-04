@@ -12578,8 +12578,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Lepidus Tecnologia</institution>
 			<email>contato@lepidus.com.br</email>
 		</maintainer>
-		<release date="2024-10-30" version="1.1.1.7" md5="5299e380b84c94ba93518d4291d6e945">
-			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.1.7/OASwitchboard.tar.gz</package>
+		<release date="2024-11-04" version="1.1.1.8" md5="4aaab86951b178fe2b88c082c5877ade">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.1.8/OASwitchboard.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -12599,8 +12599,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Esse plugin envia uma mensagem P1 para o OA Switchboard quando uma submissão é publicada.</description>
 			<description locale="es_ES">Este módulo envía un mensaje P1 a la OA Switchboard cuando se publica un envío.</description>
 		</release>
-		<release date="2024-10-30" version="2.0.1.12" md5="c4f3e799d45916c15aad2cc6e9f65520">
-			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.1.12/OASwitchboard.tar.gz</package>
+		<release date="2024-11-04" version="2.0.1.14" md5="1986a8a448ed63ebd81285c293642f30">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.1.14/OASwitchboard.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
