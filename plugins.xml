@@ -12593,16 +12593,22 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	<plugin category="generic" product="downloadReviews">
 		<name locale="en">Download Reviews</name>
 		<name locale="en_US">Download Reviews</name>
+		<name locale="es">Descargar reseñas</name>
 		<name locale="es_ES">Descargar reseñas</name>
+		<name locale="pt">Download de resenhas</name>
 		<name locale="pt_BR">Download de resenhas</name>
 		<homepage>https://github.com/ubiquitypress/ojs-plugin-download-reviews</homepage>
 		<summary locale="en">Download a PDF or XML file of a submission's review</summary>
 		<summary locale="en_US">Download a PDF or XML file of a submission's review</summary>
+		<summary locale="es">Descargue un archivo PDF o XML de una reseña de envío</summary>
 		<summary locale="es_ES">Descargue un archivo PDF o XML de una reseña de envío</summary>
+		<summary locale="pt">Faça o download de um arquivo PDF ou XML da resenha de um envio</summary>
 		<summary locale="pt_BR">Faça o download de um arquivo PDF ou XML da resenha de um envio</summary>
 		<description locale="en"><![CDATA[<p>Download a PDF or XML file of a submission's review</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>Download a PDF or XML file of a submission's review</p>]]></description>
+		<description locale="es"><![CDATA[<p>Descargue un archivo PDF o XML de una reseña de envío</p>]]></description>
 		<description locale="es_ES"><![CDATA[<p>Descargue un archivo PDF o XML de una reseña de envío</p>]]></description>
+		<description locale="pt"><![CDATA[<p>Faça o download de um arquivo PDF ou XML da resenha de um envio</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Faça o download de um arquivo PDF ou XML da resenha de um envio</p>]]></description>
 		<maintainer>
 			<name>Ubiquity Press</name>
