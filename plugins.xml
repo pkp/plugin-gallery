@@ -15349,4 +15349,40 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial release - with bugfix</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="downloadReviews">
+		<name locale="en">Download Reviews</name>
+		<name locale="en_US">Download Reviews</name>
+		<name locale="es_ES">Descargar reseñas</name>
+		<name locale="pt_BR">Download de resenhas</name>
+		<homepage>https://github.com/ubiquitypress/ojs-plugin-download-reviews</homepage>
+		<summary locale="en">Download a PDF or XML file of a submission's review</summary>
+		<summary locale="en_US">Download a PDF or XML file of a submission's review</summary>
+		<summary locale="es_ES">Descargue un archivo PDF o XML de una reseña de envío</summary>
+		<summary locale="pt_BR">Faça o download de um arquivo PDF ou XML da resenha de um envio</summary>
+		<description locale="en"><![CDATA[<p>Download a PDF or XML file of a submission's review</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Download a PDF or XML file of a submission's review</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Descargue un archivo PDF o XML de una reseña de envío</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Faça o download de um arquivo PDF ou XML da resenha de um envio</p>]]></description>
+		<maintainer>
+			<name>Ubiquity Press</name>
+			<institution>Ubiquity Press</institution>
+			<email>tech@ubiquitypress.com</email>
+		</maintainer>
+		<release date="2024-10-31"  version="1.0.6.1" md5="54b29b88e2eba92adcfd2d3839a425f8">
+			<package>https://github.com/ubiquitypress/ojs-plugin-download-reviews/releases/download/1.0.6.1/ojs-plugin-download-reviews-1.0.6.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Release for OJS 3.3</description>
+		</release>
+		<release date="2024-10-31"  version="1.1.2.1" md5="e3b25db7aee647c4b9a47491ceb3b951">
+			<package>https://github.com/ubiquitypress/ojs-plugin-download-reviews/releases/download/1.1.2.1/ojs-plugin-download-reviews-1.1.2.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Release for OJS 3.4</description>
+		</release>
+	</plugin>
 </plugins>
