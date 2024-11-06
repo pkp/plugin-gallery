@@ -11279,8 +11279,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta versión agrega las columnas para vistas de PDF y resumen. Estos cambios actualmente solo están disponibles para OPS.</description>
 			<description locale="pt_BR">Essa versão adiciona as colunas de visualizações do PDF e do resumo. Essas mudanças estão disponíveis atualmente apenas para OPS.</description>
 		</release>
-		<release date="2024-08-19" version="2.4.3.0" md5="b235cae1086482e2c69ac46981d2b069">
-			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.3.0/scieloSubmissionsReport.tar.gz</package>
+		<release date="2024-11-06" version="2.4.3.1" md5="7a62bebc936c257d12e27ce44fc6fa31">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.3.1/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.1</version>
 				<version>3.3.0.2</version>
@@ -11308,12 +11308,12 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.3.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en_US">This release adds a field to select all available sections.</description>
-			<description locale="es_ES">Esta versión añade un campo para seleccionar todas las secciones disponibles.</description>
-			<description locale="pt_BR">Esta versão adiciona um campo para selecionar todas as seções disponíveis.</description>
+			<description locale="en_US">This release fixes text error in the option to select all sections.</description>
+			<description locale="es_ES">Esta versión corrige un error de texto en la opción para seleccionar todas las secciones.</description>
+			<description locale="pt_BR">Esta versão corrige erro de texto na opção de selecionar todas as seções.</description>
 		</release>
-		<release date="2024-08-19" version="3.0.2.0" md5="811ae9c6515d86243136ad930c6086b7">
-			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.2.0/scieloSubmissionsReport.tar.gz</package>
+		<release date="2024-11-06" version="3.0.2.1" md5="267623738b12e249beec161a43722c3d">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.2.1/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
@@ -11321,9 +11321,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.4.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en">This release adds a field to select all available sections.</description>
-			<description locale="es">Esta versión añade un campo para seleccionar todas las secciones disponibles.</description>
-			<description locale="pt_BR">Esta versão adiciona um campo para selecionar todas as seções disponíveis.</description>
+			<description locale="en">This release fixes text error in the option to select all sections.</description>
+			<description locale="es">Esta versión corrige un error de texto en la opción para seleccionar todas las secciones.</description>
+			<description locale="pt_BR">Esta versão corrige erro de texto na opção de selecionar todas as seções.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="lucene">
