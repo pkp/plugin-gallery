@@ -11279,6 +11279,39 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta versión agrega las columnas para vistas de PDF y resumen. Estos cambios actualmente solo están disponibles para OPS.</description>
 			<description locale="pt_BR">Essa versão adiciona as colunas de visualizações do PDF e do resumo. Essas mudanças estão disponíveis atualmente apenas para OPS.</description>
 		</release>
+		<release date="2024-08-19" version="2.4.3.0" md5="b235cae1086482e2c69ac46981d2b069">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.3.0/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release adds a field to select all available sections.</description>
+			<description locale="es_ES">Esta versión añade un campo para seleccionar todas las secciones disponibles.</description>
+			<description locale="pt_BR">Esta versão adiciona um campo para selecionar todas as seções disponíveis.</description>
+		</release>
 		<release date="2024-08-19" version="3.0.2.0" md5="811ae9c6515d86243136ad930c6086b7">
 			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.2.0/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
