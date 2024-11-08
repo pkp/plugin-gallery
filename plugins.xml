@@ -12246,6 +12246,71 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Corregido un error cuando se habilita a través de la Configuración del sitio. El plugin solo se puede habilitar en revistas.</description>
 			<description locale="pt_BR">Corrigido um erro quando habilitado via Configurações do Site. O plugin só pode ser habilitado em periódicos.</description>
 		</release>
+		<release date="2024-04-02" version="2.1.0.0" md5="c7426869d65b8179266c19d9d4e2f325">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v2.1.0.0/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en">This version adds a check for required metadata during submission.</description>
+			<description locale="es">Esta versión añade una comprobación de los metadatos necesarios durante el envío.</description>
+			<description locale="pt_BR">Esta versão adiciona uma verificação de metadados obrigatórios durante o envio.</description>
+		</release>
+		<release date="2024-04-01" version="1.3.0.0" md5="cfed7481621745cce1c5972ecbeab00b">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v1.3.0/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en_US">This version adds checks for required metadata during submission.</description>
+			<description locale="es_ES">Esta versión añade comprobaciones de los metadatos necesarios durante el envío.</description>
+			<description locale="pt_BR">Esta versão adiciona verificações de metadados necessários durante o envio.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="doiInSummary">
 		<name locale="en">DOI in Summary</name>
