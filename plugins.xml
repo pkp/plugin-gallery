@@ -1891,6 +1891,37 @@
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada à Galeria de Plugins da PKP.</description>
 		</release>
+		<release date="2024-03-22" version="1.5.2.0" md5="dfd48f6993686a91d0f959dfddbfc892">
+			<package>https://github.com/lepidus/contentAnalysis/releases/download/v1.5.2/contentAnalysis.tar.gz</package>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This version fixes a bug where ORCIDs with line breaks on it were not detected.</description>
+			<description locale="es_ES">Esta versión corrige un error por el que no se detectaban los ORCID con saltos de línea.</description>
+			<description locale="pt_BR">Esta versão corrige um bug em que ORCIDs com quebras de linha não eram detectados.</description>
+		</release>
+		<release date="2024-03-22" version="2.1.1.0" md5="99c0d798b91a1b8e08bebd52bab815ea">
+			<package>https://github.com/lepidus/contentAnalysis/releases/download/v2.1.1/contentAnalysis.tar.gz</package>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This version fixes a bug where ORCIDs with line breaks on it were not detected.</description>
+			<description locale="es">Esta versión corrige un error por el que no se detectaban los ORCID con saltos de línea.</description>
+			<description locale="pt_BR">Esta versão corrige um bug em que ORCIDs com quebras de linha não eram detectados.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
 		<name locale="en">Matomo</name>
