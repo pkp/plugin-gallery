@@ -1409,6 +1409,20 @@
 			<certification type="reviewed"/>
 			<description>Update for compatibility with v3.3.0</description>
 		</release>
+		<release date="2024-11-17" version="3.4.0.1" md5="dfe15489dd066010907e22f73921d1c6">
+			<package>https://github.com/ajnyga/allowedUploads/releases/download/3.4.0.1/allowedUploads.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Update for compatibility with v3.4.0</description>
+		</release>		
 	</plugin>
 	<plugin category="generic" product="authorsHistory">
 		<name locale="en">Authors History</name>
