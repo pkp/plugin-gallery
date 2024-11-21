@@ -10266,6 +10266,14 @@
 			<certification type="reviewed"/>
 			<description>PKP|PN for OJS 3.4.x-x. First release for OJS 3.4.</description>
 		</release>
+		<release date="2024-11-21" version="3.0.0.1" md5="bee6599a9c791c056542e0930ae76a91">
+			<package>https://github.com/pkp/pln/releases/download/v3_0_0-1/pln-v3_0_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>PKP|PN for OJS 3.4.x-x. Fixed minor bug when using the MariaDB database.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="citations">
 		<name locale="en">Scopus/Crossref Citations Plugin</name>
