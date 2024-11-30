@@ -1409,7 +1409,7 @@
 			<certification type="reviewed"/>
 			<description>Update for compatibility with v3.3.0</description>
 		</release>
-		<release date="2024-11-17" version="3.4.0.1" md5="dfe15489dd066010907e22f73921d1c6">
+		<release date="2024-11-17" version="3.4.0.1" md5="1496afa623d4a086a7c6aa9e2997af50">
 			<package>https://github.com/ajnyga/allowedUploads/releases/download/3.4.0.1/allowedUploads.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
