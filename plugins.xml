@@ -2095,6 +2095,37 @@
 			<certification type="official" />
 			<description>Matomo/Piwik release for OJS/OMP 3.4.0</description>
 		</release>
+		<release date="2024-12-04" version="1.0.4.1" md5="9fe4b7ce317b627b126eadefc2f7342e">
+			<package>https://github.com/pkp/piwik/releases/download/v1_0_4-1/piwik-v1_0_4-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Matomo/Piwik release for OJS/OMP 3.3.0</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="shariff">
 		<name locale="en">Shariff Plugin</name>
