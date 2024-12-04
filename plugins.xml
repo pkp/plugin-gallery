@@ -9884,6 +9884,64 @@
 			<certification type="reviewed" />
 			<description>OpenGraph plugin for 3.3</description>
 		</release>
+		<release date="2024-12-04" version="3.3.0.0" md5="01d4c4d074e660585c0e1eecb0b1225b">
+			<package>https://github.com/ajnyga/openGraph/releases/download/3.3.0.0/openGraph.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>OpenGraph plugin for 3.3</description>
+		</release>
+		<release date="2024-12-04" version="3.4.0.0" md5="e8897ba3bcfa2fb3ec0167a9d15b5f6e">
+			<package>https://github.com/ajnyga/openGraph/releases/download/3.4.0.0/openGraph.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>OpenGraph plugin for 3.4</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="publons">
 		<name locale="en">Publons Reviewer Recognition Plugin</name>
