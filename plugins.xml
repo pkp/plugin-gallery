@@ -7047,18 +7047,34 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="reviewerCredits">
-		<name locale="en">ReviewerCredits Plugin</name>
-		<name locale="en_US">ReviewerCredits Plugin</name>
+		<name locale="en">Reviewer Credits Plugin</name>
+		<name locale="en_US">Reviewer Credits Plugin</name>
 		<homepage>https://gitlab.com/reviewercredits/reviewercredits-ojs-plugin</homepage>
-		<summary locale="en">This plugin enable the integration with ReviewerCredits (www.reviewercredits.com).</summary>
-		<summary locale="en_US">This plugin enable the integration with ReviewerCredits (www.reviewercredits.com).</summary>
-		<description locale="en"><![CDATA[This plugin enables the integration with ReviewerCredits using REST APIs. The main goal is to find reviewers and exchange peer review data with the ReviewerCredits platform.]]></description>
-		<description locale="en_US"><![CDATA[This plugin enables the integration with ReviewerCredits using REST APIs. The main goal is to find reviewers and exchange peer review data with the ReviewerCredits platform.]]></description>
+		<summary locale="en">This plugin enable the integration with Reviewer Credits (www.reviewercredits.com).</summary>
+		<summary locale="en_US">This plugin enable the integration with Reviewer Credits (www.reviewercredits.com).</summary>
+		<description locale="en"><![CDATA[This plugin enables the integration with Reviewer Credits using REST APIs. The main goal is to find reviewers and exchange peer review data with the Reviewer Credits platform.]]></description>
+		<description locale="en_US"><![CDATA[This plugin enables the integration with Reviewer Credits using REST APIs. The main goal is to find reviewers and exchange peer review data with the Reviewer Credits platform.]]></description>
 		<maintainer>
 			<name>Emre Danisan</name>
 			<institution>Reviewer Credits GmbH</institution>
 			<email>emre.danisan@reviewercredits.com</email>
 		</maintainer>
+		<release date="2024-12-03" version="2.2.0.1" md5="2874f24c908823ef957528797f41da49">
+			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/v2/reviewercredits-ojs-plugin-stable-3_3_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Plugin to enable the reviewer finder and peer review data integration with Reviewer Credits.</description>
+		</release>
+		<release date="2024-12-03" version="2.2.0.1" md5="a85c8654503f71313438ff5da7916a59">
+			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/v2/reviewercredits-ojs-plugin-stable-3_4_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Plugin to enable the reviewer finder and peer review data integration with Reviewer Credits.</description>
+		</release>
 		<release date="2024-06-14" version="2.1.3.10" md5="9b5d8cc6ec30c03af7d5ae905d03989e">
 			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/reviewercredits-ojs-plugin-stable-3_3_0.tar.gz</package>
 			<compatibility application="ojs2">
