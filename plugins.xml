@@ -10251,7 +10251,7 @@
 			<email>contacto@escire.mx</email>
 		</maintainer>
 		<release date="2020-07-01" version="1.0.0.0" md5="bb46e07468830059e9a1223ccfd1a24d">
-			<package>https://github.com/escire/ArchivematicaExportPlugin/archive/refs/tags/compat-ojs3.1.x.tar.gz</package>
+			<package>https://github.com/escire/ArchivematicaExportPlugin/archive/refs/heads/compat-ojs3.1.x.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.1.0.0</version>
 				<version>3.1.0.1</version>
