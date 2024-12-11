@@ -10826,63 +10826,6 @@
 			<certification type="official" />
 			<description>ROR plugin for OJS 3.4.0-x</description>
 		</release>
-
-	</plugin>
-	<plugin category="generic" product="medra">
-		<name locale="en">DOI to mEDRA XML export and registration plugin</name>
-		<name locale="en_US">DOI to mEDRA XML export and registration plugin</name>
-		<homepage>https://github.com/pkp/medra/</homepage>
-		<summary locale="en">Allows DOI export in ONIX4DOI format and the registration with mEDRA.</summary>
-		<summary locale="en_US">Allows DOI export in ONIX4DOI format and the registration with mEDRA.</summary>
-		<description locale="en"><![CDATA[<p>The mEDRA plugin enables the export of issue and article metadata in ONIX4DOI format and
-the registration of DOIs with mEDRA.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>The mEDRA plugin enables the export of issue and article metadata in ONIX4DOI format and
-the registration of DOIs with mEDRA.</p>]]></description>
-		<maintainer>
-			<name>Public Knowledge Project</name>
-			<institution>Public Knowledge Project</institution>
-			<email>pkp.contact@gmail.com</email>
-		</maintainer>
-		<release date="2023-11-14" version="4.0.0.0" md5="e6dda0719199564b29cf0dda087e8892">
-			<package>https://github.com/pkp/medra/releases/download/v4_0_0-0/medra-v4_0_0-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<certification type="official" />
-			<description>mEDRA plugin for OJS 3.4.0-x</description>
-		</release>
-		<release date="2024-02-08" version="4.0.0.1" md5="47ebb74c50dc3331edf4f0bf515b73c1">
-			<package>https://github.com/pkp/medra/releases/download/v4_0_0-1/medra-v4_0_0-1.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<certification type="official" />
-			<description>Bugfix for OJS 3.4.0-x</description>
-		</release>
-		<release date="2024-03-16" version="4.0.0.2" md5="e9b0602114d814c2b745c026bcb08a14">
-			<package>https://github.com/pkp/medra/releases/download/v4_0_0-2/medra-v4_0_0-2.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<certification type="official" />
-			<description>Bugfix for OJS 3.4.0-x</description>
-		</release>
-		<release date="2024-03-19" version="4.0.0.3" md5="45ff62dfc484f4e6c3cbe7573bb15a97">
-			<package>https://github.com/pkp/medra/releases/download/v4_0_0-3/medra-v4_0_0-3.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<certification type="official" />
-			<description>Bugfix for OJS 3.4.0-x</description>
-		</release>
-		<release date="2024-04-16" version="4.0.0.4" md5="9a3ed67908c1d02b06b371caff211dcb">
-			<package>https://github.com/pkp/medra/releases/download/v4_0_0-4/medra-v4_0_0-4.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<certification type="official" />
-			<description>Improvement for OJS 3.4.0-x</description>
-		</release>
 	</plugin>
 	<plugin category="importexport" product="medra">
 		<name locale="en">DOI to mEDRA xml export and registration plugin</name>
@@ -10964,6 +10907,46 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			</compatibility>
 			<certification type="official" />
 			<description>No contributors, subtitle element, different schema location for test and production</description>
+		</release>
+		<release date="2023-11-14" version="4.0.0.0" md5="e6dda0719199564b29cf0dda087e8892">
+			<package>https://github.com/pkp/medra/releases/download/v4_0_0-0/medra-v4_0_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>mEDRA plugin for OJS 3.4.0-x</description>
+		</release>
+		<release date="2024-02-08" version="4.0.0.1" md5="47ebb74c50dc3331edf4f0bf515b73c1">
+			<package>https://github.com/pkp/medra/releases/download/v4_0_0-1/medra-v4_0_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix for OJS 3.4.0-x</description>
+		</release>
+		<release date="2024-03-16" version="4.0.0.2" md5="e9b0602114d814c2b745c026bcb08a14">
+			<package>https://github.com/pkp/medra/releases/download/v4_0_0-2/medra-v4_0_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix for OJS 3.4.0-x</description>
+		</release>
+		<release date="2024-03-19" version="4.0.0.3" md5="45ff62dfc484f4e6c3cbe7573bb15a97">
+			<package>https://github.com/pkp/medra/releases/download/v4_0_0-3/medra-v4_0_0-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix for OJS 3.4.0-x</description>
+		</release>
+		<release date="2024-04-16" version="4.0.0.4" md5="9a3ed67908c1d02b06b371caff211dcb">
+			<package>https://github.com/pkp/medra/releases/download/v4_0_0-4/medra-v4_0_0-4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Improvement for OJS 3.4.0-x</description>
 		</release>
 		<release date="2024-10-22" version="3.0.0.5" md5="d8fc77a95608acfbbdd8b88b73c15d2b">
 			<package>https://github.com/pkp/medra/releases/download/v3_0_0-5/medra-v3_0_0-5.tar.gz</package>
