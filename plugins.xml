@@ -4470,6 +4470,14 @@
 			<certification type="official" />
 			<description>This release includes entry of reviewer interests, improved links in alert boxes, and minor bugfixes.</description>
 		</release>
+		<release date="2024-12-11" version="3.4.0.3" md5="6c31298ab6f1d3c9fb96e2b76499640e">
+			<package>https://github.com/pkp/bootstrap3/releases/download/v3_4_0-3/bootstrap3-v3_4_0-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>This releases fixes bugs in citation display, article previews, and date formatting on the article details page.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="classic">
 		<name locale="en">Classic</name>
