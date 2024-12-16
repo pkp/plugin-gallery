@@ -940,6 +940,43 @@
 			<certification type="official" />
 			<description>Bugfix for password saving when using the settings form.</description>
 		</release>
+		<release date="2024-12-16" version="1.0.7.3" md5="1f046be3807b8e79be6dc1bfc5ceb857">
+			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_7-3/plagiarism-v1_0_7-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.18</version>
+				<version>3.3.0.19</version>
+				<version>3.3.0.20</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.18</version>
+				<version>3.3.0.19</version>
+				<version>3.3.0.20</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.18</version>
+				<version>3.3.0.19</version>
+				<version>3.3.0.20</version>
+			</compatibility>
+			<certification type="official" />
+			<description>iThenticate latest API integration with added support for OMP and OPS</description>
+		</release>
+		<release date="2024-12-16" version="1.0.8.1" md5="acbd5cbf30fb4314404935aa5bdbde39">
+			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_8-1/plagiarism-v1_0_8-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.7</version>
+				<version>3.4.0.8</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.4.0.7</version>
+				<version>3.4.0.8</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.4.0.7</version>
+				<version>3.4.0.8</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Official support for OJS/OMP/OPS stable-3.4.0-7 and above</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="coins">
 		<name locale="en">COinS</name>
