@@ -975,7 +975,7 @@
 				<version>3.4.0.8</version>
 			</compatibility>
 			<certification type="official" />
-			<description>Official support for OJS/OMP/OPS stable-3.4.0-7 and above</description>
+			<description>iThenticate latest API integration with official support for OJS/OMP/OPS stable-3.4.0-7 and above</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="coins">
