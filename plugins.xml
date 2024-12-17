@@ -940,8 +940,8 @@
 			<certification type="official" />
 			<description>Bugfix for password saving when using the settings form.</description>
 		</release>
-		<release date="2024-12-16" version="1.0.7.3" md5="1f046be3807b8e79be6dc1bfc5ceb857">
-			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_7-3/plagiarism-v1_0_7-3.tar.gz</package>
+		<release date="2024-12-16" version="1.0.7.4" md5="7d6a2121e841dd75bdb5f372ecfa84e2">
+			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_7-4/plagiarism-v1_0_7-4.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.18</version>
 				<version>3.3.0.19</version>
