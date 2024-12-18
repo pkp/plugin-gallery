@@ -2745,6 +2745,64 @@
 			<certification type="reviewed"/>
 			<description>This release adds support for OPS 3.3.0. It also adds translation for Brazilian Portuguese</description>
 		</release>
+		<release date="2024-12-18" version="3.3.0.4" md5="ce358ebd6db2cf6554f708fc1ce22cc4">
+			<package>https://github.com/ajnyga/funding/releases/download/3.3.0.4/funding.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Bugfix release for v3.3.</description>
+		</release>
+		<release date="2024-12-18" version="3.4.0.4" md5="eb73d8955d58106b61622a6bf0a8932f">
+			<package>https://github.com/ajnyga/funding/releases/download/3.4.0.4/funding.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Bugfix release for v3.4.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="customHeader">
 		<name locale="en">Custom Header Plugin</name>
