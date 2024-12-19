@@ -7673,6 +7673,20 @@
 			<certification type="partner" />
 			<description>ClamAV Plugin PHP 8 Compatibility</description>
 		</release>
+		<release date="2024-12-19" version="4.1.0.0" md5="b9f4163758064ce82db4232c21992306">
+			<package>https://github.com/ulsdevteam/pkp-clamav/releases/download/v4.1.0-0/clamav-v4.1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the ClamAV plugin for OJS 3.4</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="plumAnalytics">
 		<name locale="en">Plum Analytics Artifact Widget</name>
