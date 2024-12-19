@@ -7262,6 +7262,20 @@
 			<certification type="partner" />
 			<description>Release of the adminNotificationManager plugin for OJS 3.3.</description>
 		</release>
+		<release date="2024-12-19" version="1.3.0-0" md5="14239295b6c81199ff903ef3fff3e920">
+			<package>https://github.com/ulsdevteam/pkp-adminNotificationManager/releases/download/v1.3.0.0/adminNotificationManager-v1.3.0-0.tar.gz</package> 
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the Admin Notification Manager plugin for OJS 3.4</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="emailIssueToc">
 		<name locale="en">Email Issue Table of Contents</name>
