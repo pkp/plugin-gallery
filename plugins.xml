@@ -7783,6 +7783,20 @@
 			<certification type="partner" />
 			<description>Release of the Plum Analytics plugin for OJS 3.2+ with PHP 8 compatibility</description>
 		</release>
+		<release date="2024-12-19" version="1.5.0.0" md5="030ca8f487b85c1ccf4501c6649ff536">
+			<package>https://github.com/ulsdevteam/ojs-plum-plugin/releases/download/v1.5.0-0/plumAnalytics-v1.5.0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the Plum Analytics plugin for OJS 3.4</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="sushiLite">
 		<name locale="en">SUSHI-Lite</name>
