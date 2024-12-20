@@ -710,8 +710,10 @@
 		<homepage>https://github.com/pkp/plagiarism</homepage>
 		<summary locale="en">This plugin permits automatic submission of uploaded content to the iThenticate service for plagiarism checking.</summary>
 		<summary locale="en_US">This plugin permits automatic submission of uploaded content to the iThenticate service for plagiarism checking.</summary>
-		<description locale="en"><![CDATA[<p>This plugin permits automatic submission of uploaded content to the <a href="http://www.ithenticate.com/" target="_new">iThenticate service</a> for plagiarism checking.</p><p>See the README document included in this plugin for installation instructions.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin permits automatic submission of uploaded content to the <a href="http://www.ithenticate.com/" target="_new">iThenticate service</a> for plagiarism checking.</p><p>See the README document included in this plugin for installation instructions.</p>]]></description>
+		<description locale="en"><![CDATA[
+			<p>This plugin permits automatic submission of uploaded content to the <a href="http://www.ithenticate.com/" target="_new">iThenticate service</a> for plagiarism checking.</p>
+			<p><strong> WARNING: New releases of this plugin use the iThenticate v2 API. If you are upgrading from version 1.0.6-x or prior of this plugin, you will need to make sure your iThenticate account supports the v2 API and update your plugin settings with new credentials.</strong> See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p></p>
+		]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
 			<institution>Public Knowledge Project</institution>
@@ -958,8 +960,8 @@
 				<version>3.3.0.20</version>
 			</compatibility>
 			<certification type="official" />
-			<description><![CDATA[<p>iThenticate latest API integration with added support for OMP and OPS. This version require that the iThenticate account upgraded to latest API version and it is incompatible with older iThenticate API based account.</p>
-			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detail upgrade information.</p>]]></description>
+				<description><![CDATA[<p>This release uses iThenticate's v2 API. <strong>You will need to ensure that your account supports iThenticate v2 and update your plugin configuration with new credentials!</strong></p>
+			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p>]]></description>
 		</release>
 		<release date="2024-12-16" version="1.0.8.1" md5="acbd5cbf30fb4314404935aa5bdbde39">
 			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_8-1/plagiarism-v1_0_8-1.tar.gz</package>
@@ -976,8 +978,8 @@
 				<version>3.4.0.8</version>
 			</compatibility>
 			<certification type="official" />
-			<description><![CDATA[<p>iThenticate latest API integration with official support for OJS/OMP/OPS stable-3.4.0-7 and above. This version require that the iThenticate account upgraded to latest API version and it is incompatible with older iThenticate API based account.</p>
-			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detail upgrade information.</p>]]></description>
+				<description><![CDATA[<p>This release uses iThenticate's v2 API. <strong>You will need to ensure that your account supports iThenticate v2 and update your plugin configuration with new credentials!</strong></p>
+			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p>]]></description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="coins">
