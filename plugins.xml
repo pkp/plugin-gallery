@@ -976,7 +976,6 @@
 				<version>3.4.0.8</version>
 			</compatibility>
 			<certification type="official" />
-			<description>iThenticate latest API integration with official support for OJS/OMP/OPS stable-3.4.0-7 and above</description>
 			<description><![CDATA[<p>iThenticate latest API integration with official support for OJS/OMP/OPS stable-3.4.0-7 and above. This version require that the iThenticate account upgraded to latest API version and it is incompatible with older iThenticate API based account.</p>
 			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detail upgrade information.</p>]]></description>
 		</release>
