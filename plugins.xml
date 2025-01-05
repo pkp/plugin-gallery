@@ -13229,15 +13229,21 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	</plugin>
 	<plugin category="generic" product="OASwitchboard">
 		<name locale="en">OA Switchboard Plugin</name>
+		<name locale="en_US">OA Switchboard Plugin</name>
 		<name locale="pt_BR">Plugin OA Switchboard</name>
 		<name locale="es">Módulo de OA Switchboard</name>
+		<name locale="es_ES">Módulo de OA Switchboard</name>
 		<homepage>https://github.com/lepidus/OASwitchboard</homepage>
 		<summary locale="en">Allows sending messages to OA Switchboard, automatically, at the publication of an article.</summary>
+		<summary locale="en_US">Allows sending messages to OA Switchboard, automatically, at the publication of an article.</summary>
 		<summary locale="pt_BR">Permite o envio de mensagens para a OA Switchboard, de forma automática, no momento da publicação de um artigo.</summary>
 		<summary locale="es">Permite enviar mensajes a OA Switchboard, de forma automática, al momento de la publicación de un artículo.</summary>
+		<summary locale="es_ES">Permite enviar mensajes a OA Switchboard, de forma automática, al momento de la publicación de un artículo.</summary>
 		<description locale="en"><![CDATA[<p>Allows sending messages to OA Switchboard, automatically, at the publication of an article.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Allows sending messages to OA Switchboard, automatically, at the publication of an article.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Permite o envio de mensagens para a OA Switchboard, de forma automática, no momento da publicação de um artigo</p>]]></description>
 		<description locale="es"><![CDATA[<p>Permite enviar mensajes a OA Switchboard, de forma automática, al momento de la publicación de un artículo.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Permite enviar mensajes a OA Switchboard, de forma automática, al momento de la publicación de un artículo.</p>]]></description>
 		<maintainer>
 			<name>Lepidus Tecnologia Team</name>
 			<institution>Lepidus Tecnologia</institution>
@@ -13277,15 +13283,21 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	</plugin>
 	<plugin category="generic" product="deleteIncompleteSubmissions">
 		<name locale="en">Delete Incomplete Submissions</name>
+		<name locale="en_US">Delete Incomplete Submissions</name>
 		<name locale="pt_BR">Remove Submissões Incompletas</name>
 		<name locale="es">Eliminar envíos incompletos</name>
+		<name locale="es_ES">Eliminar envíos incompletos</name>
 		<homepage>https://github.com/lepidus/deleteIncompleteSubmissions</homepage>
 		<summary locale="en">This plugin allows editors to delete incomplete submissions from the journal.</summary>
+		<summary locale="en_US">This plugin allows editors to delete incomplete submissions from the journal.</summary>
 		<summary locale="pt_BR">Este plugin permite que os editores excluam submissões incompletas do periódico.</summary>
 		<summary locale="es">Este complemento permite a los editores eliminar envíos incompletos de la revista, es posible establecer un umbral, en días, para salvaguardar la eliminación de envíos que no están destinados a ser eliminados.</summary>
+		<summary locale="es_ES">Este complemento permite a los editores eliminar envíos incompletos de la revista, es posible establecer un umbral, en días, para salvaguardar la eliminación de envíos que no están destinados a ser eliminados.</summary>
 		<description locale="en"><![CDATA[<p>This plugin allows editors to delete incomplete submissions from the journal, it's possible to set a threshold, in days, to safeguard the deletion of submissions that are not meant to be deleted.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin allows editors to delete incomplete submissions from the journal, it's possible to set a threshold, in days, to safeguard the deletion of submissions that are not meant to be deleted.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Este plugin permite que os editores excluam submissões incompletas do periódico. É possível definir um limite, em dias, para proteger a exclusão de submissões que não deveriam ser excluídas.</p>]]></description>
 		<description locale="es"><![CDATA[<p>Este complemento permite a los editores eliminar envíos incompletos de la revista, es posible establecer un umbral, en días, para salvaguardar la eliminación de envíos que no están destinados a ser eliminados.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este complemento permite a los editores eliminar envíos incompletos de la revista, es posible establecer un umbral, en días, para salvaguardar la eliminación de envíos que no están destinados a ser eliminados.</p>]]></description>
 		<maintainer>
 			<name>Lepidus Tecnologia Team</name>
 			<institution>Lepidus Tecnologia</institution>
