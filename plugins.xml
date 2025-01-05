@@ -13275,4 +13275,55 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Este módulo envía un mensaje P1 a la OA Switchboard cuando se publica un envío.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="deleteIncompleteSubmissions">
+		<name locale="en">Delete Incomplete Submissions</name>
+		<name locale="pt_BR">Remove Submissões Incompletas</name>
+		<name locale="es">Eliminar envíos incompletos</name>
+		<homepage>https://github.com/lepidus/deleteIncompleteSubmissions</homepage>
+		<summary locale="en">This plugin allows editors to delete incomplete submissions from the journal.</summary>
+		<summary locale="pt_BR">Este plugin permite que os editores excluam submissões incompletas do periódico.</summary>
+		<summary locale="es">Este complemento permite a los editores eliminar envíos incompletos de la revista, es posible establecer un umbral, en días, para salvaguardar la eliminación de envíos que no están destinados a ser eliminados.</summary>
+		<description locale="en"><![CDATA[<p>This plugin allows editors to delete incomplete submissions from the journal, it's possible to set a threshold, in days, to safeguard the deletion of submissions that are not meant to be deleted.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Este plugin permite que os editores excluam submissões incompletas do periódico. É possível definir um limite, em dias, para proteger a exclusão de submissões que não deveriam ser excluídas.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Este complemento permite a los editores eliminar envíos incompletos de la revista, es posible establecer un umbral, en días, para salvaguardar la eliminación de envíos que no están destinados a ser eliminados.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2024-02-14" version="0.1.3.0" md5="dc749de9251821c82ad21fa3d6ad89ec">
+			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.1.3/deleteIncompleteSubmissions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US"><![CDATA[<p><h4>Additions</h4><ul><li>Only show the "Delete submissions..." option when the plugin is enabled in the journal.</li><li>Improves usage instructions in the README.</li><li>Fix a typo in pt_BR translation of the plugin description.</li></ul></p>]]></description>
+			<description locale="pt_BR"><![CDATA[<p><h4>Adições</h4><ul><li>Mostrar somente a opção "Excluir envios..." quando o plugin estiver habilitado no diário.</li><li>Melhora as instruções de uso no README.</li><li>Corrige um erro de digitação na tradução pt_BR da descrição do plugin.</li></ul></p>]]></description>
+			<description locale="es_ES"><![CDATA[<p><h4>Adiciones</h4><ul><li>Solo mostrar la opción "Eliminar envíos..." cuando el complemento esté habilitado en la revista.</li><li>Mejora las instrucciones de uso en el README.</li><li>Corrige un error tipográfico en la traducción pt_BR de la descripción del complemento.</li></ul></p>]]></description>
+		</release>
+		<release date="2024-06-20" version="0.2.0.0" md5="016357f34449c49c00fd86a021120478">
+			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.2.0/deleteIncompleteSubmissions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Compatibility with the 3.4 release.</description>
+			<description locale="pt_BR">Compatibilidade com a versão 3.4.</description>
+			<description locale="es">Compatibilidad con la versión 3.4.</description>
+		</release>
+	</plugin>
 </plugins>
