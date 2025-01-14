@@ -3629,6 +3629,24 @@
 			<certification type="official" />
 			<description>Include preferred name and author bio fields</description>
 		</release>
+		<release date="2025-01-14" version="1.0.6.3" md5="1178669f193f778b0dd01e3f1c9e9bf9">
+			<package>https://github.com/pkp/jatsTemplate/releases/download/v1_0_6-3/jatsTemplate-v1_0_6-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Various bug fixes for OJS 3.3</description>
+		</release>
 		<release date="2023-03-31" version="1.0.7.1" md5="7d2b59d87421281db11666c323865ed7">
 			<package>https://github.com/pkp/jatsTemplate/releases/download/v1_0_7-1/jatsTemplate-v1_0_7-1.tar.gz</package>
 			<compatibility application="ojs2">
@@ -3639,6 +3657,14 @@
 		</release>
 		<release date="2023-05-30" version="1.0.7.2" md5="9ab3ead0e036a223038997921dcb32d4">
 			<package>https://github.com/pkp/jatsTemplate/releases/download/v1_0_7-2/jatsTemplate-v1_0_7-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix release of the JATS Template plugin for OJS 3.4.0.</description>
+		</release>
+		<release date="2025-01-14" version="1.0.7.3" md5="5728a67c13f6504de7274c81f650aa1c">
+			<package>https://github.com/pkp/jatsTemplate/releases/download/v1_0_7-3/jatsTemplate-v1_0_7-3.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
@@ -3961,6 +3987,25 @@
 			<certification type="official" />
 			<description>Use publication sequence for article sequence information</description>
 		</release>
+		<release date="2025-01-14" version="1.0.4.6" md5="afb999e9676a2aa4f5f389e8b2ee21ae">
+			<package>https://github.com/pkp/oaiJats/releases/download/v1_0_4-6/oaiJats-v1_0_4-6.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix release of the OAI JATS plugin for OJS 3.3</description>
+		</release>
+
 		<release date="2023-03-31" version="1.0.5.0" md5="6dac9f370d7a41252a48319195d87786">
 			<package>https://github.com/pkp/oaiJats/releases/download/v1_0_5-0/oaiJats-v1_0_5-0.tar.gz</package>
 			<compatibility application="ojs2">
@@ -3971,6 +4016,14 @@
 		</release>
 		<release date="2023-05-30" version="1.0.5.1" md5="f410913290ee799b3c4e6f861d78df5a">
 			<package>https://github.com/pkp/oaiJats/releases/download/v1_0_5-1/oaiJats-v1_0_5-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix release of the OAI JATS plugin for OJS 3.4</description>
+		</release>
+		<release date="2025-01-14" version="1.0.5.2" md5="11847bc813c3ab0b48dad73e2de4fce9">
+			<package>https://github.com/pkp/oaiJats/releases/download/v1_0_5-2/oaiJats-v1_0_5-2.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
