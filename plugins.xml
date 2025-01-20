@@ -13335,5 +13335,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Esse plugin envia uma mensagem P1 para o OA Switchboard quando uma submissão é publicada.</description>
 			<description locale="es">Este módulo envía un mensaje P1 a la OA Switchboard cuando se publica un envío.</description>
 		</release>
+		<release date="2024-11-04" version="1.1.1.10" md5="03582bc109c7ad336b1bf496eb50dfa9">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.1.10/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release adds a tab to the submission workflow with information on the status of the submission in relation to sending the message to OA Switchboard.</description>
+			<description locale="pt_BR">Esta versão adiciona uma aba no fluxo de trabalho da submissão com informações sobre a situação do envio da mensagem para o OA Switchboard.</description>
+			<description locale="es_ES">Esta versión añade una pestaña al flujo de trabajo de envío con información sobre el estado del mensaje enviado a la OA Switchboard.</description>
+		</release>
 	</plugin>
 </plugins>
