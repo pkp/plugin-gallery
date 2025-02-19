@@ -13246,4 +13246,48 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Compatibilidad con la versión 3.4.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="carinianaPreservation">
+		<name locale="en">Cariniana Preservation</name>
+		<name locale="en_US">Cariniana Preservation</name>
+		<name locale="pt_BR">Esse plugin permite preservar periódicos brasileiros publicados em OJS na rede Cariniana.</name>
+		<name locale="es">Preservación Cariniana</name>
+		<name locale="es_ES">Preservación Cariniana</name>
+		<homepage>https://github.com/lepidus/carinianaPreservation</homepage>
+		<summary locale="en">This plugin allows preserving Brazilian journals published in OJS in the Cariniana network.</summary>
+		<summary locale="en_US">This plugin allows preserving Brazilian journals published in OJS in the Cariniana network.</summary>
+		<summary locale="pt_BR">Esse plugin permite preservar periódicos brasileiros publicados em OJS na rede Cariniana.</summary>
+		<summary locale="es">Este módulo permite conservar revistas brasileñas publicadas en OJS en la red Cariniana.</summary>
+		<summary locale="es_ES">Este módulo permite conservar revistas brasileñas publicadas en OJS en la red Cariniana.</summary>
+		<description locale="en"><![CDATA[<p>This plugin is intended to facilitate the process of digital preservation of OJS journals through the Cariniana Network. Its main functionality is to send an e-mail to the Carianiana network with information about the journal to be preserved.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin is intended to facilitate the process of digital preservation of OJS journals through the Cariniana Network. Its main functionality is to send an e-mail to the Carianiana network with information about the journal to be preserved.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Esse plugin tem o intuito de facilitar o processo de preservação digital de periódicos OJS por meio da Rede Cariniana. Sua principal funcionalidade é o envio de um e-mail para rede Carianiana com informações do periódico a ser preservado.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Este módulo pretende facilitar el proceso de preservación digital de las revistas OJS a través de la Red Cariniana. Su principal funcionalidad es enviar un correo electrónico a la Red Carianiana con información sobre la revista a preservar.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este módulo pretende facilitar el proceso de preservación digital de las revistas OJS a través de la Red Cariniana. Su principal funcionalidad es enviar un correo electrónico a la Red Carianiana con información sobre la revista a preservar.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2025-02-10" version="1.4.1.5" md5="104a1a801376280f760c32d84010bc7a">
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v1.4.1.5/carinianaPreservation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This version corrects the name of the Publisher to get it from the OJS Publisher and not from the name of the journal.</description>
+			<description locale="pt_BR">Essa versão corrige nome da Editora para obter a partir da Editora do OJS e não a partir do nome da revista.</description>
+			<description locale="es_ES">Esta versión corrige el nombre de la editorial para que se obtenga de la editorial OJS y no del nombre de la revista.</description>
+		</release>
+	</plugin>
 </plugins>
