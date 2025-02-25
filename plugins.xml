@@ -10918,6 +10918,54 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Improvement for OJS 3.4.0-x</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="opdoira">
+		<name locale="en">DOI to OP DOI RA XML export and registration plugin</name>
+		<name locale="en_US">DOI to OP DOI RA XML export and registration plugin</name>
+		<homepage>https://github.com/Ediser-mEDRA/opdoiraojsplugin/</homepage>
+		<summary locale="en">Allows DOI export in ONIX4DOI format and the registration with OP DOI RA.</summary>
+		<summary locale="en_US">Allows DOI export in ONIX4DOI format and the registration with OP DOI RA.</summary>
+		<description locale="en"><![CDATA[<p>The OP DOI RA plugin enables the export of issue and article metadata in ONIX4DOI format and
+the registration of DOIs with OP DOI RA.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>The OP DOI RA plugin enables the export of issue and article metadata in ONIX4DOI format and
+the registration of DOIs with OP DOI RA.</p>]]></description>
+		<maintainer>
+			<name>mEDRA TechStaff</name>
+			<institution>mEDRA Ediser S.r.l</institution>
+			<email>op.support@medra.org</email>
+		</maintainer>
+		<release date="2025-02-07" version="1.0.0.1" md5="f6a40c43cf44bfc3cd67c0b13b9eb43e">
+			<package>https://github.com/Ediser-mEDRA/opdoiraojsplugin/releases/download/v1_0_0-1/opdoiraojsplugin-v1_0_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Update to be compatible with OJS 3.4 requirements and best pratices. Initial OP DOI RA plugin release for OJS 3.4.0-x</description>
+		</release>
+	</plugin>
+	<plugin category="generic" product="opdoira">
+		<name locale="en">DOI to OP DOI RA XML export and registration plugin</name>
+		<name locale="en_US">DOI to OP DOI RA XML export and registration plugin</name>
+		<homepage>https://github.com/Ediser-mEDRA/opdoiraojsplugin/</homepage>
+		<summary locale="en">Allows DOI export in ONIX4DOI format and the registration with OP DOI RA.</summary>
+		<summary locale="en_US">Allows DOI export in ONIX4DOI format and the registration with OP DOI RA.</summary>
+		<description locale="en"><![CDATA[<p>The OP DOI RA plugin enables the export of issue and article metadata in ONIX4DOI format and
+the registration of DOIs with OP DOI RA.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>The OP DOI RA plugin enables the export of issue and article metadata in ONIX4DOI format and
+the registration of DOIs with OP DOI RA.</p>]]></description>
+		<maintainer>
+			<name>mEDRA TechStaff</name>
+			<institution>mEDRA Ediser S.r.l</institution>
+			<email>op.support@medra.org</email>
+		</maintainer>
+		<release date="2025-01-21" version="1.0.0.0" md5="033271424f4c0125c618104877d32102">
+			<package>https://github.com/Ediser-mEDRA/opdoiraojsplugin/releases/download/v1_0_0-0/opdoiraojsplugin-v1_0_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Initial OP DOI RA plugin release for OJS 3.4.0-x</description>
+		</release>
+	</plugin>
 	<plugin category="importexport" product="medra">
 		<name locale="en">DOI to mEDRA xml export and registration plugin</name>
 		<name locale="en_US">DOI to mEDRA xml export and registration plugin</name>
