@@ -13257,7 +13257,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	<plugin category="generic" product="carinianaPreservation">
 		<name locale="en">Cariniana Preservation</name>
 		<name locale="en_US">Cariniana Preservation</name>
-		<name locale="pt_BR">Esse plugin permite preservar periódicos brasileiros publicados em OJS na rede Cariniana.</name>
+		<name locale="pt_BR">Preservação Cariniana</name>
 		<name locale="es">Preservación Cariniana</name>
 		<name locale="es_ES">Preservación Cariniana</name>
 		<homepage>https://github.com/lepidus/carinianaPreservation</homepage>
