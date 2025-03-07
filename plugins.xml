@@ -11371,11 +11371,11 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 		<release date="2024-06-19" version="3.4.0.1" md5="a83acc4e7a90fadd7c03c87e64931d8d">
 			<package>https://github.com/withanage/datacite/releases/download/v3_4_0-1/datacite-v3_4_0-1.tar.gz</package>
-			<compatibility application="ojs2">
+			<compatibility application="omp">
 				<version>~3.4.0.0</version>
 			</compatibility>
 			<certification type="partner" />
-			<description>OJS 3.4 support</description>
+			<description>OMP 3.4 support</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="browseBySection">
