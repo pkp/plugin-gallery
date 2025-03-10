@@ -13296,6 +13296,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Compatibilidade com a versão 3.4.</description>
 			<description locale="es">Compatibilidad con la versión 3.4.</description>
 		</release>
+		<release date="2025-03-10" version="0.2.1.0" md5="cd054b253bd2bb84253c692bd537f723">
+			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.2.1/deleteIncompleteSubmissions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds translations for German, French, Italian and Romanian</description>
+			<description locale="pt_BR">Adiciona traduções para alemão, francês, italiano e romeno.</description>
+			<description locale="es">Agrega traducciones para alemán, francés, italiano y rumano.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="carinianaPreservation">
 		<name locale="en">Cariniana Preservation</name>
