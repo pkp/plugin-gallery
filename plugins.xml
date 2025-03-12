@@ -4462,6 +4462,14 @@
 			<certification type="official" />
 			<description>This releases fixes bugs in citation display, article previews, and date formatting on the article details page.</description>
 		</release>
+		<release date="2025-03-12" version="3.5.0.0" md5="d54840d0dbd64ac5c78ec545d6fc39e1">
+			<package>https://github.com/pkp/bootstrap3/releases/download/v3_5_0-0/bootstrap3-v3_5_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0-x.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="classic">
 		<name locale="en">Classic</name>
