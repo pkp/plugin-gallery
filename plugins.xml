@@ -5478,6 +5478,14 @@
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
 		</release>
+		<release date="2025-03-13" version="1.1.3.0" md5="1a3fb044cbd8812a7fe3eb43bd4a12e5">
+			<package>https://github.com/pkp/immersion/releases/download/v1_1_3-0/immersion-v1_1_3-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Compatibility release for OJS 3.5.0</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="orcidProfile">
 		<name locale="en">ORCiD Profile</name>
