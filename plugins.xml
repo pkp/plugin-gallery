@@ -4871,6 +4871,14 @@
 			<certification type="official" />
 			<description>Compatibility with 3.4.0 version.</description>
 		</release>
+		<release date="2025-03-13" version="1.0.5.0" md5="4295270440bbc3bb96e62eebb09f99a2">
+			<package>https://github.com/pkp/defaultManuscript/releases/download/v1_0_5-0/defaultManuscript-v1_0_5-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="material">
 		<name locale="en">Material Theme</name>
