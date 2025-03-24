@@ -7174,8 +7174,8 @@
 			<email>emre.danisan@reviewercredits.com</email>
 		</maintainer>
 		
-		<release date="2025-03-20" version="3.3.0.9" md5="4618a32978c65733f8b6e65b5de78572">
-			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/V3009/reviewerCredits.tar.gz</package>
+		<release date="2025-03-24" version="3.3.0.0" md5="dd7c43bbd1786a814ddeb7b7bda57dee">
+			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/V3300/reviewerCredits.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -7188,31 +7188,14 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>3.3.0.11</version>
-				<version>3.3.0.12</version>
-				<version>3.3.0.13</version>
-				<version>3.3.0.14</version>
-				<version>3.3.0.15</version>
-				<version>3.3.0.16</version>
-				<version>3.3.0.17</version>
-				<version>3.3.0.18</version>
-				<version>3.3.0.19</version>
 				<version>~3.3.0.0</version>
 			</compatibility>
 			<certification type="partner"/>
 			<description>Plugin to enable the reviewer finder and peer review data integration with Reviewer Credits.</description>
 		</release>
-		<release date="2025-03-20" version="3.3.0.9" md5="6e59a10474d511297c62edfb37da1f03">
-			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/V3009/reviewercredits-ojs-plugin-stable-3_4_0.tar.gz</package>
+		<release date="2025-03-24" version="3.4.0.0" md5="f9e19d7bbd7637641201134be1b9abcf">
+			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/V3400/reviewercredits-ojs-plugin-3_4_0-stable.tar.gz</package>
 			<compatibility application="ojs2">
-				<version>3.4.0.0</version>
-				<version>3.4.0.1</version>
-				<version>3.4.0.2</version>
-				<version>3.4.0.3</version>
-				<version>3.4.0.4</version>
-				<version>3.4.0.5</version>
-				<version>3.4.0.6</version>
-				<version>3.4.0.7</version>
 				<version>~3.4.0.0</version>
 			</compatibility>
 			<certification type="partner"/>
