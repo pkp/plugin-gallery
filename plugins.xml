@@ -11584,6 +11584,14 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="official" />
 			<description>Browse By Section for OJS 3.4</description>
 		</release>
+		<release date="2025-03-27" version="1.2.2.0" md5="e34e135f06a65c4f4ac1ab6b89e58588">
+			<package>https://github.com/pkp/browseBySection/releases/download/v1_2_2-0/browseBySection-v1_2_2-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Browse By Section for OJS 3.5</description>
+		</release>
 	</plugin>
 	<plugin category="reports" product="scieloSubmissionsReport">
 		<name locale="en">SciELO Submissions Report</name>
