@@ -13390,6 +13390,37 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Esta versão adiciona uma aba no fluxo de trabalho da submissão com informações sobre a situação do envio da mensagem para o OA Switchboard.</description>
 			<description locale="es">Esta versión añade una pestaña al flujo de trabajo de envío con información sobre el estado del mensaje enviado a la OA Switchboard.</description>
 		</release>
+		<release date="2025-03-28" version="1.1.1.11" md5="5ba8fdc073b28303a2519c2f9fc0f0fd">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.1.11/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release fixes the failure to send the P1 message when an article is published without at least one author with ROR ID.</description>
+			<description locale="pt_BR">Essa versão corrige o não envio da mensagem P1 quando um artigo é publicado sem pelo menos um autor com ID ROR.</description>
+			<description locale="es_ES">Esta versión corrige el fallo de envío del mensaje P1 cuando se publica un artículo sin al menos un autor con ID ROR.</description>
+		</release>
+		<release date="2025-03-28" version="2.0.1.17" md5="cbb487fb6c17e20de0e8c882b617c516">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.1.17/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes the failure to send the P1 message when an article is published without at least one author with ROR ID.</description>
+			<description locale="pt_BR">Essa versão corrige o não envio da mensagem P1 quando um artigo é publicado sem pelo menos um autor com ID ROR.</description>
+			<description locale="es">Esta versión corrige el fallo de envío del mensaje P1 cuando se publica un artículo sin al menos un autor con ID ROR.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="deleteIncompleteSubmissions">
 		<name locale="en">Delete Incomplete Submissions</name>
