@@ -1099,6 +1099,14 @@
 			<certification type="official" />
 			<description>Bugfix release for OJS 3.4.0</description>
 		</release>
+		<release date="2025-03-27" version="1.0.5.0" md5="58ef80eab9b15dfb79724e00d81c328b">
+			<package>https://github.com/pkp/coins/releases/download/v1_0_5-0/coins-v1_0_5-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0</description>
+		</release>
 	</plugin>
 	<plugin category="importexport" product="quickSubmit">
 		<name locale="en">QuickSubmit</name>
