@@ -65,8 +65,8 @@
 		<homepage>https://github.com/asmecher/hypothesis</homepage>
 		<summary locale="en">This plugin integrates the Hypothes.is annotation tool into articles.</summary>
 		<summary locale="en_US">This plugin integrates the Hypothes.is annotation tool into articles.</summary>
-		<description locale="en"><![CDATA[This plugin integrates Hypothes.is (<a href="http://hypothes.is" target="_blank">http://hypothes.is</a>) in OJS articles, permitting annotation and commenting.]]></description>
-		<description locale="en_US"><![CDATA[This plugin integrates Hypothes.is (<a href="http://hypothes.is" target="_blank">http://hypothes.is</a>) in OJS articles, permitting annotation and commenting.]]></description>
+		<description locale="en"><![CDATA[This plugin integrates Hypothes.is (<a href="https://hypothes.is" target="_blank">https://hypothes.is</a>) in OJS articles, permitting annotation and commenting.]]></description>
+		<description locale="en_US"><![CDATA[This plugin integrates Hypothes.is (<a href="https://hypothes.is" target="_blank">https://hypothes.is</a>) in OJS articles, permitting annotation and commenting.]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
 			<institution>Public Knowledge Project</institution>
@@ -722,7 +722,7 @@
 		<summary locale="en">This plugin permits automatic submission of uploaded content to the iThenticate service for plagiarism checking.</summary>
 		<summary locale="en_US">This plugin permits automatic submission of uploaded content to the iThenticate service for plagiarism checking.</summary>
 		<description locale="en"><![CDATA[
-			<p>This plugin permits automatic submission of uploaded content to the <a href="http://www.ithenticate.com/" target="_new">iThenticate service</a> for plagiarism checking.</p>
+			<p>This plugin permits automatic submission of uploaded content to the <a href="https://www.ithenticate.com/" target="_new">iThenticate service</a> for plagiarism checking.</p>
 			<p><strong> WARNING: New releases of this plugin use the iThenticate v2 API. If you are upgrading from version 1.0.6-x or prior of this plugin, you will need to make sure your iThenticate account supports the v2 API and update your plugin settings with new credentials.</strong> See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p></p>
 		]]></description>
 		<maintainer>
@@ -990,8 +990,8 @@
 		<homepage>https://github.com/pkp/coins</homepage>
 		<summary locale="en">This plugin embeds OpenURL COinS in OJS articles.</summary>
 		<summary locale="en_US">This plugin embeds OpenURL COinS in OJS articles.</summary>
-		<description locale="en"><![CDATA[This plugin embeds OpenURL COinS (<a href="http://ocoins.info/" target="_blank">http://ocoins.info/</a>) in OJS articles, permitting tools like Zotero (<a href="http://www.zotero.org" target="_blank">http://www.zotero.org</a>) to grab citations.]]></description>
-		<description locale="en_US"><![CDATA[This plugin embeds OpenURL COinS (<a href="http://ocoins.info/" target="_blank">http://ocoins.info/</a>) in OJS articles, permitting tools like Zotero (<a href="http://www.zotero.org" target="_blank">http://www.zotero.org</a>) to grab citations.]]></description>
+		<description locale="en"><![CDATA[This plugin embeds OpenURL COinS in OJS articles, permitting tools like Zotero (<a href="https://www.zotero.org" target="_blank">https://www.zotero.org</a>) to grab citations.]]></description>
+		<description locale="en_US"><![CDATA[This plugin embeds OpenURL COinS in OJS articles, permitting tools like Zotero (<a href="https://www.zotero.org" target="_blank">https://www.zotero.org</a>) to grab citations.]]></description>
 		<maintainer>
 			<name>Dimitris Efstathiou</name>
 			<institution>Public Knowledge Project</institution>
@@ -3524,8 +3524,8 @@
 		<homepage>https://github.com/asmecher/sword/</homepage>
 		<summary locale="en">Permits the use of the SWORD protocol to deposit documents from OJS into other systems.</summary>
 		<summary locale="en_US">Permits the use of the SWORD protocol to deposit documents from OJS into other systems.</summary>
-		<description locale="en"><![CDATA[<p>This plugin permits the use of the <a href="http://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to deposit documents into other systems.</p><p>The deposit can be performed manually, automatically upon acceptance, and manually by the author.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin permits the use of the <a href="http://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to deposit documents into other systems.</p><p>The deposit can be performed manually, automatically upon acceptance, and manually by the author.</p>]]></description>
+		<description locale="en"><![CDATA[<p>This plugin permits the use of the <a href="https://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to deposit documents into other systems.</p><p>The deposit can be performed manually, automatically upon acceptance, and manually by the author.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin permits the use of the <a href="https://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to deposit documents into other systems.</p><p>The deposit can be performed manually, automatically upon acceptance, and manually by the author.</p>]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
 			<institution>Public Knowledge Project</institution>
@@ -3942,7 +3942,7 @@
 		<description locale="en_US"><![CDATA[<p>A sidebar block plugin for Open Journal Systems and Open Monograph Press which displays a tag cloud of keywords.</p><p><img src="https://github.com/ali-sokhandan/ojs3-keywordcloud-plugin/raw/master/snapshot.gif"></p>]]></description>
 		<maintainer>
 			<name>Alireza Sokhandan</name>
-			<institution></institution>
+			<institution/>
 			<email>pkp.contact@gmail.com</email>
 		</maintainer>
 		<release date="2018-03-10" version="1.0.0.1" md5="81bd132c6c878458899ac5d693680947">
@@ -5134,8 +5134,8 @@
 		<homepage>https://github.com/pkp/texture</homepage>
 		<summary locale="en">Integrates the Substance Texture JATS XML Editor with OJS.</summary>
 		<summary locale="en_US">Integrates the Substance Texture JATS XML Editor with OJS.</summary>
-		<description locale="en"><![CDATA[<p>This plugin integrates the <a target="_new" href="http://substance.io/texture">Texture</a> JATS XML editor with OJS, permitting in-place editing of article content.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin integrates the <a target="_new" href="http://substance.io/texture">Texture</a> JATS XML editor with OJS, permitting in-place editing of article content.</p>]]></description>
+		<description locale="en"><![CDATA[<p>This plugin integrates the Texture JATS XML editor with OJS, permitting in-place editing of article content.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin integrates the Texture JATS XML editor with OJS, permitting in-place editing of article content.</p>]]></description>
 		<maintainer>
 			<name>Dulip Withanage</name>
 			<institution>Public Knowledge Project</institution>
@@ -6796,171 +6796,6 @@
 			<description>Compatibility release for OJS/OMP/OPS 3.4.0.</description>
 		</release>
 	</plugin>
-	<!-- REMOVED: PaperBuzz is defunct. -->
-	<!--plugin category="generic" product="paperbuzz">
-		<name locale="en">Paperbuzz</name>
-		<name locale="en_US">Paperbuzz</name>
-		<homepage>https://github.com/pkp/paperbuzz</homepage>
-		<summary locale="en">Display free altmetrics based on open data from Paperbuzz.</summary>
-		<summary locale="en_US">Display free altmetrics based on open data from Paperbuzz.</summary>
-		<description locale="en"><![CDATA[<p>This plugin will display free altmetrics based on open data from <a href="http://paperbuzz.org">Paperbuzz</a>, a free and open service built by Impactstory that itself relies on <a href="https://www.crossref.org/services/event-data/">Crossref Event Data</a>. To use this plugin, your journal must have DOIs assigned to articles and properly deposited with Crossref.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin will display free altmetrics based on open data from <a href="http://paperbuzz.org">Paperbuzz</a>, a free and open service built by Impactstory that itself relies on <a href="https://www.crossref.org/services/event-data/">Crossref Event Data</a>. To use this plugin, your journal must have DOIs assigned to articles and properly deposited with Crossref.</p>]]></description>
-		<maintainer>
-			<name>Bozana Bokan</name>
-			<institution>Public Knowledge Project</institution>
-			<email>pkp.contact@gmail.com</email>
-		</maintainer>
-		<release date="2019-04-19" version="1.0.0.0" md5="56fc123731bf8b5593e92f9904e60a6d">
-			<package>https://github.com/pkp/paperbuzz/releases/download/1.0.0.0/paperbuzz-1.0.0.0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.1.2.0</version>
-				<version>3.1.2.1</version>
-				<version>3.1.2.2</version>
-				<version>3.1.2.3</version>
-				<version>3.1.2.4</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Initial release.</description>
-		</release>
-		<release date="2020-06-19" version="1.0.2.0" md5="59f8279e3ce520579282f998d8ed0aaa">
-			<package>https://github.com/pkp/paperbuzz/releases/download/v1_0_2-0/paperbuzz-v1_0_2-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.2.1.0</version>
-				<version>3.2.1.1</version>
-				<version>3.2.1.2</version>
-				<version>3.2.1.3</version>
-				<version>3.2.1.4</version>
-				<version>3.2.1.5</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Maintenance release for 3.2.1.</description>
-		</release>
-		<release date="2021-02-02" version="1.0.3.0" md5="085fe0fc182453574ecc1a71bebb396e">
-			<package>https://github.com/pkp/paperbuzz/releases/download/v1_0_3-0/paperbuzz-v1_0_3-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Maintenance release for 3.3.0.</description>
-		</release>
-		<release date="2021-04-12" version="1.0.3.1" md5="e979ad4fb7aa2806abd320cfea3ccf44">
-			<package>https://github.com/pkp/paperbuzz/releases/download/v1_0_3-1/paperbuzz-v1_0_3-1.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Maintenance release for OJS/OPS 3.3.0.</description>
-		</release>
-		<release date="2023-10-01" version="1.0.3.2" md5="940c73ec5f4092ad1eb7d9a8deee987b">
-			<package>https://github.com/pkp/paperbuzz/releases/download/v1_0_3-2/paperbuzz-v1_0_3-2.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Bugfix release for OJS/OPS 3.3.0.</description>
-		</release>
-		<release date="2023-10-04" version="1.0.3.3" md5="b752dab678f9c7348ff0b0401911dfe2">
-			<package>https://github.com/pkp/paperbuzz/releases/download/v1_0_3-3/paperbuzz-v1_0_3-3.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Bugfix release for OJS/OPS 3.3.0.</description>
-		</release>
-		<release date="2023-07-17" version="2.0.0.0" md5="a026dbd79faa6215b12db204c5e72b85">
-			<package>https://github.com/pkp/paperbuzz/releases/download/v2_0_0-0/paperbuzz-v2_0_0-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.4.0.0</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>3.4.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Maintenance release for OJS/OPS 3.4</description>
-		</release>
-	</plugin-->
 	<plugin category="generic" product="openAIRE">
 		<name locale="en">OpenAIRE Plugin 2.0</name>
 		<name locale="en_US">OpenAIRE Plugin 2.0</name>
@@ -7181,7 +7016,6 @@
 			<institution>Reviewer Credits GmbH</institution>
 			<email>emre.danisan@reviewercredits.com</email>
 		</maintainer>
-		
 		<release date="2025-03-24" version="3.3.0.0" md5="dd7c43bbd1786a814ddeb7b7bda57dee">
 			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/V3300/reviewerCredits.tar.gz</package>
 			<compatibility application="ojs2">
@@ -7209,7 +7043,6 @@
 			<certification type="partner"/>
 			<description>Plugin to enable the reviewer finder and peer review data integration with Reviewer Credits.</description>
 		</release>
-		
 		<release date="2024-12-03" version="2.2.0.1" md5="2874f24c908823ef957528797f41da49">
 			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/v2/reviewercredits-ojs-plugin-stable-3_3_0.tar.gz</package>
 			<compatibility application="ojs2">
@@ -9905,8 +9738,8 @@
 		<homepage>https://github.com/quoideneuf/swordServer</homepage>
 		<summary locale="en">Permits the use of the SWORD protocol to receive deposits from other applications.</summary>
 		<summary locale="en_US">Permits the use of the SWORD protocol to receive deposits from other applications.</summary>
-		<description locale="en"><![CDATA[<p>This plugin permits the use of the <a href="http://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to receive deposit documents from other systems.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin permits the use of the <a href="http://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to receive deposit documents from other systems.</p>]]></description>
+		<description locale="en"><![CDATA[<p>This plugin permits the use of the <a href="https://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to receive deposit documents from other systems.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin permits the use of the <a href="https://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to receive deposit documents from other systems.</p>]]></description>
 		<maintainer>
 			<name>Public Knowledge Project</name>
 			<institution>Public Knowledge Project</institution>
@@ -10818,8 +10651,8 @@
 		<homepage>https://github.com/pkp/portico</homepage>
 		<summary locale="en">Supports export of published content to Portico.</summary>
 		<summary locale="en_US">Supports export of published content to Portico.</summary>
-		<description locale="en"><![CDATA[<pa>This plugin enables the digital preservation of published content in the <a href="https://www.portico.org/">Portico</a> preservtion service.</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
-		<description locale="en_US"><![CDATA[<pa>This plugin enables the digital preservation of published content in the <a href="https://www.portico.org/">Portico</a> preservtion service.</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
+		<description locale="en"><![CDATA[<pa>This plugin enables the digital preservation of published content in the <a href="https://www.portico.org/">Portico</a> preservation service.</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
+		<description locale="en_US"><![CDATA[<pa>This plugin enables the digital preservation of published content in the <a href="https://www.portico.org/">Portico</a> preservation service.</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
 		<maintainer>
 			<name>Public Knowledge Project</name>
 			<institution>Public Knowledge Project</institution>
@@ -11463,10 +11296,10 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<name locale="en">Datacite</name>
 		<name locale="en_US">Datacite</name>
 		<homepage>https://github.com/withanage/datacite</homepage>
-		<summary locale="en">This plugin allows DOI registration via Datacite</summary>
-		<summary locale="en_US">This plugin allows DOI registration via Datacite</summary>
-		<description locale="en"></description>
-		<description locale="en_US"></description>
+		<summary locale="en">This plugin allows DOI registration via DataCite.</summary>
+		<summary locale="en_US">This plugin allows DOI registration via DataCite.</summary>
+		<description locale="en">This plugin allows DOI registration via DataCite.</description>
+		<description locale="en_US">This plugin allows DOI registration via DataCite.</description>
 		<maintainer>
 			<name>Dulip Withanage</name>
 			<institution>Public Knowledge Project</institution>
