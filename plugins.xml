@@ -11295,15 +11295,15 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	<plugin category="importexport" product="datacite">
 		<name locale="en">Datacite</name>
 		<name locale="en_US">Datacite</name>
-		<homepage>https://github.com/withanage/datacite</homepage>
-		<summary locale="en">This plugin allows DOI registration via DataCite.</summary>
-		<summary locale="en_US">This plugin allows DOI registration via DataCite.</summary>
-		<description locale="en">This plugin allows DOI registration via DataCite.</description>
-		<description locale="en_US">This plugin allows DOI registration via DataCite.</description>
+		<homepage>https://github.com/UB-Heidelberg/datacite/</homepage>
+		<summary locale="en">This plugin allows DOI registration via Datacite</summary>
+		<summary locale="en_US">This plugin allows DOI registration via Datacite</summary>
+		<description locale="en"></description>
+		<description locale="en_US"></description>
 		<maintainer>
-			<name>Dulip Withanage</name>
-			<institution>Public Knowledge Project</institution>
-			<email>pkp.contact@gmail.com</email>
+			<name>Dulip Withanage; Christian Marsilius</name>
+			<institution>Technischer Informationsbibliothek (TIB), Heidelberg University</institution>
+			<email>marsilius@ub.uni-heidelberg.de</email>
 		</maintainer>
 		<release date="2021-03-31" version="1.0.0.3" md5="806be4dd55f1879d1d45557072f5bdcd">
 			<package>https://github.com/withanage/datacite/releases/download/v1_0_0-4/datacite-v1_0_0-4.tar.gz</package>
