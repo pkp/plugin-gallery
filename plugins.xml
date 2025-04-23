@@ -65,8 +65,8 @@
 		<homepage>https://github.com/asmecher/hypothesis</homepage>
 		<summary locale="en">This plugin integrates the Hypothes.is annotation tool into articles.</summary>
 		<summary locale="en_US">This plugin integrates the Hypothes.is annotation tool into articles.</summary>
-		<description locale="en"><![CDATA[This plugin integrates Hypothes.is (<a href="http://hypothes.is" target="_blank">http://hypothes.is</a>) in OJS articles, permitting annotation and commenting.]]></description>
-		<description locale="en_US"><![CDATA[This plugin integrates Hypothes.is (<a href="http://hypothes.is" target="_blank">http://hypothes.is</a>) in OJS articles, permitting annotation and commenting.]]></description>
+		<description locale="en"><![CDATA[This plugin integrates Hypothes.is (<a href="https://hypothes.is" target="_blank">https://hypothes.is</a>) in OJS articles, permitting annotation and commenting.]]></description>
+		<description locale="en_US"><![CDATA[This plugin integrates Hypothes.is (<a href="https://hypothes.is" target="_blank">https://hypothes.is</a>) in OJS articles, permitting annotation and commenting.]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
 			<institution>Public Knowledge Project</institution>
@@ -224,6 +224,17 @@
 			</compatibility>
 			<compatibility application="ops">
 				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Release of the Hypothes.is plugin for OJS/OPS 3.4.0.</description>
+		</release>
+		<release date="2025-03-17" version="1.0.6.0" md5="cc8709b5a8897f0558a593270c6afbc4">
+			<package>https://github.com/asmecher/hypothesis/releases/download/v1_0_6-0/hypothesis-v1_0_6-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
 			</compatibility>
 			<certification type="official" />
 			<description>Release of the Hypothes.is plugin for OJS/OPS 3.4.0.</description>
@@ -710,8 +721,10 @@
 		<homepage>https://github.com/pkp/plagiarism</homepage>
 		<summary locale="en">This plugin permits automatic submission of uploaded content to the iThenticate service for plagiarism checking.</summary>
 		<summary locale="en_US">This plugin permits automatic submission of uploaded content to the iThenticate service for plagiarism checking.</summary>
-		<description locale="en"><![CDATA[<p>This plugin permits automatic submission of uploaded content to the <a href="http://www.ithenticate.com/" target="_new">iThenticate service</a> for plagiarism checking.</p><p>See the README document included in this plugin for installation instructions.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin permits automatic submission of uploaded content to the <a href="http://www.ithenticate.com/" target="_new">iThenticate service</a> for plagiarism checking.</p><p>See the README document included in this plugin for installation instructions.</p>]]></description>
+		<description locale="en"><![CDATA[
+			<p>This plugin permits automatic submission of uploaded content to the <a href="https://www.ithenticate.com/" target="_new">iThenticate service</a> for plagiarism checking.</p>
+			<p><strong> WARNING: New releases of this plugin use the iThenticate v2 API. If you are upgrading from version 1.0.6-x or prior of this plugin, you will need to make sure your iThenticate account supports the v2 API and update your plugin settings with new credentials.</strong> See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p></p>
+		]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
 			<institution>Public Knowledge Project</institution>
@@ -940,6 +953,36 @@
 			<certification type="official" />
 			<description>Bugfix for password saving when using the settings form.</description>
 		</release>
+		<release date="2024-12-16" version="1.0.7.4" md5="7d6a2121e841dd75bdb5f372ecfa84e2">
+			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_7-4/plagiarism-v1_0_7-4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.18</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.3.0.18</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.3.0.18</version>
+			</compatibility>
+			<certification type="official" />
+				<description><![CDATA[<p>This release uses iThenticate's v2 API. <strong>You will need to ensure that your account supports iThenticate v2 and update your plugin configuration with new credentials!</strong></p>
+			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p>]]></description>
+		</release>
+		<release date="2024-12-16" version="1.0.8.1" md5="acbd5cbf30fb4314404935aa5bdbde39">
+			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_8-1/plagiarism-v1_0_8-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.7</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.7</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.7</version>
+			</compatibility>
+			<certification type="official" />
+				<description><![CDATA[<p>This release uses iThenticate's v2 API. <strong>You will need to ensure that your account supports iThenticate v2 and update your plugin configuration with new credentials!</strong></p>
+			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p>]]></description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="coins">
 		<name locale="en">COinS</name>
@@ -947,8 +990,8 @@
 		<homepage>https://github.com/pkp/coins</homepage>
 		<summary locale="en">This plugin embeds OpenURL COinS in OJS articles.</summary>
 		<summary locale="en_US">This plugin embeds OpenURL COinS in OJS articles.</summary>
-		<description locale="en"><![CDATA[This plugin embeds OpenURL COinS (<a href="http://ocoins.info/" target="_blank">http://ocoins.info/</a>) in OJS articles, permitting tools like Zotero (<a href="http://www.zotero.org" target="_blank">http://www.zotero.org</a>) to grab citations.]]></description>
-		<description locale="en_US"><![CDATA[This plugin embeds OpenURL COinS (<a href="http://ocoins.info/" target="_blank">http://ocoins.info/</a>) in OJS articles, permitting tools like Zotero (<a href="http://www.zotero.org" target="_blank">http://www.zotero.org</a>) to grab citations.]]></description>
+		<description locale="en"><![CDATA[This plugin embeds OpenURL COinS in OJS articles, permitting tools like Zotero (<a href="https://www.zotero.org" target="_blank">https://www.zotero.org</a>) to grab citations.]]></description>
+		<description locale="en_US"><![CDATA[This plugin embeds OpenURL COinS in OJS articles, permitting tools like Zotero (<a href="https://www.zotero.org" target="_blank">https://www.zotero.org</a>) to grab citations.]]></description>
 		<maintainer>
 			<name>Dimitris Efstathiou</name>
 			<institution>Public Knowledge Project</institution>
@@ -1055,6 +1098,14 @@
 			</compatibility>
 			<certification type="official" />
 			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
+		<release date="2025-03-27" version="1.0.5.0" md5="58ef80eab9b15dfb79724e00d81c328b">
+			<package>https://github.com/pkp/coins/releases/download/v1_0_5-0/coins-v1_0_5-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0</description>
 		</release>
 	</plugin>
 	<plugin category="importexport" product="quickSubmit">
@@ -1283,6 +1334,14 @@
 			<certification type="official" />
 			<description>Maintenance release of the QuickSubmit plugin for OJS 3.4.0.</description>
 		</release>
+		<release date="2025-03-19" version="1.0.8.0" md5="dbb801bb8ea94bf432a17d26991afcba">
+			<package>https://github.com/pkp/quickSubmit/releases/download/v1_0_8-0/quickSubmit-v1_0_8-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release of the QuickSubmit plugin for OJS 3.5.0.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="allowedUploads">
 		<name locale="en">Allowed Uploads</name>
@@ -1408,6 +1467,20 @@
 			</compatibility>
 			<certification type="reviewed"/>
 			<description>Update for compatibility with v3.3.0</description>
+		</release>
+		<release date="2024-11-17" version="3.4.0.1" md5="1496afa623d4a086a7c6aa9e2997af50">
+			<package>https://github.com/ajnyga/allowedUploads/releases/download/3.4.0.1/allowedUploads.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Update for compatibility with v3.4.0</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="authorsHistory">
@@ -1669,6 +1742,66 @@
 			<description locale="es_ES">Esta versión corrige el enlace para los envíos publicados exhibidos en la historia de los autores.</description>
 			<description locale="pt_BR">Esta versão corrige o link para artigos publicados exibido no histórico dos autores.</description>
 		</release>
+		<release date="2024-06-27" version="1.1.2.0" md5="658110472e3029c4b856e6069c2598e9">
+			<package>https://github.com/lepidus/authorsHistory/releases/download/v1.1.2/authorsHistory.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.2.1.5</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.2.1.5</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This Adds translation for "ar_IQ" locale.</description>
+			<description locale="es_ES">Esta versión Añade traducción para la configuración regional "ar_IQ".</description>
+			<description locale="pt_BR">Esta versão adiciona tradução para a localidade "ar_IQ".</description>
+		</release>
+		<release date="2024-06-27" version="2.0.1.0" md5="e59c671a780298857e7d1a9205b64fa1">
+			<package>https://github.com/lepidus/authorsHistory/releases/download/v2.0.1/authorsHistory.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This Adds translation for "ar_IQ" locale.</description>
+			<description locale="es">Esta versión Añade traducción para la configuración regional "ar_IQ".</description>
+			<description locale="pt_BR">Esta versão adiciona tradução para a localidade "ar_IQ".</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="pluginUpdateNotification">
 		<name locale="en">Plugins update notification</name>
@@ -1830,6 +1963,37 @@
 			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery.</description>
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada à Galeria de Plugins da PKP.</description>
+		</release>
+		<release date="2024-03-22" version="1.5.2.0" md5="dfd48f6993686a91d0f959dfddbfc892">
+			<package>https://github.com/lepidus/contentAnalysis/releases/download/v1.5.2/contentAnalysis.tar.gz</package>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This version fixes a bug where ORCIDs with line breaks on it were not detected.</description>
+			<description locale="es_ES">Esta versión corrige un error por el que no se detectaban los ORCID con saltos de línea.</description>
+			<description locale="pt_BR">Esta versão corrige um bug em que ORCIDs com quebras de linha não eram detectados.</description>
+		</release>
+		<release date="2024-03-22" version="2.1.1.0" md5="99c0d798b91a1b8e08bebd52bab815ea">
+			<package>https://github.com/lepidus/contentAnalysis/releases/download/v2.1.1/contentAnalysis.tar.gz</package>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This version fixes a bug where ORCIDs with line breaks on it were not detected.</description>
+			<description locale="es">Esta versión corrige un error por el que no se detectaban los ORCID con saltos de línea.</description>
+			<description locale="pt_BR">Esta versão corrige um bug em que ORCIDs com quebras de linha não eram detectados.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
@@ -2004,6 +2168,51 @@
 			<certification type="official" />
 			<description>Matomo/Piwik release for OJS/OMP 3.4.0</description>
 		</release>
+		<release date="2024-12-04" version="1.0.4.1" md5="9fe4b7ce317b627b126eadefc2f7342e">
+			<package>https://github.com/pkp/piwik/releases/download/v1_0_4-1/piwik-v1_0_4-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Matomo/Piwik release for OJS/OMP 3.3.0</description>
+		</release>
+		<release date="2025-03-19" version="1.0.6.0" md5="e5554769347887fe7985172c21ed9fb7">
+			<package>https://github.com/pkp/piwik/releases/download/v1_0_6-0/piwik-v1_0_6-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Matomo/Piwik release for OJS/OMP/OPS 3.5.0</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="shariff">
 		<name locale="en">Shariff Plugin</name>
@@ -2159,201 +2368,6 @@
 				<version>~3.4.0.0</version>
 			</compatibility>
 			<certification type="partner"/><description>This new release of the Shariff plugin updates the Heise.de Shariff package to version 3.3.0 (thanks to Lepidus).</description>
-		</release>
-	</plugin>
-	<plugin category="generic" product="addThis">
-		<name locale="en">AddThis</name>
-		<name locale="en_US">AddThis</name>
-		<homepage>https://github.com/pkp/addThis</homepage>
-		<summary locale="en">Permits social media sharing of published content using AddThis.</summary>
-		<summary locale="en_US">Permits social media sharing of published content using AddThis.</summary>
-		<description locale="en"><![CDATA[<p><a href="http://www.addthis.com">AddThis</a> permits easy social media sharing by integrating tools for several platforms into a compact set of configurable buttons. This plugin integrates AddThis into OJS/OMP for quick sharing of published content.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p><a href="http://www.addthis.com">AddThis</a> permits easy social media sharing by integrating tools for several platforms into a compact set of configurable buttons. This plugin integrates AddThis into OJS/OMP for quick sharing of published content.</p>]]></description>
-		<maintainer>
-			<name>Alec Smecher</name>
-			<institution>Public Knowledge Project</institution>
-			<email>pkp.contact@gmail.com</email>
-		</maintainer>
-		<release date="2017-04-21" version="1.0.0.0" md5="1b6a84b416f5ccc914a5169db2f75881">
-			<package>https://github.com/pkp/addThis/releases/download/1_0_0-0/addThis-3.1.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.0.2.0</version>
-			</compatibility>
-			<certification type="official" />
-			<description>Initial release of the AddThis plugin.</description>
-		</release>
-		<release date="2017-10-21" version="1.0.0.0" md5="b7d5bc3476588e067d8e4beccfb34b31">
-			<package>https://github.com/pkp/addThis/releases/download/ojs-3_1_0-0/addThis-ojs-3_1_0-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.1.0.0</version>
-				<version>3.1.0.1</version>
-			</compatibility>
-			<certification type="official" />
-			<description>Initial release of the AddThis plugin.</description>
-		</release>
-		<release date="2018-04-04" version="1.0.1.0" md5="d735d48687ec298c271d29737f4e53d4">
-			<package>https://github.com/pkp/addThis/releases/download/ojs-3_1_1-0/addThis-ojs-3_1_1-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.1.1.0</version>
-				<version>3.1.1.1</version>
-				<version>3.1.1.2</version>
-				<version>3.1.1.4</version>
-			</compatibility>
-			<compatibility application="omp">
-				<version>3.1.1.0</version>
-				<version>3.1.1.1</version>
-				<version>3.1.1.2</version>
-				<version>3.1.1.3</version>
-				<version>3.1.1.4</version>
-			</compatibility>
-			<certification type="official" />
-			<description>AddThis for OJS/OMP 3.1.1.</description>
-		</release>
-		<release date="2019-03-04" version="1.0.2.0" md5="f26660a3ad4a5dec7f1c78c366472b14">
-			<package>https://github.com/pkp/addThis/releases/download/v1.0.2-0/addThis-v1.0.2-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.1.2.0</version>
-				<version>3.1.2.1</version>
-				<version>3.1.2.2</version>
-				<version>3.1.2.3</version>
-				<version>3.1.2.4</version>
-			</compatibility>
-			<compatibility application="omp">
-				<version>3.1.2.0</version>
-				<version>3.1.2.1</version>
-				<version>3.1.2.2</version>
-				<version>3.1.2.3</version>
-				<version>3.1.2.4</version>
-			</compatibility>
-			<certification type="official" />
-			<description>AddThis for OJS/OMP 3.1.2.</description>
-		</release>
-		<release date="2020-02-27" version="1.0.3.0" md5="afcb49344e6413bf7f9133dd0b828954">
-			<package>https://github.com/pkp/addThis/releases/download/v1.0.3-0/addThis-v1.0.3-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.2.0.0</version>
-				<version>3.2.0.1</version>
-				<version>3.2.0.2</version>
-				<version>3.2.0.3</version>
-				<version>3.2.0.4</version>
-			</compatibility>
-			<compatibility application="omp">
-				<version>3.2.0.0</version>
-				<version>3.2.0.1</version>
-				<version>3.2.0.2</version>
-				<version>3.2.0.3</version>
-				<version>3.2.0.4</version>
-			</compatibility>
-			<certification type="official" />
-			<description>AddThis for OJS/OMP 3.2.0.</description>
-		</release>
-		<release date="2020-06-19" version="1.0.3.1" md5="6816909fa0344928f443f7d535a23d4a">
-			<package>https://github.com/pkp/addThis/releases/download/v1_0_3-1/addThis-v1_0_3-1.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.2.1.0</version>
-				<version>3.2.1.1</version>
-				<version>3.2.1.2</version>
-				<version>3.2.1.3</version>
-				<version>3.2.1.4</version>
-				<version>3.2.1.5</version>
-			</compatibility>
-			<compatibility application="omp">
-				<version>3.2.1.0</version>
-				<version>3.2.1.1</version>
-				<version>3.2.1.2</version>
-				<version>3.2.1.3</version>
-				<version>3.2.1.4</version>
-				<version>3.2.1.5</version>
-			</compatibility>
-			<certification type="official" />
-			<description>AddThis for OJS/OMP 3.2.1.</description>
-		</release>
-		<release date="2020-06-25" version="1.0.3.2" md5="cd0f0ec30f9177cdf970d627d5727ba5">
-			<package>https://github.com/pkp/addThis/releases/download/v1_0_3-2/addThis-v1_0_3-2.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.2.1.0</version>
-				<version>3.2.1.1</version>
-				<version>3.2.1.2</version>
-				<version>3.2.1.3</version>
-				<version>3.2.1.4</version>
-				<version>3.2.1.5</version>
-			</compatibility>
-			<compatibility application="omp">
-				<version>3.2.1.0</version>
-				<version>3.2.1.1</version>
-				<version>3.2.1.2</version>
-				<version>3.2.1.3</version>
-				<version>3.2.1.4</version>
-				<version>3.2.1.5</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>3.2.1.0</version>
-				<version>3.2.1.1</version>
-				<version>3.2.1.2</version>
-				<version>3.2.1.3</version>
-				<version>3.2.1.4</version>
-				<version>3.2.1.5</version>
-			</compatibility>
-			<certification type="official" />
-			<description>AddThis for OJS/OMP/OPS 3.2.1 (adds OPS support).</description>
-		</release>
-		<release date="2021-01-29" version="1.0.4.0" md5="e442214520959b5e6c2c05572d56572b">
-			<package>https://github.com/pkp/addThis/releases/download/v1_0_4-0/addThis-v1_0_4-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<compatibility application="omp">
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<certification type="official" />
-			<description>AddThis for OJS/OMP/OPS 3.3.0.</description>
-		</release>
-		<release date="2023-04-06" version="1.0.5.0" md5="1cda59a260297cc8f5fbbec28ba0fdd2">
-			<package>https://github.com/pkp/addThis/releases/download/v1_0_5-0/addThis-v1_0_5-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<compatibility application="omp">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<certification type="official" />
-			<description>AddThis for OJS/OMP/OPS 3.4.0.</description>
 		</release>
 	</plugin>
 	<plugin category="importexport" product="copernicus">
@@ -2565,37 +2579,6 @@
 			<certification type="reviewed"/>
 			<description>Update for compatibility with v3.2.</description>
 		</release>
-		<release date="2021-02-07" version="2.1.4.1" md5="60a17f023e44921d1bf190ecb2cd56e6">
-			<package>https://github.com/ajnyga/funding/releases/download/2.1.4.1/funding.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<compatibility application="omp">
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<certification type="reviewed"/>
-			<description>Update for compatibility with v3.3.</description>
-		</release>
 		<release date="2023-02-17" version="2.1.4.2" md5="e51bad76697fd6746de343a2c4f50414">
 			<package>https://github.com/ajnyga/funding/releases/download/2.1.4.2/funding.tar.gz</package>
 			<compatibility application="ojs2">
@@ -2640,22 +2623,52 @@
 			<certification type="reviewed"/>
 			<description>This release adds support for OPS 3.3.0. It also adds translation for Brazilian Portuguese</description>
 		</release>
-		<release date="2023-02-17" version="3.4.0.0" md5="5ba098875697577c5ee87f0231902186">
-			<package>https://github.com/ajnyga/funding/releases/download/3.4.0.0/funding.tar.gz</package>
+		<release date="2024-12-18" version="3.3.0.4" md5="ce358ebd6db2cf6554f708fc1ce22cc4">
+			<package>https://github.com/ajnyga/funding/releases/download/3.3.0.4/funding.tar.gz</package>
 			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
 			</compatibility>
 			<compatibility application="omp">
-				<version>~3.4.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
 			</compatibility>
 			<compatibility application="ops">
-				<version>~3.4.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description>Update for compatibility with v3.4.</description>
+			<description>Bugfix release for v3.3.</description>
 		</release>
-		<release date="2024-03-06" version="3.4.0.2" md5="cd188a764f4d2fdb17d85bfe197af902">
-			<package>https://github.com/ajnyga/funding/releases/download/3.4.0.2/funding.tar.gz</package>
+		<release date="2024-12-18" version="3.4.0.4" md5="eb73d8955d58106b61622a6bf0a8932f">
+			<package>https://github.com/ajnyga/funding/releases/download/3.4.0.4/funding.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
@@ -3232,6 +3245,53 @@
 			<certification type="official" />
 			<description>Security release for OJS/OMP/OPS 3.4.0</description>
 		</release>
+		<release date="2024-11-08" version="1.1.1.3" md5="23e3b638a79b710a044fe29955232f73">
+			<package>https://github.com/pkp/customLocale/releases/download/v1_1_1-3/customLocale-v1_1_1-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Maintenance release for OJS/OMP/OPS 3.3.0</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="jatsTemplate">
 		<name locale="en">JATS Template Plugin</name>
@@ -3415,6 +3475,24 @@
 			<certification type="official" />
 			<description>Include preferred name and author bio fields</description>
 		</release>
+		<release date="2025-01-14" version="1.0.6.3" md5="1178669f193f778b0dd01e3f1c9e9bf9">
+			<package>https://github.com/pkp/jatsTemplate/releases/download/v1_0_6-3/jatsTemplate-v1_0_6-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Various bug fixes for OJS 3.3</description>
+		</release>
 		<release date="2023-03-31" version="1.0.7.1" md5="7d2b59d87421281db11666c323865ed7">
 			<package>https://github.com/pkp/jatsTemplate/releases/download/v1_0_7-1/jatsTemplate-v1_0_7-1.tar.gz</package>
 			<compatibility application="ojs2">
@@ -3431,6 +3509,14 @@
 			<certification type="official" />
 			<description>Bugfix release of the JATS Template plugin for OJS 3.4.0.</description>
 		</release>
+		<release date="2025-01-14" version="1.0.7.3" md5="5728a67c13f6504de7274c81f650aa1c">
+			<package>https://github.com/pkp/jatsTemplate/releases/download/v1_0_7-3/jatsTemplate-v1_0_7-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix release of the JATS Template plugin for OJS 3.4.0.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="sword">
 		<name locale="en">SWORD Client Plugin</name>
@@ -3438,8 +3524,8 @@
 		<homepage>https://github.com/asmecher/sword/</homepage>
 		<summary locale="en">Permits the use of the SWORD protocol to deposit documents from OJS into other systems.</summary>
 		<summary locale="en_US">Permits the use of the SWORD protocol to deposit documents from OJS into other systems.</summary>
-		<description locale="en"><![CDATA[<p>This plugin permits the use of the <a href="http://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to deposit documents into other systems.</p><p>The deposit can be performed manually, automatically upon acceptance, and manually by the author.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin permits the use of the <a href="http://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to deposit documents into other systems.</p><p>The deposit can be performed manually, automatically upon acceptance, and manually by the author.</p>]]></description>
+		<description locale="en"><![CDATA[<p>This plugin permits the use of the <a href="https://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to deposit documents into other systems.</p><p>The deposit can be performed manually, automatically upon acceptance, and manually by the author.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin permits the use of the <a href="https://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to deposit documents into other systems.</p><p>The deposit can be performed manually, automatically upon acceptance, and manually by the author.</p>]]></description>
 		<maintainer>
 			<name>Alec Smecher</name>
 			<institution>Public Knowledge Project</institution>
@@ -3571,6 +3657,39 @@
 			<certification type="official" />
 			<description>Compatibility release of the SWORD client plugin for OJS/OPS 3.3.0.</description>
 		</release>
+		<release date="2025-03-17" version="1.0.6.1" md5="e0bf5213f0a0eb3c0837d8221563bd47">
+			<package>https://github.com/pkp/sword/releases/download/v1_0_6-1/sword-v1_0_6-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release of the SWORD client plugin for OJS/OPS 3.3.0.</description>
+		</release>
 		<release date="2024-02-05" version="1.0.7.1" md5="77637cb5855a910aeee8631ac6b9c486">
 			<package>https://github.com/pkp/sword/releases/download/v1_0_7-1/sword-v1_0_7-1.tar.gz</package>
 			<compatibility application="ojs2">
@@ -3581,6 +3700,28 @@
 			</compatibility>
 			<certification type="official" />
 			<description>Compatibility release of the SWORD client plugin for OJS/OPS 3.4.0.</description>
+		</release>
+		<release date="2025-01-31" version="1.0.7.2" md5="6c16844e9b6c79809f74f50867d9ab23">
+			<package>https://github.com/pkp/sword/releases/download/v1_0_7-2/sword-v1_0_7-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix release of the SWORD client plugin for OJS/OPS 3.4.0.</description>
+		</release>
+		<release date="2025-03-04" version="1.0.7.3" md5="9e6eb3f0e895fafe16005e3f16e501f7">
+			<package>https://github.com/pkp/sword/releases/download/v1_0_7-3/sword-v1_0_7-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix release of the SWORD client plugin for OJS/OPS 3.4.0.</description>
 		</release>
 	</plugin>
 	<plugin category="oaiMetadataFormats" product="oaiJats">
@@ -3747,6 +3888,25 @@
 			<certification type="official" />
 			<description>Use publication sequence for article sequence information</description>
 		</release>
+		<release date="2025-01-14" version="1.0.4.6" md5="afb999e9676a2aa4f5f389e8b2ee21ae">
+			<package>https://github.com/pkp/oaiJats/releases/download/v1_0_4-6/oaiJats-v1_0_4-6.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix release of the OAI JATS plugin for OJS 3.3</description>
+		</release>
+
 		<release date="2023-03-31" version="1.0.5.0" md5="6dac9f370d7a41252a48319195d87786">
 			<package>https://github.com/pkp/oaiJats/releases/download/v1_0_5-0/oaiJats-v1_0_5-0.tar.gz</package>
 			<compatibility application="ojs2">
@@ -3757,6 +3917,14 @@
 		</release>
 		<release date="2023-05-30" version="1.0.5.1" md5="f410913290ee799b3c4e6f861d78df5a">
 			<package>https://github.com/pkp/oaiJats/releases/download/v1_0_5-1/oaiJats-v1_0_5-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix release of the OAI JATS plugin for OJS 3.4</description>
+		</release>
+		<release date="2025-01-14" version="1.0.5.2" md5="11847bc813c3ab0b48dad73e2de4fce9">
+			<package>https://github.com/pkp/oaiJats/releases/download/v1_0_5-2/oaiJats-v1_0_5-2.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
@@ -3774,7 +3942,7 @@
 		<description locale="en_US"><![CDATA[<p>A sidebar block plugin for Open Journal Systems and Open Monograph Press which displays a tag cloud of keywords.</p><p><img src="https://github.com/ali-sokhandan/ojs3-keywordcloud-plugin/raw/master/snapshot.gif"></p>]]></description>
 		<maintainer>
 			<name>Alireza Sokhandan</name>
-			<institution></institution>
+			<institution/>
 			<email>pkp.contact@gmail.com</email>
 		</maintainer>
 		<release date="2018-03-10" version="1.0.0.1" md5="81bd132c6c878458899ac5d693680947">
@@ -4048,6 +4216,76 @@
 			<description locale="es">Esta versión normaliza las palabras clave a minúsculas y elimina las palabras clave duplicadas</description>
 			<description locale="pt_BR">Essa versão normaliza as palavras-chave para minúsculo e remove palavras-chave duplicadas</description>
 		</release>
+		<release date="2024-10-14" version="1.2.0.0" md5="4c8c57a5d8ebdfc7a18741c2ba6fce59">
+			<package>https://github.com/lepidus/keywordCloud/releases/download/v1.2.0/keywordCloud.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.0.4</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.2.1.5</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.0.4</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.2.1.5</version>
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Shows primary locale keywords when current locale keywords are empty</description>
+			<description locale="es_ES">Muestra palabras clave del idioma principal cuando las palabras clave del idioma actual estén vacías.</description>
+			<description locale="pt_BR">Exibe palavras-chave do idioma principal quando as palavras-chave do idioma atual estiverem vazias.</description>
+		</release>
+		<release date="2024-10-14" version="2.1.0.0" md5="43eb8510f9da4fb3c268bb7487eaa42c">
+			<package>https://github.com/lepidus/keywordCloud/releases/download/v2.1.0/keywordCloud.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Shows primary locale keywords when current locale keywords are empty</description>
+			<description locale="es">Muestra palabras clave del idioma principal cuando las palabras clave del idioma actual estén vacías.</description>
+			<description locale="pt_BR">Exibe palavras-chave do idioma principal quando as palavras-chave do idioma atual estiverem vazias.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="bootstrap3">
 		<name locale="en">Bootstrap3</name>
@@ -4290,6 +4528,22 @@
 			<certification type="official" />
 			<description>This release includes entry of reviewer interests, improved links in alert boxes, and minor bugfixes.</description>
 		</release>
+		<release date="2024-12-11" version="3.4.0.3" md5="6c31298ab6f1d3c9fb96e2b76499640e">
+			<package>https://github.com/pkp/bootstrap3/releases/download/v3_4_0-3/bootstrap3-v3_4_0-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>This releases fixes bugs in citation display, article previews, and date formatting on the article details page.</description>
+		</release>
+		<release date="2025-03-12" version="3.5.0.0" md5="d54840d0dbd64ac5c78ec545d6fc39e1">
+			<package>https://github.com/pkp/bootstrap3/releases/download/v3_5_0-0/bootstrap3-v3_5_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0-x.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="classic">
 		<name locale="en">Classic</name>
@@ -4437,6 +4691,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
+		<release date="2025-03-12" version="1.1.3.0" md5="a541c66cf3954e61161bffbe426e9036">
+			<package>https://github.com/pkp/classic/releases/download/v1_1_3-0/classic-v1_1_3-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Compatibility release for OJS 3.5.0</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="healthSciences">
@@ -4607,6 +4869,14 @@
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
 		</release>
+		<release date="2025-03-13" version="1.1.3.0" md5="7135fb79fba6fb5779b95bf7e402b1d3">
+			<package>https://github.com/pkp/healthSciences/releases/download/v1_1_3-0/healthSciences-v1_1_3-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Compatibility release for OJS 3.5.0</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="defaultManuscript">
 		<name locale="en">Manuscript (Default child theme)</name>
@@ -4698,6 +4968,14 @@
 			</compatibility>
 			<certification type="official" />
 			<description>Compatibility with 3.4.0 version.</description>
+		</release>
+		<release date="2025-03-13" version="1.0.5.0" md5="4295270440bbc3bb96e62eebb09f99a2">
+			<package>https://github.com/pkp/defaultManuscript/releases/download/v1_0_5-0/defaultManuscript-v1_0_5-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0.</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="material">
@@ -4809,14 +5087,6 @@
 			<certification type="reviewed" />
 			<description>Material plugin, v2.2.0-0. The OJS 3.4 compatible release.</description>
 		</release>
-		<release date="2023-11-21" version="2.2.1.0" md5="eaaf5444ee669f09e6b0a8ff86dc7978">
-			<package>https://github.com/madi-nuralin/material/releases/download/v2_2_1-0/material-v2_2_1-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<certification type="reviewed" />
-			<description><![CDATA[<p>Resolve:</p><ul><li>Issue <a href="https://github.com/madi-nuralin/material/issues/13">#13</a>: Is there any way to remove the spinner/website loading animation?)</li><li>Issue <a href="https://github.com/madi-nuralin/material/issues/15">#15</a>: How to cite block appearing twice in OJS 3.4.0.3</li><li>Issue <a href="https://github.com/madi-nuralin/material/issues/16">#16</a>: Request to change username to username and email on the login page.</li></ul>]]></description>
-		</release>
 		<release date="2024-04-09" version="3.0.0.0" md5="74fc4cf791416389ed3353687cdf2a85">
 			<package>https://github.com/madi-nuralin/material/releases/download/v3_0_0-0/material-v3_0_0-0.tar.gz</package>
 			<compatibility application="ojs2">
@@ -4841,6 +5111,22 @@
 			<certification type="reviewed" />
 			<description>This release upgrades Material to version 3.0.2.0</description>
 		</release>
+		<release date="2025-01-08" version="3.0.3.0" md5="92ed1cfce75e1e1cada97e150b76ed07">
+			<package>https://github.com/madi-nuralin/material/releases/download/v3_0_3-0/material-v3_0_3-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>This release upgrades Material to version 3.0.3.0</description>
+		</release>
+		<release date="2025-02-16" version="3.0.4.0" md5="fbc03da2fdb66d84ebcc4603d802b524">
+			<package>https://github.com/madi-nuralin/material/releases/download/v3_0_4-0/material-v3_0_4-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>This release upgrades Material to version 3.0.4.0</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="texture">
 		<name locale="en">Texture plugin</name>
@@ -4848,8 +5134,8 @@
 		<homepage>https://github.com/pkp/texture</homepage>
 		<summary locale="en">Integrates the Substance Texture JATS XML Editor with OJS.</summary>
 		<summary locale="en_US">Integrates the Substance Texture JATS XML Editor with OJS.</summary>
-		<description locale="en"><![CDATA[<p>This plugin integrates the <a target="_new" href="http://substance.io/texture">Texture</a> JATS XML editor with OJS, permitting in-place editing of article content.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin integrates the <a target="_new" href="http://substance.io/texture">Texture</a> JATS XML editor with OJS, permitting in-place editing of article content.</p>]]></description>
+		<description locale="en"><![CDATA[<p>This plugin integrates the Texture JATS XML editor with OJS, permitting in-place editing of article content.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin integrates the Texture JATS XML editor with OJS, permitting in-place editing of article content.</p>]]></description>
 		<maintainer>
 			<name>Dulip Withanage</name>
 			<institution>Public Knowledge Project</institution>
@@ -5297,6 +5583,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
+		<release date="2025-03-13" version="1.1.3.0" md5="1a3fb044cbd8812a7fe3eb43bd4a12e5">
+			<package>https://github.com/pkp/immersion/releases/download/v1_1_3-0/immersion-v1_1_3-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Compatibility release for OJS 3.5.0</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="orcidProfile">
@@ -6502,171 +6796,6 @@
 			<description>Compatibility release for OJS/OMP/OPS 3.4.0.</description>
 		</release>
 	</plugin>
-	<!-- REMOVED: PaperBuzz is defunct. -->
-	<!--plugin category="generic" product="paperbuzz">
-		<name locale="en">Paperbuzz</name>
-		<name locale="en_US">Paperbuzz</name>
-		<homepage>https://github.com/pkp/paperbuzz</homepage>
-		<summary locale="en">Display free altmetrics based on open data from Paperbuzz.</summary>
-		<summary locale="en_US">Display free altmetrics based on open data from Paperbuzz.</summary>
-		<description locale="en"><![CDATA[<p>This plugin will display free altmetrics based on open data from <a href="http://paperbuzz.org">Paperbuzz</a>, a free and open service built by Impactstory that itself relies on <a href="https://www.crossref.org/services/event-data/">Crossref Event Data</a>. To use this plugin, your journal must have DOIs assigned to articles and properly deposited with Crossref.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin will display free altmetrics based on open data from <a href="http://paperbuzz.org">Paperbuzz</a>, a free and open service built by Impactstory that itself relies on <a href="https://www.crossref.org/services/event-data/">Crossref Event Data</a>. To use this plugin, your journal must have DOIs assigned to articles and properly deposited with Crossref.</p>]]></description>
-		<maintainer>
-			<name>Bozana Bokan</name>
-			<institution>Public Knowledge Project</institution>
-			<email>pkp.contact@gmail.com</email>
-		</maintainer>
-		<release date="2019-04-19" version="1.0.0.0" md5="56fc123731bf8b5593e92f9904e60a6d">
-			<package>https://github.com/pkp/paperbuzz/releases/download/1.0.0.0/paperbuzz-1.0.0.0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.1.2.0</version>
-				<version>3.1.2.1</version>
-				<version>3.1.2.2</version>
-				<version>3.1.2.3</version>
-				<version>3.1.2.4</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Initial release.</description>
-		</release>
-		<release date="2020-06-19" version="1.0.2.0" md5="59f8279e3ce520579282f998d8ed0aaa">
-			<package>https://github.com/pkp/paperbuzz/releases/download/v1_0_2-0/paperbuzz-v1_0_2-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.2.1.0</version>
-				<version>3.2.1.1</version>
-				<version>3.2.1.2</version>
-				<version>3.2.1.3</version>
-				<version>3.2.1.4</version>
-				<version>3.2.1.5</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Maintenance release for 3.2.1.</description>
-		</release>
-		<release date="2021-02-02" version="1.0.3.0" md5="085fe0fc182453574ecc1a71bebb396e">
-			<package>https://github.com/pkp/paperbuzz/releases/download/v1_0_3-0/paperbuzz-v1_0_3-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Maintenance release for 3.3.0.</description>
-		</release>
-		<release date="2021-04-12" version="1.0.3.1" md5="e979ad4fb7aa2806abd320cfea3ccf44">
-			<package>https://github.com/pkp/paperbuzz/releases/download/v1_0_3-1/paperbuzz-v1_0_3-1.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Maintenance release for OJS/OPS 3.3.0.</description>
-		</release>
-		<release date="2023-10-01" version="1.0.3.2" md5="940c73ec5f4092ad1eb7d9a8deee987b">
-			<package>https://github.com/pkp/paperbuzz/releases/download/v1_0_3-2/paperbuzz-v1_0_3-2.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Bugfix release for OJS/OPS 3.3.0.</description>
-		</release>
-		<release date="2023-10-04" version="1.0.3.3" md5="b752dab678f9c7348ff0b0401911dfe2">
-			<package>https://github.com/pkp/paperbuzz/releases/download/v1_0_3-3/paperbuzz-v1_0_3-3.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Bugfix release for OJS/OPS 3.3.0.</description>
-		</release>
-		<release date="2023-07-17" version="2.0.0.0" md5="a026dbd79faa6215b12db204c5e72b85">
-			<package>https://github.com/pkp/paperbuzz/releases/download/v2_0_0-0/paperbuzz-v2_0_0-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.4.0.0</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>3.4.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Maintenance release for OJS/OPS 3.4</description>
-		</release>
-	</plugin-->
 	<plugin category="generic" product="openAIRE">
 		<name locale="en">OpenAIRE Plugin 2.0</name>
 		<name locale="en_US">OpenAIRE Plugin 2.0</name>
@@ -6751,6 +6880,24 @@
 			</compatibility>
 			<certification type="reviewed" />
 			<description>Update for compatibility with v3.3.</description>
+		</release>
+		<release date="2024-12-01" version="3.3.0.0" md5="8ad23c31d4a011f8c8d56482e28a4f7a">
+			<package>https://github.com/ojsde/openAIRE/releases/download/3.3.0.0/openAIRE.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>Bug fix for v3.3.</description>
 		</release>
 		<release date="2024-02-22" version="3.4.0.1" md5="58b88ec1c91a0d7ae2da22993713e54b">
 			<package>https://github.com/ojsde/openAIRE/releases/download/3.4.0.1/openAIRE.tar.gz</package>
@@ -6857,18 +7004,72 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="reviewerCredits">
-		<name locale="en">ReviewerCredits Plugin</name>
-		<name locale="en_US">ReviewerCredits Plugin</name>
+		<name locale="en">Reviewer Credits Plugin</name>
+		<name locale="en_US">Reviewer Credits Plugin</name>
 		<homepage>https://gitlab.com/reviewercredits/reviewercredits-ojs-plugin</homepage>
-		<summary locale="en">This plugin enable the integration with ReviewerCredits (www.reviewercredits.com).</summary>
-		<summary locale="en_US">This plugin enable the integration with ReviewerCredits (www.reviewercredits.com).</summary>
-		<description locale="en"><![CDATA[This plugin enables the integration with ReviewerCredits using REST APIs. The main goal is to find reviewers and exchange peer review data with the ReviewerCredits platform.]]></description>
-		<description locale="en_US"><![CDATA[This plugin enables the integration with ReviewerCredits using REST APIs. The main goal is to find reviewers and exchange peer review data with the ReviewerCredits platform.]]></description>
+		<summary locale="en">This plugin enable the integration with Reviewer Credits (www.reviewercredits.com).</summary>
+		<summary locale="en_US">This plugin enable the integration with Reviewer Credits (www.reviewercredits.com).</summary>
+		<description locale="en"><![CDATA[This plugin enables the integration with Reviewer Credits using REST APIs. The main goal is to find reviewers and exchange peer review data with the Reviewer Credits platform.]]></description>
+		<description locale="en_US"><![CDATA[This plugin enables the integration with Reviewer Credits using REST APIs. The main goal is to find reviewers and exchange peer review data with the Reviewer Credits platform.]]></description>
 		<maintainer>
 			<name>Emre Danisan</name>
 			<institution>Reviewer Credits GmbH</institution>
 			<email>emre.danisan@reviewercredits.com</email>
 		</maintainer>
+		<release date="2025-03-24" version="3.3.0.0" md5="dd7c43bbd1786a814ddeb7b7bda57dee">
+			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/V3300/reviewerCredits.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Plugin to enable the reviewer finder and peer review data integration with Reviewer Credits.</description>
+		</release>
+		<release date="2025-03-24" version="3.4.0.0" md5="f9e19d7bbd7637641201134be1b9abcf">
+			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/V3400/reviewercredits-ojs-plugin-3_4_0-stable.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Plugin to enable the reviewer finder and peer review data integration with Reviewer Credits.</description>
+		</release>
+		<release date="2024-12-03" version="2.2.0.1" md5="2874f24c908823ef957528797f41da49">
+			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/v2/reviewercredits-ojs-plugin-stable-3_3_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Plugin to enable the reviewer finder and peer review data integration with Reviewer Credits.</description>
+		</release>
+		<release date="2024-12-03" version="2.2.0.1" md5="a85c8654503f71313438ff5da7916a59">
+			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/v2/reviewercredits-ojs-plugin-stable-3_4_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Plugin to enable the reviewer finder and peer review data integration with Reviewer Credits.</description>
+		</release>
 		<release date="2024-06-14" version="2.1.3.10" md5="9b5d8cc6ec30c03af7d5ae905d03989e">
 			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/reviewercredits-ojs-plugin-stable-3_3_0.tar.gz</package>
 			<compatibility application="ojs2">
@@ -6964,6 +7165,20 @@
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the adminNotificationManager plugin for OJS 3.3.</description>
+		</release>
+		<release date="2024-12-19" version="1.3.0-0" md5="14239295b6c81199ff903ef3fff3e920">
+			<package>https://github.com/ulsdevteam/pkp-adminNotificationManager/releases/download/v1.3.0.0/adminNotificationManager-v1.3.0-0.tar.gz</package> 
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the Admin Notification Manager plugin for OJS 3.4</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="emailIssueToc">
@@ -8131,6 +8346,20 @@
 			<certification type="partner" />
 			<description>PHP 8 compatibility</description>
 		</release>
+		<release date="2024-12-19" version="1.3.0.0" md5="a7592653436eb151444052d2e1a3487f">
+			<package>https://github.com/ulsdevteam/pkp-akismet/releases/download/v1.3.0-0/akismet-v1.3.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the Akismet plugin for OJS 3.4</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="formHoneypot">
 		<name locale="en">Form Honeypot</name>
@@ -8407,7 +8636,7 @@
 	<plugin category="generic" product="authorRequirements">
 		<name locale="en">Author Requirements</name>
 		<name locale="en_US">Author Requirements</name>
-		<homepage>https://github.com/ewhanson/authorRequirements</homepage>
+		<homepage>https://github.com/pkp/authorRequirements</homepage>
 		<summary locale="en">Make certain author fields optional.</summary>
 		<summary locale="en_US">Make certain author fields optional.</summary>
 		<description locale="en">This plugin makes it possible to add an author to a list of contributors without using certain required fields (e.g. email). This is useful in cases where required information does not exist for authors.</description>
@@ -8418,7 +8647,7 @@
 			<email>hansonew@gmail.com</email>
 		</maintainer>
 		<release date="2019-10-27" version="1.0.0.0" md5="0303e950caf99d2c4a9d11529ddb18db">
-			<package>https://github.com/ewhanson/authorRequirements/releases/download/v1.0.0-0/authorRequirements-1.0.0-0.tar.gz</package>
+			<package>https://github.com/pkp/authorRequirements/releases/download/v1.0.0-0/authorRequirements-1.0.0-0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.1.2.0</version>
 				<version>3.1.2.1</version>
@@ -8437,7 +8666,7 @@
 			<description>Initial release of the authorRequirements plugin for OJS/OMP 3.1.x</description>
 		</release>
 		<release date="2020-02-26" version="1.0.0.1" md5="b4678522339100227e2a2770f7041e08">
-			<package>https://github.com/ewhanson/authorRequirements/releases/download/v1.0.0-1/authorRequirements-1.0.0-1.tar.gz</package>
+			<package>https://github.com/pkp/authorRequirements/releases/download/v1.0.0-1/authorRequirements-1.0.0-1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.0.0</version>
 				<version>3.2.0.1</version>
@@ -8456,7 +8685,7 @@
 			<description>Release of the authorRequirements plugin for OJS/OMP 3.2.0</description>
 		</release>
 		<release date="2021-02-02" version="1.0.1.0" md5="42a1097da965784028ea5849ab1a1362">
-			<package>https://github.com/ewhanson/authorRequirements/releases/download/v1.0.1-0/authorRequirements-1.0.1-0.tar.gz</package>
+			<package>https://github.com/pkp/authorRequirements/releases/download/v1.0.1-0/authorRequirements-1.0.1-0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -8489,7 +8718,7 @@
 			<description>Release of the authorRequirements plugin for OJS/OMP 3.3.0</description>
 		</release>
 		<release date="2021-08-16" version="1.0.1.1" md5="910e86d153ff882355be2c2bce08f3b0">
-			<package>https://github.com/ewhanson/authorRequirements/releases/download/v1.0.1-1/authorRequirements-1.0.1-1.tar.gz</package>
+			<package>https://github.com/pkp/authorRequirements/releases/download/v1.0.1-1/authorRequirements-1.0.1-1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -8522,7 +8751,7 @@
 			<description>Update to authorRequirements plugin fixing compatability issues in OMP 3.3</description>
 		</release>
 		<release date="2021-09-27" version="1.0.1.2" md5="24ff4f6ad97f6efd89bacc6375fd87dd">
-			<package>https://github.com/ewhanson/authorRequirements/releases/download/v1.0.1-2/authorRequirements-1.0.1-2.tar.gz</package>
+			<package>https://github.com/pkp/authorRequirements/releases/download/v1.0.1-2/authorRequirements-1.0.1-2.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -9537,8 +9766,8 @@
 		<homepage>https://github.com/quoideneuf/swordServer</homepage>
 		<summary locale="en">Permits the use of the SWORD protocol to receive deposits from other applications.</summary>
 		<summary locale="en_US">Permits the use of the SWORD protocol to receive deposits from other applications.</summary>
-		<description locale="en"><![CDATA[<p>This plugin permits the use of the <a href="http://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to receive deposit documents from other systems.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin permits the use of the <a href="http://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to receive deposit documents from other systems.</p>]]></description>
+		<description locale="en"><![CDATA[<p>This plugin permits the use of the <a href="https://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to receive deposit documents from other systems.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin permits the use of the <a href="https://swordapp.org/sword-v2/">SWORDv2 protocol</a> to allow OJS to receive deposit documents from other systems.</p>]]></description>
 		<maintainer>
 			<name>Public Knowledge Project</name>
 			<institution>Public Knowledge Project</institution>
@@ -9568,6 +9797,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>Maintenance release for OJS 3.2.1</description>
+		</release>
+		<release date="2025-03-04" version="1.1.0.1" md5="4b2c71f568c7ec55f23d460999cb114e">
+			<package>https://github.com/pkp/swordServer/releases/download/v1_1_0-1/swordServer-v1_1_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Maintenance release for OJS 3.4.0</description>
 		</release>
 	</plugin>
 	<plugin category="gateways" product="pubIdResolver">
@@ -9743,6 +9980,64 @@
 			<certification type="reviewed" />
 			<description>OpenGraph plugin for 3.3</description>
 		</release>
+		<release date="2024-12-04" version="3.3.0.0" md5="01d4c4d074e660585c0e1eecb0b1225b">
+			<package>https://github.com/ajnyga/openGraph/releases/download/3.3.0.0/openGraph.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>OpenGraph plugin for 3.3</description>
+		</release>
+		<release date="2024-12-04" version="3.4.0.0" md5="e8897ba3bcfa2fb3ec0167a9d15b5f6e">
+			<package>https://github.com/ajnyga/openGraph/releases/download/3.4.0.0/openGraph.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>OpenGraph plugin for 3.4</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="publons">
 		<name locale="en">Publons Reviewer Recognition Plugin</name>
@@ -9833,6 +10128,61 @@
 			<institution>Clarivate</institution>
 			<email>reviewservices@clarivate.com</email>
 		</maintainer>
+		<release date="2024-11-26" version="1.3.1.0" md5="9589aa157daac66a9c466b9d03a59958">
+			<package>https://github.com/clarivate/wos_reviewer_recognition_plugin_ojs_old/releases/download/v1.3.1.0/webOfScience_1_3_1_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.1.0.0</version>
+				<version>3.1.0.1</version>
+				<version>3.1.1.0</version>
+				<version>3.1.1.1</version>
+				<version>3.1.1.2</version>
+				<version>3.1.1.4</version>
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Rebrand of old Publons plugin for OJS 3.1 to Web of Science</description>
+		</release>
+		<release date="2024-12-17" version="1.3.2.0" md5="3d097b3198b1fad1c2adcc9f69c7d811">
+			<package>https://github.com/clarivate/wos_reviewer_recognition_plugin_ojs_old/releases/download/v1.3.2.0/webOfScience_1_3_2_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.1.0.0</version>
+				<version>3.1.0.1</version>
+				<version>3.1.1.0</version>
+				<version>3.1.1.1</version>
+				<version>3.1.1.2</version>
+				<version>3.1.1.4</version>
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.0.4</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.2.1.5</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Rebrand of old Publons plugin for OJS 3.2 to Web of Science</description>
+		</release>
+		<release date="2024-12-30" version="1.3.3.0" md5="ed7b82b1de9c94abf00cc125782fa9bc">
+			<package>https://github.com/clarivate/wos_reviewer_recognition_plugin_ojs_old/releases/download/v1.3.3.0/webOfScience_1_3_3_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Rebrand of old Publons plugin for OJS 3.3 to Web of Science, fix for PHP 8.0+</description>
+		</release>
 		<release date="2024-10-03" version="1.3.4.1" md5="d6d20dd1ae7547e855bd03e4a09de6a9">
 			<package>https://github.com/clarivate/wos_reviewer_recognition_plugin_ojs_3/releases/download/v1.3.4.1/webOfScience.tar.gz</package>
 			<compatibility application="ojs2">
@@ -9845,6 +10195,20 @@
 			</compatibility>
 			<certification type="reviewed"/>
 			<description>Support for OJS 3.4, rebrand to Web of Science</description>
+		</release>
+		<release date="2024-11-26" version="1.3.4.2" md5="3040e43abee94f09941c95c726709eeb">
+			<package>https://github.com/clarivate/wos_reviewer_recognition_plugin_ojs_3/releases/download/v1.3.4.2/webOfScience_1_3_4_2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.1</version>
+				<version>3.4.0.2</version>
+				<version>3.4.0.3</version>
+				<version>3.4.0.4</version>
+				<version>3.4.0.5</version>
+				<version>3.4.0.6</version>
+				<version>3.4.0.7</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Updated link to Terms and Conditions, included support for 3.4.0.7</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="pragma">
@@ -9956,6 +10320,14 @@
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
 		</release>
+		<release date="2025-03-13" version="1.1.3.0" md5="1db700cc4d2b0f83144b0f06a8d1a45c">
+			<package>https://github.com/pkp/pragma/releases/download/v1_1_3-0/pragma-v1_1_3-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Compatibility release for OJS 3.5.0</description>
+		</release>
 	</plugin>
 	<plugin category="importexport" product="archivematicaExport">
 		<name locale="en">Archivematica Export</name>
@@ -9971,7 +10343,7 @@
 			<email>contacto@escire.mx</email>
 		</maintainer>
 		<release date="2020-07-01" version="1.0.0.0" md5="bb46e07468830059e9a1223ccfd1a24d">
-			<package>https://github.com/escire/ArchivematicaExportPlugin/archive/refs/tags/compat-ojs3.1.x.tar.gz</package>
+			<package>https://github.com/escire/ArchivematicaExportPlugin/archive/refs/heads/compat-ojs3.1.x.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.1.0.0</version>
 				<version>3.1.0.1</version>
@@ -10149,6 +10521,14 @@
 			<certification type="reviewed"/>
 			<description>PKP|PN for OJS 3.4.x-x. First release for OJS 3.4.</description>
 		</release>
+		<release date="2024-11-21" version="3.0.0.1" md5="bee6599a9c791c056542e0930ae76a91">
+			<package>https://github.com/pkp/pln/releases/download/v3_0_0-1/pln-v3_0_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>PKP|PN for OJS 3.4.x-x. Fixed minor bug when using the MariaDB database.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="citations">
 		<name locale="en">Scopus/Crossref Citations Plugin</name>
@@ -10299,8 +10679,8 @@
 		<homepage>https://github.com/pkp/portico</homepage>
 		<summary locale="en">Supports export of published content to Portico.</summary>
 		<summary locale="en_US">Supports export of published content to Portico.</summary>
-		<description locale="en"><![CDATA[<pa>This plugin enables the digital preservation of published content in the <a href="https://www.portico.org/">Portico</a> preservtion service.</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
-		<description locale="en_US"><![CDATA[<pa>This plugin enables the digital preservation of published content in the <a href="https://www.portico.org/">Portico</a> preservtion service.</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
+		<description locale="en"><![CDATA[<pa>This plugin enables the digital preservation of published content in the <a href="https://www.portico.org/">Portico</a> preservation service.</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
+		<description locale="en_US"><![CDATA[<pa>This plugin enables the digital preservation of published content in the <a href="https://www.portico.org/">Portico</a> preservation service.</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
 		<maintainer>
 			<name>Public Knowledge Project</name>
 			<institution>Public Knowledge Project</institution>
@@ -10569,6 +10949,30 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Improvement for OJS 3.4.0-x</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="opdoira">
+		<name locale="en">DOI to OP DOI RA XML export and registration plugin</name>
+		<name locale="en_US">DOI to OP DOI RA XML export and registration plugin</name>
+		<homepage>https://github.com/Ediser-mEDRA/opdoiraojsplugin/</homepage>
+		<summary locale="en">Allows DOI export in ONIX4DOI format and the registration with OP DOI RA.</summary>
+		<summary locale="en_US">Allows DOI export in ONIX4DOI format and the registration with OP DOI RA.</summary>
+		<description locale="en"><![CDATA[<p>The OP DOI RA plugin enables the export of issue and article metadata in ONIX4DOI format and
+the registration of DOIs with OP DOI RA.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>The OP DOI RA plugin enables the export of issue and article metadata in ONIX4DOI format and
+the registration of DOIs with OP DOI RA.</p>]]></description>
+		<maintainer>
+			<name>mEDRA TechStaff</name>
+			<institution>mEDRA Ediser S.r.l</institution>
+			<email>op.support@medra.org</email>
+		</maintainer>
+		<release date="2025-02-07" version="1.0.0.0" md5="9b29ce4a917d9fb069de77c03f05417e">
+			<package>https://github.com/Ediser-mEDRA/opdoiraojsplugin/releases/download/v1_0_0-0/opdoiraojsplugin-v1_0_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>Initial OP DOI RA plugin release for OJS 3.4.0-x</description>
+		</release>
+	</plugin>
 	<plugin category="importexport" product="medra">
 		<name locale="en">DOI to mEDRA xml export and registration plugin</name>
 		<name locale="en_US">DOI to mEDRA xml export and registration plugin</name>
@@ -10813,7 +11217,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	<plugin category="generic" product="openid">
 		<name locale="en">OpenID Authentication Plugin</name>
 		<name locale="en_US">OpenID Authentication Plugin</name>
-		<homepage>https://github.com/leibniz-psychology/openid</homepage>
+		<homepage>https://github.com/pkp/openid</homepage>
 		<summary locale="en">This plugin allows users to register and login with an OpenID Connect provider such as Keycloak, Google, Orchid, Microsoft and Apple</summary>
 		<summary locale="en_US">This plugin allows users to register and login with an OpenID Connect provider such as Keycloak, Google, Orchid, Microsoft and Apple</summary>
 		<description locale="en"><![CDATA[<p>This plugin enables logging in to PKP applications using OpenID Connect providers. It currently supports Google, Apple ID, Microsoft Azure AD and Orchid. It is also possible to configure a custom OpenID Connect provider such as Keycloak.</p><p>For more information check <a href="https://github.com/leibniz-psychology/openid">GitHub</a><br><strong>Read the <a href="https://github.com/leibniz-psychology/openid/wiki">wiki</a> if you need help with the configuration.</strong></p>]]></description>
@@ -10919,15 +11323,15 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	<plugin category="importexport" product="datacite">
 		<name locale="en">Datacite</name>
 		<name locale="en_US">Datacite</name>
-		<homepage>https://github.com/withanage/datacite</homepage>
+		<homepage>https://github.com/UB-Heidelberg/datacite/</homepage>
 		<summary locale="en">This plugin allows DOI registration via Datacite</summary>
 		<summary locale="en_US">This plugin allows DOI registration via Datacite</summary>
 		<description locale="en"></description>
 		<description locale="en_US"></description>
 		<maintainer>
-			<name>Dulip Withanage</name>
-			<institution>Public Knowledge Project</institution>
-			<email>pkp.contact@gmail.com</email>
+			<name>Dulip Withanage; Christian Marsilius</name>
+			<institution>Technischer Informationsbibliothek (TIB), Heidelberg University</institution>
+			<email>marsilius@ub.uni-heidelberg.de</email>
 		</maintainer>
 		<release date="2021-03-31" version="1.0.0.3" md5="806be4dd55f1879d1d45557072f5bdcd">
 			<package>https://github.com/withanage/datacite/releases/download/v1_0_0-4/datacite-v1_0_0-4.tar.gz</package>
@@ -10979,11 +11383,11 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 		<release date="2024-06-19" version="3.4.0.1" md5="a83acc4e7a90fadd7c03c87e64931d8d">
 			<package>https://github.com/withanage/datacite/releases/download/v3_4_0-1/datacite-v3_4_0-1.tar.gz</package>
-			<compatibility application="ojs2">
+			<compatibility application="omp">
 				<version>~3.4.0.0</version>
 			</compatibility>
 			<certification type="partner" />
-			<description>OJS 3.4 support</description>
+			<description>OMP 3.4 support</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="browseBySection">
@@ -11050,6 +11454,41 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			</compatibility>
 			<certification type="official" />
 			<description>Browse By Section for OJS 3.4</description>
+		</release>
+		<release date="2024-12-04" version="1.2.0.1" md5="7222bdbd5980b63efaa550057b1c10e6">
+			<package>https://github.com/pkp/browseBySection/releases/download/v1_2_0-1/browseBySection-v1_2_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Browse By Section for OJS 3.3</description>
+		</release>
+		<release date="2024-12-04" version="1.2.1.1" md5="6b2a73b12fbce20c79811e1a247cf6a7">
+			<package>https://github.com/pkp/browseBySection/releases/download/v1_2_1-1/browseBySection-v1_2_1-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Browse By Section for OJS 3.4</description>
+		</release>
+		<release date="2025-03-27" version="1.2.2.0" md5="e34e135f06a65c4f4ac1ab6b89e58588">
+			<package>https://github.com/pkp/browseBySection/releases/download/v1_2_2-0/browseBySection-v1_2_2-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Browse By Section for OJS 3.5</description>
 		</release>
 	</plugin>
 	<plugin category="reports" product="scieloSubmissionsReport">
@@ -11366,6 +11805,52 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta versión agrega las columnas para vistas de PDF y resumen. Estos cambios actualmente solo están disponibles para OPS.</description>
 			<description locale="pt_BR">Essa versão adiciona as colunas de visualizações do PDF e do resumo. Essas mudanças estão disponíveis atualmente apenas para OPS.</description>
 		</release>
+		<release date="2024-11-06" version="2.4.3.1" md5="7a62bebc936c257d12e27ce44fc6fa31">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.3.1/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release fixes text error in the option to select all sections.</description>
+			<description locale="es_ES">Esta versión corrige un error de texto en la opción para seleccionar todas las secciones.</description>
+			<description locale="pt_BR">Esta versão corrige erro de texto na opção de selecionar todas as seções.</description>
+		</release>
+		<release date="2024-11-06" version="3.0.2.1" md5="267623738b12e249beec161a43722c3d">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.2.1/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes text error in the option to select all sections.</description>
+			<description locale="es">Esta versión corrige un error de texto en la opción para seleccionar todas las secciones.</description>
+			<description locale="pt_BR">Esta versão corrige erro de texto na opção de selecionar todas as seções.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="lucene">
 		<name locale="en">Lucene/Solr Plugin</name>
@@ -11463,6 +11948,41 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">This release adds support for 3.4.0-x application releases.</description>
 			<description locale="es">Esta versión agrega soporte para las versiones de aplicaciones 3.4.0-x</description>
 			<description locale="pt_BR">Essa versão adiciona suporte às versões 3.4.0-x das aplicações.</description>
+		</release>
+		<release date="2023-10-31" version="1.0.7.0" md5="b0269e2cad92dd5fb1b50293789e71f5">
+			<package>https://github.com/lepidus/epubViewer/releases/download/v1.0.7/epubViewer.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1.4</version>
+				<version>3.2.1.5</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This version fixes the problem of files not being recognized correctly.</description>
+			<description locale="es_ES">Esta versión corrige el problema de los archivos que no se reconocían correctamente.</description>
+			<description locale="pt_BR">Esta versão corrige problema quando arquivos não são reconhecidos corretamente.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="inlineHtmlGalley">
@@ -12074,6 +12594,71 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Corregido un error cuando se habilita a través de la Configuración del sitio. El plugin solo se puede habilitar en revistas.</description>
 			<description locale="pt_BR">Corrigido um erro quando habilitado via Configurações do Site. O plugin só pode ser habilitado em periódicos.</description>
 		</release>
+		<release date="2024-04-02" version="2.1.0.0" md5="c7426869d65b8179266c19d9d4e2f325">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v2.1.0.0/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en">This version adds a check for required metadata during submission.</description>
+			<description locale="es">Esta versión añade una comprobación de los metadatos necesarios durante el envío.</description>
+			<description locale="pt_BR">Esta versão adiciona uma verificação de metadados obrigatórios durante o envio.</description>
+		</release>
+		<release date="2024-04-01" version="1.3.0.0" md5="cfed7481621745cce1c5972ecbeab00b">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v1.3.0/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en_US">This version adds checks for required metadata during submission.</description>
+			<description locale="es_ES">Esta versión añade comprobaciones de los metadatos necesarios durante el envío.</description>
+			<description locale="pt_BR">Esta versão adiciona verificações de metadados necessários durante o envio.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="doiInSummary">
 		<name locale="en">DOI in Summary</name>
@@ -12298,6 +12883,25 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Version bump to fix erroneous 'can be upgraded message.'</description>
 			<description locale="en_US">Version bump to fix erroneous 'can be upgraded message.'</description>
 		</release>
+		<release date="2025-03-25" version="1.0.3.0" md5="63e5e8acdfb559b7c0fef0c18aee588c">
+			<package>https://github.com/UMNLibraries/ojs-gopher-theme/releases/download/1_0_3-0/gopher-1_0_3-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<description locale="en">added full issue galley download to issue TOC page.</description>
+			<description locale="en_US">added full issue galley download to issue TOC page.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="academicFree">
 		<name locale="en">Academic Free Theme</name>
@@ -12479,7 +13083,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	<plugin category="generic" product="journalEditorRestriction">
 		<name locale="en">Journal Editor Restriction Plugin</name>
 		<name locale="en_US">Journal Editor Restriction Plugin</name>
-		<homepage>https://openjournaltheme.com/docs/ojs-product-documentation-free/journal-editor-restriction-plugin/</homepage>
+		<homepage>https://github.com/openjournalteam/journalEditorRestriction</homepage>
 		<summary locale="en">Restricts some access for Journal Editors</summary>
 		<summary locale="en_US">Restricts some access for Journal Editors</summary>
 		<description locale="en"><![CDATA[<p>This plugin will disable access for Journal Editors to the following sections:</p>
@@ -12588,6 +13192,236 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">This plugin sends a reminder to the reviewer's email address when they are assigned to a submission. The reminder informs them of the review period, which can be added to major digital calendars.</description>
 			<description locale="pt_BR">Esse plugin envia um lembrete para o endereço de e-mail do avaliador quando ele é atribuído a uma submissão. O lembrete os informa sobre o período de revisão, que pode ser adicionado aos principais calendários digitais.</description>
 			<description locale="es">Este módulo envía un recordatorio a la dirección de correo electrónico del revisor cuando se le asigna un envío. El recordatorio les informa del periodo de revisión, que puede añadirse a los principales calendarios digitales.</description>
+		</release>
+	</plugin>
+	<plugin category="generic" product="OASwitchboard">
+		<name locale="en">OA Switchboard Plugin</name>
+		<name locale="en_US">OA Switchboard Plugin</name>
+		<name locale="pt_BR">Plugin OA Switchboard</name>
+		<name locale="es">Módulo de OA Switchboard</name>
+		<name locale="es_ES">Módulo de OA Switchboard</name>
+		<homepage>https://github.com/lepidus/OASwitchboard</homepage>
+		<summary locale="en">Allows sending messages to OA Switchboard, automatically, at the publication of an article.</summary>
+		<summary locale="en_US">Allows sending messages to OA Switchboard, automatically, at the publication of an article.</summary>
+		<summary locale="pt_BR">Permite o envio de mensagens para a OA Switchboard, de forma automática, no momento da publicação de um artigo.</summary>
+		<summary locale="es">Permite enviar mensajes a OA Switchboard, de forma automática, al momento de la publicación de un artículo.</summary>
+		<summary locale="es_ES">Permite enviar mensajes a OA Switchboard, de forma automática, al momento de la publicación de un artículo.</summary>
+		<description locale="en"><![CDATA[<p>Allows sending messages to OA Switchboard, automatically, at the publication of an article.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Allows sending messages to OA Switchboard, automatically, at the publication of an article.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Permite o envio de mensagens para a OA Switchboard, de forma automática, no momento da publicação de um artigo</p>]]></description>
+		<description locale="es"><![CDATA[<p>Permite enviar mensajes a OA Switchboard, de forma automática, al momento de la publicación de un artículo.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Permite enviar mensajes a OA Switchboard, de forma automática, al momento de la publicación de un artículo.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team for OA Switchboard</name>
+			<institution>Developed by Lepidus Tecnologia for OA Switchboard</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2024-11-04" version="1.1.1.8" md5="4aaab86951b178fe2b88c082c5877ade">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.1.8/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This plugin sends a P1 message to the OA Switchboard when a submission is published.</description>
+			<description locale="pt_BR">Esse plugin envia uma mensagem P1 para o OA Switchboard quando uma submissão é publicada.</description>
+			<description locale="es_ES">Este módulo envía un mensaje P1 a la OA Switchboard cuando se publica un envío.</description>
+		</release>
+		<release date="2024-11-04" version="2.0.1.14" md5="1986a8a448ed63ebd81285c293642f30">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.1.14/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This plugin sends a P1 message to the OA Switchboard when a submission is published.</description>
+			<description locale="pt_BR">Esse plugin envia uma mensagem P1 para o OA Switchboard quando uma submissão é publicada.</description>
+			<description locale="es">Este módulo envía un mensaje P1 a la OA Switchboard cuando se publica un envío.</description>
+		</release>
+		<release date="2024-12-31" version="1.1.1.10" md5="03582bc109c7ad336b1bf496eb50dfa9">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.1.10/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release adds a tab to the submission workflow with information on the status of the submission in relation to sending the message to OA Switchboard.</description>
+			<description locale="pt_BR">Esta versão adiciona uma aba no fluxo de trabalho da submissão com informações sobre a situação do envio da mensagem para o OA Switchboard.</description>
+			<description locale="es_ES">Esta versión añade una pestaña al flujo de trabajo de envío con información sobre el estado del mensaje enviado a la OA Switchboard.</description>
+		</release>
+		<release date="2024-12-31" version="2.0.1.16" md5="45bb304aa5d82d38fdd40f498edfbbf1">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.1.16/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release adds a tab to the submission workflow with information on the status of the submission in relation to sending the message to OA Switchboard.</description>
+			<description locale="pt_BR">Esta versão adiciona uma aba no fluxo de trabalho da submissão com informações sobre a situação do envio da mensagem para o OA Switchboard.</description>
+			<description locale="es">Esta versión añade una pestaña al flujo de trabajo de envío con información sobre el estado del mensaje enviado a la OA Switchboard.</description>
+		</release>
+		<release date="2025-03-28" version="1.1.1.11" md5="5ba8fdc073b28303a2519c2f9fc0f0fd">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.1.11/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release fixes the failure to send the P1 message when an article is published without at least one author with ROR ID.</description>
+			<description locale="pt_BR">Essa versão corrige o não envio da mensagem P1 quando um artigo é publicado sem pelo menos um autor com ID ROR.</description>
+			<description locale="es_ES">Esta versión corrige el fallo de envío del mensaje P1 cuando se publica un artículo sin al menos un autor con ID ROR.</description>
+		</release>
+		<release date="2025-03-28" version="2.0.1.17" md5="cbb487fb6c17e20de0e8c882b617c516">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.1.17/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes the failure to send the P1 message when an article is published without at least one author with ROR ID.</description>
+			<description locale="pt_BR">Essa versão corrige o não envio da mensagem P1 quando um artigo é publicado sem pelo menos um autor com ID ROR.</description>
+			<description locale="es">Esta versión corrige el fallo de envío del mensaje P1 cuando se publica un artículo sin al menos un autor con ID ROR.</description>
+		</release>
+	</plugin>
+	<plugin category="generic" product="deleteIncompleteSubmissions">
+		<name locale="en">Delete Incomplete Submissions</name>
+		<name locale="en_US">Delete Incomplete Submissions</name>
+		<name locale="pt_BR">Remove Submissões Incompletas</name>
+		<name locale="es">Eliminar envíos incompletos</name>
+		<name locale="es_ES">Eliminar envíos incompletos</name>
+		<homepage>https://github.com/lepidus/deleteIncompleteSubmissions</homepage>
+		<summary locale="en">This plugin allows editors to delete incomplete submissions from the journal.</summary>
+		<summary locale="en_US">This plugin allows editors to delete incomplete submissions from the journal.</summary>
+		<summary locale="pt_BR">Este plugin permite que os editores excluam submissões incompletas do periódico.</summary>
+		<summary locale="es">Este complemento permite a los editores eliminar envíos incompletos de la revista, es posible establecer un umbral, en días, para salvaguardar la eliminación de envíos que no están destinados a ser eliminados.</summary>
+		<summary locale="es_ES">Este complemento permite a los editores eliminar envíos incompletos de la revista, es posible establecer un umbral, en días, para salvaguardar la eliminación de envíos que no están destinados a ser eliminados.</summary>
+		<description locale="en"><![CDATA[<p>This plugin allows editors to delete incomplete submissions from the journal, it's possible to set a threshold, in days, to safeguard the deletion of submissions that are not meant to be deleted.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin allows editors to delete incomplete submissions from the journal, it's possible to set a threshold, in days, to safeguard the deletion of submissions that are not meant to be deleted.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Este plugin permite que os editores excluam submissões incompletas do periódico. É possível definir um limite, em dias, para proteger a exclusão de submissões que não deveriam ser excluídas.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Este complemento permite a los editores eliminar envíos incompletos de la revista, es posible establecer un umbral, en días, para salvaguardar la eliminación de envíos que no están destinados a ser eliminados.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este complemento permite a los editores eliminar envíos incompletos de la revista, es posible establecer un umbral, en días, para salvaguardar la eliminación de envíos que no están destinados a ser eliminados.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2024-02-14" version="0.1.3.0" md5="dc749de9251821c82ad21fa3d6ad89ec">
+			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.1.3/deleteIncompleteSubmissions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US"><![CDATA[<p><h4>Additions</h4><ul><li>Only show the "Delete submissions..." option when the plugin is enabled in the journal.</li><li>Improves usage instructions in the README.</li><li>Fix a typo in pt_BR translation of the plugin description.</li></ul></p>]]></description>
+			<description locale="pt_BR"><![CDATA[<p><h4>Adições</h4><ul><li>Mostrar somente a opção "Excluir envios..." quando o plugin estiver habilitado no diário.</li><li>Melhora as instruções de uso no README.</li><li>Corrige um erro de digitação na tradução pt_BR da descrição do plugin.</li></ul></p>]]></description>
+			<description locale="es_ES"><![CDATA[<p><h4>Adiciones</h4><ul><li>Solo mostrar la opción "Eliminar envíos..." cuando el complemento esté habilitado en la revista.</li><li>Mejora las instrucciones de uso en el README.</li><li>Corrige un error tipográfico en la traducción pt_BR de la descripción del complemento.</li></ul></p>]]></description>
+		</release>
+		<release date="2024-06-20" version="0.2.0.0" md5="016357f34449c49c00fd86a021120478">
+			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.2.0/deleteIncompleteSubmissions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Compatibility with the 3.4 release.</description>
+			<description locale="pt_BR">Compatibilidade com a versão 3.4.</description>
+			<description locale="es">Compatibilidad con la versión 3.4.</description>
+		</release>
+		<release date="2025-03-10" version="0.2.1.0" md5="cd054b253bd2bb84253c692bd537f723">
+			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.2.1/deleteIncompleteSubmissions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds translations for German, French, Italian and Romanian</description>
+			<description locale="pt_BR">Adiciona traduções para alemão, francês, italiano e romeno.</description>
+			<description locale="es">Agrega traducciones para alemán, francés, italiano y rumano.</description>
+		</release>
+	</plugin>
+	<plugin category="generic" product="carinianaPreservation">
+		<name locale="en">Cariniana Preservation</name>
+		<name locale="en_US">Cariniana Preservation</name>
+		<name locale="pt_BR">Preservação Cariniana</name>
+		<name locale="es">Preservación Cariniana</name>
+		<name locale="es_ES">Preservación Cariniana</name>
+		<homepage>https://github.com/lepidus/carinianaPreservation</homepage>
+		<summary locale="en">This plugin allows preserving Brazilian journals published in OJS in the Cariniana network.</summary>
+		<summary locale="en_US">This plugin allows preserving Brazilian journals published in OJS in the Cariniana network.</summary>
+		<summary locale="pt_BR">Esse plugin permite preservar periódicos brasileiros publicados em OJS na rede Cariniana.</summary>
+		<summary locale="es">Este módulo permite conservar revistas brasileñas publicadas en OJS en la red Cariniana.</summary>
+		<summary locale="es_ES">Este módulo permite conservar revistas brasileñas publicadas en OJS en la red Cariniana.</summary>
+		<description locale="en"><![CDATA[<p>This plugin is intended to facilitate the process of digital preservation of OJS journals through the Cariniana Network. Its main functionality is to send an e-mail to the Carianiana network with information about the journal to be preserved.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin is intended to facilitate the process of digital preservation of OJS journals through the Cariniana Network. Its main functionality is to send an e-mail to the Carianiana network with information about the journal to be preserved.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Esse plugin tem o intuito de facilitar o processo de preservação digital de periódicos OJS por meio da Rede Cariniana. Sua principal funcionalidade é o envio de um e-mail para rede Carianiana com informações do periódico a ser preservado.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Este módulo pretende facilitar el proceso de preservación digital de las revistas OJS a través de la Red Cariniana. Su principal funcionalidad es enviar un correo electrónico a la Red Carianiana con información sobre la revista a preservar.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este módulo pretende facilitar el proceso de preservación digital de las revistas OJS a través de la Red Cariniana. Su principal funcionalidad es enviar un correo electrónico a la Red Carianiana con información sobre la revista a preservar.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2025-02-10" version="1.4.1.5" md5="104a1a801376280f760c32d84010bc7a">
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v1.4.1.5/carinianaPreservation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This version corrects the name of the Publisher to get it from the OJS Publisher and not from the name of the journal.</description>
+			<description locale="pt_BR">Essa versão corrige nome da Editora para obter a partir da Editora do OJS e não a partir do nome da revista.</description>
+			<description locale="es_ES">Esta versión corrige el nombre de la editorial para que se obtenga de la editorial OJS y no del nombre de la revista.</description>
 		</release>
 	</plugin>
 </plugins>
