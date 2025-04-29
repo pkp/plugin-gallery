@@ -10065,7 +10065,11 @@
 				<version>3.3.0.8</version>
 				<version>3.3.0.9</version>
 				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
+				<version>3.3.0.11</version>
+                                <version>3.3.0.12</version>
+                                <version>3.3.0.13</version>
+                                <version>3.3.0.14</version>
+                                <version>3.3.0.15</version>
 			</compatibility>
 			<certification type="partner"/>
 			<description>Fix compatibility issues with OJS v3.3. Fixed the send reviews button for already sent reviews.</description>
