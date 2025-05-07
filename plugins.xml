@@ -714,6 +714,20 @@
 			<certification type="official" />
 			<description>Compatibility release for OJS/OMP/OPS 3.4.0.</description>
 		</release>
+		<release date="2025-05-07" version="2.0.5.0" md5="734c3831ed2d509606189899d331838b">
+			<package>https://github.com/pkp/backup/releases/download/v2_0_5-0/backup-v2_0_5-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS/OMP/OPS 3.5.0.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="plagiarism">
 		<name locale="en">iThenticate</name>
