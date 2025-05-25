@@ -5066,8 +5066,8 @@
 		<name locale="en">Material Theme</name>
 		<name locale="en_US">Material Theme</name>
 		<homepage>https://github.com/madi-nuralin/material.git</homepage>
-		<summary locale="en">Material Theme (MDBootstrap based)</summary>
-		<summary locale="en_US">Material Theme (MDBootstrap based)</summary>
+		<summary locale="en">Material Theme</summary>
+		<summary locale="en_US">Material Theme</summary>
 		<description locale="en"><![CDATA[<p>Material Theme, adaptive stylesheet for fronted templates.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>Material Theme, adaptive stylesheet for fronted templates.</p>]]></description>
 		<maintainer>
@@ -5210,6 +5210,14 @@
 			</compatibility>
 			<certification type="reviewed" />
 			<description>This release upgrades Material to version 3.0.4.0</description>
+		</release>
+		<release date="2025-05-26" version="3.0.5.0" md5="83126f37be1e9c6e9903babb8d9665e2">
+			<package>https://github.com/madi-nuralin/material/releases/download/v3_0_5-0/material-v3_0_5-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>This release upgrades Material to version 3.0.5.0</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="texture">
