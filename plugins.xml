@@ -2016,14 +2016,14 @@
 		<name locale="es_ES">Módulo Dataverse</name>
 		<name locale="pt_BR">Plugin Dataverse</name>
 		<homepage>https://github.com/lepidus/dataversePlugin</homepage>
-		<summary locale="en">This plugin allows integration between OJS/OPS and Dataverse</summary>
-		<summary locale="en_US">This plugin allows integration between OJS/OPS and Dataverse</summary>
-		<summary locale="es_ES">Este módulo permite la integración entre OJS/OPS y Dataverse</summary>
-		<summary locale="pt_BR">Este plugin permite a integração entre OJS/OPS e Dataverse</summary>
-		<description locale="en"><![CDATA[<p>This plugin allows integration between OJS/OPS and Dataverse.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin allows integration between OJS/OPS and Dataverse.</p>]]></description>
-		<description locale="es_ES"><![CDATA[<p>Este módulo permite la integración entre OJS/OPS y Dataverse.</p>]]></description>
-		<description locale="pt_BR"><![CDATA[<p>Este plugin permite a integração entre OJS/OPS e Dataverse.</p>]]></description>
+		<summary locale="en">This plugin integrates OJS/OPS and Dataverse, allowing for research data sharing.</summary>
+		<summary locale="en_US">This plugin integrates OJS/OPS and Dataverse, allowing for research data sharing.</summary>
+		<summary locale="es_ES">Este módulo integra OJS/OPS y Dataverse, permitiendo el intercambio de datos de investigación.</summary>
+		<summary locale="pt_BR">Este plugin integra o OJS/OPS e o Dataverse, permitindo o compartilhamento de dados de pesquisa.</summary>
+		<description locale="en"><![CDATA[<p>This plugin integrates OJS/OPS and Dataverse, allowing for research data sharing.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin integrates OJS/OPS and Dataverse, allowing for research data sharing.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Este módulo integra OJS/OPS y Dataverse, permitiendo el intercambio de datos de investigación.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Este plugin integra o OJS/OPS e o Dataverse, permitindo o compartilhamento de dados de pesquisa.</p>]]></description>
 		<maintainer>
 			<name>SciELO Brazil Online Submission and Preprints Unit</name>
 			<institution>SciELO in collaboration with Lepidus</institution>
