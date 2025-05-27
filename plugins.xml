@@ -12070,6 +12070,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta versión incluye un ajuste en la interfaz del complemento, eliminando los puntos de viñeta de las opciones.</description>
 			<description locale="pt_BR">Esta versão inclui um ajuste na interface do plugin, removendo os marcadores de lista das opções.</description>
 		</release>
+		<release date="2025-05-27" version="3.0.4.1" md5="99ac3f96dd5c824fc0c10536417fb073">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.4.1/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release includes an adjustment to the plugin's interface, removing the bullet points from the options.</description>
+			<description locale="es">Esta versión incluye un ajuste en la interfaz del complemento, eliminando los puntos de viñeta de las opciones.</description>
+			<description locale="pt_BR">Esta versão inclui um ajuste na interface do plugin, removendo os marcadores de lista das opções.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="lucene">
 		<name locale="en">Lucene/Solr Plugin</name>
