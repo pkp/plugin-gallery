@@ -12037,6 +12037,39 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Esta versión corrige un error de texto en la opción para seleccionar todas las secciones.</description>
 			<description locale="pt_BR">Esta versão corrige erro de texto na opção de selecionar todas as seções.</description>
 		</release>
+		<release date="2025-05-27" version="2.4.5.1" md5="66d88229ca7570a0812e5a9dd08e4fe8">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.5.1/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release includes an adjustment to the plugin's interface, removing the bullet points from the options.</description>
+			<description locale="es_ES">Esta versión incluye un ajuste en la interfaz del complemento, eliminando los puntos de viñeta de las opciones.</description>
+			<description locale="pt_BR">Esta versão inclui um ajuste na interface do plugin, removendo os marcadores de lista das opções.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="lucene">
 		<name locale="en">Lucene/Solr Plugin</name>
