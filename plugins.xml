@@ -13650,5 +13650,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Essa versão corrige nome da Editora para obter a partir da Editora do OJS e não a partir do nome da revista.</description>
 			<description locale="es_ES">Esta versión corrige el nombre de la editorial para que se obtenga de la editorial OJS y no del nombre de la revista.</description>
 		</release>
+		<release date="2025-06-09" version="1.5.0.1" md5="1e0d425705d849c6862c7e809a3421bf">
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v1.5.0.1/carinianaPreservation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">New feature: Preservation data update in the Cariniana Network. The plugin now sends only updated XML after the first submission and automatically monitors for differences through scheduled tasks, sending update emails to the Cariniana Network when changes are detected. Scheduled tasks are automatically activated by the Acron plugin.</description>
+			<description locale="pt_BR">Nova funcionalidade: Atualização de dados preservados na Rede Cariniana. Envio de dados para preservação agora envia apenas o XML atualizado após o primeiro envio. Atualizações automáticas por meio de tarefa agendada monitoram diferenças e enviam email de atualização para a Rede Cariniana. Tarefas agendadas são ativadas automaticamente pelo plugin Acron.</description>
+			<description locale="es_ES">Nueva funcionalidad: Actualización de datos preservados en la Red Cariniana. El envío de datos para preservación ahora envía solo el XML actualizado después del primer envío. Las actualizaciones automáticas a través de tareas programadas monitorean diferencias y envían correos electrónicos de actualización a la Red Cariniana. Las tareas programadas se activan automáticamente por el plugin Acron.</description>
+		</release>
 	</plugin>
 </plugins>
