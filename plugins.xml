@@ -13697,8 +13697,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Ubiquity Press</institution>
 			<email>tech@ubiquitypress.com</email>
 		</maintainer>
-		<release date="2024-10-31"  version="1.0.6.1" md5="54b29b88e2eba92adcfd2d3839a425f8">
-			<package>https://github.com/ubiquitypress/ojs-plugin-download-reviews/releases/download/1.0.6.1/ojs-plugin-download-reviews-1.0.6.1.tar.gz</package>
+		<release date="2025-06-12"  version="1.0.7.5" md5="3288a01e27cf20d1b00625d363cbad28">
+			<package>https://github.com/ubiquitypress/ojs-plugin-download-reviews/releases/download/v1_0_7-5/ojs-plugin-download-reviews-v1_0_7-5.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -13716,8 +13716,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="partner"/>
 			<description>Release for OJS 3.3</description>
 		</release>
-		<release date="2024-10-31"  version="1.1.2.1" md5="e3b25db7aee647c4b9a47491ceb3b951">
-			<package>https://github.com/ubiquitypress/ojs-plugin-download-reviews/releases/download/1.1.2.1/ojs-plugin-download-reviews-1.1.2.1.tar.gz</package>
+		<release date="2025-06-12"  version="1.1.2.8" md5="0c585dd4d58ac09763c9bee7accc2cb3">
+			<package>https://github.com/ubiquitypress/ojs-plugin-download-reviews/releases/download/v1_1_2-8/ojs-plugin-download-reviews-v1_1_2-8.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
