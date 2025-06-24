@@ -7234,7 +7234,7 @@
 			<institution>Reviewer Credits GmbH</institution>
 			<email>emre.danisan@reviewercredits.com</email>
 		</maintainer>
-		<release date="2025-06-20" version="3.3.0.1" md5="DC740E218D5865CC88607FC6E8736315">
+		<release date="2025-06-20" version="3.3.0.1" md5="dc740e218d5865cc88607fc6e8736315">
 			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/V3301/reviewerCredits.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
@@ -7253,7 +7253,7 @@
 			<certification type="partner"/>
 			<description>Plugin to enable the reviewer finder and peer review data integration with Reviewer Credits.</description>
 		</release>
-		<release date="2025-06-20" version="3.4.0.1" md5="9AD09BDD3CEC237D79BE25B124A3E57F">
+		<release date="2025-06-20" version="3.4.0.1" md5="9ad09bdd3cec237d79be25b124a3e57f">
 			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/V3401/reviewerCredits_plugin_3_4_0_1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
