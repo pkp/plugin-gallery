@@ -9106,6 +9106,17 @@
 			<certification type="official"/>
 			<description>Updated for OJS/OMP 3.4 compatibility</description>
 		</release>
+		<release date="2025-07-09" version="2.0.1.0" md5="cfee1ab4c846881aab868c22e281c2b1">
+			<package>https://github.com/pkp/authorRequirements/releases/download/v2.0.1-0/authorRequirements-v2.0.1-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Updated to reinclude Quicksubmit plugin compatibility</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="registrationNotification">
 		<name locale="en">Registration Notification</name>
