@@ -10441,6 +10441,64 @@
 			<description>Updated link to Terms and Conditions, included support for 3.4.0.7</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="wosReviewerLocator">
+		<name locale="en">Web of Science Reviewer Locator</name>
+		<name locale="en_US">Web of Science Reviewer Locator</name>
+		<homepage>https://github.com/clarivate/wos_reviewer_locator_plugin_ojs/</homepage>
+		<summary locale="en">
+			This plugin enables integration with Web of Science Reviewer Locator. To install and use this plugin you must first purchase the Web of Science Reviewer Locator subscription.
+		</summary>
+		<summary locale="en_US">
+			This plugin enables integration with Web of Science Reviewer Locator. To install and use this plugin you must first purchase the Web of Science Reviewer Locator subscription.
+		</summary>
+		<description locale="en">
+			<![CDATA[<p>Web of Science Reviewer Locator is a third-party workflow solution allowing you to find, screen, and connect with fit-for-purpose reviewers using the Web of Science's author data, citation index, and exclusive peer review database.</p><p>To install and use this plugin you must first purchase the Web of Science Reviewer Locator. To do this please register your interest by <a href=\"mailto:reviewservices@clarivate.com\">emailing Clarivate</a>. The Clarivate team will then be in touch to discuss your options and provide further instructions on how to integrate your journal with Web of Science Reviewer Locator.</p>]]>
+		</description>
+		<description locale="en_US">
+			<![CDATA[<p>Web of Science Reviewer Locator Service is a third-party workflow solution allowing you to find, screen, and connect with fit-for-purpose reviewers using the Web of Science's author data, citation index, and exclusive peer review database.</p><p>To install and use this plugin you must first purchase the Web of Science Reviewer Locator Service. To do this please register your interest by <a href=\"mailto:reviewservices@clarivate.com\">emailing Clarivate</a>. The Clarivate team will then be in touch to discuss your options and provide further instructions on how to integrate your journal with Web of Science Reviewer Locator.</p>]]>
+		</description>
+		<maintainer>
+			<name>Clarivate</name>
+			<institution>Clarivate</institution>
+			<email>reviewservices@clarivate.com</email>
+		</maintainer>
+		<release date="2025-07-07" version="1.3.1.0" md5="b67093b6d9fffe93152efc28337970d0">
+			<package>https://github.com/clarivate/wos_reviewer_locator_plugin_ojs/releases/download/v1.3.1.0/wosReviewerLocator_1_3_1_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.1.0.0</version>
+				<version>3.1.0.1</version>
+				<version>3.1.1.0</version>
+				<version>3.1.1.1</version>
+				<version>3.1.1.2</version>
+				<version>3.1.1.4</version>
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Web of Science Reviewer Locator plugin for OJS 3.1</description>
+		</release>
+		<release date="2025-07-16" version="1.3.2.0" md5="d95f08f539534655a84e80291ae92621">
+			<package>https://github.com/clarivate/wos_reviewer_locator_plugin_ojs/releases/download/v1.3.2.0/wosReviewerLocator_1_3_2_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.0.4</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+				<version>3.2.1.2</version>
+				<version>3.2.1.3</version>
+				<version>3.2.1.4</version>
+				<version>3.2.1.5</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Web of Science Reviewer Locator plugin for OJS 3.2</description>
+		</release>
+	</plugin>
 	<plugin category="themes" product="pragma">
 		<name locale="en">Pragma</name>
 		<name locale="en_US">Pragma</name>
