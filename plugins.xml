@@ -11557,6 +11557,48 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="official" />
 			<description>Release of the OpenID plugin for OJS/OMP/OPS 3.3.0.</description>
 		</release>
+		<release date="2025-07-17" version="3.4.1.0" md5="22fe9694dc5b2b129cfe904ee630f252">
+			<package>https://github.com/pkp/openid/releases/download/v3_4_1-0/openid-v3_4_1-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Release of the OpenID plugin for OJS/OMP/OPS 3.3.0.</description>
+		</release>
+		<release date="2025-07-17" version="4.1.0.0" md5="ffcfca85834714227b4c9b7c73bc9044">
+			<package>https://github.com/pkp/openid/releases/download/v4_1_0-0/openid-v4_1_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Release of the OpenID plugin for OJS/OMP/OPS 3.4.0.</description>
+		</release>
+		<release date="2025-07-17" version="5.1.0.0" md5="3d8ea150d9eeb1f0b57fe892e0520774">
+			<package>https://github.com/pkp/openid/releases/download/v5_1_0-0/openid-v5_1_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Release of the OpenID plugin for OJS/OMP/OPS 3.5.0.</description>
+		</release>
 	</plugin>
 	<plugin category="importexport" product="datacite">
 		<name locale="en">Datacite</name>
