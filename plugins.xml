@@ -11689,7 +11689,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.5.0.0</version>
 			</compatibility>
 			<certification type="partner" />
-			<description>OMP 3.5 Support</description>
+			<description>OMP 3.5 support</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="browseBySection">
