@@ -11683,6 +11683,14 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="partner" />
 			<description>OMP 3.4 support</description>
 		</release>
+		<release date="2025-07-23" version="3.5.0.1" md5="fac9c19ab57bb2918eebef538857a87b">
+			<package>https://github.com/UB-Heidelberg/datacite/releases/download/v3_5_0-1/datacite-v3_5_0-1.tar.gz</package>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>OMP 3.5 Support</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="browseBySection">
 		<name locale="en">Browse By Section Plugin</name>
