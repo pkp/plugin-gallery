@@ -13420,6 +13420,42 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada à Galeria de Plugins da PKP.</description>
 		</release>
+		<release date="2025-07-29" version="0.3.3.0" md5="a4eab8f88c325b505c1ea2e63f85a86e">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v0.3.3.0/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds handling for scenarios where users are registered with more than one journal/server.</description>
+			<description locale="en_US">Adds handling for scenarios where users are registered with more than one journal/server.</description>
+			<description locale="es_ES">Añade tratamiento para escenarios donde los usuarios están registrados en más de un diario/servidor.</description>
+			<description locale="pt_BR">Adiciona tratativas para cenários onde usuários possuem cadastro em mais de um periódico/servidor.</description>
+		</release>
 		<release date="2025-06-20" version="1.2.1.0" md5="db061af00f44103f5bbaa716ea21a99d">
 			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.2.1.0/deiaSurvey.tar.gz</package>
 			<compatibility application="ojs2">
@@ -13430,9 +13466,21 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			</compatibility>
 			<certification type="reviewed"/>
 			<description locale="en">This is the first release of this plugin to be sent to PKP Plugin Gallery.</description>
-			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery.</description>
-			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP.</description>
+			<description locale="es">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada à Galeria de Plugins da PKP.</description>
+		</release>
+		<release date="2025-07-28" version="1.2.3.0" md5="eb8dac3730921ae4ad29d442506743dc">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.2.3.0/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds handling for scenarios where users are registered with more than one journal/server.</description>
+			<description locale="es">Añade tratamiento para escenarios donde los usuarios están registrados en más de un diario/servidor.</description>
+			<description locale="pt_BR">Adiciona tratativas para cenários onde usuários possuem cadastro em mais de um periódico/servidor.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="credit">
