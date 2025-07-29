@@ -10498,6 +10498,14 @@
 			<certification type="reviewed"/>
 			<description>Web of Science Reviewer Locator plugin for OJS 3.2</description>
 		</release>
+		<release date="2025-07-29" version="1.3.3.0" md5="ef37fa463d3d24396c5efcf788499aad">
+			<package>https://github.com/clarivate/wos_reviewer_locator_plugin_ojs/releases/download/v1.3.3.0/wosReviewerLocator_1_3_3_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Web of Science Reviewer Locator plugin for OJS 3.3</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="pragma">
 		<name locale="en">Pragma</name>
