@@ -2817,7 +2817,7 @@
 	<plugin category="generic" product="customHeader">
 		<name locale="en">Custom Header Plugin</name>
 		<name locale="en_US">Custom Header Plugin</name>
-		<homepage>https://github.com/asmecher/customHeader/</homepage>
+		<homepage>https://github.com/pkp/customHeader/</homepage>
 		<summary locale="en">Permits the addition of custom headers to the website.</summary>
 		<summary locale="en_US">Permits the addition of custom headers to the website.</summary>
 		<description locale="en"><![CDATA[<p>This plugin permits the addition of custom headers to the website. This can be used e.g. to add arbitrary Javascript to the front-end.</p>]]></description>
@@ -2828,7 +2828,7 @@
 			<email>alec@smecher.bc.ca</email>
 		</maintainer>
 		<release date="2018-02-19" version="1.0.0.0" md5="84d55e711ee08c948d69dc37d6075ef1">
-			<package>https://github.com/asmecher/customHeader/releases/download/ojs-3_1_0-0/customHeader-ojs-3_1_0-0.tar.gz</package>
+			<package>https://github.com/pkp/customHeader/releases/download/ojs-3_1_0-0/customHeader-ojs-3_1_0-0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.1.0.0</version>
 				<version>3.1.0.1</version>
@@ -2849,7 +2849,7 @@
 			<description>Initial release of the custom headers plugin.</description>
 		</release>
 		<release date="2019-03-04" version="1.0.1.0" md5="e577a0ace206ae3fe9a4351806dee69a">
-			<package>https://github.com/asmecher/customHeader/releases/download/v1.0.1-0/customHeader-v1.0.1-0.tar.gz</package>
+			<package>https://github.com/pkp/customHeader/releases/download/v1.0.1-0/customHeader-v1.0.1-0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.1.2.0</version>
 				<version>3.1.2.1</version>
@@ -2868,7 +2868,7 @@
 			<description>Release of the custom headers plugin for OJS/OMP 3.1.2.</description>
 		</release>
 		<release date="2020-02-27" version="1.0.2.0" md5="73df409a9ad1757fdeaf4486a0dcf80d">
-			<package>https://github.com/asmecher/customHeader/releases/download/v1.0.2-0/customHeader-v1.0.2-0.tar.gz</package>
+			<package>https://github.com/pkp/customHeader/releases/download/v1.0.2-0/customHeader-v1.0.2-0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.0.0</version>
 				<version>3.2.0.1</version>
@@ -2900,7 +2900,7 @@
 			<description>Release of the custom headers plugin for OJS/OMP/OPS 3.2.0.</description>
 		</release>
 		<release date="2020-06-19" version="1.0.2.1" md5="463a89df0d6986e2f005bb590ab82478">
-			<package>https://github.com/asmecher/customHeader/releases/download/v1_0_2-1/customHeader-v1_0_2-1.tar.gz</package>
+			<package>https://github.com/pkp/customHeader/releases/download/v1_0_2-1/customHeader-v1_0_2-1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.1.0</version>
 				<version>3.2.1.1</version>
