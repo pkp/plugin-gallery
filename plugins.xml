@@ -5672,6 +5672,14 @@
 			<certification type="official" />
 			<description>Maintenance release of the plugin for OJS 3.5.0</description>
 		</release>
+		<release date="2025-07-30" version="3.0.0.1" md5="7ec3b0492ac22f03863165d376938680">
+			<package>https://github.com/pkp/crossrefReferenceLinking/releases/download/v3_0_0-1/crossrefReferenceLinking-v3_0_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix release of the plugin for OJS 3.5.0</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="immersion">
 		<name locale="en">Immersion</name>
