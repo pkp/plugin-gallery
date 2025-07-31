@@ -13554,7 +13554,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	<plugin category="generic" product="credit">
 		<name locale="en">CRediT Plugin</name>
 		<name locale="en_US">CRediT Plugin</name>
-		<homepage>https://github.com/asmecher/credit</homepage>
+		<homepage>https://github.com/pkp/credit</homepage>
 		<summary locale="en">Plugin to add CRediT contributor role vocabulary to submission contributors</summary>
 		<summary locale="en_US">Plugin to add CRediT contributor role vocabulary to submission contributors</summary>
 		<description locale="en"><![CDATA[<p>A plugin to add support for the <a href="https://credit.niso.org/">NISO CRediT</a> contributor role vocabulary.</p>]]></description>
@@ -13565,7 +13565,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<email>pkp.contact@gmail.com</email>
 		</maintainer>
 		<release date="2024-04-09" version="1.1.0.0" md5="1a80bb6a1eb59bac540db7e84cf1e23e">
-			<package>https://github.com/asmecher/credit/releases/download/v1_1_0-0/credit-v1_1_0-0.tar.gz</package>
+			<package>https://github.com/pkp/credit/releases/download/v1_1_0-0/credit-v1_1_0-0.tar.gz</package>
 			<compatibility application="ops">
 				<version>~3.4.0.0</version>
 			</compatibility>
