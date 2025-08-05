@@ -14024,7 +14024,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	<plugin category="blocks" product="navigation">
 		<name locale="en">Navigation Block Plugin</name>
 		<name locale="en_US">Navigation Block Plugin</name>
-		<homepage>https://github.com/pkp/tutorialExample</homepage>
+		<homepage>https://github.com/mpbraendle/navigation/</homepage>
 		<summary locale="en">A sidebar block plugin that allows the user to navigate by articles and issues.</summary>
 		<summary locale="en_US">A sidebar block plugin that allows the user to navigate by articles and issues.</summary>
 		<description locale="en"><![CDATA[<p>This plugin creates an additional sidebar block. When added to a sidebar, it displays navigation tools for browsing issues and articles.</p>]]></description>
@@ -14037,16 +14037,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<release date="2025-08-04" version="1.0.0.0" md5="85b86c9b888a7962319ef7f7ba4ca90f">
 			<package>https://github.com/mpbraendle/navigation/releases/download/v1.0.0.0/navigation-block-ojs34-v1.0.0.0.tar.gz</package>
 			<compatibility application="ojs2">
-				<version>3.4.0.0</version>
-				<version>3.4.0.1</version>
-				<version>3.4.0.2</version>
-				<version>3.4.0.3</version>
-				<version>3.4.0.4</version>
-				<version>3.4.0.5</version>
-				<version>3.4.0.6</version>
-				<version>3.4.0.7</version>
-				<version>3.4.0.8</version>
-				<version>3.4.0.9</version>
+				<version>~3.4.0.0</version>
 			</compatibility>
 			<certification type="official"/>
 			<description>Initial release.</description>
