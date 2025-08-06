@@ -14034,8 +14034,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Swiss Chemical Society</institution>
 			<email>web.editor@chimia.ch</email>
 		</maintainer>
-		<release date="2025-08-04" version="1.0.0.0" md5="85b86c9b888a7962319ef7f7ba4ca90f">
-			<package>https://github.com/mpbraendle/navigation/releases/download/v1.0.0.0/navigation-block-ojs34-v1.0.0.0.tar.gz</package>
+		<release date="2025-08-06" version="1.0.0.1" md5="5032ffd347236ef2ff7bb484fe3d249a">
+			<package>https://github.com/mpbraendle/navigation/releases/download/v1.0.0.0/navigation-block-ojs34-v1.0.0.1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
