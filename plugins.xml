@@ -13606,6 +13606,41 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Añade tratamiento para escenarios donde los usuarios están registrados en más de un diario/servidor.</description>
 			<description locale="pt_BR">Adiciona tratativas para cenários onde usuários possuem cadastro em mais de um periódico/servidor.</description>
 		</release>
+		<release date="2025-08-06" version="0.3.4.0" md5="39a1c8a45af6b9a80d62f8f7c427b683">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v0.3.4.0/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Prevents authors from answering the survey in a second context if they already answered it in another context.</description>
+			<description locale="es_ES">Evita que los autores respondan a lo cuestionario en un segundo contexto si ya la han respondido en otro contexto.</description>
+			<description locale="pt_BR">Impede que os autores respondam ao questionário em um segundo contexto se já responderam em outro contexto.</description>
+		</release>
 		<release date="2025-06-20" version="1.2.1.0" md5="db061af00f44103f5bbaa716ea21a99d">
 			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.2.1.0/deiaSurvey.tar.gz</package>
 			<compatibility application="ojs2">
@@ -13631,6 +13666,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Adds handling for scenarios where users are registered with more than one journal/server.</description>
 			<description locale="es">Añade tratamiento para escenarios donde los usuarios están registrados en más de un diario/servidor.</description>
 			<description locale="pt_BR">Adiciona tratativas para cenários onde usuários possuem cadastro em mais de um periódico/servidor.</description>
+		</release>
+		<release date="2025-08-06" version="1.2.4.0" md5="7557ddebc074643b8529ebefab6c20aa">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.2.4.0/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Prevents authors from answering the survey in a second context if they already answered it in another context.</description>
+			<description locale="es">Evita que los autores respondan a lo cuestionario en un segundo contexto si ya la han respondido en otro contexto.</description>
+			<description locale="pt_BR">Impede que os autores respondam ao questionário em um segundo contexto se já responderam em outro contexto.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="credit">
