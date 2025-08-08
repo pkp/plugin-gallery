@@ -11336,7 +11336,14 @@
 			<certification type="official" />
 			<description>ROR plugin for OJS 3.4.0-x</description>
 		</release>
-
+        <release date="2025-08-08" version="3.4.0.5" md5="47ae2aaec01c2acf9605d3d6c5f43373">
+            <package>https://github.com/withanage/ror/releases/download/v3_4_0-5/ror-v3_4_0-5.tar.gz</package>
+            <compatibility application="ojs2">
+                <version>~3.4.0.0</version>
+            </compatibility>
+            <certification type="official" />
+            <description>Bugfix release for OJS 3.4.0-x</description>
+        </release>
 	</plugin>
 	<plugin category="generic" product="medra">
 		<name locale="en">DOI to mEDRA XML export and registration plugin</name>
