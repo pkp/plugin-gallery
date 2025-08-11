@@ -5384,6 +5384,22 @@
 			<certification type="reviewed" />
 			<description>This release upgrades Material to version 3.0.5.0</description>
 		</release>
+		<release date="2025-08-11" version="3.0.5.1" md5="0e31eb9a8df389c30f742c0ad4e4da82">
+			<package>https://github.com/madi-nuralin/material/releases/download/v3_0_5-1/material-v3_0_5-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>This release upgrades Material to version 3.0.5.1</description>
+		</release>
+		<release date="2025-08-11" version="3.1.0.0" md5="5217b3f17318c77c8a81798d551afd7b">
+			<package>https://github.com/madi-nuralin/material/releases/download/v3_1_0-0/material-v3_1_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>This release upgrades Material to version 3.1.0.0</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="texture">
 		<name locale="en">Texture plugin</name>
