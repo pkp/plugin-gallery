@@ -13701,6 +13701,41 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Evita que los autores respondan a lo cuestionario en un segundo contexto si ya la han respondido en otro contexto.</description>
 			<description locale="pt_BR">Impede que os autores respondam ao questionário em um segundo contexto se já responderam em outro contexto.</description>
 		</release>
+		<release date="2025-08-15" version="0.4.0.0" md5="a7b3c613a5ed5b53547dd2c0497684e6">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v0.4.0.0/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Updates way in which questions texts are displayed, using locale keys instead of raw data.</description>
+			<description locale="es_ES">Actualiza la forma en que se muestran los textos de las preguntas, utilizando claves de localización en lugar de datos en bruto.</description>
+			<description locale="pt_BR">Atualiza a forma como os textos das perguntas são exibidos, usando chaves de locale em vez de dados brutos.</description>
+		</release>
 		<release date="2025-06-20" version="1.2.1.0" md5="db061af00f44103f5bbaa716ea21a99d">
 			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.2.1.0/deiaSurvey.tar.gz</package>
 			<compatibility application="ojs2">
@@ -13739,6 +13774,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Prevents authors from answering the survey in a second context if they already answered it in another context.</description>
 			<description locale="es">Evita que los autores respondan a lo cuestionario en un segundo contexto si ya la han respondido en otro contexto.</description>
 			<description locale="pt_BR">Impede que os autores respondam ao questionário em um segundo contexto se já responderam em outro contexto.</description>
+		</release>
+		<release date="2025-08-13" version="1.3.0.0" md5="4db0f54a1899bc1b307fc93c7e262960">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.3.0.0/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Updates way in which questions texts are displayed, using locale keys instead of raw data.</description>
+			<description locale="es">Actualiza la forma en que se muestran los textos de las preguntas, utilizando claves de localización en lugar de datos en bruto.</description>
+			<description locale="pt_BR">Atualiza a forma como os textos das perguntas são exibidos, usando chaves de locale em vez de dados brutos.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="credit">
