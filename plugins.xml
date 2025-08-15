@@ -10568,6 +10568,14 @@
 			<certification type="reviewed"/>
 			<description>Updated link to Terms and Conditions, included support for 3.4.0.7</description>
 		</release>
+		<release date="2025-08-14" version="1.3.5.0" md5="ab92b035811668c8bfdda146663e5a72">
+			<package>https://github.com/clarivate/wos_reviewer_recognition_plugin_ojs_3/releases/download/v1.3.5.0/webOfScience_1_3_5_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Updated to work with OJS 3.5</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="wosReviewerLocator">
 		<name locale="en">Web of Science Reviewer Locator</name>
