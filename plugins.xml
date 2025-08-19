@@ -13476,7 +13476,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">added full issue galley download to issue TOC page.</description>
 			<description locale="en_US">added full issue galley download to issue TOC page.</description>
 		</release>
-		<release date="2025-08-19" version="1.0.3.1" md5="a4761a74645a40495a4b57fa8337564c">
+		<release date="2025-08-19" version="1.0.3.1" md5="71472d1d8229535405bebd71a33110a5">
 			<package>https://github.com/UMNLibraries/ojs-gopher-theme/releases/download/1_0_3-1/gopher-1_0_3-1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
