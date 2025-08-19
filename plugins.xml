@@ -13476,6 +13476,25 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">added full issue galley download to issue TOC page.</description>
 			<description locale="en_US">added full issue galley download to issue TOC page.</description>
 		</release>
+		<release date="2025-08-19" version="1.0.3.1" md5="9986d7795f8d4c40adaabf799755cd6e">
+			<package>https://github.com/UMNLibraries/ojs-gopher-theme/releases/download/1_0_3-1/ojs-gopher-theme-1_0_3-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<description locale="en">Fixed unintended line break in issue_toc.tpl line 113.</description>
+			<description locale="en_US">Fixed unintended line break in issue_toc.tpl line 113.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="academicFree">
 		<name locale="en">Academic Free Theme</name>
