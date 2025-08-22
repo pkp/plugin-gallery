@@ -14160,6 +14160,41 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR"><![CDATA[<p><h4>Adições</h4><ul><li>Mostrar somente a opção "Excluir envios..." quando o plugin estiver habilitado no diário.</li><li>Melhora as instruções de uso no README.</li><li>Corrige um erro de digitação na tradução pt_BR da descrição do plugin.</li></ul></p>]]></description>
 			<description locale="es_ES"><![CDATA[<p><h4>Adiciones</h4><ul><li>Solo mostrar la opción "Eliminar envíos..." cuando el complemento esté habilitado en la revista.</li><li>Mejora las instrucciones de uso en el README.</li><li>Corrige un error tipográfico en la traducción pt_BR de la descripción del complemento.</li></ul></p>]]></description>
 		</release>
+		<release date="2025-08-22" version="0.1.4.0" md5="d71bac69ee18f539fa4d2656f3adf897">
+			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.1.4.0/deleteIncompleteSubmissions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Updates the text displayed in the deletion form, improving clarity for users</description>
+			<description locale="es_ES">Actualiza el texto mostrado en el formulario de eliminación, mejorando la claridad para los usuarios</description>
+			<description locale="pt_BR">Atualiza o texto exibido no formulário de exclusão, melhorando a clareza para os usuários</description>
+		</release>
 		<release date="2024-06-20" version="0.2.0.0" md5="016357f34449c49c00fd86a021120478">
 			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.2.0/deleteIncompleteSubmissions.tar.gz</package>
 			<compatibility application="ojs2">
@@ -14185,6 +14220,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Adds translations for German, French, Italian and Romanian</description>
 			<description locale="pt_BR">Adiciona traduções para alemão, francês, italiano e romeno.</description>
 			<description locale="es">Agrega traducciones para alemán, francés, italiano y rumano.</description>
+		</release>
+		<release date="2025-08-22" version="0.2.2.0" md5="05e75872f4d12a037c54ecfa5785d84e">
+			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.2.2.0/deleteIncompleteSubmissions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Updates the text displayed in the deletion form, improving clarity for users</description>
+			<description locale="es">Actualiza el texto mostrado en el formulario de eliminación, mejorando la claridad para los usuarios</description>
+			<description locale="pt_BR">Atualiza o texto exibido no formulário de exclusão, melhorando a clareza para os usuários</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="carinianaPreservation">
