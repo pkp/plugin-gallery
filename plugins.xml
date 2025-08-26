@@ -32,8 +32,8 @@
 			<certification type="reviewed"/>
 			<description>Initial release.</description>
 		</release>
-		<release date="2025-08-25"  version="2.0.0-33" md5="23152b6c05357c18cca0a556456afbbe">
-			<package>https://github.com/prechelt/ojs-rqcplugin/releases/download/v2.0.0-33/rqc-ojs-v2.0.0-33.tar.gz</package>
+		<release date="2025-08-26"  version="2.0.1-33" md5="d7874bc4f63558f85defd4015f2ab762">
+			<package>https://github.com/prechelt/ojs-rqcplugin/releases/download/v2.0.1-33/rqc-ojs-v2.0.1-33.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
