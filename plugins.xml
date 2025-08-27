@@ -13811,6 +13811,41 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Actualiza la forma en que se muestran los textos de las preguntas, utilizando claves de localización en lugar de datos en bruto.</description>
 			<description locale="pt_BR">Atualiza a forma como os textos das perguntas são exibidos, usando chaves de locale em vez de dados brutos.</description>
 		</release>
+		<release date="2025-08-27" version="0.4.1.0" md5="33ca11edd1d469c7a424d721fc02722e">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v0.4.1.0/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Fixes errors related to questions migration</description>
+			<description locale="es_ES">Corrige errores relacionados con la migración de preguntas</description>
+			<description locale="pt_BR">Corrige erros relacionados à migração de perguntas</description>
+		</release>
 		<release date="2025-06-20" version="1.2.1.0" md5="db061af00f44103f5bbaa716ea21a99d">
 			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.2.1.0/deiaSurvey.tar.gz</package>
 			<compatibility application="ojs2">
@@ -13862,6 +13897,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Updates way in which questions texts are displayed, using locale keys instead of raw data.</description>
 			<description locale="es">Actualiza la forma en que se muestran los textos de las preguntas, utilizando claves de localización en lugar de datos en bruto.</description>
 			<description locale="pt_BR">Atualiza a forma como os textos das perguntas são exibidos, usando chaves de locale em vez de dados brutos.</description>
+		</release>
+		<release date="2025-08-26" version="1.3.1.0" md5="d6815d281096dd600b0830a609fdffe3">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.3.1.0/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Fixes errors related to questions migration</description>
+			<description locale="es">Corrige errores relacionados con la migración de preguntas</description>
+			<description locale="pt_BR">Corrige erros relacionados à migração de perguntas</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="credit">
