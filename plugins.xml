@@ -14347,8 +14347,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Nova funcionalidade: Atualização de dados preservados na Rede Cariniana. Envio de dados para preservação agora envia apenas o XML atualizado após o primeiro envio. Atualizações automáticas por meio de tarefa agendada monitoram diferenças e enviam email de atualização para a Rede Cariniana. Tarefas agendadas são ativadas automaticamente pelo plugin Acron.</description>
 			<description locale="es_ES">Nueva funcionalidad: Actualización de datos preservados en la Red Cariniana. El envío de datos para preservación ahora envía solo el XML actualizado después del primer envío. Las actualizaciones automáticas a través de tareas programadas monitorean diferencias y envían correos electrónicos de actualización a la Red Cariniana. Las tareas programadas se activan automáticamente por el plugin Acron.</description>
 		</release>
-		<release date="2025-08-28" version="1.5.2.0" md5="c9b19583062d3ae6e0a3494cf482320c">
-			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v1.5.2.0/carinianaPreservation.tar.gz</package>
+		<release date="2025-09-02" version="1.5.4.0" md5="b3aa50fa9673624deb49b2908c92d5ac">
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v1.5.4.0/carinianaPreservation.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -14364,9 +14364,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.3.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en_US">This release updates the frequency of change monitoring to weekly, improves the identification of issues, and introduces enhancements to the notifications sent to the Cariniana Network.</description>
-			<description locale="pt_BR">Esta versão atualiza a frequência do monitoramento de mudanças para semanal, aprimora a identificação das edições e acrescenta melhorias nas notificações destinadas à Rede Cariniana.</description>
-			<description locale="es_ES">Esta versión actualiza la frecuencia del monitoreo de cambios a semanal, mejora la identificación de las ediciones e incorpora mejoras en las notificaciones enviadas a la Red Cariniana.</description>
+			<description locale="en_US">This version changes the monitoring frequency of preserved data to weekly, makes form instructions clearer, and handles the responsibility agreement privately with automatic deletion after submission. It also fixes issues caused by user language changes, in addition to improvements in the emails sent to the Cariniana Network.</description>
+			<description locale="pt_BR">Esta versão altera a frequência do monitoramento de dados preservados para semanal, torna as instruções nos formulários mais claras e o termo de responsabilidade é tratado de forma privada, com exclusão automática após o envio. Também corrige problemas causados pela troca de idioma do usuário, além de melhorias nos e-mails enviados para a Rede Cariniana.</description>
+			<description locale="es_ES">Esta versión cambia la frecuencia de monitoreo de los datos preservados a semanal, hace más claras las instrucciones en los formularios y maneja el acuerdo de responsabilidad de forma privada, con eliminación automática tras el envío. También corrige problemas causados por cambios en el idioma del usuario, además de mejoras en los correos enviados a la Red Cariniana.</description>
 		</release>
 	</plugin>
 	<plugin category="blocks" product="navigation">
