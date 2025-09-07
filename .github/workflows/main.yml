@@ -1,0 +1,78 @@
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      ['main']
+env:
+  XML_SCHEMA: "plugins.xsd"
+
+name: plugin-gallery
+jobs:
+  plugin-gallery:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: | 
+          sudo apt-get update -qq
+          sudo apt-get install libxml2-utils
+          npm install -g pkp-plugin-cli
+        shell: bash
+
+      - name: "Clone pkp/plugin-gallery"
+        run: |
+          cd ~
+          git clone https://github.com/pkp/plugin-gallery --depth 50
+        shell: bash
+
+      - name: Clone user plugin-gallery for push
+        if: ${{ github.event_name == 'push' }}
+        run: |
+          cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
+          git remote add user_repo https://github.com/${{ github.repository }}
+          git fetch user_repo ${{ github.head_ref || github.ref_name }}
+          git checkout -b user_repo/${{ github.head_ref || github.ref_name }}
+        shell: bash
+
+      - name: lone user plugin-gallery for pull request
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
+          git remote add user_repo ${{ github.event.pull_request.head.repo.html_url }} 
+          git fetch user_repo ${{ github.event.pull_request.head.ref }}
+          git checkout user_repo/${{ github.event.pull_request.head.ref }}
+        shell: bash
+
+      - name: Validate against plugins.xsd schema
+        run: |
+          cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
+          xmllint --schema ./plugins.xsd ./plugins.xml --noout
+        shell: bash
+
+      - name: Validate all releases
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        run: |
+          cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
+          pkp-plugin validate-all-releases --input ./plugins.xml
+        shell: bash
+
+      - name: Validate new release
+        if: ${{ github.event_name == 'pull_request'}}
+        run: |
+          cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
+          git remote -v
+          git branch
+          pkp-plugin validate-new-release
+        shell: bash
+
+      - name: Generate site
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        run: |
+          cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
+          GITHUB_TOKEN=${{ secrets.GH_TOKEN }} pkp-plugin generate-site ./plugins.xml
+        shell: bash
