@@ -14368,8 +14368,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Esta versão altera a frequência do monitoramento de dados preservados para semanal, torna as instruções nos formulários mais claras e o termo de responsabilidade é tratado de forma privada, com exclusão automática após o envio. Também corrige problemas causados pela troca de idioma do usuário, além de melhorias nos e-mails enviados para a Rede Cariniana.</description>
 			<description locale="es_ES">Esta versión cambia la frecuencia de monitoreo de los datos preservados a semanal, hace más claras las instrucciones en los formularios y maneja el acuerdo de responsabilidad de forma privada, con eliminación automática tras el envío. También corrige problemas causados por cambios en el idioma del usuario, además de mejoras en los correos enviados a la Red Cariniana.</description>
 		</release>
-		<release date="2025-09-05" version="1.5.5.0" md5="53492ab64c40b6da70cf3a50e7ee8d31">
-			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v1.5.5.0/carinianaPreservation.tar.gz</package>
+		<release date="2025-09-09" version="1.5.5.1" md5="72a8801fc59c44f749dc151a141ad12f">
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v1.5.5.1/carinianaPreservation.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -14385,9 +14385,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.3.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en_US">It is now required to enable the LOCKSS archiving option in OJS (under Distribution > Archiving > LOCKSS and CLOCKSS) for the journal to be sent for preservation or to update its preservation data.</description>
-			<description locale="pt_BR">Agora é necessário habilitar a opção de arquivamento LOCKSS no OJS (em Distribuição > Arquivamento > LOCKSS e CLOCKSS) para que o periódico possa ser enviado para preservação ou ter seus dados de preservação atualizados.</description>
-			<description locale="es_ES">Ahora es necesario habilitar la opción de archivo LOCKSS en OJS (en Distribución > Archivo > LOCKSS y CLOCKSS) para que la revista pueda ser enviada para preservación o actualizar sus datos en preservación.</description>
+			<description locale="en_US">It is now required to enable the LOCKSS archiving option in OJS (under Distribution > Archiving > LOCKSS and CLOCKSS) for the journal to be sent for preservation or to update its preservation data. It also fixes occasional issues in the first automatic data submission.</description>
+			<description locale="pt_BR">Agora é necessário habilitar a opção de arquivamento LOCKSS no OJS (em Distribuição > Arquivamento > LOCKSS e CLOCKSS) para que o periódico possa ser enviado para preservação ou ter seus dados de preservação atualizados. Também corrige problemas ocasionais no primeiro envio automático de dados.</description>
+			<description locale="es_ES">Ahora es necesario habilitar la opción de archivo LOCKSS en OJS (en Distribución > Archivo > LOCKSS y CLOCKSS) para que la revista pueda ser enviada para preservación o actualizar sus datos en preservación. También corrige problemas ocasionales en el primer envío automático de datos.</description>
 		</release>
 	</plugin>
 	<plugin category="blocks" product="navigation">
