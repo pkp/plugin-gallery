@@ -14199,6 +14199,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Essa versão corrige um erro que ocorre quando o arquivo de submissão não existe mais.</description>
 			<description locale="es_ES">Esta versión corrige un error que ocurre cuando el archivo de envío ya no existe.</description>
 		</release>
+		<release date="2025-09-16" version="2.0.1.18" md5="3776c620f0b7a3a6037b7ec78eacbd03">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.1.18/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes an error that occurs when the submission file no longer exists.</description>
+			<description locale="pt_BR">Essa versão corrige um erro que ocorre quando o arquivo de submissão não existe mais.</description>
+			<description locale="es">Esta versión corrige un error que ocurre cuando el archivo de envío ya no existe.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="deleteIncompleteSubmissions">
 		<name locale="en">Delete Incomplete Submissions</name>
