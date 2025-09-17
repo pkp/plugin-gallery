@@ -14196,8 +14196,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			</compatibility>
 			<certification type="reviewed"/>
 			<description locale="en_US">This release fixes an error that occurs when the submission file no longer exists.</description>
-			<description locale="pt_BR">Essa versão corrige o não envio da mensagem P1 quando um artigo é publicado sem pelo menos um autor com ID ROR.</description>
-			<description locale="es_ES">Esta versión corrige el fallo de envío del mensaje P1 cuando se publica un artículo sin al menos un autor con ID ROR.</description>
+			<description locale="pt_BR">Essa versão corrige um erro que ocorre quando o arquivo de submissão não existe mais.</description>
+			<description locale="es_ES">Esta versión corrige un error que ocurre cuando el archivo de envío ya no existe.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="deleteIncompleteSubmissions">
