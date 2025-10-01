@@ -14124,6 +14124,27 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Esta versão permite que você crie uma cópia de uma submissão, em que representa uma tradução do original em um determinado idioma. Além disso, ela enviará ao Crossref a relação hasTranslation/isTranslationOf que vincula o DOI do idioma original ao DOI do envio que é uma tradução.</description>
 			<description locale="es_ES">Esta versión le permite crear una copia de un envío, donde este nuevo envío representa una traducción del original en un idioma determinado. Además, enviará a Crossref la relación hasTranslation/isTranslationOf que vincula el DOI del idioma original con el DOI del envío que es una traducción.</description>
 		</release>
+		<release date="2025-10-01" version="1.0.3.3" md5="822560e9128fe26c59f5f6a6426c2ad9">
+			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v1.0.3.3/doiForTranslation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release fixes the complete display of the article title, including prefix and subtitle.</description>
+			<description locale="pt_BR">Esse lançamento corrige a exibição completa do título do artigo, incluindo prefixo e subtítulo.</description>
+			<description locale="es_ES">Esta versión corrige la visualización completa del título del artículo, incluidos el prefijo y el subtítulo.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="reviewReminder">
 		<name locale="en">Review Reminder</name>
