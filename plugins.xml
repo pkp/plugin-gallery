@@ -2549,6 +2549,19 @@
 			</compatibility>
 			<certification type="partner"/><description>This new release of the Shariff plugin updates the Heise.de Shariff package to version 3.3.0 (thanks to Lepidus).</description>
 		</release>
+		<release date="2024-05-13" version="3.4.4.0" md5="c182c1140cd7f3a721b5b0451dc3df7e">
+			<package>https://github.com/ojsde/shariff/releases/download/v3_5_0/shariff-3_5_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="partner"/><description>This new release of the Shariff plugin updates the Heise.de Shariff package to version 3.3.1.</description>
+		</release>
 	</plugin>
 	<plugin category="importexport" product="copernicus">
 		<name locale="en">OJS to Copernicus Citation Index xml export plugin</name>
