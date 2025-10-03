@@ -14535,6 +14535,37 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Agora é necessário habilitar a opção de arquivamento LOCKSS no OJS (em Distribuição > Arquivamento > LOCKSS e CLOCKSS) para que o periódico possa ser enviado para preservação ou ter seus dados de preservação atualizados. Também corrige problemas ocasionais no primeiro envio automático de dados.</description>
 			<description locale="es_ES">Ahora es necesario habilitar la opción de archivo LOCKSS en OJS (en Distribución > Archivo > LOCKSS y CLOCKSS) para que la revista pueda ser enviada para preservación o actualizar sus datos en preservación. También corrige problemas ocasionales en el primer envío automático de datos.</description>
 		</release>
+		<release date="2025-09-30" version="1.5.5.2" md5="1c02fa5e6d144aa8839f674e4abe86e5">
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v1.5.5.2/carinianaPreservation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Improves the messages displayed in the plugin settings form.</description>
+			<description locale="pt_BR">Aprimora as mensagens exibidas no formulário de configurações do plugin.</description>
+			<description locale="es_ES">Mejora los mensajes mostrados en el formulario de configuración del plugin</description>
+		</release>
+		<release date="2025-10-02" version="2.0.0.1" md5="986facb57949ac995639ff3187652ebf">
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v2.0.0.1/carinianaPreservation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This is the first release of the plugin supporting OJS 3.4.0.</description>
+			<description locale="pt_BR">Esta é a primeira versão do plugin com suporte ao OJS 3.4.0.</description>
+			<description locale="es">Esta es la primera versión del plugin con soporte para OJS 3.4.0.</description>
+		</release>
 	</plugin>
 	<plugin category="blocks" product="navigation">
 		<name locale="en">Navigation Block Plugin</name>
