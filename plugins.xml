@@ -7503,14 +7503,6 @@
 			<institution>Reviewer Credits GmbH</institution>
 			<email>emre.danisan@reviewercredits.com</email>
 		</maintainer>
-		<release date="2025-09-24" version="3.4.1.6" md5="82b6145e799b316eb14797cf482873cb">
-			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/V3416/reviewerCredits_plugin_3_4_1_6.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<certification type="partner"/>
-			<description>Plugin to enable the reviewer finder and peer review data integration with Reviewer Credits.</description>
-		</release>
 		<release date="2025-06-20" version="3.3.0.1" md5="dc740e218d5865cc88607fc6e8736315">
 			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/V3301/reviewerCredits.tar.gz</package>
 			<compatibility application="ojs2">
@@ -7654,6 +7646,14 @@
 			</compatibility>
 			<certification type="partner"/>
 			<description>Plugin to enable the integration with ReviewerCredits.</description>
+		</release>
+		<release date="2025-09-24" version="3.4.1.6" md5="82b6145e799b316eb14797cf482873cb">
+			<package>https://www.reviewercredits.com/wp-content/uploads/reviewer-credits/ojsplugin/V3416/reviewerCredits_plugin_3_4_1_6.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner"/>
+			<description>Plugin to enable the reviewer finder and peer review data integration with Reviewer Credits.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="adminNotificationManager">
