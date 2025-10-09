@@ -14431,6 +14431,41 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Actualiza el texto mostrado en el formulario de eliminación, mejorando la claridad para los usuarios</description>
 			<description locale="pt_BR">Atualiza o texto exibido no formulário de exclusão, melhorando a clareza para os usuários</description>
 		</release>
+		<release date="2025-10-08" version="0.1.5.0" md5="e2d94c47d4f236239064ec6f63313ed7">
+			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.1.5.0/deleteIncompleteSubmissions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Changes deletion form to improve usability.</description>
+			<description locale="es_ES">Cambia el formulario de eliminación para mejorar la usabilidad.</description>
+			<description locale="pt_BR">Altera o formulário de exclusão para melhorar a usabilidade.</description>
+		</release>
 		<release date="2024-06-20" version="0.2.0.0" md5="016357f34449c49c00fd86a021120478">
 			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.2.0/deleteIncompleteSubmissions.tar.gz</package>
 			<compatibility application="ojs2">
@@ -14469,6 +14504,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Updates the text displayed in the deletion form, improving clarity for users</description>
 			<description locale="es">Actualiza el texto mostrado en el formulario de eliminación, mejorando la claridad para los usuarios</description>
 			<description locale="pt_BR">Atualiza o texto exibido no formulário de exclusão, melhorando a clareza para os usuários</description>
+		</release>
+		<release date="2025-10-08" version="0.2.3.0" md5="8105a2fa76c98bbda628eee6bc04c55f">
+			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.2.3.0/deleteIncompleteSubmissions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Changes deletion form to improve usability.</description>
+			<description locale="es">Cambia el formulario de eliminación para mejorar la usabilidad.</description>
+			<description locale="pt_BR">Altera o formulário de exclusão para melhorar a usabilidade.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="carinianaPreservation">
