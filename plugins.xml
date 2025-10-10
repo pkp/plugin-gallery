@@ -2593,7 +2593,7 @@
 			<certification type="partner"/><description>This new release of the Shariff plugin updates the Heise.de Shariff package to version 3.3.1.</description>
 		</release>
 		<release date="2025-10-06" version="3.5.1.1" md5="fa23a3fad00b4baa2c314d92ff305f24">
-			<package>https://github.com/ojsde/shariff/releases/download/v3_5_0/shariff-3_5_0-1.tar.gz</package>
+			<package>https://github.com/ojsde/shariff/releases/download/v3_5_0-1/shariff-3_5_0-1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
