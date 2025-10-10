@@ -14656,6 +14656,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Esta é a primeira versão do plugin com suporte ao OJS 3.4.0.</description>
 			<description locale="es">Esta es la primera versión del plugin con soporte para OJS 3.4.0.</description>
 		</release>
+		<release date="2025-10-09" version="3.0.0.0" md5="bf602a1d0498998f17ce2c1dcbc3854e">
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v3.0.0.0/carinianaPreservation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This is the first release of the plugin supporting OJS 3.5.0.</description>
+			<description locale="pt_BR">Esta é a primeira versão do plugin com suporte ao OJS 3.5.0.</description>
+			<description locale="es">Esta es la primera versión del plugin con soporte para OJS 3.5.0.</description>
+		</release>
 	</plugin>
 	<plugin category="blocks" product="navigation">
 		<name locale="en">Navigation Block Plugin</name>
