@@ -14050,6 +14050,41 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Corrige errores relacionados con la migración de preguntas</description>
 			<description locale="pt_BR">Corrige erros relacionados à migração de perguntas</description>
 		</release>
+		<release date="2025-10-12" version="0.4.2.0" md5="c286f9223df59b3265452949ea19ecc9">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v0.4.2.0/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Adds encryption of users responses</description>
+			<description locale="es_ES">Agrega cifrado de las respuestas de los usuarios</description>
+			<description locale="pt_BR">Adiciona criptografia das respostas dos usuários</description>
+		</release>
 		<release date="2025-06-20" version="1.2.1.0" md5="db061af00f44103f5bbaa716ea21a99d">
 			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.2.1.0/deiaSurvey.tar.gz</package>
 			<compatibility application="ojs2">
