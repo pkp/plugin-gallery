@@ -11675,16 +11675,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="official"/>
 			<description>Datacite plugin  Bugfix release</description>
 		</release>
-		<release date="2024-06-19" version="3.4.0.1" md5="a83acc4e7a90fadd7c03c87e64931d8d">
-			<package>https://github.com/withanage/datacite/releases/download/v3_4_0-1/datacite-v3_4_0-1.tar.gz</package>
+		<release date="2025-10-13" version="3.4.0.2" md5="f2cc4984fc50d84ce5ecf14eb8868b5d">
+			<package>https://github.com/UB-Heidelberg/datacite/releases/download/v3_4_0-2/datacite-3_4_0-2.tar.gz</package>
 			<compatibility application="omp">
 				<version>~3.4.0.0</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>OMP 3.4 support</description>
 		</release>
-		<release date="2025-07-23" version="3.5.0.1" md5="fac9c19ab57bb2918eebef538857a87b">
-			<package>https://github.com/UB-Heidelberg/datacite/releases/download/v3_5_0-1/datacite-v3_5_0-1.tar.gz</package>
+		<release date="2025-10-13" version="3.5.0.2" md5="0ef7d00bf5f47f0be9c8dde9f3c7c05d">
+			<package>https://github.com/UB-Heidelberg/datacite/releases/download/v3_5_0-2/datacite-v3_5_0-2.tar.gz</package>
 			<compatibility application="omp">
 				<version>~3.5.0.0</version>
 			</compatibility>
