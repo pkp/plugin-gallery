@@ -39,7 +39,7 @@ jobs:
           git checkout -b user_repo/${{ github.head_ref || github.ref_name }}
         shell: bash
 
-      - name: lone user plugin-gallery for pull request
+      - name: Clone user plugin-gallery for pull request
         if: ${{ github.event_name == 'pull_request' }}
         run: |
           cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
@@ -71,7 +71,7 @@ jobs:
         shell: bash
 
       - name: Generate site
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'pkp/plugin-gallery' }}
         run: |
           cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
           GITHUB_TOKEN=${{ secrets.GH_TOKEN }} pkp-plugin generate-site ./plugins.xml
