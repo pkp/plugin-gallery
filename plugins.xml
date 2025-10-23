@@ -1027,6 +1027,36 @@
 				<description><![CDATA[<p>This release uses iThenticate's v2 API. <strong>You will need to ensure that your account supports iThenticate v2 and update your plugin configuration with new credentials!</strong></p>
 			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p>]]></description>
 		</release>
+		<release date="2025-04-20" version="1.0.7.5" md5="149814b2cd6b9955b2449af76a543a5f">
+			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_7-5/plagiarism-v1_0_7-5.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.18</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.3.0.18</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.3.0.18</version>
+			</compatibility>
+			<certification type="official" />
+				<description><![CDATA[<p>This release uses iThenticate's v2 API. <strong>You will need to ensure that your account supports iThenticate v2 and update your plugin configuration with new credentials!</strong></p>
+			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p>]]></description>
+		</release>
+		<release date="2025-04-20" version="1.0.8.2" md5="7215561123939a2c0b4e4e9a4887ecb7">
+			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_8-2/plagiarism-v1_0_8-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.7</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.7</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.7</version>
+			</compatibility>
+			<certification type="official" />
+				<description><![CDATA[<p>This release uses iThenticate's v2 API. <strong>You will need to ensure that your account supports iThenticate v2 and update your plugin configuration with new credentials!</strong></p>
+			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p>]]></description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="coins">
 		<name locale="en">COinS</name>
