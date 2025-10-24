@@ -14739,6 +14739,37 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Essa versão corrige um erro que ocorre quando o arquivo de submissão não existe mais.</description>
 			<description locale="es">Esta versión corrige un error que ocurre cuando el archivo de envío ya no existe.</description>
 		</release>
+		<release date="2025-10-20" version="1.1.2.0" md5="58a83db53edebdc22ac498adc095055b">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.2.0/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Improves the security of the OA Switchboard credentials stored by the plugin.</description>
+			<description locale="pt_BR">Aprimora a segurança das credenciais da OA Switchboard armazenadas pelo plugin.</description>
+			<description locale="es_ES">Mejora la seguridad de las credenciales de OA Switchboard almacenadas por el plugin.</description>
+		</release>
+		<release date="2025-10-23" version="2.0.1.19" md5="9ecf25452132e172de4c7029e49b2993">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.1.19/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Improves the security of the OA Switchboard credentials stored by the plugin.</description>
+			<description locale="pt_BR">Aprimora a segurança das credenciais da OA Switchboard armazenadas pelo plugin.</description>
+			<description locale="es">Mejora la seguridad de las credenciales de OA Switchboard almacenadas por el plugin.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="deleteIncompleteSubmissions">
 		<name locale="en">Delete Incomplete Submissions</name>
