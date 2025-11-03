@@ -14866,4 +14866,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial public release for OJS 3.5.0-x.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="getftr">
+		<name locale="en">GetFTR Integration Plugin</name>
+		<name locale="en_US">GetFTR Integration Plugin</name>
+		<homepage>https://github.com/getft/getft-ojs-plugin</homepage>
+		<summary locale="en">Integrates with GetFTR by displaying GetFTR buttons for articles.</summary>
+		<summary locale="en_US">Integrates with GetFTR by displaying GetFTR buttons for articles.</summary>
+		<description locale="en"><![CDATA[<p>GetFTR indicators and smart links will be added when the user's institution entitles them to full text or content is Open Access. <br> A valid GetFTR Integrator ID is required.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>GetFTR indicators and smart links will be added when the user's institution entitles them to full text or content is Open Access. <br> A valid GetFTR Integrator ID is required.</p>]]></description>
+		<maintainer>
+			<name>GetFTR</name>
+			<institution>GetFTR</institution>
+			<email>support@getfulltextresearch.com</email>
+		</maintainer>
+		<release date="2025-11-04" version="1.0.0.0" md5="1913bc09c1fa1a53f5881e89dbd0aacd">
+			<package>https://github.com/getft/getft-ojs-plugin/releases/download/v1.0.0.0/getftr-1.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="..."/>
+			<description>Initial release</description>
+		</release>
+	</plugin>
 </plugins>
