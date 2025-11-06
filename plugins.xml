@@ -5390,6 +5390,14 @@
 			<certification type="official" />
 			<description>Compatibility release for OJS 3.5.0.</description>
 		</release>
+		<release date="2025-11-05" version="1.0.5.1" md5="e18fb074479b36ad7044bcd77fadbe0e">
+			<package>https://github.com/pkp/defaultManuscript/releases/download/v1_0_5-1/defaultManuscript-v1_0_5-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>A security release for OJS 3.5.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="material">
 		<name locale="en">Material Theme</name>
