@@ -7451,7 +7451,7 @@
 			<description>Update for compatibility with v3.4.</description>
 		</release>
 	</plugin>
-	<plugin category="generic" product="lensGalleyBits">
+	<!--plugin category="generic" product="lensGalleyBits">
 		<name locale="en">Lens Viewer for Monographs and Journal Articles</name>
 		<name locale="en_US">Lens Viewer for Monographs and Journal Articles</name>
 		<homepage>https://github.com/withanage/lensGalleyBits</homepage>
@@ -7537,7 +7537,7 @@
 			<certification type="partner" />
 			<description>Table format + citations</description>
 		</release>
-	</plugin>
+	</plugin-->
 	<plugin category="generic" product="reviewerCredits">
 		<name locale="en">Reviewer Credits Plugin</name>
 		<name locale="en_US">Reviewer Credits Plugin</name>
