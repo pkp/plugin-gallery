@@ -4672,6 +4672,19 @@
 			<description locale="es">Soluciona problema de eficacia en la recuperación de palabras clave.</description>
 			<description locale="pt_BR">Corrige problema de desempenho na recuperação das palavras-chave.</description>
 		</release>
+		<release date="2025-11-06" version="3.0.0.0" md5="fbbdbd98efb23bf531dbfe7c734904d2">
+			<package>https://github.com/lepidus/keywordCloud/releases/download/v3.0.0.0/keywordCloud.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Compatibility release of the KeywordCloud plugin for OJS 3.5.0.</description>
+			<description locale="es">Versión de compatibilidad del plugin KeywordCloud para OJS 3.5.0.</description>
+			<description locale="pt_BR">Versão de compatibilidade do plugin KeywordCloud para OJS 3.5.0.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="bootstrap3">
 		<name locale="en">Bootstrap3</name>
