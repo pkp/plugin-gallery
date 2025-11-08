@@ -14921,5 +14921,13 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="official"/>
 			<description>Initial public release for OJS 3.5.0-x.</description>
 		</release>
+		<release date="2025-11-07" version="1.2.1.1" md5="80b0a68575dbeeb601dafe2c12f91124">
+			<package>https://github.com/pkp/pflPlugin/releases/download/v1_2_1-1/pflPlugin-v1_2_1-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.5.0-x.</description>
+		</release>
 	</plugin>
 </plugins>
