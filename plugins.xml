@@ -14230,7 +14230,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<compatibility application="ops">
 				<version>~3.4.0.0</version>
 			</compatibility>
-			<certification type="reviewed"/>
+			<certification type="official"/>
 			<description locale="en">Initial release of the CRediT plugin for OJS 3.4.0.</description>
 			<description locale="en_US">Initial release of the CRediT plugin for OJS 3.4.0.</description>
 		</release>
@@ -14242,7 +14242,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<compatibility application="ops">
 				<version>~3.4.0.0</version>
 			</compatibility>
-			<certification type="reviewed"/>
+			<certification type="official"/>
 			<description locale="en">Maintenance release of the CRediT plugin for OJS/OPS 3.4.0.</description>
 			<description locale="en_US">Maintenance release of the CRediT plugin for OJS/OPS 3.4.0.</description>
 		</release>
