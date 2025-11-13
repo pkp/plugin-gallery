@@ -5272,6 +5272,24 @@
 			<certification type="official"/>
 			<description>Adds compatibility with PHP 8.1</description>
 		</release>
+		<release date="2025-11-13" version="1.1.1.1" md5="d55981d14f3e674fcd48614e0d4a65d8">
+			<package>https://github.com/pkp/healthSciences/releases/download/v1_1_1-1/healthSciences-v1_1_1-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Adds compatibility with PHP 8.1</description>
+		</release>
 		<release date="2023-03-02" version="1.1.2.0" md5="17d9943067afa6d9952bb392d810382f">
 			<package>https://github.com/pkp/healthSciences/releases/download/1.1.2/healthSciences-1.1.2.tar.gz</package>
 			<compatibility application="ojs2">
