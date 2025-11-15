@@ -4712,6 +4712,19 @@
 			<description locale="es">Versión de compatibilidad del plugin KeywordCloud para OJS 3.5.0.</description>
 			<description locale="pt_BR">Versão de compatibilidade do plugin KeywordCloud para OJS 3.5.0.</description>
 		</release>
+		<release date="2025-11-11" version="3.0.0.1" md5="aa529dd0862b360d2575fd607086d34b">
+			<package>https://github.com/lepidus/keywordCloud/releases/download/v3.0.0.1/keywordCloud.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Rename locale to Weblate locale.</description>
+			<description locale="es">Cambia el nombre de la configuración regional a Configuración regional Weblate.</description>
+			<description locale="pt_BR">Renomeia idiomas para idiomas Weblate.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="bootstrap3">
 		<name locale="en">Bootstrap3</name>
