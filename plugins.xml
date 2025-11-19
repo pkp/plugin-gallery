@@ -15028,69 +15028,31 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial release.</description>
 		</release>
 	</plugin>
-	<plugin category="generic" product="pflPlugin">
-		<name locale="en">Publication Facts Label</name>
-		<name locale="en_US">Publication Facts Label</name>
-		<homepage>https://github.com/pkp/pflPlugin</homepage>
-		<summary locale="en">The Publication Facts Label (PFL), developed by the Public Knowledge Project at Simon Fraser University, seeks to help readers learn more about an article’s and journal’s adherence to the scholarly standards that set research apart from other sources of knowledge.</summary>
-		<summary locale="en_US">The Publication Facts Label (PFL), developed by the Public Knowledge Project at Simon Fraser University, seeks to help readers learn more about an article’s and journal’s adherence to the scholarly standards that set research apart from other sources of knowledge.</summary>
-		<description locale="en">The Publication Facts Label (PFL), developed by the Public Knowledge Project at Simon Fraser University, seeks to help readers learn more about an article’s and journal’s adherence to the scholarly standards that set research apart from other sources of knowledge.</description>
-		<description locale="en_US">The Publication Facts Label (PFL), developed by the Public Knowledge Project at Simon Fraser University, seeks to help readers learn more about an article’s and journal’s adherence to the scholarly standards that set research apart from other sources of knowledge.</description>
-		<maintainer>
-			<name>Alec Smecher</name>
-			<institution>Public Knowledge Project</institution>
-			<email>pkp.contact@gmail.com</email>
-		</maintainer>
-		<release date="2025-10-20" version="1.0.1.0" md5="c8dc3ce99ce8629d17698102b7e466a2">
-			<package>https://github.com/pkp/pflPlugin/releases/download/v1_0_1-0/pflPlugin-v1_0_1-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.3.0.0</version>
-				<version>3.3.0.1</version>
-				<version>3.3.0.2</version>
-				<version>3.3.0.3</version>
-				<version>3.3.0.4</version>
-				<version>3.3.0.5</version>
-				<version>3.3.0.6</version>
-				<version>3.3.0.7</version>
-				<version>3.3.0.8</version>
-				<version>3.3.0.9</version>
-				<version>3.3.0.10</version>
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Initial public release for OJS 3.3.0-x.</description>
-		</release>
-		<release date="2025-10-20" version="1.1.1.0" md5="23cccdb07c53365b853baedde1f05dce">
-			<package>https://github.com/pkp/pflPlugin/releases/download/v1_1_1-0/pflPlugin-v1_1_1-0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Initial public release for OJS 3.4.0-x.</description>
-		</release>
-		<release date="2025-11-07" version="1.1.1.1" md5="30ff46cab40b02d3a0c9fbc60291241f">
-			<package>https://github.com/pkp/pflPlugin/releases/download/v1_1_1-1/pflPlugin-v1_1_1-1.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Bugfix release for OJS 3.4.0-x.</description>
-		</release>
-		<release date="2025-10-20" version="1.2.1.0" md5="ade30bcc331d1b12c87fd7a784a98164">
-			<package>https://github.com/pkp/pflPlugin/releases/download/v1_2_1-0/pflPlugin-v1_2_1-0.tar.gz</package>
-			<compatibility application="ojs2">
+<plugin category="importexport" product="quickstatements">
+  <name locale="en">Wikidata QuickStatements Export</name>
+  <name locale="ar">تصدير ويكي بيانات عبر QuickStatements</name>
+  <homepage>https://github.com/saddamalsalfi/ojs-quickstatements-export</homepage>
+  <summary locale="en">Export OJS publication metadata (issues/articles) to Wikidata via QuickStatements, with optional auto-submit and DOI de-dup.</summary>
+  <summary locale="ar">تصدير بيانات النشر (أعداد/مقالات) من OJS إلى ويكي بيانات عبر QuickStatements، مع خيار الإرسال التلقائي والتحقق من تكرار DOI.</summary>
+  <description locale="en"><![CDATA[
+An import/export plugin that generates QuickStatements-ready TSV/commands from OJS publications. Supports OJS 3.5.
+  ]]></description>
+  <description locale="ar"><![CDATA[
+إضافة استيراد/تصدير تُنشئ TSV/أوامر جاهزة لـ QuickStatements من بيانات منشورات OJS. تعمل مع OJS 3.5.
+  ]]></description>
+  <author>Queen Arwa University – Journal Team</author>
+  <author>Saddam Hussein Al-Slfi</author>
+  <institution>Queen Arwa University Journal</institution>
+  <email>saddamalsalfi@qau.edu.ye</email>
+  <release date="2025-09-07" version="1.0.0-3.5" md5="e7a6efbbe1a4b4a7d34c26a74e5b449e">
+    <package>https://github.com/saddamalsalfi/ojs-quickstatements-export/releases/download/v1.0.0/quickstatements-v1.0.0-3.5.tar.gz</package>
+	        <compatibility application="ojs2">
+				<version>~3.4.0.9</version>
 				<version>~3.5.0.0</version>
 			</compatibility>
-			<certification type="official"/>
-			<description>Initial public release for OJS 3.5.0-x.</description>
-		</release>
-		<release date="2025-11-07" version="1.2.1.1" md5="80b0a68575dbeeb601dafe2c12f91124">
-			<package>https://github.com/pkp/pflPlugin/releases/download/v1_2_1-1/pflPlugin-v1_2_1-1.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.5.0.0</version>
-			</compatibility>
-			<certification type="official"/>
-			<description>Bugfix release for OJS 3.5.0-x.</description>
-		</release>
-	</plugin>
+    <license>GPL-3.0-or-later</license>
+    <notes locale="en">Initial public release for OJS 3.5.</notes>
+    <notes locale="ar">الإصدار العام الأول لـ OJS 3.5.</notes>
+  </release>
+</plugin>
 </plugins>
