@@ -6121,7 +6121,7 @@
 			<certification type="official"/>
 			<description>Adds compatibility with PHP 8.1</description>
 		</release>
-		<release date="2025-11-12" version="1.1.1.1" md5="fb969082a785c0e501579e81a5642a10">
+		<release date="2025-11-12" version="1.1.1.1" md5="20c41ed6012c1d45d78e08da1fabc945">
 			<package>https://github.com/pkp/immersion/releases/download/v1_1_1-1/immersion-v1_1_1-1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.1</version>
