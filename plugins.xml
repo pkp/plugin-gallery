@@ -11138,7 +11138,7 @@
 			<certification type="official"/>
 			<description>Adds compatibility with PHP 8.1</description>
 		</release>
-		<release date="2025-11-12" version="1.1.1.1" md5="ffc0257ceb105f7ef88fc99c21e39b34">
+		<release date="2025-11-12" version="1.1.1.1" md5="ae25ec50b0a4e1ee416ee0b866de8d44">
 			<package>https://github.com/pkp/pragma/releases/download/v1_1_1-1/pragma-1.1.1-1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.1</version>
