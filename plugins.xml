@@ -15124,7 +15124,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
-			<certification type="..."/>
+			<certification type="reviewed"/>
 			<description>Initial release</description>
 		</release>
 	</plugin>
