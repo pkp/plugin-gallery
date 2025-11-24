@@ -2240,6 +2240,19 @@
 			<description locale="es">Corrige un error que ocurría al recuperar el nombre del repositorio de Dataverse.</description>
 			<description locale="pt_BR">Corrige um bug que ocorria ao recuperar o nome do repositório Dataverse.</description>
 		</release>
+		<release date="2025-10-22" version="3.3.5.0" md5="e96d586438e15f10c8e8fc15f43a91f5">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.3.5.0/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds the encryption of plugin credentials, increasing the security of the installation.</description>
+			<description locale="es">Agrega la encriptación de las credenciales del plugin, aumentando la seguridad de la instalación.</description>
+			<description locale="pt_BR">Adiciona a criptografia das credenciais do plugin, aumentando a segurança da instalação.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
 		<name locale="en">Matomo</name>
