@@ -7655,7 +7655,7 @@
 			<email>dulip.withanage@gmail.com</email>
 		</maintainer>
 		
-		<release date="2024-11-26" version="5.0.0.0" md5="c9f492d3b399ed12ee085ee31cddd012">
+		<release date="2025-11-26" version="5.0.0.0" md5="c9f492d3b399ed12ee085ee31cddd012">
 			<package>https://github.com/withanage/lensGalleyBits/releases/download/v5_0_0-0/lensGalleyBits-V5.0.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
