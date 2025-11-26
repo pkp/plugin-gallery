@@ -7641,7 +7641,7 @@
 			<description>Update for compatibility with v3.4.</description>
 		</release>
 	</plugin>
-	<!--plugin category="generic" product="lensGalleyBits">
+	<plugin category="generic" product="lensGalleyBits">
 		<name locale="en">Lens Viewer for Monographs and Journal Articles</name>
 		<name locale="en_US">Lens Viewer for Monographs and Journal Articles</name>
 		<homepage>https://github.com/withanage/lensGalleyBits</homepage>
@@ -7651,65 +7651,12 @@
 		<description locale="en_US"><![CDATA[<p>This plugin provides an extended version of the Lens Viewer with support for books with BITS extensions. It also supports articles.</p><p>Do not use this plugin alongside the official Lens Viewer plugin. Only use one or the other, depending on your needs.</p>]]></description>
 		<maintainer>
 			<name>Dulip Withanage</name>
-			<institution>University of Heidelberg</institution>
+			<institution>TIB</institution>
 			<email>dulip.withanage@gmail.com</email>
 		</maintainer>
-		<release date="2019-05-18" version="3.0.0.0" md5="13bc221debcc959db042a969a543eab0">
-			<package>https://github.com/withanage/lensGalleyBits/releases/download/V3.0.0.0/lensGalleyBits-V3.0.0.0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.1.2.0</version>
-				<version>3.1.2.1</version>
-				<version>3.1.2.2</version>
-				<version>3.1.2.3</version>
-				<version>3.1.2.4</version>
-			</compatibility>
-			<certification type="partner"/>
-			<description>Initial release.</description>
-		</release>
-		<release date="2019-06-04" version="4.0.0.0" md5="83ad5f946ea1cf5c4952cdc1b3e503de">
-			<package>https://github.com/withanage/lensGalleyBits/releases/download/V4.0.0.0/lensGalleyBits-V4.0.0.0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.1.2.0</version>
-				<version>3.1.2.1</version>
-				<version>3.1.2.2</version>
-				<version>3.1.2.3</version>
-				<version>3.1.2.4</version>
-			</compatibility>
-			<certification type="partner"/>
-			<description>OJS 3.1.2 : Image support</description>
-		</release>
-		<release date="2020-06-04" version="4.0.0.1" md5="c0c89934a68ae75fc76381886ba00e0b">
-			<package>https://github.com/withanage/lensGalleyBits/releases/download/V4.0.0.1/lensGalleyBits-V4.0.0.1.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.2.0.0</version>
-				<version>3.2.0.1</version>
-				<version>3.2.0.2</version>
-				<version>3.2.0.3</version>
-				<version>3.2.0.4</version>
-			</compatibility>
-			<certification type="partner"/>
-			<description>OJS 3.2 : Image support</description>
-		</release>
-		<release date="2021-02-05" version="4.0.0.2" md5="ec0e08f14a976d50995a1925160eeacc">
-			<package>https://github.com/withanage/lensGalleyBits/releases/download/v4_0_0-2/lensGalleyBits-v4_0_0-2.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.2.0.0</version>
-				<version>3.2.0.1</version>
-				<version>3.2.0.2</version>
-				<version>3.2.0.3</version>
-				<version>3.2.0.4</version>
-				<version>3.2.1.0</version>
-				<version>3.2.1.1</version>
-				<version>3.2.1.2</version>
-				<version>3.2.1.3</version>
-				<version>3.2.1.4</version>
-				<version>3.2.1.5</version>
-			</compatibility>
-			<certification type="partner"/>
-			<description>Update article fetch for 3.2 compatibility</description>
-		</release>
-		<release date="2024-05-13" version="4.0.0.5" md5="f2090ef2cd35489aa52b882085cebfbd">
-			<package>https://github.com/withanage/lensGalleyBits/releases/download/v4_0_0-5/lensGalleyBits-v4_0_0-5.tar.gz</package>
+		
+		<release date="2024-11-26" version="5.0.0.0" md5="c9f492d3b399ed12ee085ee31cddd012">
+			<package>https://github.com/withanage/lensGalleyBits/releases/download/v5_0_0-0/lensGalleyBits-V5.0.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -7725,9 +7672,9 @@
 				<version>~3.3.0.0</version>
 			</compatibility>
 			<certification type="partner" />
-			<description>Table format + citations</description>
+			<description>Lens Galley Application with  node 22+ support</description>
 		</release>
-	</plugin-->
+	</plugin>
 	<plugin category="generic" product="reviewerCredits">
 		<name locale="en">Reviewer Credits Plugin</name>
 		<name locale="en_US">Reviewer Credits Plugin</name>
