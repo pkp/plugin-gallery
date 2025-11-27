@@ -15144,17 +15144,17 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<name locale="en">GetFTR Integration Plugin</name>
 		<name locale="en_US">GetFTR Integration Plugin</name>
 		<homepage>https://github.com/getft/getft-ojs-plugin</homepage>
-		<summary locale="en">Integrates with GetFTR by displaying GetFTR buttons for articles.</summary>
-		<summary locale="en_US">Integrates with GetFTR by displaying GetFTR buttons for articles.</summary>
-		<description locale="en"><![CDATA[<p>GetFTR indicators and smart links will be added when the user's institution entitles them to full text or content is Open Access. <br> A valid GetFTR Integrator ID is required.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>GetFTR indicators and smart links will be added when the user's institution entitles them to full text or content is Open Access. <br> A valid GetFTR Integrator ID is required.</p>]]></description>
+		<summary locale="en">Integrates with GetFTR to display GetFTR buttons, which provide streamlined access to the full text.</summary>
+		<summary locale="en_US">Integrates with GetFTR to display GetFTR buttons, which provide streamlined access to the full text.</summary>
+		<description locale="en"><![CDATA[<p>GetFTR indicators and smart links will be added when the user's institution entitles them to the full text or content is Open Access. It also flags where content has been retracted or updated. <br> A GetFTR Integrator ID is required and can be obtained from joinus@getfulltextresearch.com </p>]]></description>
+		<description locale="en_US"><![CDATA[<p>GetFTR indicators and smart links will be added when the user's institution entitles them to the full text or content is Open Access. It also flags where content has been retracted or updated. <br> A GetFTR Integrator ID is required and can be obtained from joinus@getfulltextresearch.com </p>]]></description>
 		<maintainer>
 			<name>GetFTR</name>
 			<institution>GetFTR</institution>
 			<email>support@getfulltextresearch.com</email>
 		</maintainer>
-		<release date="2025-11-21" version="1.0.0.1" md5="8d01a0431c8a7fca658d5889bf52ba7b">
-			<package>https://github.com/getft/getft-ojs-plugin/releases/download/v1.0.0.1/getftr-1.0.0.1.tar.gz</package>
+		<release date="2025-11-27" version="1.0.0.2" md5="84d6332805f5e180c6ca838ca272df7c">
+			<package>https://github.com/getft/getft-ojs-plugin/releases/download/v1.0.0.2/getftr-1.0.0.2.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
