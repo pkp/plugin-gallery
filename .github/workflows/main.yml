@@ -33,7 +33,7 @@ jobs:
       - name: Clone user plugin-gallery for push
         if: ${{ github.event_name == 'push' }}
         run: |
-          cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
+          cd ~/plugin-gallery
           git remote add user_repo https://github.com/${{ github.repository }}
           git fetch user_repo ${{ github.head_ref || github.ref_name }}
           git checkout -b user_repo/${{ github.head_ref || github.ref_name }}
@@ -42,7 +42,7 @@ jobs:
       - name: Clone user plugin-gallery for pull request
         if: ${{ github.event_name == 'pull_request' }}
         run: |
-          cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
+          cd ~/plugin-gallery
           git remote add user_repo ${{ github.event.pull_request.head.repo.html_url }} 
           git fetch user_repo ${{ github.event.pull_request.head.ref }}
           git checkout user_repo/${{ github.event.pull_request.head.ref }}
@@ -50,21 +50,21 @@ jobs:
 
       - name: Validate against plugins.xsd schema
         run: |
-          cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
+          cd ~/plugin-gallery
           xmllint --schema ./plugins.xsd ./plugins.xml --noout
         shell: bash
 
       - name: Validate all releases
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         run: |
-          cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
+          cd ~/plugin-gallery
           pkp-plugin validate-all-releases --input ./plugins.xml
         shell: bash
 
       - name: Validate new release
         if: ${{ github.event_name == 'pull_request'}}
         run: |
-          cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
+          cd ~/plugin-gallery
           git remote -v
           git branch
           pkp-plugin validate-new-release
@@ -73,6 +73,6 @@ jobs:
       - name: Generate site
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'pkp/plugin-gallery' }}
         run: |
-          cd ~/${{ github.event.pull_request.head.repo.name || github.event.repository.name }}
+          cd ~/plugin-gallery
           GITHUB_TOKEN=${{ secrets.GH_TOKEN }} pkp-plugin generate-site ./plugins.xml
         shell: bash
