@@ -15153,13 +15153,21 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>GetFTR</institution>
 			<email>support@getfulltextresearch.com</email>
 		</maintainer>
-		<release date="2025-11-27" version="1.0.0.2" md5="84d6332805f5e180c6ca838ca272df7c">
-			<package>https://github.com/getft/getft-ojs-plugin/releases/download/v1.0.0.2/getftr-1.0.0.2.tar.gz</package>
+		<release date="2025-11-21" version="1.0.0.1" md5="8d01a0431c8a7fca658d5889bf52ba7b">
+			<package>https://github.com/getft/getft-ojs-plugin/releases/download/v1.0.0.1/getftr-1.0.0.1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
 			<description>Initial release</description>
+		</release>
+		<release date="2025-12-03" version="1.0.0.2" md5="84d6332805f5e180c6ca838ca272df7c">
+			<package>https://github.com/getft/getft-ojs-plugin/releases/download/v1.0.0.2/getftr-1.0.0.2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release - with bugfix</description>
 		</release>
 	</plugin>
 </plugins>
