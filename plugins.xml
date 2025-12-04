@@ -1012,6 +1012,21 @@
 				<description><![CDATA[<p>This release uses iThenticate's v2 API. <strong>You will need to ensure that your account supports iThenticate v2 and update your plugin configuration with new credentials!</strong></p>
 			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p>]]></description>
 		</release>
+		<release date="2025-12-04" version="1.0.7.6" md5="d01b0554b96fff559b559b1d7f37ded6">
+			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_7-6/plagiarism-v1_0_7-6.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.18</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.3.0.18</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.3.0.18</version>
+			</compatibility>
+			<certification type="official" />
+				<description><![CDATA[<p>This release uses iThenticate's v2 API. <strong>You will need to ensure that your account supports iThenticate v2 and update your plugin configuration with new credentials!</strong></p>
+			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p>]]></description>
+		</release>
 		<release date="2024-12-16" version="1.0.8.1" md5="acbd5cbf30fb4314404935aa5bdbde39">
 			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_8-1/plagiarism-v1_0_8-1.tar.gz</package>
 			<compatibility application="ojs2">
@@ -1022,6 +1037,36 @@
 			</compatibility>
 			<compatibility application="ops">
 				<version>~3.4.0.7</version>
+			</compatibility>
+			<certification type="official" />
+				<description><![CDATA[<p>This release uses iThenticate's v2 API. <strong>You will need to ensure that your account supports iThenticate v2 and update your plugin configuration with new credentials!</strong></p>
+			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p>]]></description>
+		</release>
+		<release date="2025-12-04" version="1.0.8.3" md5="291665022d72d0923f44c9d1e2c8f4e7">
+			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_8-3/plagiarism-v1_0_8-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.7</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.7</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.7</version>
+			</compatibility>
+			<certification type="official" />
+				<description><![CDATA[<p>This release uses iThenticate's v2 API. <strong>You will need to ensure that your account supports iThenticate v2 and update your plugin configuration with new credentials!</strong></p>
+			<p>See <a href="https://docs.pkp.sfu.ca/ithenticate/" target="_blank">https://docs.pkp.sfu.ca/ithenticate/</a> for detailed upgrade information.</p>]]></description>
+		</release>
+		<release date="2025-12-04" version="1.0.9.0" md5="576882aa380cd15d3a7145777e4914e3">
+			<package>https://github.com/pkp/plagiarism/releases/download/v1_0_9-0/plagiarism-v1_0_9-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.2</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.2</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.2</version>
 			</compatibility>
 			<certification type="official" />
 				<description><![CDATA[<p>This release uses iThenticate's v2 API. <strong>You will need to ensure that your account supports iThenticate v2 and update your plugin configuration with new credentials!</strong></p>
