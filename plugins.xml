@@ -14018,7 +14018,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Fixed unintended line break in issue_toc.tpl line 113.</description>
 			<description locale="en_US">Fixed unintended line break in issue_toc.tpl line 113.</description>
 		</release>
-		<release date="2025-12-03" version="1.0.4.0" md5="c60b7c740d0bbb378762f66356aca91f">
+		<release date="2025-12-03" version="1.0.4.0" md5="f699adbcc33ca5b03fd6952be9133468">
 			<package>https://github.com/UMNLibraries/ojs-gopher-theme/releases/download/1_0_4-0/gopher-1_0_4-0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
