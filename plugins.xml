@@ -6235,6 +6235,14 @@
 			<certification type="official"/>
 			<description>Security release for OJS 3.4.0</description>
 		</release>
+        <release date="2025-12-04" version="1.1.2.6" md5="8877d4c5edf4b7711df404b53e93145d">
+            <package>https://github.com/pkp/immersion/releases/download/v1_1_2-6/immersion-v1_1_2-6.tar.gz</package>
+            <compatibility application="ojs2">
+                <version>~3.4.0.0</version>
+            </compatibility>
+            <certification type="official"/>
+            <description>Bugfix release for OJS 3.4.0</description>
+        </release>
 		<release date="2025-03-13" version="1.1.3.0" md5="1a3fb044cbd8812a7fe3eb43bd4a12e5">
 			<package>https://github.com/pkp/immersion/releases/download/v1_1_3-0/immersion-v1_1_3-0.tar.gz</package>
 			<compatibility application="ojs2">
@@ -6952,8 +6960,6 @@
 			<certification type="official"/>
 			<description>consider old API URL in plugin settings</description>
 		</release>
-
-
 		<release date="2022-08-17" version="1.1.3.4" md5="88708b5c464c94ef185df61c310b5f1a">
 			<package>https://github.com/pkp/orcidProfile/releases/download/v1_1_3-4/orcidProfile-v1_1_3-4.tar.gz</package>
 			<compatibility application="ojs2">
@@ -7372,10 +7378,7 @@
             <certification type="official"/>
             <description>OPS compatibility bug fixes</description>
         </release>
-
 	</plugin>
-
-
 	<plugin category="generic" product="defaultTranslation">
 		<name locale="en">Default Translation</name>
 		<name locale="en_US">Default Translation</name>
@@ -7654,7 +7657,6 @@
 			<institution>TIB</institution>
 			<email>dulip.withanage@gmail.com</email>
 		</maintainer>
-		
 		<release date="2025-11-26" version="5.0.0.0" md5="c9f492d3b399ed12ee085ee31cddd012">
 			<package>https://github.com/withanage/lensGalleyBits/releases/download/v5_0_0-0/lensGalleyBits-V5.0.0.0.tar.gz</package>
 			<compatibility application="ojs2">
@@ -8478,7 +8480,6 @@
 			<certification type="partner" />
 			<description>Release of the SUSHI-Lite  plugin for OJS 3.3</description>
 		</release>
-
 	</plugin>
 	<plugin category="generic" product="betterPassword">
 		<name locale="en">Better Password</name>
@@ -12901,7 +12902,6 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>3.3.0.10</version>
 				<version>~3.3.0.0</version>
 			</compatibility>
-
 			<certification type="reviewed"/>
 			<description locale="en">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to display embedded EPUBs files in publications.</description>
 			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery. Its main functionality is to display embedded EPUBs files in publications.</description>
@@ -12916,7 +12916,6 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<compatibility application="omp">
 				<version>~3.4.0.0</version>
 			</compatibility>
-
 			<certification type="reviewed"/>
 			<description locale="en">This release adds support for 3.4.0-x application releases.</description>
 			<description locale="es">Esta versión agrega soporte para las versiones de aplicaciones 3.4.0-x</description>
