@@ -11931,6 +11931,14 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="official" />
 			<description>Improvement for OJS 3.4.0-x</description>
 		</release>
+        <release date="2025-12-05" version="4.0.0.5" md5="9e3b1b1b8a4cc44226cc91e243c706a0">
+            <package>https://github.com/pkp/medra/releases/download/v4_0_0-5/medra-v4_0_0-5.tar.gz</package>
+            <compatibility application="ojs2">
+                <version>~3.4.0.0</version>
+            </compatibility>
+            <certification type="official" />
+            <description>Improvements for OJS 3.4.0-x</description>
+        </release>
 		<release date="2025-04-17" version="5.0.0.0" md5="12d72555d6278f4a5e6d67d20729bf1e">
 			<package>https://github.com/pkp/medra/releases/download/v5_0_0-0/medra-v5_0_0-0.tar.gz</package>
 			<compatibility application="ojs2">
