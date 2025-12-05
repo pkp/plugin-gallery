@@ -11939,6 +11939,14 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="official" />
 			<description>Compatibility release for OJS 3.5.0</description>
 		</release>
+        <release date="2025-12-05" version="5.0.0.1" md5="594c63e5501773e342de7e4a8347aa9e">
+            <package>https://github.com/pkp/medra/releases/download/v5_0_0-1/medra-v5_0_0-1.tar.gz</package>
+            <compatibility application="ojs2">
+                <version>~3.5.0.0</version>
+            </compatibility>
+            <certification type="official" />
+            <description>Bugfix release for OJS 3.5.0</description>
+        </release>
 	</plugin>
 	<plugin category="generic" product="opdoira">
 		<name locale="en">DOI to OP DOI RA XML export and registration plugin</name>
