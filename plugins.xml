@@ -12054,6 +12054,15 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="official" />
 			<description>Fix key attribute of ArticleCitation element for galley DOIs</description>
 		</release>
+        <release date="2025-12-05" version="3.0.0.6" md5="49f929376c3296d64473c97cb244417c">
+            <package>https://github.com/pkp/medra/releases/download/v3_0_0-6/medra-v3_0_0-6.tar.gz</package>
+            <compatibility application="ojs2">
+                <version>3.3.0.10</version>
+                <version>~3.3.0.0</version>
+            </compatibility>
+            <certification type="official" />
+            <description>Add AccessIndicators and License elements</description>
+        </release>
 	</plugin>
 	<plugin category="pubIds" product="ark">
 		<name locale="en">ARK</name>
