@@ -11321,7 +11321,7 @@
 				<version>3.1.2.3</version>
 				<version>3.1.2.4</version>
 			</compatibility>
-			<certification type="reviewed"/>
+			<certification type="official"/>
 			<description>PKP|PN for OJS 3.1.2-x.</description>
 		</release>
 		<release date="2020-07-21" version="2.0.2.1" md5="6c0187787736f147e50dfe6d8d5af747">
@@ -11333,7 +11333,7 @@
 				<version>3.2.0.3</version>
 				<version>3.2.0.4</version>
 			</compatibility>
-			<certification type="reviewed"/>
+			<certification type="official"/>
 			<description>PKP|PN for OJS 3.2.0-x.</description>
 		</release>
 		<release date="2020-07-21" version="2.0.3.1" md5="ec93d09928b6932e376861896376733e">
@@ -11346,7 +11346,7 @@
 				<version>3.2.1.4</version>
 				<version>3.2.1.5</version>
 			</compatibility>
-			<certification type="reviewed"/>
+			<certification type="official"/>
 			<description>PKP|PN for OJS 3.2.1-x.</description>
 		</release>
 		<release date="2021-02-02" version="2.0.4.1" md5="9bc3a133965b96639fe22c467353b1b5">
@@ -11365,7 +11365,7 @@
 				<version>3.3.0.10</version>
 				<version>~3.3.0.0</version>
 			</compatibility>
-			<certification type="reviewed"/>
+			<certification type="official"/>
 			<description>PKP|PN for OJS 3.3.0-x.</description>
 		</release>
 		<release date="2021-07-28" version="2.0.4.2" md5="4f44d9ef4ef61742155d7012ad45d9f0">
@@ -11384,7 +11384,7 @@
 				<version>3.3.0.10</version>
 				<version>~3.3.0.0</version>
 			</compatibility>
-			<certification type="reviewed"/>
+			<certification type="official"/>
 			<description>PKP|PN for OJS 3.3.0-x.</description>
 		</release>
 		<release date="2023-12-02" version="2.0.4.3" md5="4b8d3144108c3261dd537529a3e6932c">
@@ -11403,7 +11403,7 @@
 				<version>3.3.0.10</version>
 				<version>~3.3.0.0</version>
 			</compatibility>
-			<certification type="reviewed"/>
+			<certification type="official"/>
 			<description>PKP|PN for OJS 3.3.0-x. Several issues have been addressed and the error handling has been improved.</description>
 		</release>
 		<release date="2024-04-11" version="2.0.4.4" md5="b546d641a872a182cb03ca906c0c3bc0">
@@ -11422,7 +11422,7 @@
 				<version>3.3.0.10</version>
 				<version>~3.3.0.0</version>
 			</compatibility>
-			<certification type="reviewed"/>
+			<certification type="official"/>
 			<description>PKP|PN for OJS 3.3.0-x. Minor fixes were added.</description>
 		</release>
 		<release date="2024-04-22" version="2.0.4.5" md5="1dcc9beacce27d31900f90a73ffc5d5a">
@@ -11441,7 +11441,7 @@
 				<version>3.3.0.10</version>
 				<version>~3.3.0.0</version>
 			</compatibility>
-			<certification type="reviewed"/>
+			<certification type="official"/>
 			<description>PKP|PN for OJS 3.3.0-x. Updated localization and fixed the version tag.</description>
 		</release>
 		<release date="2024-04-09" version="3.0.0.0" md5="38905141f0eac20457982713f1ce35a4">
@@ -11449,7 +11449,7 @@
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
-			<certification type="reviewed"/>
+			<certification type="official"/>
 			<description>PKP|PN for OJS 3.4.x-x. First release for OJS 3.4.</description>
 		</release>
 		<release date="2024-11-21" version="3.0.0.1" md5="bee6599a9c791c056542e0930ae76a91">
@@ -11457,7 +11457,7 @@
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
-			<certification type="reviewed"/>
+			<certification type="official"/>
 			<description>PKP|PN for OJS 3.4.x-x. Fixed minor bug when using the MariaDB database.</description>
 		</release>
 	</plugin>
