@@ -10057,6 +10057,20 @@
 			<certification type="official" />
 			<description>This is a minor release for OJS/OMP/OPS 3.4.0.</description>
 		</release>
+		<release date="2025-12-05" version="1.0.3.0" md5="b8927031878e1c4c7fade651cb60b05d">
+			<package>https://github.com/pkp/controlPublicFiles/releases/download/v1_0_3-0/controlPublicFiles-v1_0_3-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>This is a compatibility release for OJS/OMP/OPS 3.5.0.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="textEditorExtras">
 		<name locale="en">Text Editor Extras</name>
