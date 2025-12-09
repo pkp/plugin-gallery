@@ -6067,6 +6067,14 @@
 			<certification type="official" />
 			<description>Maintenance release of the plugin for OJS 3.4.0</description>
 		</release>
+		<release date="2025-12-09" version="2.0.0.1" md5="9c9a7180cd0a5b26396f7b04beab9e57">
+			<package>https://github.com/pkp/crossrefReferenceLinking/releases/download/v2_0_0-1/crossrefReferenceLinking-v2_0_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Maintenance release of the plugin for OJS 3.4.0</description>
+		</release>
 		<release date="2025-05-07" version="3.0.0.0" md5="66ca4e3073356af9b4557f5448c78bd3">
 			<package>https://github.com/pkp/crossrefReferenceLinking/releases/download/v3_0_0-0/crossrefReferenceLinking-v3_0_0-0.tar.gz</package>
 			<compatibility application="ojs2">
