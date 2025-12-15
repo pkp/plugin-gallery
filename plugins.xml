@@ -5787,6 +5787,14 @@
 			<certification type="reviewed" />
 			<description>This release upgrades Material to version 3.1.0.0</description>
 		</release>
+		<release date="2025-12-15" version="3.1.0.2" md5="dac47b4f3eb55c0defe75d45295febd5">
+			<package>https://github.com/madi-nuralin/material/releases/download/v3_1_0-2/material-v3_1_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>This release upgrades Material to version 3.1.0.2</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="texture">
 		<name locale="en">Texture plugin</name>
