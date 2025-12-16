@@ -1,5 +1,50 @@
 <?xml version="1.0"?>
 <plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
+
+	<plugin category="generic" product="iiifViewer">
+		<name locale="en_US">IIIF Viewer</name>
+		<homepage>https://github.com/ub-unibe-ch/iiifViewer</homepage>
+		<summary locale="en_US">Generic Plugin to integrate the OpenSeadragon and Mirador IIIF Viewers</summary>
+		<description locale="en_US"><![CDATA[<p>The enabled plugin opens .png/.jpg galleys in an integrated Seadragon and iiif .json manifests in an integrated Mirador viever to display high resolution content.</p>]]></description>
+		<maintainer>
+			<name>Jan Stutzmann</name>
+			<institution>University of Bern</institution>
+			<email>bop@unibe.ch</email>
+		</maintainer>
+		<release date="2025-12-16" version="1.0.0.0" md5="a0dc7495bf1ae2bd46b483284649f48c">
+			<package>https://github.com/ub-unibe-ch/iiifViewer/archive/refs/tags/v1.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
+				<version>3.4.0.2</version>
+				<version>3.4.0.3</version>
+				<version>3.4.0.4</version>
+				<version>3.4.0.5</version>
+				<version>3.4.0.6</version>
+				<version>3.4.0.7</version>
+				<version>3.4.0.8</version>
+				<version>3.4.0.9</version>
+				<version>3.5.0.0</version>
+				<version>3.5.0.1</version>	
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
+				<version>3.4.0.2</version>
+				<version>3.4.0.3</version>
+				<version>3.4.0.4</version>
+				<version>3.4.0.5</version>
+				<version>3.4.0.6</version>
+				<version>3.4.0.7</version>
+				<version>3.4.0.8</version>
+				<version>3.4.0.9</version>
+				<version>3.5.0.0</version>
+				<version>3.5.0.1</version>	
+			</compatibility>
+			<certification type="official"/>
+			<description>initial release</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="rqc">
 		<name locale="en">RQC Plugin</name>
 		<name locale="en_US">RQC Plugin</name>
