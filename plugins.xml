@@ -15252,6 +15252,14 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.5.0-x.</description>
 		</release>
+		<release date="2026-01-06" version="1.2.1.2" md5="86e0a521f53c2e0ac3986ca8f6f0c4d8">
+			<package>https://github.com/pkp/pflPlugin/releases/download/v1_2_1-2/pflPlugin-v1_2_1-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.5.0-x.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="getftr">
 		<name locale="en">GetFTR Integration Plugin</name>
