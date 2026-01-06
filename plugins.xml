@@ -11121,6 +11121,14 @@
 			<certification type="reviewed"/>
 			<description>Web of Science Reviewer Locator plugin for OJS 3.4</description>
 		</release>
+		<release date="2026-01-06" version="1.3.4.1" md5="735f5dd863bf50ad496a09b1ce33c08e">
+			<package>https://github.com/clarivate/wos_reviewer_locator_plugin_ojs/releases/download/v1.3.4.1/wosReviewerLocator_1_3_4_1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Web of Science Reviewer Locator plugin for OJS 3.4</description>
+		</release>
 		<release date="2025-10-09" version="1.3.5.0" md5="0be30d691a91d1c6f8aafa5b4f318656">
 			<package>https://github.com/clarivate/wos_reviewer_locator_plugin_ojs/releases/download/v1.3.5.0/wosReviewerLocator_1_3_5_0.tar.gz</package>
 			<compatibility application="ojs2">
