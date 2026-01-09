@@ -2200,6 +2200,41 @@
 			<description locale="es_ES">Corrige un error que ocurría en las decisiones editoriales. Importante: Antes de instalar esta versión, debe configurar la api_key_secret en su OJS/OPS.</description>
 			<description locale="pt_BR">Corrige um bug nas decisões editoriais. Importante: Antes de instalar esta versão, você deve definir a configuração api_key_secret em seu OJS/OPS.</description>
 		</release>
+		<release date="2026-01-09" version="2.8.7.0" md5="a9969e0693550f5cce43a1f4bcde2940">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v2.8.7.0/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Adds multilinguism support to the README file name.</description>
+			<description locale="es_ES">Agrega soporte multilingüe al nombre del archivo README.</description>
+			<description locale="pt_BR">Adiciona suporte multilíngue ao nome do arquivo README.</description>
+		</release>
 		<release date="2025-05-23" version="3.3.0.0" md5="50610e5351ae400820ef689f4c10c113">
 			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.3.0.0/dataverse.tar.gz</package>
 			<compatibility application="ojs2">
@@ -2252,6 +2287,19 @@
 			<description locale="en">Adds the encryption of plugin credentials, increasing the security of the installation.</description>
 			<description locale="es">Agrega la encriptación de las credenciales del plugin, aumentando la seguridad de la instalación.</description>
 			<description locale="pt_BR">Adiciona a criptografia das credenciais do plugin, aumentando a segurança da instalação.</description>
+		</release>
+		<release date="2026-01-08" version="3.3.6.0" md5="72858ed702be72fad17d9f424f2ae037">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.3.6.0/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds multilinguism support to the README file name.</description>
+			<description locale="es">Agrega soporte multilingüe al nombre del archivo README.</description>
+			<description locale="pt_BR">Adiciona suporte multilíngue ao nome do arquivo README.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
