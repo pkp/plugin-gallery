@@ -11,8 +11,8 @@
 			<institution>University of Bern</institution>
 			<email>bop@unibe.ch</email>
 		</maintainer>
-		<release date="2025-12-16" version="1.0.0.0" md5="a0dc7495bf1ae2bd46b483284649f48c">
-			<package>https://github.com/ub-unibe-ch/iiifViewer/archive/refs/tags/v1.0.0.0.tar.gz</package>
+		<release date="2026-01-06" version="1.0.0.0" md5="d3be9aedf8caf67f0fd840467343e027">
+			<package>https://github.com/ub-unibe-ch/iiifViewer/archive/refs/tags/ojs.v1.0.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.4.0.0</version>
 				<version>3.4.0.1</version>
@@ -24,9 +24,12 @@
 				<version>3.4.0.7</version>
 				<version>3.4.0.8</version>
 				<version>3.4.0.9</version>
-				<version>3.5.0.0</version>
-				<version>3.5.0.1</version>	
 			</compatibility>
+			<certification type="official"/>
+			<description>initial release</description>
+		</release>
+		<release date="2026-01-06" version="1.0.0.0" md5="74007626c179728e9b86bc3681b8e14f">
+			<package>https://github.com/ub-unibe-ch/iiifViewer/archive/refs/tags/omp.v.1.0.0.0.tar.gz</package>
 			<compatibility application="omp">
 				<version>3.4.0.0</version>
 				<version>3.4.0.1</version>
@@ -38,6 +41,22 @@
 				<version>3.4.0.7</version>
 				<version>3.4.0.8</version>
 				<version>3.4.0.9</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>initial release</description>
+		</release>
+		<release date="2026-01-06" version="1.1.0.0" md5="5d092053bb7d99b1aef68bea2876e420">
+			<package>https://github.com/ub-unibe-ch/iiifViewer/archive/refs/tags/ojs.v.1.1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.0</version>
+				<version>3.5.0.1</version>	
+			</compatibility>
+			<certification type="official"/>
+			<description>initial release</description>
+		</release>
+		<release date="2026-01-06" version="1.1.0.0" md5="09d9cc6b94173c23ba5d05f6a0da39d6">
+			<package>https://github.com/ub-unibe-ch/iiifViewer/archive/refs/tags/omp.v.1.1.0.0.tar.gz</package>
+			<compatibility application="omp">
 				<version>3.5.0.0</version>
 				<version>3.5.0.1</version>	
 			</compatibility>
