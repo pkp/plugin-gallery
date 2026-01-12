@@ -11,7 +11,7 @@
 			<institution>University of Bern</institution>
 			<email>bop@unibe.ch</email>
 		</maintainer>
-		<release date="2026-01-06" version="1.0.0.0" md5="d3be9aedf8caf67f0fd840467343e027">
+		<release date="2026-01-06" version="1.0.0.0" md5="f44284d63c038bb24a48bc53576f4dfc">
 			<package>https://github.com/ub-unibe-ch/iiifViewer/archive/refs/tags/ojs.v1.0.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.4.0.0</version>
@@ -28,7 +28,7 @@
 			<certification type="official"/>
 			<description>initial release</description>
 		</release>
-		<release date="2026-01-06" version="1.0.0.0" md5="74007626c179728e9b86bc3681b8e14f">
+		<release date="2026-01-06" version="1.0.0.0" md5="57ebc24bb9cdf883fd940bde1d7c8472">
 			<package>https://github.com/ub-unibe-ch/iiifViewer/archive/refs/tags/omp.v.1.0.0.0.tar.gz</package>
 			<compatibility application="omp">
 				<version>3.4.0.0</version>
@@ -45,7 +45,7 @@
 			<certification type="official"/>
 			<description>initial release</description>
 		</release>
-		<release date="2026-01-06" version="1.1.0.0" md5="5d092053bb7d99b1aef68bea2876e420">
+		<release date="2026-01-06" version="1.1.0.0" md5="509e73cc71c5d8e74d3a31b15c749d9d">
 			<package>https://github.com/ub-unibe-ch/iiifViewer/archive/refs/tags/ojs.v.1.1.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.5.0.0</version>
@@ -54,7 +54,7 @@
 			<certification type="official"/>
 			<description>initial release</description>
 		</release>
-		<release date="2026-01-06" version="1.1.0.0" md5="09d9cc6b94173c23ba5d05f6a0da39d6">
+		<release date="2026-01-06" version="1.1.0.0" md5="553361aef111cc2f7e6d31b16ae23c16b9f5e3c9">
 			<package>https://github.com/ub-unibe-ch/iiifViewer/archive/refs/tags/omp.v.1.1.0.0.tar.gz</package>
 			<compatibility application="omp">
 				<version>3.5.0.0</version>
