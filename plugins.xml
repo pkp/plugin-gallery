@@ -14697,6 +14697,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Esse plugin envia um lembrete para o endereço de e-mail do avaliador quando ele é atribuído a uma submissão. O lembrete os informa sobre o período de revisão, que pode ser adicionado aos principais calendários digitais.</description>
 			<description locale="es">Este módulo envía un recordatorio a la dirección de correo electrónico del revisor cuando se le asigna un envío. El recordatorio les informa del periodo de revisión, que puede añadirse a los principales calendarios digitales.</description>
 		</release>
+		<release date="2026-01-16" version="0.2.0.0" md5="5c220e8f1c59254457f89e0df82e37a1">
+			<package>https://github.com/lepidus/reviewReminder/releases/download/v0.2.0.0/reviewReminder.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds a weekly reminder to reviewers, containing all pending reviews.</description>
+			<description locale="es">Añade el envío de un recordatorio semanal a los evaluadores con todas las evaluaciones pendientes.</description>
+			<description locale="pt_BR">Adiciona o envio de um lembrete semanal para os avaliadores, contendo todas as avaliações pendentes.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="OASwitchboard">
 		<name locale="en">OA Switchboard Plugin</name>
