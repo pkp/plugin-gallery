@@ -15268,6 +15268,14 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0-x.</description>
 		</release>
+		<release date="2026-01-23" version="1.1.1.3" md5="45115562c94659e90b91f39c5894aba3">
+			<package>https://github.com/pkp/pflPlugin/releases/download/v1_1_1-3/pflPlugin-v1_1_1-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.4.0-x.</description>
+		</release>
 		<release date="2025-10-20" version="1.2.1.0" md5="ade30bcc331d1b12c87fd7a784a98164">
 			<package>https://github.com/pkp/pflPlugin/releases/download/v1_2_1-0/pflPlugin-v1_2_1-0.tar.gz</package>
 			<compatibility application="ojs2">
@@ -15286,6 +15294,14 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 		<release date="2026-01-06" version="1.2.1.2" md5="86e0a521f53c2e0ac3986ca8f6f0c4d8">
 			<package>https://github.com/pkp/pflPlugin/releases/download/v1_2_1-2/pflPlugin-v1_2_1-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.5.0-x.</description>
+		</release>
+		<release date="2026-01-23" version="1.2.1.3" md5="95c0da152dc2cf933fd14915e2b9f8b9">
+			<package>https://github.com/pkp/pflPlugin/releases/download/v1_2_1-3/pflPlugin-v1_2_1-3.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
