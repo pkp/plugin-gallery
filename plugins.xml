@@ -15349,4 +15349,34 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial release - with bugfix</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="openScienceBadges">
+		<name locale="en">Open Science Badges</name>
+		<name locale="en_US">Open Science Badges</name>
+		<homepage>https://github.com/NateWr/openScienceBadges</homepage>
+		<summary locale="en">Display the Center for Open Science's Open Science Badges for publications that meet criteria for open data, materials, and research registration.</summary>
+		<summary locale="en_US">Display the Center for Open Science's Open Science Badges for publications that meet criteria for open data, materials, and research registration.</summary>
+		<description locale="en"><![CDATA[<p>This plugin allows editors to assign the Open Science Badges to qualifying publications and provide a disclosure statement of how the authors meet criteria for open data, research materials, and research registration. Once the plugin is installed and enabled, new metadata fields appear under Publication > Metadata in the submission workflow. More usage instructions are available in the plugin's homepage.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin allows editors to assign the Open Science Badges to qualifying publications and provide a disclosure statement of how the authors meet criteria for open data, research materials, and research registration. Once the plugin is installed and enabled, new metadata fields appear under Publication > Metadata in the submission workflow. More usage instructions are available in the plugin's homepage.</p>]]></description>
+		<maintainer>
+			<name>Nate Wright</name>
+			<institution>Independent</institution>
+			<email>2306629+NateWr@users.noreply.github.com</email>
+		</maintainer>
+		<release date="2026-01-27" version="1.0.0.0" md5="8fdf725553dd39b000b2567741170637">
+			<package>https://github.com/NateWr/openScienceBadges/releases/download/1.0.0.0/openScienceBadges-1.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release for 3.3+</description>
+		</release>
+		<release date="2026-01-27" version="1.1.0.0" md5="03164fb292e6c3e5d4bcadc2c7c8fcdf">
+			<package>https://github.com/NateWr/openScienceBadges/releases/download/1.1.0.0/openScienceBadges-1.1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release for 3.5+</description>
+		</release>
+	</plugin>
 </plugins>
