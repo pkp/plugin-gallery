@@ -15687,6 +15687,36 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			</compatibility>
 			<certification type="reviewed"/>
 			<description>Initial release for 3.5.0-3+</description>
+        </release>
+    </plugin>
+	<plugin category="generic" product="googleFonts">
+		<name locale="en">Google Fonts</name>
+		<name locale="en_US">Google Fonts</name>
+		<homepage>https://github.com/NateWr/googleFonts</homepage>
+		<summary locale="en">A plugin for OJS, OMP or OPS to use any Google Font in your theme without compromising visitor privacy. </summary>
+		<summary locale="en_US">A plugin for OJS, OMP or OPS to use any Google Font in your theme without compromising visitor privacy. </summary>
+		<description locale="en"><![CDATA[<p>This plugin allows editors and administrators to download and use Google Font files through the OJS, OMP, or OPS settings. The files are stored on the OJS, OMP or OPS server so that visitor activity is not shared with Google. Using the theme files will require using a theme integration or writing some CSS code. Further instructions on how to use this plugin are available at the plugin's homepage.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin allows editors and administrators to download and use Google Font files through the OJS, OMP, or OPS settings. The files are stored on the OJS, OMP or OPS server so that visitor activity is not shared with Google. Using the theme files will require using a theme integration or writing some CSS code. Further instructions on how to use this plugin are available at the plugin's homepage.</p>]]></description>
+		<maintainer>
+			<name>Nate Wright</name>
+			<institution>Independent</institution>
+			<email>2306629+NateWr@users.noreply.github.com</email>
+		</maintainer>
+		<release date="2026-01-28" version="1.0.0.0" md5="131df30b49d94e4356cf8bafe01d1a44">
+			<package>https://github.com/NateWr/googleFonts/releases/download/1.0.0.0/googleFonts-1.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release for 3.3+</description>
+		</release>
+		<release date="2026-01-28" version="1.1.0.0" md5="44d01589858d05196f9470df1f6130e9">
+			<package>https://github.com/NateWr/googleFonts/releases/download/1.1.0.0/googleFonts-1.1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release for 3.5+</description>
 		</release>
 	</plugin>
 </plugins>
