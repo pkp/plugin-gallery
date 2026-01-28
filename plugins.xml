@@ -15651,4 +15651,34 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Release for OJS 3.4</description>
 		</release>
 	</plugin>
+	<plugin category="themes" product="individualizeTheme">
+		<name locale="en">Individualize Theme by Publia</name>
+		<name locale="en_US">Individualize Theme by Publia</name>
+		<homepage>https://github.com/NateWr/individualizeTheme</homepage>
+		<summary locale="en">This theme is designed to allow editorial staff to customize the design and layout of a journal.</summary>
+		<summary locale="en_US">This theme is designed to allow editorial staff to customize the design and layout of a journal.</summary>
+		<description locale="en"><![CDATA[<p>This plugin was created by Publia - SLUB Open Publishing Services to support their journals with many design options for color, typography, and layout of the journal. This theme works best when the Google Fonts plugin is installed. More details can be found at the theme's homepage.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin was created by Publia - SLUB Open Publishing Services to support their journals with many design options for color, typography, and layout of the journal. This theme works best when the Google Fonts plugin is installed. More details can be found at the theme's homepage.</p>]]></description>
+		<maintainer>
+			<name>Nate Wright</name>
+			<institution>Independent</institution>
+			<email>2306629+NateWr@users.noreply.github.com</email>
+		</maintainer>
+		<release date="2026-01-28" version="1.0.0.0" md5="3c4d64fe660e56edff54693871e7f296">
+			<package>https://github.com/NateWr/individualizeTheme/releases/download/1.0.0.0/individualizeTheme-1.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.21</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release for 3.3.0-21+</description>
+		</release>
+		<release date="2026-01-28" version="1.1.0.0" md5="bb0fc17ef5a4ec633afd02e9bd58f36a">
+			<package>https://github.com/NateWr/individualizeTheme/releases/download/1.1.0.0/individualizeTheme-1.1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.3</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release for 3.5.0-3+</description>
+		</release>
+	</plugin>
 </plugins>
