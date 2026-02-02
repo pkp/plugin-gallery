@@ -13448,6 +13448,25 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Esta versión agrega compatibilidad con OJS/OPS/OMP 3.5.0, así como traducción al árabe</description>
 			<description locale="pt_BR">Esta versão adiciona compatibilidade com OJS/OPS/OMP 3.5.0, assim como tradução para Árabe</description>
 		</release>
+		<release date="2025-10-31" version="2.0.1.1" md5="0779a4d7273043c0dc7f83b5bc77b616">
+			<package>https://github.com/lepidus/plaudit/releases/download/v2.0.1.1/plaudit.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds encryption of plugin's credentials.</description>
+			<description locale="es">Agrega cifrado de las credenciales del módulo.</description>
+			<description locale="pt_BR">Adiciona criptografia das credenciais do plugin.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="toggleRequiredMetadata">
 		<name locale="en">Toggle Required Metadata</name>
