@@ -14383,7 +14383,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Asegura que la pregunta esté relacionada con el diario actual.</description>
 			<description locale="pt_BR">Garante que a pergunta esteja relacionada ao revista atual.</description>
 		</release>
-		<release date="2025-11-21" version="1.0.1.0" md5="443f628361050eeee4d776811473fc66">
+		<release date="2025-11-21" version="1.1.0.0" md5="443f628361050eeee4d776811473fc66">
 			<package>https://github.com/lepidus/customQuestions/releases/download/v1.1.0.0/customQuestions.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
