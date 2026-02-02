@@ -14670,6 +14670,27 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Esse lançamento corrige a exibição completa do título do artigo, incluindo prefixo e subtítulo.</description>
 			<description locale="es_ES">Esta versión corrige la visualización completa del título del artículo, incluidos el prefijo y el subtítulo.</description>
 		</release>
+		<release date="2026-01-15" version="1.0.4.1" md5="17b4ad30ac81b0ef45661d07f112602b">
+			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v1.0.4.1/doiForTranslation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Fixes full title formation and improves author data handling and language filtering.</description>
+			<description locale="pt_BR">Corrige formação do título completo e melhora tratamento de dados de autores e filtro de idioma.</description>
+			<description locale="es_ES">Corrige la formación del título completo y mejora el manejo de datos de autores y filtrado por idioma.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="reviewReminder">
 		<name locale="en">Review Reminder</name>
