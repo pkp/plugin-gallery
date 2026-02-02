@@ -2132,6 +2132,37 @@
 			<description locale="es">Esta versión corrige un error por el que no se detectaban los ORCID con saltos de línea.</description>
 			<description locale="pt_BR">Esta versão corrige um bug em que ORCIDs com quebras de linha não eram detectados.</description>
 		</release>
+		<release date="2026-01-06" version="2.2.4.0" md5="cd6a82e5119d5c73c92a37384407b147">
+			<package>https://github.com/lepidus/contentAnalysis/releases/download/v2.2.4.0/contentAnalysis.tar.gz</package>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Improves the detection algorithm and fixes issues with title styling and quotes detection.</description>
+			<description locale="es">Mejora el algoritmo de detección y corrige problemas con el estilo del título y la detección de comillas.</description>
+			<description locale="pt_BR">Melhora o algoritmo de detecção e corrige problemas com estilo de título e detecção de aspas.</description>
+		</release>
+		<release date="2025-02-20" version="1.6.0.0" md5="e0790924caa13bd2f1bb17f8a0e66499">
+			<package>https://github.com/lepidus/contentAnalysis/releases/download/v1.6.0/contentAnalysis.tar.gz</package>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release adds the checking for data availability statement presence in the document.</description>
+			<description locale="es_ES">Esta versión agrega la verificación de la presencia de la declaración de disponibilidad de datos en el documento.</description>
+			<description locale="pt_BR">Esta versão adiciona a verificação da presença da declaração de disponibilidade de dados no documento.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="dataverse">
 		<name locale="en">Dataverse Plugin</name>
