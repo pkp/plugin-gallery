@@ -13042,6 +13042,54 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Esta versión corrige un error de texto en la opción para seleccionar todas las secciones.</description>
 			<description locale="pt_BR">Esta versão corrige erro de texto na opção de selecionar todas as seções.</description>
 		</release>
+		<release date="2025-11-24" version="3.0.5.2" md5="ba0440bb711d0d4464cdac117f2b85a9">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.5.2/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Fixes issues with incomplete submissions and relation statuses. Improves interface by removing bullet points.</description>
+			<description locale="es">Corrige problemas con envíos incompletos y estados de relación. Mejora la interfaz eliminando los puntos de viñeta.</description>
+			<description locale="pt_BR">Corrige problemas com submissões incompletas e status de relação. Melhora a interface removendo os marcadores.</description>
+		</release>
+		<release date="2025-06-24" version="2.4.6.0" md5="ef2643d986553609fc21be4e50a0c2f8">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.6.0/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Fixes issues with submissions without title. Improves interface by removing bullet points.</description>
+			<description locale="es_ES">Corrige problemas con los envíos sin título. Mejora la interfaz eliminando los puntos de viñeta.</description>
+			<description locale="pt_BR">Corrige problemas com submissões sem título. Melhora a interface removendo os marcadores.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="lucene">
 		<name locale="en">Lucene/Solr Plugin</name>
