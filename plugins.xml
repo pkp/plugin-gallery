@@ -13936,8 +13936,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="doiInSummary">
-		<name locale="en">DOI in Summary</name>
-		<name locale="en_US">DOI in Summary</name>
+		<name locale="en">DOI in TOC</name>
+		<name locale="en_US">DOI in TOC</name>
 		<name locale="pt_BR">DOI no Sumário</name>
 		<name locale="es_ES">DOI en el Resumen</name>
 		<homepage>https://github.com/lepidus/doiInSummary</homepage>
