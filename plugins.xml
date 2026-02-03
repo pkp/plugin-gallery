@@ -2409,7 +2409,8 @@
 			</compatibility>
 			<certification type="reviewed"/>
 			<description locale="en">Adds multilinguism support to the README file name.</description>
-			<description locale="es">Agrega soporte multilingüe al nombre del archivo README.</description>
+			<description locale="en_US">Adds multilinguism support to the README file name.</description>
+			<description locale="es_ES">Agrega soporte multilingüe al nombre del archivo README.</description>
 			<description locale="pt_BR">Adiciona suporte multilíngue ao nome do arquivo README.</description>
 		</release>
 	</plugin>
