@@ -15365,6 +15365,17 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<release date="2026-01-27" version="1.0.0.0" md5="8fdf725553dd39b000b2567741170637">
 			<package>https://github.com/NateWr/openScienceBadges/releases/download/1.0.0.0/openScienceBadges-1.0.0.0.tar.gz</package>
 			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
 				<version>~3.3.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
