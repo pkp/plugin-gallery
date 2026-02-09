@@ -15771,4 +15771,34 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial release for 3.5+</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="partnerLogos">
+		<name locale="en">Partner Logos</name>
+		<name locale="en_US">Partner Logos</name>
+		<homepage>https://github.com/NateWr/partnerLogos</homepage>
+		<summary locale="en">Display a gallery of logos from partners or supporting organisations.</summary>
+		<summary locale="en_US">Display a gallery of logos from partners or supporting organisations.</summary>
+		<description locale="en"><![CDATA[<p>This plugin adds a new category to the Publisher Library for logos of partners or supporting institutions. After activating the plugin, upload images to the Partner Logos category of the Publisher Library. Then add the {$partnerLogos} shortcode to your about page, page footer, any custom menu page, and more. More instructions available at the plugin's homepage, including how to link an image and add alt tags for accessibility.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>This plugin adds a new category to the Publisher Library for logos of partners or supporting institutions. After activating the plugin, upload images to the Partner Logos category of the Publisher Library. Then add the {$partnerLogos} shortcode to your about page, page footer, any custom menu page, and more. More instructions available at the plugin's homepage, including how to link an image and add alt tags for accessibility.</p>]]></description>
+		<maintainer>
+			<name>Nate Wright</name>
+			<institution>Independent</institution>
+			<email>2306629+NateWr@users.noreply.github.com</email>
+		</maintainer>
+		<release date="2026-01-27" version="1.0.0.0" md5="cf097aff430630b58d9d373778d895e2">
+			<package>https://github.com/NateWr/partnerLogos/releases/download/1.0.0.0/partnerLogos-1.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release for 3.3+</description>
+		</release>
+		<release date="2026-01-27" version="1.1.0.0" md5="cede7086d64b2cac438c16b0cf7d73b6">
+			<package>https://github.com/NateWr/partnerLogos/releases/download/1.1.0.0/partnerLogos-1.1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release for 3.5+</description>
+		</release>
+	</plugin>
 </plugins>
