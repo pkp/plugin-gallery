@@ -13078,32 +13078,6 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta versión corrige un error de texto en la opción para seleccionar todas las secciones.</description>
 			<description locale="pt_BR">Esta versão corrige erro de texto na opção de selecionar todas as seções.</description>
 		</release>
-		<release date="2024-11-06" version="3.0.2.1" md5="267623738b12e249beec161a43722c3d">
-			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.2.1/scieloSubmissionsReport.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<certification type="reviewed"/>
-			<description locale="en">This release fixes text error in the option to select all sections.</description>
-			<description locale="es">Esta versión corrige un error de texto en la opción para seleccionar todas las secciones.</description>
-			<description locale="pt_BR">Esta versão corrige erro de texto na opção de selecionar todas as seções.</description>
-		</release>
-		<release date="2025-11-24" version="3.0.5.2" md5="ba0440bb711d0d4464cdac117f2b85a9">
-			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.5.2/scieloSubmissionsReport.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<compatibility application="ops">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<certification type="reviewed"/>
-			<description locale="en">Fixes issues with incomplete submissions and relation statuses. Improves interface by removing bullet points.</description>
-			<description locale="es">Corrige problemas con envíos incompletos y estados de relación. Mejora la interfaz eliminando los puntos de viñeta.</description>
-			<description locale="pt_BR">Corrige problemas com submissões incompletas e status de relação. Melhora a interface removendo os marcadores.</description>
-		</release>
 		<release date="2025-06-24" version="2.4.6.0" md5="ef2643d986553609fc21be4e50a0c2f8">
 			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.6.0/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
@@ -13138,6 +13112,78 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">Fixes issues with submissions without title. Improves interface by removing bullet points.</description>
 			<description locale="es_ES">Corrige problemas con los envíos sin título. Mejora la interfaz eliminando los puntos de viñeta.</description>
 			<description locale="pt_BR">Corrige problemas com submissões sem título. Melhora a interface removendo os marcadores.</description>
+		</release>
+		<release date="2026-02-10" version="2.4.6.1" md5="1311e18ae5cfd9f80524cfc773247622">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.6.1/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release fixes a problem with disabled users, which affected the editors columns in the report.</description>
+			<description locale="es_ES">Esta versión corrige un problema con usuarios deshabilitados, que afectaba las columnas de editores en el informe.</description>
+			<description locale="pt_BR">Esta versão corrige um problema com usuários desativados, que afetava as colunas de editores no relatório.</description>
+		</release>
+		<release date="2024-11-06" version="3.0.2.1" md5="267623738b12e249beec161a43722c3d">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.2.1/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes text error in the option to select all sections.</description>
+			<description locale="es">Esta versión corrige un error de texto en la opción para seleccionar todas las secciones.</description>
+			<description locale="pt_BR">Esta versão corrige erro de texto na opção de selecionar todas as seções.</description>
+		</release>
+		<release date="2025-11-24" version="3.0.5.2" md5="ba0440bb711d0d4464cdac117f2b85a9">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.5.2/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Fixes issues with incomplete submissions and relation statuses. Improves interface by removing bullet points.</description>
+			<description locale="es">Corrige problemas con envíos incompletos y estados de relación. Mejora la interfaz eliminando los puntos de viñeta.</description>
+			<description locale="pt_BR">Corrige problemas com submissões incompletas e status de relação. Melhora a interface removendo os marcadores.</description>
+		</release>
+		<release date="2026-02-12" version="3.0.5.3" md5="260549e156acda7fcd1a7bbb55c71af2">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.5.3/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes a problem with disabled users, which affected the editors columns in the report.</description>
+			<description locale="es">Esta versión corrige un problema con usuarios deshabilitados, que afectaba las columnas de editores en el informe.</description>
+			<description locale="pt_BR">Esta versão corrige um problema com usuários desativados, que afetava as colunas de editores no relatório.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="lucene">
