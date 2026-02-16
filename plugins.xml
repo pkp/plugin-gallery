@@ -54,7 +54,7 @@
 			<certification type="official"/>
 			<description>initial release</description>
 		</release>
-		<release date="2026-01-06" version="1.1.0.0" md5="553361aef111cc2f7e6d31b16ae23c16b9f5e3c9">
+		<release date="2026-01-06" version="1.1.0.0" md5="0238b5147821cd03ab6bb1f067cce8e6">
 			<package>https://github.com/ub-unibe-ch/iiifViewer/archive/refs/tags/omp.v.1.1.0.0.tar.gz</package>
 			<compatibility application="omp">
 				<version>3.5.0.0</version>
