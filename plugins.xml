@@ -12225,6 +12225,16 @@ the registration of DOIs with OP DOI RA.</p>]]></description>
 			<certification type="reviewed" />
 			<description>Initial OP DOI RA plugin release for OJS 3.4.0-x</description>
 		</release>
+		<release date="2026-01-21" version="1.0.0.1" md5="ee254f0ae7e9ce8b51f95ad8b694f0cf">
+			<package>https://github.com/Ediser-mEDRA/opdoiraojsplugin/releases/download/v1_0_0-1/opdoiraojsplugin-v1_0_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>The update OP DOI RA plugin for export and registration DOI metadata: Add O4DOI_SUBJECT_SCHEME_KEYWORDS constant
+AccessIndicators information (OpenAccess and License)
+Improve access rights and keyword handling logic</description>
+		</release>
 	</plugin>
 	<plugin category="importexport" product="medra">
 		<name locale="en">DOI to mEDRA xml export and registration plugin</name>
