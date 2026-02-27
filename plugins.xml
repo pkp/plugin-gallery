@@ -16031,4 +16031,103 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Añade un campo de selección en el área de Intereses de Revisión, con opciones definidas desde la configuración del plugin.</description>
 		</release>
 	</plugin>
+	<plugin category="oaiMetadataFormats" product="biblat">
+		<name locale="es">Formato BIBLAT de Metadatos</nam
+		<name locale="en">BIBLAT Metadata Format</name>
+		<homepage>https://biblat.unam.mx/en/</homepage>
+
+		<summary locale="es">Estructura los metadatos de forma que son consistentes con el formato BIBLAT.</summary>
+		<summary locale="en">Provides a metadata structure consistent with the BIBLAT metadata format.</summary>
+
+		<description locale="es"><![CDATA[<p>Este modulo aggrega un formato de los metadatos para Bibliografía Latinoamericana.</p>]]></description>
+		<description locale="en"><![CDATA[<p>This module adds a metadata format for Bibliografía Latinoamericana.</p>]]></description>
+
+		<maintainer>
+			<name>Bibliografía Latinoamericana</name>
+			<institution>UNAM</institution>
+			<email>biblat@dgb.unam.mx</email>
+		</maintainer>
+		
+		<release date="2024-01-01" version="3.0" md5="3234a0dd82158ce104dfcf91f070e9a6">
+			<package>https://github.com/dgb-sistemas/plugin_biblat/releases/download/v3.0/biblat.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.1.1-4</version>
+				<version>3.1.1-2</version>
+				<version>3.1.1-1</version>
+				<version>3.1.1</version>
+				<version>3.1.0-1</version>
+				<version>3.1.0</version>
+				<version>3.0.2</version>
+				<version>3.0.1</version>
+				<version>3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Update to be compatible with OJS 3.0 - 3.1.2</description>
+		</release>
+		
+		<release date="2024-01-01" version="3.1.2" md5="1a71857163358a567a3a26290eb40600">
+			<package>https://github.com/dgb-sistemas/plugin_biblat/releases/download/v3.1.2/biblat.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.1.2-4</version>
+				<version>3.1.2-3</version>
+				<version>3.1.2-2</version>
+				<version>3.1.2-1</version>
+				<version>3.1.2</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Update to be compatible with OJS ~3.1.2</description>
+		</release>
+		
+		<release date="2024-01-01" version="3.2" md5="9682fa9259a87f5fbd920c5ee5f8eb8b">
+			<package>https://github.com/dgb-sistemas/plugin_biblat/releases/download/v3.2/biblat.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.1-4</version>
+				<version>3.2.1-3</version>
+				<version>3.2.1-2</version>
+				<version>3.2.1-1</version>
+				<version>3.2.1</version>
+				<version>3.2.0-3</version>
+				<version>3.2.0-2</version>
+				<version>3.2.0-1</version>
+				<version>3.2.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Update to be compatible with OJS ~3.2</description>
+		</release>
+		
+		<release date="2024-01-01" version="3.3" md5="9b051821464f0bc7e6c67727d9aca9fd">
+			<package>https://github.com/dgb-sistemas/plugin_biblat/releases/download/v3.3/biblat.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0-10</version>
+				<version>3.3.0-9</version>
+				<version>3.3.0-8</version>
+				<version>3.3.0-7</version>
+				<version>3.3.0-6</version>
+				<version>3.3.0-5</version>
+				<version>3.3.0-4</version>
+				<version>3.3.0-3</version>
+				<version>3.3.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Update to be compatible with OJS 3.3.0 - 3.3.0-11</description>
+		</release>
+		
+		<release date="2024-01-01" version="3.3.0.11" md5="46479e77b39b209a3b584fc396176124">
+			<package>https://github.com/dgb-sistemas/plugin_biblat/releases/download/v3.3.0.11/biblat.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0-11</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Update to be compatible with OJS 3.3.11 - 3.4</description>
+		</release>
+		
+		<release date="2024-01-01" version="3.4" md5="7610b133192b29bd56f7f734723cdfa8">
+			<package>https://github.com/dgb-sistemas/plugin_biblat/releases/download/v3.4/biblat.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0-0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Update to be compatible with OJS 3.4 or later</description>
+		</release>
+	</plugin>
 </plugins>
