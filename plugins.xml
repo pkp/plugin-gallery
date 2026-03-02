@@ -2477,6 +2477,19 @@
 			<description locale="es_ES">Agrega soporte multilingüe al nombre del archivo README.</description>
 			<description locale="pt_BR">Adiciona suporte multilíngue ao nome do arquivo README.</description>
 		</release>
+		<release date="2026-02-11" version="3.4.0.0" md5="12dde05cb42a71a3ca42bed5dcd4a6b3">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.4.0.0/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds support for custom required metadata block fields.</description>
+			<description locale="es">Agrega soporte para campos personalizados obligatorios de el bloque de metadatos.</description>
+			<description locale="pt_BR">Adiciona suporte para campos obrigatórios personalizados de bloco de metadados.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
 		<name locale="en">Matomo</name>
