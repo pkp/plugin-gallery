@@ -15635,10 +15635,11 @@ An import/export plugin that generates QuickStatements-ready TSV/commands from O
   <description locale="ar"><![CDATA[
 إضافة استيراد/تصدير تُنشئ TSV/أوامر جاهزة لـ QuickStatements من بيانات منشورات OJS. تعمل مع OJS 3.5.
   ]]></description>
-  <author>Queen Arwa University – Journal Team</author>
-  <author>Saddam Hussein Al-Slfi</author>
-  <institution>Queen Arwa University Journal</institution>
-  <email>saddamalsalfi@qau.edu.ye</email>
+  <maintainer>
+    <name>Queen Arwa University – Journal Team; Saddam Hussein Al-Slfi</name>
+    <institution>Queen Arwa University Journal</institution>
+    <email>saddamalsalfi@qau.edu.ye</email>
+  </maintainer>
   <release date="2025-09-07" version="1.0.0-3.5" md5="e7a6efbbe1a4b4a7d34c26a74e5b449e">
     <package>https://github.com/saddamalsalfi/ojs-quickstatements-export/releases/download/v1.0.0/quickstatements-v1.0.0-3.5.tar.gz</package>
 	        <compatibility application="ojs2">
