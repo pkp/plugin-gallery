@@ -15645,9 +15645,8 @@ An import/export plugin that generates QuickStatements-ready TSV/commands from O
 				<version>~3.4.0.9</version>
 				<version>~3.5.0.0</version>
 			</compatibility>
-    <license>GPL-3.0-or-later</license>
-    <notes locale="en">Initial public release for OJS 3.5.</notes>
-    <notes locale="ar">الإصدار العام الأول لـ OJS 3.5.</notes>
+    <description locale="en">Initial public release for OJS 3.5.</description>
+    <description locale="ar">الإصدار العام الأول لـ OJS 3.5.</description>
   </release>
 </plugin>
 </plugins>
