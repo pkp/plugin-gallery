@@ -7944,6 +7944,29 @@
 			<description>Lens Galley Application with  node 22+ support</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="reviewerCertificate">
+		<name locale="en">Reviewer Certificate</name>
+		<name locale="en_US">Reviewer Certificate</name>
+		<homepage>https://github.com/ssemerikov/reviewerCertificate</homepage>
+		<summary locale="en">Generates personalized PDF certificates for peer reviewers after completing reviews.</summary>
+		<summary locale="en_US">Generates personalized PDF certificates for peer reviewers after completing reviews.</summary>
+		<description locale="en"><![CDATA[<p>The Reviewer Certificate Plugin enables journals to automatically generate and distribute personalized PDF certificates of recognition to peer reviewers upon completion of their review assignments.</p><p>Features: customizable certificate templates with background images, dynamic content insertion (reviewer name, journal name, submission title, dates), QR code verification, batch generation, download tracking, and 32 language translations.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>The Reviewer Certificate Plugin enables journals to automatically generate and distribute personalized PDF certificates of recognition to peer reviewers upon completion of their review assignments.</p><p>Features: customizable certificate templates with background images, dynamic content insertion (reviewer name, journal name, submission title, dates), QR code verification, batch generation, download tracking, and 32 language translations.</p>]]></description>
+		<maintainer>
+			<name>Serhiy O. Semerikov</name>
+			<institution>Academy of Cognitive and Natural Sciences</institution>
+			<email>semerikov@gmail.com</email>
+		</maintainer>
+		<release date="2026-03-12" version="1.2.0.0" md5="644eddd494ad9a12dfc2b5b8e63eefc8">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.2.0/reviewerCertificate-1.2.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description>Fix OJS 3.3 plugin enable (Issue #65), handler endpoint 500 errors, and role constant resolution. All 33 E2E tests pass across OJS 3.3, 3.4, and 3.5.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="reviewerCredits">
 		<name locale="en">Reviewer Credits Plugin</name>
 		<name locale="en_US">Reviewer Credits Plugin</name>
