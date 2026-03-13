@@ -7957,14 +7957,26 @@
 			<institution>Academy of Cognitive and Natural Sciences</institution>
 			<email>semerikov@gmail.com</email>
 		</maintainer>
-		<release date="2026-03-12" version="1.2.0.0" md5="644eddd494ad9a12dfc2b5b8e63eefc8">
-			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.2.0/reviewerCertificate-1.2.0.0.tar.gz</package>
+		<release date="2026-03-13" version="1.4.0.0" md5="5101e4cba8f77da3106297bd05c12ab0">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.4.0-3.3/reviewerCertificate-v1.4.0-3.3.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.3.0.0</version>
+			</compatibility>
+			<description>Context isolation, HTML title sanitization, input validation. OJS 3.3.x compatible.</description>
+		</release>
+		<release date="2026-03-13" version="1.4.0.0" md5="90b8fd33b000f741e7f1a00de0df45ba">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.4.0-3.4/reviewerCertificate-v1.4.0-3.4.tar.gz</package>
+			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
+			</compatibility>
+			<description>Context isolation, HTML title sanitization, input validation. OJS 3.4.x compatible.</description>
+		</release>
+		<release date="2026-03-13" version="1.4.0.0" md5="c2881550df8064a57949c357566a7206">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.4.0-3.5/reviewerCertificate-v1.4.0-3.5.tar.gz</package>
+			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
-			<description>Fix OJS 3.3 plugin enable (Issue #65), handler endpoint 500 errors, and role constant resolution. All 33 E2E tests pass across OJS 3.3, 3.4, and 3.5.</description>
+			<description>Context isolation, HTML title sanitization, input validation. OJS 3.5.x compatible.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="reviewerCredits">
