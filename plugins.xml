@@ -14265,6 +14265,28 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Renomeia DoiInSummary para DoiInTOC</description>
 			<description locale="es_ES">Renombra DoiInSummary a DoiInTOC</description>
 		</release>
+		<release date="2026-03-16" version="1.4.1.1" md5="9291f5ffb494e2553a72a0454b0ebf3e">
+			<package>https://github.com/lepidus/doiInSummary/releases/download/v1.4.1.1/doiInSummary.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Fix error with plugin migration.</description>
+			<description locale="en_US">Fix error with plugin migration.</description>
+			<description locale="pt_BR">Corrige erro na migração do plugin.</description>
+			<description locale="es_ES">Corrige error en la migración del módulo.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="gopher">
 		<name locale="en">Gopher Theme</name>
