@@ -16094,5 +16094,13 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="official"/>
 			<description>Initial release.</description>
 		</release>
+		<release date="2026-03-16" version="1.1.0.0" md5="afbd32de2b6a07459996a75abff89b3f">
+			<package>https://github.com/mpbraendle/navigation/releases/download/v1.1.0.0/navigation-v1.1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Initial release for 3.5+</description>
+		</release>
 	</plugin>
 </plugins>
