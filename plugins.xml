@@ -7957,6 +7957,27 @@
 			<institution>Academy of Cognitive and Natural Sciences</institution>
 			<email>semerikov@gmail.com</email>
 		</maintainer>
+		<release date="2026-03-20" version="1.5.0.0" md5="972fa8bb2b3815e4845a60195e11de27">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.5.0-3.3/reviewerCertificate-v1.5.0-3.3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<description>Composer TCPDF dependency, removed dangerous utility files, code brevity improvements, OJS 3.3.x-only code paths. OJS 3.3.x compatible.</description>
+		</release>
+		<release date="2026-03-20" version="1.5.0.0" md5="09ad87e525c26e25c1f0baf6f1734708">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.5.0-3.4/reviewerCertificate-v1.5.0-3.4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<description>Composer TCPDF dependency, removed dangerous utility files, code brevity improvements, OJS 3.4.x-only code paths. OJS 3.4.x compatible.</description>
+		</release>
+		<release date="2026-03-20" version="1.5.0.0" md5="9192df681dccc199c29897e4c5f6a01e">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.5.0-3.5/reviewerCertificate-v1.5.0-3.5.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description>Composer TCPDF dependency, removed dangerous utility files, code brevity improvements, OJS 3.5.x-only code paths. OJS 3.5.x compatible.</description>
+		</release>
 		<release date="2026-03-13" version="1.4.0.0" md5="5101e4cba8f77da3106297bd05c12ab0">
 			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.4.0-3.3/reviewerCertificate-v1.4.0-3.3.tar.gz</package>
 			<compatibility application="ojs2">
