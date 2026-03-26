@@ -10,8 +10,8 @@
 		<institution>SyntaxHouse</institution>
 		<email>munir@syntaxhouse.com</email>
 	</maintainer>
-	<release date="2026-03-26" version="1.0.0" md5="PUT_REAL_MD5_HERE">
-		<package>https://github.com/munir-abbasi/dummyDataGenerator/releases/download/v1.0.0/dummyDataGenerator-v1.0.0.tar.gz</package>
+	<release date="2026-03-26" version="1.0.0" md5="afa4ea7a15f3edec646aa1fcbd1aa0e7">
+		<package>https://github.com/munir-abbasi/dummyDataGenerator/releases/download/1.0.0/dummyDataGenerator-v1.0.0.tar.gz</package>
 		<compatibility application="ojs">
 			<version>~3.5.0.0</version>
 		</compatibility>
