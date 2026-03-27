@@ -3060,6 +3060,14 @@
 			<certification type="official" />
 			<description>Maintenance release of the SubscriptionSSO plugin for OJS 3.4.x.</description>
 		</release>
+		<release date="2026-03-27" version="1.1.0.0" md5="422e3a50322627d8ecc16ab04d22ffc3">
+			<package>https://github.com/asmecher/subscriptionSSO/releases/download/v1_1_0-0/subscriptionSSO-v1_1_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release of the SubscriptionSSO plugin for OJS 3.5.x.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="funding">
 		<name locale="en">Funding</name>
