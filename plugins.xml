@@ -14859,6 +14859,41 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Agrega cifrado de las respuestas de los usuarios</description>
 			<description locale="pt_BR">Adiciona criptografia das respostas dos usuários</description>
 		</release>
+		<release date="2026-01-29" version="0.5.0.0" md5="01c96ff040aa7a333843e7747c044c8d">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v0.5.0.0/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Adds a statistics report that summarizes the data from all journals/servers on the site. This report is only available to the Site Administrator.</description>
+			<description locale="es_ES">Agrega un informe de estadísticas que resume los datos de todas las revistas/servidores en el sitio. Este informe solo está disponible para el Administrador del Sitio.</description>
+			<description locale="pt_BR">Adiciona um relatório de estatísticas que sumariza os dados de todas as revistas/servidores no site. Esse relatório é apenas disponibilizado para o Administrador do Site.</description>
+		</release>
 		<release date="2025-06-20" version="1.2.1.0" md5="db061af00f44103f5bbaa716ea21a99d">
 			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.2.1.0/deiaSurvey.tar.gz</package>
 			<compatibility application="ojs2">
@@ -14936,6 +14971,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Adds encryption of users responses</description>
 			<description locale="es">Agrega cifrado de las respuestas de los usuarios</description>
 			<description locale="pt_BR">Adiciona criptografia das respostas dos usuários</description>
+		</release>
+		<release date="2026-01-28" version="1.4.0.0" md5="6b4a5159e2ae4503f46a11a214ddc689">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.4.0.0/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds a statistics report that summarizes the data from all journals/servers on the site. This report is only available to the Site Administrator.</description>
+			<description locale="es">Agrega un informe de estadísticas que resume los datos de todas las revistas/servidores en el sitio. Este informe solo está disponible para el Administrador del Sitio.</description>
+			<description locale="pt_BR">Adiciona um relatório de estatísticas que sumariza os dados de todas as revistas/servidores no site. Esse relatório é apenas disponibilizado para o Administrador do Site.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="credit">
