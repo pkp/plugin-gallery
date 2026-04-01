@@ -15610,6 +15610,27 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Aprimora as mensagens exibidas no formulário de configurações do plugin.</description>
 			<description locale="es_ES">Mejora los mensajes mostrados en el formulario de configuración del plugin</description>
 		</release>
+		<release date="2026-03-31" version="1.5.5.5" md5="76bb7e772b383409b9cad140ca78d9ad">
+			<package>	https://github.com/lepidus/carinianaPreservation/releases/download/v1.5.5.5/carinianaPreservation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Adjustments in data delivery: preserves special characters in the XML and sends the spreadsheet in CSV format.</description>
+			<description locale="pt_BR">Ajustes no envio de dados: preserva caracteres especiais no XML e envia a planilha no formato CSV.</description>
+			<description locale="es_ES">Ajustes en el envío de datos: preserva caracteres especiales en el XML y envía la hoja de cálculo en formato CSV.</description>
+		</release>
 		<release date="2025-10-02" version="2.0.0.1" md5="986facb57949ac995639ff3187652ebf">
 			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v2.0.0.1/carinianaPreservation.tar.gz</package>
 			<compatibility application="ojs2">
@@ -15620,6 +15641,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Esta é a primeira versão do plugin com suporte ao OJS 3.4.0.</description>
 			<description locale="es">Esta es la primera versión del plugin con soporte para OJS 3.4.0.</description>
 		</release>
+		<release date="2026-03-31" version="2.0.0.4" md5="4326e5ff338bf5c306a024fab5653490">
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v2.0.0.4/carinianaPreservation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adjustments in data delivery: preserves special characters in the XML and sends the spreadsheet in CSV format.</description>
+			<description locale="pt_BR">Ajustes no envio de dados: preserva caracteres especiais no XML e envia a planilha no formato CSV.</description>
+			<description locale="es">Ajustes en el envío de datos: preserva caracteres especiales en el XML y envía la hoja de cálculo en formato CSV.</description>
+		</release>
 		<release date="2025-10-09" version="3.0.0.0" md5="bf602a1d0498998f17ce2c1dcbc3854e">
 			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v3.0.0.0/carinianaPreservation.tar.gz</package>
 			<compatibility application="ojs2">
@@ -15629,6 +15660,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">This is the first release of the plugin supporting OJS 3.5.0.</description>
 			<description locale="pt_BR">Esta é a primeira versão do plugin com suporte ao OJS 3.5.0.</description>
 			<description locale="es">Esta es la primera versión del plugin con soporte para OJS 3.5.0.</description>
+		</release>
+		<release date="2026-03-31" version="3.0.0.3" md5="d314c5d7d70055d0500ef401a7644d69">
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v3.0.0.3/carinianaPreservation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adjustments in data delivery: preserves special characters in the XML and sends the spreadsheet in CSV format.</description>
+			<description locale="pt_BR">Ajustes no envio de dados: preserva caracteres especiais no XML e envia a planilha no formato CSV.</description>
+			<description locale="es">Ajustes en el envío de datos: preserva caracteres especiales en el XML y envía la hoja de cálculo en formato CSV.</description>
 		</release>
 	</plugin>
 	<plugin category="blocks" product="navigation">
