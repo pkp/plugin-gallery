@@ -12249,6 +12249,46 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.5.0.0</version>
 			</compatibility>
 			<certification type="official" />
+			<locales>
+				<locale>ar</locale>
+				<locale>az</locale>
+				<locale>bg</locale>
+				<locale>ca</locale>
+				<locale>cs</locale>
+				<locale>da</locale>
+				<locale>de</locale>
+				<locale>en</locale>
+				<locale>es</locale>
+				<locale>fa</locale>
+				<locale>fi</locale>
+				<locale>fr</locale>
+				<locale>fr_CA</locale>
+				<locale>gl</locale>
+				<locale>hu</locale>
+				<locale>hy</locale>
+				<locale>id</locale>
+				<locale>it</locale>
+				<locale>ka</locale>
+				<locale>ku</locale>
+				<locale>mk</locale>
+				<locale>ms</locale>
+				<locale>nb_NO</locale>
+				<locale>nl</locale>
+				<locale>pl</locale>
+				<locale>pt</locale>
+				<locale>pt_BR</locale>
+				<locale>ru</locale>
+				<locale>sk</locale>
+				<locale>sl</locale>
+				<locale>sr_Latn</locale>
+				<locale>sv</locale>
+				<locale>tr</locale>
+				<locale>uk</locale>
+				<locale>uz</locale>
+				<locale>uz_Latn</locale>
+				<locale>vi</locale>
+				<locale>zh_Hans</locale>
+			</locales>
 			<description>Bugfix release for OJS 3.5.0</description>
 		</release>
 	</plugin>
