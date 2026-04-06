@@ -2490,6 +2490,19 @@
 			<description locale="es">Agrega soporte para campos personalizados obligatorios de el bloque de metadatos.</description>
 			<description locale="pt_BR">Adiciona suporte para campos obrigatórios personalizados de bloco de metadados.</description>
 		</release>
+		<release date="2026-04-06" version="3.4.0.1" md5="04fd154494f5a0536d95dc46d965cd3c">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.4.0.1/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Fixes an error related to the justification field in the data statement form.</description>
+			<description locale="es">Corrige un error relacionado con el campo de justificación en el formulario de declaración de datos.</description>
+			<description locale="pt_BR">Corrige um erro relacionado ao campo de justificativa no formulário de declaração de dados.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
 		<name locale="en">Matomo</name>
