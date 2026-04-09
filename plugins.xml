@@ -15611,7 +15611,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Mejora los mensajes mostrados en el formulario de configuración del plugin</description>
 		</release>
 		<release date="2026-03-31" version="1.5.5.5" md5="76bb7e772b383409b9cad140ca78d9ad">
-			<package>	https://github.com/lepidus/carinianaPreservation/releases/download/v1.5.5.5/carinianaPreservation.tar.gz</package>
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v1.5.5.5/carinianaPreservation.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
