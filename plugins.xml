@@ -16110,6 +16110,27 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Adiciona um campo de seleção na Áreas de Interesse de Avaliação, com as opções sendo definidas a partir das configurações do plugin.</description>
 			<description locale="es_ES">Añade un campo de selección en el área de Intereses de Revisión, con opciones definidas desde la configuración del plugin.</description>
 		</release>
+		<release date="2026-03-03" version="1.0.0.5" md5="e7ef9fbcceefff867898a593388fd2e8">
+			<package>https://github.com/lepidus/selectionOfReviewingInterests/releases/download/v1.0.0.5/selectionOfReviewingInterests.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release preserves the user interests that may have been defined from other conexts of the same site. And fixes form interaction bugs.</description>
+			<description locale="pt_BR">Esta versão preserva os interesses do usuário que podem ter sido definidos a partir de outros contextos do mesmo portal. E corrige bugs de interação do formulário.</description>
+			<description locale="es_ES">Esta versión preserva los intereses del usuario que pueden haber sido definidos desde otros contextos del mismo sitio. Y corrige errores de interacción del formulario.</description>
+		</release>
 		<release date="2026-02-25" version="2.0.0.1" md5="72149caba0a1557640d91fde7f0cd429">
 			<package>https://github.com/lepidus/selectionOfReviewingInterests/releases/download/v2.0.0.1/selectionOfReviewingInterests.tar.gz</package>
 			<compatibility application="ojs2">
@@ -16120,6 +16141,17 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">Adds a selection field in the Reviewing Interests Area, with options defined from the plugin settings.</description>
 			<description locale="pt_BR">Adiciona um campo de seleção na Áreas de Interesse de Avaliação, com as opções sendo definidas a partir das configurações do plugin.</description>
 			<description locale="es_ES">Añade un campo de selección en el área de Intereses de Revisión, con opciones definidas desde la configuración del plugin.</description>
+		</release>
+		<release date="2026-03-03" version="2.0.0.3" md5="c2183e8a12b51c64ff283cce1861ab02">
+			<package>https://github.com/lepidus/selectionOfReviewingInterests/releases/download/v2.0.0.3/selectionOfReviewingInterests.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release preserves the user interests that may have been defined from other conexts of the same site. And fixes form interaction bugs.</description>
+			<description locale="pt_BR">Esta versão preserva os interesses do usuário que podem ter sido definidos a partir de outros contextos do mesmo portal. E corrige bugs de interação do formulário.</description>
+			<description locale="es_ES">Esta versión preserva los intereses del usuario que pueden haber sido definidos desde otros contextos del mismo sitio. Y corrige errores de interacción del formulario.</description>
 		</release>
 	</plugin>
 </plugins>
