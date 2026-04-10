@@ -3863,6 +3863,20 @@
 			<certification type="official" />
 			<description>Maintenance release for OJS/OMP/OPS 3.3.0</description>
 		</release>
+		<release date="2026-04-09" version="1.4.0.0" md5="7b9b08c53249c3eebc3e70134425bac1">
+			<package>https://github.com/pkp/customLocale/releases/download/v1_4_0-0/customLocale-v1_4_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS/OMP/OPS 3.5.0</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="jatsTemplate">
 		<name locale="en">JATS Template Plugin</name>
