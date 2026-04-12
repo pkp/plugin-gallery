@@ -7966,6 +7966,62 @@
 			<description>Lens Galley Application with  node 22+ support</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="reviewerCertificate">
+		<name locale="en">Reviewer Certificate</name>
+		<name locale="en_US">Reviewer Certificate</name>
+		<homepage>https://github.com/ssemerikov/reviewerCertificate</homepage>
+		<summary locale="en">Generates personalized PDF certificates for peer reviewers after completing reviews.</summary>
+		<summary locale="en_US">Generates personalized PDF certificates for peer reviewers after completing reviews.</summary>
+		<description locale="en"><![CDATA[<p>The Reviewer Certificate Plugin enables journals to automatically generate and distribute personalized PDF certificates of recognition to peer reviewers upon completion of their review assignments.</p><p>Features: customizable certificate templates with background images, dynamic content insertion (reviewer name, journal name, submission title, dates), QR code verification, batch generation, download tracking, and 32 language translations.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>The Reviewer Certificate Plugin enables journals to automatically generate and distribute personalized PDF certificates of recognition to peer reviewers upon completion of their review assignments.</p><p>Features: customizable certificate templates with background images, dynamic content insertion (reviewer name, journal name, submission title, dates), QR code verification, batch generation, download tracking, and 32 language translations.</p>]]></description>
+		<maintainer>
+			<name>Serhiy O. Semerikov</name>
+			<institution>Academy of Cognitive and Natural Sciences</institution>
+			<email>semerikov@gmail.com</email>
+		</maintainer>
+		<release date="2026-03-20" version="1.5.0.0" md5="44c2f5c3a69106682cf5a63da8a79f8d">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.5.0-3.3/reviewerCertificate-v1.5.0-3.3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<description>Composer TCPDF dependency, removed dangerous utility files, code brevity improvements, OJS 3.3.x-only code paths. OJS 3.3.x compatible.</description>
+		</release>
+		<release date="2026-03-20" version="1.5.0.0" md5="f4f848e60ece5b5c5d11d55b8aef7338">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.5.0-3.4/reviewerCertificate-v1.5.0-3.4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<description>Composer TCPDF dependency, removed dangerous utility files, code brevity improvements, OJS 3.4.x-only code paths. OJS 3.4.x compatible.</description>
+		</release>
+		<release date="2026-03-20" version="1.5.0.0" md5="0576ae4c3fdb5499d883f5686d38ce82">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.5.0-3.5/reviewerCertificate-v1.5.0-3.5.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description>Composer TCPDF dependency, removed dangerous utility files, code brevity improvements, OJS 3.5.x-only code paths. OJS 3.5.x compatible.</description>
+		</release>
+		<release date="2026-03-13" version="1.4.0.0" md5="5101e4cba8f77da3106297bd05c12ab0">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.4.0-3.3/reviewerCertificate-v1.4.0-3.3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<description>Context isolation, HTML title sanitization, input validation. OJS 3.3.x compatible.</description>
+		</release>
+		<release date="2026-03-13" version="1.4.0.0" md5="90b8fd33b000f741e7f1a00de0df45ba">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.4.0-3.4/reviewerCertificate-v1.4.0-3.4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<description>Context isolation, HTML title sanitization, input validation. OJS 3.4.x compatible.</description>
+		</release>
+		<release date="2026-03-13" version="1.4.0.0" md5="c2881550df8064a57949c357566a7206">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.4.0-3.5/reviewerCertificate-v1.4.0-3.5.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description>Context isolation, HTML title sanitization, input validation. OJS 3.5.x compatible.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="reviewerCredits">
 		<name locale="en">Reviewer Credits Plugin</name>
 		<name locale="en_US">Reviewer Credits Plugin</name>
