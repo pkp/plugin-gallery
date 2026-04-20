@@ -6010,6 +6010,28 @@
 			<description>This release upgrades Material to version 3.1.0.2</description>
 		</release>
 	</plugin>
+	<plugin category="themes" product="smwImmersion">
+		<name locale="en">SMW Immersion</name>
+		<name locale="en_US">SMW Immersion</name>
+		<homepage>https://github.com/Godoy0722/smwImmersion.git</homepage>
+		<summary locale="en">An OJS theme developed by the journal Swiss Medical Weekly, based on Immersion.</summary>
+		<summary locale="en_US">An OJS theme developed by the journal Swiss Medical Weekly, based on Immersion.</summary>
+		<description locale="en"><![CDATA[<p>An OJS theme developed by the journal Swiss Medical Weekly, based on Immersion.</p><p>Compatible with OJS 3.5.0-x</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>An OJS theme developed by the journal Swiss Medical Weekly, based on Immersion.</p><p>Compatible with OJS 3.5.0-x</p>]]></description>
+		<maintainer>
+			<name>Guilherme Godoy</name>
+			<institution>Public Knowledge Project</institution>
+			<email>pkp.contact@gmail.com</email>
+		</maintainer>
+		<release date="2026-04-20" version="3.5.0.0" md5="53255c01fe32dd08ac70fbdb17ef05ed">
+			<package>https://github.com/Godoy0722/smwImmersion/releases/download/v3_5_0-0/smwImmersion-v3_5_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0-x.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="texture">
 		<name locale="en">Texture plugin</name>
 		<name locale="en_US">Texture plugin</name>
