@@ -14641,6 +14641,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Añadida compatibilidad con OJS.</description>
 			<description locale="pt_BR">Adicionada compatibilidade com OJS.</description>
 		</release>
+		<release date="2026-04-23" version="1.1.0.1" md5="9a8bc0ac49d03ac0b8b56a52be3715f5">
+			<package>https://github.com/lepidus/customQuestions/releases/download/v1.1.0.1/customQuestions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Fixes the field names of the questions in the form.</description>
+			<description locale="es">Corrige los nombres de los campos de las preguntas en el formulario.</description>
+			<description locale="pt_BR">Corrige nome do campo das perguntas no formulário.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="deiaSurvey">
 		<name locale="en">DEIA Survey</name>
