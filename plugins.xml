@@ -16122,4 +16122,39 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Añade un campo de selección en el área de Intereses de Revisión, con opciones definidas desde la configuración del plugin.</description>
 		</release>
 	</plugin>
+
+	<plugin category="generic" product="nvMetadataCuration">
+		<name locale="en">NV Metadata Curation</name>
+		<name locale="es">NV Curación de Metadatos</name>
+		<name locale="fr_FR">NV Curation des Métadonnées</name>
+		<homepage>https://github.com/h7r/ojs-metadata-curation</homepage>
+		<summary locale="en">Sovereignty-friendly metadata curation for OJS — keyword autocomplete from open thesauri (UNESCO, Rameau, Eurovoc), human-validated ORCID/ROR contributor lookup, backoffice audit dashboard. Free and unlimited.</summary>
+		<summary locale="es">Curación soberana de metadatos para OJS — autocompletado de palabras clave desde tesauros abiertos (UNESCO, Rameau, Eurovoc), búsqueda ORCID/ROR validada por humanos, panel de auditoría en el backoffice. Gratis e ilimitado.</summary>
+		<summary locale="fr_FR">Curation souveraine des métadonnées pour OJS — autocomplétion de mots-clés depuis des thésaurus ouverts (UNESCO, Rameau, Eurovoc), recherche ORCID/ROR validée par un humain, tableau d'audit backoffice. Gratuit et illimité.</summary>
+		<description locale="en"><![CDATA[<p>Sovereignty-friendly metadata curation for OJS journals.</p><p>Open thesauri (UNESCO, Rameau BnF, Eurovoc EU) for keyword autocomplete.</p><p>Human-validated ORCID/ROR contributor lookup — no silent auto-fill.</p><p>Free and unlimited — no API key, no rate limit, no third-party account.</p><p>Trilingual interface (EN/ES/FR).</p><p>Backoffice metadata audit dashboard for editors.</p><p>Requires OJS 3.4.x and PHP 8.1+.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Curación soberana de metadatos para revistas OJS.</p><p>Tesauros abiertos (UNESCO, Rameau BnF, Eurovoc UE) para el autocompletado de palabras clave.</p><p>Búsqueda de colaboradores ORCID/ROR con validación humana — sin autocompletado silencioso.</p><p>Gratis e ilimitado — sin clave API, sin límite de uso, sin cuenta de terceros.</p><p>Interfaz trilingüe (EN/ES/FR).</p><p>Panel de auditoría de metadatos en el backoffice para editores.</p><p>Requiere OJS 3.4.x y PHP 8.1+.</p>]]></description>
+		<description locale="fr_FR"><![CDATA[<p>Curation souveraine des métadonnées pour les revues OJS.</p><p>Thésaurus ouverts (UNESCO, Rameau BnF, Eurovoc UE) pour l'autocomplétion des mots-clés.</p><p>Recherche ORCID/ROR avec validation humaine — pas d'auto-complétion silencieuse.</p><p>Gratuit et illimité — sans clé API, sans quota, sans compte tiers.</p><p>Interface trilingue (EN/ES/FR).</p><p>Tableau d'audit des métadonnées en backoffice pour les éditeurs.</p><p>Nécessite OJS 3.4.x et PHP 8.1+.</p>]]></description>
+		<maintainer>
+			<name>Wilfried Fouillaret</name>
+			<institution>Independent</institution>
+			<email>wilfriedfouillaret@gmail.com</email>
+		</maintainer>
+		<release date="2026-04-26" version="2.0.4.0" md5="f5a754ca27ff2d24f7b0d9544f7b483f">
+			<package>https://github.com/h7r/ojs-metadata-curation/releases/download/v2.0.4.0/nvMetadataCuration-2.0.4.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
+				<version>3.4.0.2</version>
+				<version>3.4.0.3</version>
+				<version>3.4.0.4</version>
+				<version>3.4.0.5</version>
+				<version>3.4.0.6</version>
+				<version>3.4.0.7</version>
+				<version>3.4.0.8</version>
+				<version>3.4.0.9</version>
+				<version>3.4.0.10</version>
+			</compatibility>
+			<description locale="en">First public release for the PKP Plugin Gallery — full SPARQL keyword autocomplete, validated ORCID/ROR contributor lookup, backoffice metadata audit dashboard, trilingual EN/ES/FR. Free and unlimited.</description>
+		</release>
+	</plugin>
 </plugins>
