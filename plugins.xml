@@ -9446,8 +9446,8 @@
 			<certification type="partner" />
 			<description>PHP 8 compatibility</description>
 		</release>
-		<release date="2024-12-19" version="1.3.0.0" md5="a7592653436eb151444052d2e1a3487f">
-			<package>https://github.com/ulsdevteam/pkp-akismet/releases/download/v1.3.0-0/akismet-v1.3.0.0.tar.gz</package>
+		<release date="2026-04-27" version="1.3.0.1" md5="e1cce53ad41eebee5599eaa3385315dc">
+			<package>https://github.com/ulsdevteam/pkp-akismet/releases/download/v1.3.0.1/akismet-v1.3.0.1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
