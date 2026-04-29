@@ -5033,6 +5033,19 @@
 			<description locale="es">Cambia el nombre de la configuración regional a Configuración regional Weblate.</description>
 			<description locale="pt_BR">Renomeia idiomas para idiomas Weblate.</description>
 		</release>
+		<release date="2026-04-29" version="3.0.0.2" md5="477a816914fffed60d3332ab51e43b0f">
+			<package>https://github.com/lepidus/keywordCloud/releases/download/v3.0.0.2/keywordCloud.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Fixes keywords loading issue.</description>
+			<description locale="es">Soluciona problema de carga de palabras clave.</description>
+			<description locale="pt_BR">Corrige problema de carregamento das palavras-chave.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="bootstrap3">
 		<name locale="en">Bootstrap3</name>
