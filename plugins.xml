@@ -9089,6 +9089,20 @@
 			<certification type="partner" />
 			<description>Release of the Better Password plugin for OJS/OMP/OPS 3.4</description>
 		</release>
+		<release date="2026-04-30" version="1.3.2.0" md5="5cf2996be27b0f4546b1979d71f067cc">
+			<package>https://github.com/ulsdevteam/pkp-betterPassword/releases/download/v1.3.2-0/betterPassword-1.3.2-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the Better Password plugin for OJS/OMP/OPS 3.4</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="sitesearch">
 		<name locale="en">Sitesearch</name>
