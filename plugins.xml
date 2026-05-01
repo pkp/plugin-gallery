@@ -6010,6 +6010,36 @@
 			<description>This release upgrades Material to version 3.1.0.2</description>
 		</release>
 	</plugin>
+	<plugin category="themes" product="ammoniteTheme">
+		<name locale="en">Ammonite Theme</name>
+		<name locale="en_US">Ammonite Theme</name>
+		<homepage>https://github.com/Godoy0722/ammoniteTheme.git</homepage>
+		<summary locale="en">Ammonite Theme</summary>
+		<summary locale="en_US">Ammonite Theme</summary>
+		<description locale="en"><![CDATA[<p>Ammonite Theme, a theme designed by the Geological Survey of Denmark and Greenland and contributed to the OJS community.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Ammonite Theme, a theme designed by the Geological Survey of Denmark and Greenland and contributed to the OJS community.</p>]]></description>
+		<maintainer>
+			<name>Guilherme Godoy</name>
+			<institution/>
+			<email>guilhermehlgodoy22@gmail.com</email>
+		</maintainer>
+		<release date="2026-05-01" version="3.4.2.0" md5="9f751625cfe9ef6e97cbff82ca2e5b17">
+			<package>https://github.com/Godoy0722/ammoniteTheme/releases/download/v3.4.2/ammoniteTheme-3.4.2.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>Initial release of the Ammonite Theme for version 3.4.0.0.</description>
+		</release>
+		<release date="2026-04-22" version="3.5.2.0" md5="d52ba8b49a5fa2f6eb643bfbdc7f37e6">
+			<package>https://github.com/Godoy0722/ammoniteTheme/releases/download/v3.5.2/ammoniteTheme-3.5.2.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>Initial release of the Ammonite Theme for version 3.5.0.0.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="texture">
 		<name locale="en">Texture plugin</name>
 		<name locale="en_US">Texture plugin</name>
