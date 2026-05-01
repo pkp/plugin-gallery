@@ -6023,16 +6023,16 @@
 			<institution/>
 			<email>guilhermehlgodoy22@gmail.com</email>
 		</maintainer>
-		<release date="2026-04-22" version="3.4.1.0" md5="a7195dae758086d50806a6b84af266a7">
-			<package>https://github.com/Godoy0722/ammoniteTheme/releases/download/v3.4.1/ammoniteTheme-3.4.1.0.tar.gz</package>
+		<release date="2026-05-01" version="3.4.2.0" md5="9f751625cfe9ef6e97cbff82ca2e5b17">
+			<package>https://github.com/Godoy0722/ammoniteTheme/releases/download/v3.4.2/ammoniteTheme-3.4.2.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
 			<certification type="reviewed" />
 			<description>Initial release of the Ammonite Theme for version 3.4.0.0.</description>
 		</release>
-		<release date="2026-04-22" version="3.5.1.0" md5="6cfc2094696a972e1444d4e95af8d2a6">
-			<package>https://github.com/Godoy0722/ammoniteTheme/releases/download/v3.5.1/ammoniteTheme-3.5.1.0.tar.gz</package>
+		<release date="2026-04-22" version="3.5.2.0" md5="d52ba8b49a5fa2f6eb643bfbdc7f37e6">
+			<package>https://github.com/Godoy0722/ammoniteTheme/releases/download/v3.5.2/ammoniteTheme-3.5.2.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
