@@ -6023,10 +6023,10 @@
 			<institution>Public Knowledge Project</institution>
 			<email>pkp.contact@gmail.com</email>
 		</maintainer>
-		<release date="2026-04-20" version="3.5.1.0" md5="169e12b4144fb72debc8493e1b9d8feb">
-			<package>https://github.com/Godoy0722/smwImmersion/releases/download/v3.5.1/smwImmersion-v3.5.1.0.tar.gz</package>
+		<release date="2026-04-20" version="3.5.2.0" md5="a590d65a2c7a9d84d5d527232f0a6d19">
+			<package>https://github.com/Godoy0722/smwImmersion/releases/download/v3.5.2/smwImmersion-v3.5.2.0.tar.gz</package>
 			<compatibility application="ojs2">
-				<version>~3.5.1.0</version>
+				<version>~3.5.2.0</version>
 			</compatibility>
 			<certification type="official" />
 			<description>Compatibility release for OJS 3.5.0-x.</description>
