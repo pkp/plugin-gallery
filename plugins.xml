@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+f<?xml version="1.0"?>
 <plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
 
 	<plugin category="generic" product="iiifViewer">
@@ -2122,6 +2122,22 @@
 			<description locale="en">This release adds the Indonesian translation</description>
 			<description locale="es">Esta versión agrega la traducción al Indonesio</description>
 			<description locale="pt_BR">Essa versão adiciona tradução para o Indonésio</description>
+		</release>
+		<release date="2026-05-08" version="3.0.0.0" md5="e4e9dfffc74b70887e2eddbecaabe92e">
+			<package>https://github.com/lepidus/pluginUpdateNotification/releases/download/v3.0.0.0/pluginUpdateNotification.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adapts plugin to OJS/OPS/OMP 3.5.0</description>
+			<description locale="es">Adapta el modulo para OJS/OPS/OMP 3.5.0</description>
+			<description locale="pt_BR">Adapta o plugin para o OJS/OPS/OMP 3.5.0</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="contentAnalysis">
