@@ -1,4 +1,4 @@
-f<?xml version="1.0"?>
+<?xml version="1.0"?>
 <plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
 
 	<plugin category="generic" product="iiifViewer">
