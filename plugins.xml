@@ -5291,6 +5291,14 @@
 			<certification type="official" />
 			<description>Compatibility release for OJS 3.5.0-x.</description>
 		</release>
+		<release date="2026-05-21" version="3.5.0.1" md5="add91687708c753a57138afd8f871b70">
+			<package>https://github.com/pkp/bootstrap3/releases/download/v3_5_0-1/bootstrap3-v3_5_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.4</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0-4.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="classic">
 		<name locale="en">Classic</name>
