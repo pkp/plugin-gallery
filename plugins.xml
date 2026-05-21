@@ -5708,6 +5708,14 @@
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.5.0</description>
 		</release>
+		<release date="2026-05-21" version="1.1.3.2" md5="14f172c5c66d26547acf4e6ff86ef974">
+			<package>https://github.com/pkp/healthSciences/releases/download/v1_1_3-2/healthSciences-v1_1_3-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.4</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.5.0-4</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="defaultManuscript">
 		<name locale="en">Manuscript (Default child theme)</name>
