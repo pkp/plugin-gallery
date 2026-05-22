@@ -5291,6 +5291,14 @@
 			<certification type="official" />
 			<description>Compatibility release for OJS 3.5.0-x.</description>
 		</release>
+		<release date="2026-05-21" version="3.5.0.1" md5="add91687708c753a57138afd8f871b70">
+			<package>https://github.com/pkp/bootstrap3/releases/download/v3_5_0-1/bootstrap3-v3_5_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.4</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0-4.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="classic">
 		<name locale="en">Classic</name>
@@ -5480,6 +5488,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.5.0</description>
+		</release>
+		<release date="2026-05-21" version="1.1.3.2" md5="64b5e6843bce874cac2c3539263078bd">
+			<package>https://github.com/pkp/classic/releases/download/v1_1_3-2/classic-v1_1_3-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.4</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.5.0-4</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="healthSciences">
@@ -5691,6 +5707,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.5.0</description>
+		</release>
+		<release date="2026-05-21" version="1.1.3.2" md5="14f172c5c66d26547acf4e6ff86ef974">
+			<package>https://github.com/pkp/healthSciences/releases/download/v1_1_3-2/healthSciences-v1_1_3-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.4</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.5.0-4</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="defaultManuscript">
@@ -6585,6 +6609,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>Security release for OJS 3.5.0</description>
+		</release>
+		<release date="2026-05-21" version="1.1.3.3" md5="49ba80c3cb90cc52c3c002b5a98875d2">
+			<package>https://github.com/pkp/immersion/releases/download/v1_1_3-3/immersion-v1_1_3-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.4</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.5.0-4</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="orcidProfile">
@@ -11599,6 +11631,14 @@
 			<certification type="official"/>
 			<description>Security release for OJS 3.5.0</description>
 		</release>
+		<release date="2026-05-21" version="1.1.3.2" md5="e31a957d6dd6e4242c5ee090e480c852">
+			<package>https://github.com/pkp/pragma/releases/download/v1_1_3-2/pragma-v1_1_3-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.4</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Bugfix release for OJS 3.5.0-4</description>
+		</release>
 	</plugin>
 	<plugin category="importexport" product="archivematicaExport">
 		<name locale="en">Archivematica Export</name>
@@ -12074,6 +12114,14 @@
 			<certification type="official"/>
 			<description>Portico for OJS 3.5.x.</description>
 		</release>
+		<release date="2026-05-21" version="1.3.0.1" md5="96ffad87bc586c3cd9aadbbf80cfe2a3">
+			<package>https://github.com/pkp/portico/releases/download/v1_3_0-1/portico-v1_3_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.4</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Portico for OJS 3.5.x.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="ror">
 		<name locale="en">Research Organization Registry (ROR) Plugin</name>
@@ -12291,6 +12339,14 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<package>https://github.com/pkp/medra/releases/download/v5_0_0-1/medra-v5_0_0-1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix release for OJS 3.5.0</description>
+		</release>
+		<release date="2026-05-21" version="5.0.0.2" md5="20e9532c99a046cd55d0687403a57eb4">
+			<package>https://github.com/pkp/medra/releases/download/v5_0_0-2/medra-v5_0_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.4</version>
 			</compatibility>
 			<certification type="official" />
 			<description>Bugfix release for OJS 3.5.0</description>
