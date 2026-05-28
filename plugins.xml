@@ -1,34 +1,6 @@
 <?xml version="1.0"?>
 <plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
 
-	<plugin category="pubIds" product="ark">
-		<name locale="pt_BR">ARK Plugin</name>
-		<name locale="es">ARK Plugin</name>
-		<name locale="en">ARK Plugin</name>
-		<homepage>https://github.com/lurymorais/ark-plugin</homepage>
-		<summary locale="pt_BR">Gera e gerencia identificadores ARK para artigos e edições no OJS.</summary>
-		<summary locale="es">Genera y gestiona identificadores ARK para artículos y ediciones en OJS.</summary>
-		<summary locale="en">Generates and manages ARK identifiers for articles and issues in OJS.</summary>
-		<description locale="pt_BR"><![CDATA[<p>Permite a atribuição e resolução de identificadores persistentes ARK (Archival Resource Key) para artigos publicados e edições (issues) no Open Journal Systems (OJS).</p>]]></description>
-		<description locale="es"><![CDATA[<p>Este complemento permite la asignación y resolución de identificadores ARK (Archival Resource Key) persistentes para artículos y números publicados en Open Journal Systems (OJS).</p>]]></description>
-		<description locale="en"><![CDATA[<p>This plugin enables the assignment and resolution of ARK (Archival Resource Key) persistent identifiers for published articles and issues within Open Journal Systems (OJS).</p>]]></description>
-		<maintainer>
-			<name>Lury Morais</name>
-			<institution>Carnaubais Revista de Literatura</institution>
-			<email>m.luryhortencio@gmail.com</email>
-		</maintainer>
-		<release date="2026-05-28" version="2.0.0.0" md5="13b33d85252d668ff87a3c19bde43d46">
-			<package>https://github.com/lurymorais/ark-plugin/archive/refs/tags/v2.0.0.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>3.5.0.0</version>
-				<version>3.5.0.1</version>
-				<version>3.5.0.2</version>
-				<version>3.5.0.3</version>
-				<version>3.5.0.4</version>
-			</compatibility>
-			<description>Added support for articles and issues, built-in resolver, and manual generator. Plug-and-play plugin.</description>
-		</release>
-	</plugin>
 	<plugin category="generic" product="iiifViewer">
 		<name locale="en_US">IIIF Viewer</name>
 		<homepage>https://github.com/ub-unibe-ch/iiifViewer</homepage>
@@ -16234,6 +16206,34 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">Adds a selection field in the Reviewing Interests Area, with options defined from the plugin settings.</description>
 			<description locale="pt_BR">Adiciona um campo de seleção na Áreas de Interesse de Avaliação, com as opções sendo definidas a partir das configurações do plugin.</description>
 			<description locale="es_ES">Añade un campo de selección en el área de Intereses de Revisión, con opciones definidas desde la configuración del plugin.</description>
+		</release>
+	</plugin>
+	<plugin category="pubIds" product="ark">
+		<name locale="pt_BR">ARK Plugin</name>
+		<name locale="es">ARK Plugin</name>
+		<name locale="en">ARK Plugin</name>
+		<homepage>https://github.com/lurymorais/ark-plugin</homepage>
+		<summary locale="pt_BR">Gera e gerencia identificadores ARK para artigos e edições no OJS.</summary>
+		<summary locale="es">Genera y gestiona identificadores ARK para artículos y ediciones en OJS.</summary>
+		<summary locale="en">Generates and manages ARK identifiers for articles and issues in OJS.</summary>
+		<description locale="pt_BR"><![CDATA[<p>Permite a atribuição e resolução de identificadores persistentes ARK (Archival Resource Key) para artigos publicados e edições (issues) no Open Journal Systems (OJS).</p>]]></description>
+		<description locale="es"><![CDATA[<p>Este complemento permite la asignación y resolución de identificadores ARK (Archival Resource Key) persistentes para artículos y números publicados en Open Journal Systems (OJS).</p>]]></description>
+		<description locale="en"><![CDATA[<p>This plugin enables the assignment and resolution of ARK (Archival Resource Key) persistent identifiers for published articles and issues within Open Journal Systems (OJS).</p>]]></description>
+		<maintainer>
+			<name>Lury Morais</name>
+			<institution>Carnaubais Revista de Literatura</institution>
+			<email>m.luryhortencio@gmail.com</email>
+		</maintainer>
+		<release date="2026-05-28" version="2.0.0.0" md5="13b33d85252d668ff87a3c19bde43d46">
+			<package>https://github.com/lurymorais/ark-plugin/archive/refs/tags/v2.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.0</version>
+				<version>3.5.0.1</version>
+				<version>3.5.0.2</version>
+				<version>3.5.0.3</version>
+				<version>3.5.0.4</version>
+			</compatibility>
+			<description>Added support for articles and issues, built-in resolver, and manual generator. Plug-and-play plugin.</description>
 		</release>
 	</plugin>
 </plugins>
