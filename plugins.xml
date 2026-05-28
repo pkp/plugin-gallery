@@ -30,10 +30,10 @@
 		</release>
 	</plugin>
 	<plugin category="generic" product="iiifViewer">
-		<name locale="en">IIIF Viewer</name>
+		<name locale="en_US">IIIF Viewer</name>
 		<homepage>https://github.com/ub-unibe-ch/iiifViewer</homepage>
-		<summary locale="en">Generic Plugin to integrate the OpenSeadragon and Mirador IIIF Viewers</summary>
-		<description locale="en"><![CDATA[<p>The enabled plugin opens .png/.jpg galleys in an integrated Seadragon and iiif .json manifests in an integrated Mirador viever to display high resolution content.</p>]]></description>
+		<summary locale="en_US">Generic Plugin to integrate the OpenSeadragon and Mirador IIIF Viewers</summary>
+		<description locale="en_US"><![CDATA[<p>The enabled plugin opens .png/.jpg galleys in an integrated Seadragon and iiif .json manifests in an integrated Mirador viever to display high resolution content.</p>]]></description>
 		<maintainer>
 			<name>Jan Stutzmann</name>
 			<institution>University of Bern</institution>
