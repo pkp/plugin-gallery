@@ -16228,10 +16228,6 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<package>https://github.com/lurymorais/ark-plugin/archive/refs/tags/v2.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.5.0.0</version>
-				<version>3.5.0.1</version>
-				<version>3.5.0.2</version>
-				<version>3.5.0.3</version>
-				<version>3.5.0.4</version>
 			</compatibility>
 			<description>Added support for articles and issues, built-in resolver, and manual generator. Plug-and-play plugin.</description>
 		</release>
