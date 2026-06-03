@@ -16208,4 +16208,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Añade un campo de selección en el área de Intereses de Revisión, con opciones definidas desde la configuración del plugin.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="loginOtp">
+		<name locale="en_US">Login OTP via Email</name>
+		<homepage>https://github.com/archicoop/loginOtp</homepage>
+		<summary locale="en_US">Adds two-factor authentication to the login process by sending a one-time code (OTP) via email.</summary>
+		<description locale="en_US"><![CDATA[<p>Adds two-factor authentication (2FA) to the login process. After entering valid credentials, users receive a 6-digit one-time code via email. No additional app required.</p><p>Features: role-based configuration with hierarchy (highest-privilege role determines the 2FA policy), brute-force protection (lockout after 5 failed attempts), flood protection (60-second cooldown between OTP sends), SHA-256 hashed OTP stored in session only.</p><p>Compliant with Italian ACN guidelines and GDPR. More information at the <a href="https://github.com/archicoop/loginOtp">plugin repository</a>.</p>]]></description>
+		<maintainer>
+			<name>Monica Marziani</name>
+			<institution>Archimede Informatica</institution>
+			<email>marziani@archicoop.it</email>
+		</maintainer>
+		<release date="2026-05-29" version="1.0.0.0" md5="b409ecc97be837d228d4ce6575082c17">
+			<package>https://github.com/archicoop/loginOtp/releases/download/v1.0.0/loginOtp-1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.4</version>
+			</compatibility>
+			<compatibility application="omp">
+    			<version>3.5.0.4</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release. Email OTP at login with role-based configuration and hierarchy support.</description>
+		</release>
+	</plugin>
 </plugins>
