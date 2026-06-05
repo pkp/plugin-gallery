@@ -8687,6 +8687,20 @@
 			<certification type="partner" />
 			<description>Release of the ClamAV plugin for OJS 3.4</description>
 		</release>
+		<release date="2024-05-22" version="4.2.0.0" md5="2faa8754d163fd49ee5febf313825dae">
+			<package>https://github.com/ulsdevteam/pkp-clamav/releases/download/v4.2.0-0/clamav-4.2.0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the ClamAV plugin for OJS 3.5</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="plumAnalytics">
 		<name locale="en">Plum Analytics Artifact Widget</name>
