@@ -16230,4 +16230,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Añade un campo de selección en el área de Intereses de Revisión, con opciones definidas desde la configuración del plugin.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="websitePreview">
+		<name locale="en">Website Preview</name>
+		<name locale="en_US">Website Preview</name>
+		<homepage>https://github.com/Junhao-Han/websitePreview</homepage>
+		<summary locale="en">Preview static website projects submitted as ZIP files from the OJS workflow page.</summary>
+		<summary locale="en_US">Preview static website projects submitted as ZIP files from the OJS workflow page.</summary>
+		<description locale="en"><![CDATA[<p>Website Preview adds a Website button to the OJS workflow page for previewing static website projects submitted as ZIP files. The plugin registers a Web Project file type, selects a clear index.html entry point, and renders the project in a sandboxed preview frame.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Website Preview adds a Website button to the OJS workflow page for previewing static website projects submitted as ZIP files. The plugin registers a Web Project file type, selects a clear index.html entry point, and renders the project in a sandboxed preview frame.</p>]]></description>
+		<maintainer>
+			<name>Junhao Han</name>
+			<institution>Queen's University</institution>
+			<email>18jh88@queensu.ca</email>
+		</maintainer>
+		<release date="2026-06-08" version="1.0.0.0" md5="bfaf2a48db03ca72eaf10e137bb8ffcd">
+			<package>https://github.com/Junhao-Han/websitePreview/releases/download/1.0.0.0/websitePreview-1.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release for OJS 3.3.x.</description>
+		</release>
+	</plugin>
 </plugins>
