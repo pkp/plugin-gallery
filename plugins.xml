@@ -9816,6 +9816,20 @@
 			<certification type="partner" />
 			<description>Release of the Form Honeypot plugin for OJS 3.4.</description>
 		</release>
+		<release date="2026-06-08" version="1.6.0.0" md5="9aa1563c6c666bbf17fc13d27c9b7a4a">
+			<package>https://github.com/ulsdevteam/pkp-formHoneypot/releases/download/v1.6.0-0/formHoneypot-v1.6.0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the Form Honeypot plugin for OJS/OMP/OPS 3.5</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="authorRequirements">
 		<name locale="en">Author Requirements</name>
