@@ -16243,8 +16243,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Queen's University</institution>
 			<email>18jh88@queensu.ca</email>
 		</maintainer>
-		<release date="2026-06-08" version="1.0.0.0" md5="bfaf2a48db03ca72eaf10e137bb8ffcd">
-			<package>https://github.com/Junhao-Han/websitePreview/releases/download/1.0.0.0/websitePreview-1.0.0.0.tar.gz</package>
+		<release date="2026-06-09" version="1.0.0.1" md5="49a2fb978287bed49ed4f485b6daf018">
+			<package>https://github.com/Junhao-Han/websitePreview/releases/download/1.0.0.1/websitePreview-1.0.0.1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.3.0.0</version>
 			</compatibility>
