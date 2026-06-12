@@ -16456,4 +16456,68 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial release for OJS 3.3.x.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="repec">
+		<name locale="en">ReDIF Generator for RePEc</name>
+		<name locale="en_US">ReDIF Generator for RePEc</name>
+		<name locale="pt_BR">Gerador ReDIF para RePEc</name>
+		<name locale="es">Generador ReDIF para RePEc</name>
+		<name locale="es_ES">Generador ReDIF para RePEc</name>
+		<homepage>https://github.com/lepidus/repec</homepage>
+		<summary locale="en">Publishes journal metadata in ReDIF format for RePEc indexing.</summary>
+		<summary locale="en_US">Publishes journal metadata in ReDIF format for RePEc indexing.</summary>
+		<summary locale="pt_BR">Publica metadados de periódicos no formato ReDIF para indexação no RePEc.</summary>
+		<summary locale="es">Publica metadatos de periódicos en formato ReDIF para indexación en RePEc.</summary>
+		<summary locale="es_ES">Publica metadatos de periódicos en formato ReDIF para indexación en RePEc.</summary>
+		<description locale="en"><![CDATA[<p>Publishes journal metadata in ReDIF format for <a href=\"http://www.repec.org/\" target=\"_blank\" rel=\"noopener\">RePEc</a> indexing.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Publishes journal metadata in ReDIF format for <a href=\"http://www.repec.org/\" target=\"_blank\" rel=\"noopener\">RePEc</a> indexing.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Publica metadados da revista em formato ReDIF para indexação no <a href=\"http://www.repec.org/\" target=\"_blank\" rel=\"noopener\">RePEc</a>.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Publica metadatos de la revista en formato ReDIF para su indexación en <a href=\"http://www.repec.org/\" target=\"_blank\" rel=\"noopener\">RePEc</a>.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Publica metadatos de la revista en formato ReDIF para su indexación en <a href=\"http://www.repec.org/\" target=\"_blank\" rel=\"noopener\">RePEc</a>.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Developed by Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2026-05-19" version="1.4.0.1" md5="574a7c9777166d1b792e443e70ad7bda">
+			<package>https://github.com/lepidus/repec/releases/download/v1.4.0.1/repec.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Initial release for OJS 3.3+</description>
+			<description locale="pt_BR">Versão inicial para OJS 3.3+</description>
+			<description locale="es_ES">Versión inicial para OJS 3.3+</description>
+		</release>
+		<release date="2026-05-19" version="2.1.0.0" md5="8482e697dc052ea055d39025e6954299">
+			<package>https://github.com/lepidus/repec/releases/download/v2.1.0.0/repec.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Initial release for OJS 3.4+</description>
+			<description locale="pt_BR">Versão inicial para OJS 3.4+</description>
+			<description locale="es_ES">Versión inicial para OJS 3.4+</description>
+		</release>
+		<release date="2026-05-19" version="3.1.0.0" md5="4ad9d99a276c025702c8a0f253a5faec">
+			<package>https://github.com/lepidus/repec/releases/download/v3.1.0.0/repec.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Initial release for OJS 3.5+</description>
+			<description locale="pt_BR">Versão inicial para OJS 3.5+</description>
+			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
+		</release>
+	</plugin>
 </plugins>
