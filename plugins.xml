@@ -16456,4 +16456,37 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial release for OJS 3.3.x.</description>
 		</release>
 	</plugin>
+	<plugin category="themes" product="erticazPress">
+		<name locale="en_US">Erticaz Press</name>
+		<homepage>https://github.com/haydary1986/erticaz-press-ojs-theme</homepage>
+		<summary locale="en_US">A free, world-class institutional theme with full RTL support.</summary>
+		<description locale="en_US"><![CDATA[<p>Erticaz Press gives any OJS journal the clean, structured look of leading international publishers. A full-width home page with an institutional masthead, a key-facts band, an indexing &amp; abstracting grid and a title-only current-issue list, plus comprehensive styling for every sub-page. One-colour palette, full RTL support and English/Arabic/Turkish locales. By Erticaz (https://erticaz.com).</p>]]></description>
+		<maintainer>
+			<name>Erticaz</name>
+			<institution>Erticaz</institution>
+			<email>info@erticaz.com</email>
+		</maintainer>
+		<release date="2026-06-11" version="1.1.0.0" md5="28ae00654a8663cc89c1e4245782a5a9">
+			<package>https://github.com/haydary1986/erticaz-press-ojs-theme/releases/download/v1.1.0/erticazPress.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
+				<version>3.4.0.2</version>
+				<version>3.4.0.3</version>
+				<version>3.4.0.4</version>
+				<version>3.4.0.5</version>
+				<version>3.4.0.6</version>
+				<version>3.4.0.7</version>
+				<version>3.4.0.8</version>
+				<version>3.4.0.9</version>
+				<version>~3.4.0.0</version>
+				<version>3.5.0.0</version>
+				<version>3.5.0.1</version>
+				<version>3.5.0.2</version>
+				<version>3.5.0.3</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en_US">Initial release.</description>
+		</release>
+	</plugin>
 </plugins>
