@@ -16456,4 +16456,64 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial release for OJS 3.3.x.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="academicCertificate">
+		<name locale="en">Academic Certificate Manager for OJS</name>
+		<name locale="tr_TR">OJS Akademik Belge Yöneticisi</name>
+
+		<homepage>https://github.com/cyasar/academicCertificate</homepage>
+
+		<summary locale="en">Generate PDF certificates for reviewers, authors, and editors in Open Journal Systems.</summary>
+		<summary locale="tr_TR">Open Journal Systems içinde hakemler, yazarlar ve editörler için PDF akademik belgeler üretir.</summary>
+
+		<description locale="en"><![CDATA[
+		<p>Academic Certificate Manager for OJS generates role-aware PDF certificates for reviewers, authors, and editors.</p>
+		<p>It supports reviewer certificates, article acceptance certificates, author publication certificates, editorial contribution certificates, a My Certificates page, batch issuance, QR/public verification, multilingual user interface, and configurable A4 landscape certificate templates.</p>
+		]]></description>
+
+		<description locale="tr_TR"><![CDATA[
+		<p>OJS Akademik Belge Yöneticisi; hakemler, yazarlar ve editörler için rol tabanlı PDF akademik belgeler üretir.</p>
+		<p>Hakemlik belgesi, makale kabul belgesi, yazar yayın belgesi, editörlük belgesi, Belgelerim sayfası, toplu belge üretimi, QR/kamuya açık doğrulama, çok dilli arayüz ve yapılandırılabilir yatay A4 belge şablonlarını destekler.</p>
+		]]></description>
+
+		<installation locale="en"><![CDATA[
+		<p>Install this plugin from the Plugin Gallery or upload the compatible tar.gz package for your OJS version. After enabling the plugin, configure certificate templates from the plugin settings page.</p>
+		]]></installation>
+
+		<installation locale="tr_TR"><![CDATA[
+		<p>Bu eklentiyi Plugin Gallery üzerinden kurabilir veya OJS sürümünüzle uyumlu tar.gz paketini yükleyebilirsiniz. Eklentiyi etkinleştirdikten sonra belge şablonlarını eklenti ayarları sayfasından yapılandırın.</p>
+		]]></installation>
+
+		<maintainer>
+			<name>Cumali Yaşar</name>
+			<institution>Holistence Publication</institution>
+			<email>contact@holistence.com</email>
+		</maintainer>
+
+		<release date="2026-06-13" version="1.8.0.0" md5="4cea58ba71a508a149498f8e6f95c7d6">
+			<package>https://github.com/cyasar/academicCertificate/releases/download/v1.8.0-3.3/academicCertificate-1.8.0-3_3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<description locale="en">Initial Plugin Gallery release for OJS 3.3.x.</description>
+			<description locale="tr_TR">OJS 3.3.x için ilk Plugin Gallery sürümü.</description>
+		</release>
+
+		<release date="2026-06-13" version="1.8.0.0" md5="afde710a15c1b6f501ed129f7e945b60">
+			<package>https://github.com/cyasar/academicCertificate/releases/download/v1.8.0-3.4/academicCertificate-1.8.0-3_4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<description locale="en">Initial Plugin Gallery release for OJS 3.4.x.</description>
+			<description locale="tr_TR">OJS 3.4.x için ilk Plugin Gallery sürümü.</description>
+		</release>
+
+		<release date="2026-06-13" version="1.8.0.0" md5="fc422dc4d4fdbd8766d361c65c6ad4a8">
+			<package>https://github.com/cyasar/academicCertificate/releases/download/v1.8.0-3.5/academicCertificate-1.8.0-3_5.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Initial Plugin Gallery release for OJS 3.5.x.</description>
+			<description locale="tr_TR">OJS 3.5.x için ilk Plugin Gallery sürümü.</description>
+		</release>
+	</plugin>
 </plugins>
