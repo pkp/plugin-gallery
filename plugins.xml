@@ -16221,11 +16221,11 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<description locale="en"><![CDATA[<p>This plugin enables the assignment and resolution of ARK (Archival Resource Key) persistent identifiers for published articles and issues within Open Journal Systems (OJS).</p>]]></description>
 		<maintainer>
 			<name>Lury Morais</name>
-			<institution>Carnaubais Revista de Literatura</institution>
+			<institution>Carnaubais Journal of Literature</institution>
 			<email>m.luryhortencio@gmail.com</email>
 		</maintainer>
-		<release date="2026-05-28" version="2.0.0.0" md5="13b33d85252d668ff87a3c19bde43d46">
-			<package>https://github.com/lurymorais/ark-plugin/archive/refs/tags/v2.0.0.tar.gz</package>
+		<release date="2026-06-08" version="3.0.0.0" md5="B82FFDD4554DEF120B6B27AF92711005">
+			<package>https://github.com/lurymorais/ark-plugin/archive/refs/tags/v3.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
