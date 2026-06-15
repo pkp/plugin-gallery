@@ -16230,8 +16230,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Developed by Lepidus Tecnologia</institution>
 			<email>contato@lepidus.com.br</email>
 		</maintainer>
-		<release date="2026-05-19" version="1.4.0.1" md5="574a7c9777166d1b792e443e70ad7bda">
-			<package>https://github.com/lepidus/repec/releases/download/v1.4.0.1/repec.tar.gz</package>
+		<release date="2026-06-15" version="1.4.0.2" md5="e6af72884a4c6c18405c857babc42d14">
+			<package>https://github.com/lepidus/repec/releases/download/v1.4.0.2/repec.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -16251,8 +16251,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Versão inicial para OJS 3.3+</description>
 			<description locale="es_ES">Versión inicial para OJS 3.3+</description>
 		</release>
-		<release date="2026-05-19" version="2.1.0.0" md5="8482e697dc052ea055d39025e6954299">
-			<package>https://github.com/lepidus/repec/releases/download/v2.1.0.0/repec.tar.gz</package>
+		<release date="2026-06-15" version="2.1.0.1" md5="408780f1a21af5600ef39ab1d7c9cc83">
+			<package>https://github.com/lepidus/repec/releases/download/v2.1.0.1/repec.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
@@ -16261,8 +16261,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Versão inicial para OJS 3.4+</description>
 			<description locale="es_ES">Versión inicial para OJS 3.4+</description>
 		</release>
-		<release date="2026-05-19" version="3.1.0.0" md5="4ad9d99a276c025702c8a0f253a5faec">
-			<package>https://github.com/lepidus/repec/releases/download/v3.1.0.0/repec.tar.gz</package>
+		<release date="2026-06-15" version="3.1.0.1" md5="66dde6232e0f84f4e8b08e4821205837">
+			<package>https://github.com/lepidus/repec/releases/download/v3.1.0.1/repec.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
