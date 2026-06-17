@@ -14829,8 +14829,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Agrega cifrado de las respuestas de los usuarios</description>
 			<description locale="pt_BR">Adiciona criptografia das respostas dos usuários</description>
 		</release>
-		<release date="2026-01-29" version="0.5.0.0" md5="01c96ff040aa7a333843e7747c044c8d">
-			<package>https://github.com/lepidus/deiaSurvey/releases/download/v0.5.0.0/deiaSurvey.tar.gz</package>
+		<release date="2026-06-17" version="0.10.0.0" md5="a8f3abb0fc5bed5da3ee35c9ce956867">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v0.10.0.0/deiaSurvey.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -14860,9 +14860,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.3.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en_US">Adds a statistics report that summarizes the data from all journals/servers on the site. This report is only available to the Site Administrator.</description>
-			<description locale="es_ES">Agrega un informe de estadísticas que resume los datos de todas las revistas/servidores en el sitio. Este informe solo está disponible para el Administrador del Sitio.</description>
-			<description locale="pt_BR">Adiciona um relatório de estatísticas que sumariza os dados de todas as revistas/servidores no site. Esse relatório é apenas disponibilizado para o Administrador do Site.</description>
+			<description locale="en_US">Adds reports for the current journal/server and for the whole site. Also allows the creation of question blocks and new questions.</description>
+			<description locale="es_ES">Agrega informes para la revista/servidor actual y para todo el sitio. También permite crear bloques de preguntas y nuevas preguntas.</description>
+			<description locale="pt_BR">Adiciona relatórios para a revista/servidor atual e para todo o site. Também permite a criação de blocos de perguntas e novas perguntas.</description>
 		</release>
 		<release date="2025-06-20" version="1.2.1.0" md5="db061af00f44103f5bbaa716ea21a99d">
 			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.2.1.0/deiaSurvey.tar.gz</package>
@@ -14942,8 +14942,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Agrega cifrado de las respuestas de los usuarios</description>
 			<description locale="pt_BR">Adiciona criptografia das respostas dos usuários</description>
 		</release>
-		<release date="2026-01-28" version="1.4.0.0" md5="6b4a5159e2ae4503f46a11a214ddc689">
-			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.4.0.0/deiaSurvey.tar.gz</package>
+		<release date="2026-06-12" version="1.9.0.2" md5="e83d8c531e9a1a4f0bc4e4d55f8be166">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.9.0.2/deiaSurvey.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
@@ -14951,9 +14951,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.4.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en">Adds a statistics report that summarizes the data from all journals/servers on the site. This report is only available to the Site Administrator.</description>
-			<description locale="es">Agrega un informe de estadísticas que resume los datos de todas las revistas/servidores en el sitio. Este informe solo está disponible para el Administrador del Sitio.</description>
-			<description locale="pt_BR">Adiciona um relatório de estatísticas que sumariza os dados de todas as revistas/servidores no site. Esse relatório é apenas disponibilizado para o Administrador do Site.</description>
+			<description locale="en">Adds reports for the current journal/server and for the whole site. Also allows the creation of question blocks and new questions.</description>
+			<description locale="es">Agrega informes para la revista/servidor actual y para todo el sitio. También permite crear bloques de preguntas y nuevas preguntas.</description>
+			<description locale="pt_BR">Adiciona relatórios para a revista/servidor atual e para todo o site. Também permite a criação de blocos de perguntas e novas perguntas.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="credit">
