@@ -11969,11 +11969,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<summary locale="pt_BR">Publica metadados de periódicos no formato ReDIF para indexação no RePEc.</summary>
 		<summary locale="es">Publica metadatos de periódicos en formato ReDIF para indexación en RePEc.</summary>
 		<summary locale="es_ES">Publica metadatos de periódicos en formato ReDIF para indexación en RePEc.</summary>
-		<description locale="en"><![CDATA[<p>Publishes journal metadata in ReDIF format for <a href=\"http://www.repec.org/\" target=\"_blank\" rel=\"noopener\">RePEc</a> indexing.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>Publishes journal metadata in ReDIF format for <a href=\"http://www.repec.org/\" target=\"_blank\" rel=\"noopener\">RePEc</a> indexing.</p>]]></description>
-		<description locale="pt_BR"><![CDATA[<p>Publica metadados da revista em formato ReDIF para indexação no <a href=\"http://www.repec.org/\" target=\"_blank\" rel=\"noopener\">RePEc</a>.</p>]]></description>
-		<description locale="es"><![CDATA[<p>Publica metadatos de la revista en formato ReDIF para su indexación en <a href=\"http://www.repec.org/\" target=\"_blank\" rel=\"noopener\">RePEc</a>.</p>]]></description>
-		<description locale="es_ES"><![CDATA[<p>Publica metadatos de la revista en formato ReDIF para su indexación en <a href=\"http://www.repec.org/\" target=\"_blank\" rel=\"noopener\">RePEc</a>.</p>]]></description>
+		<description locale="en"><![CDATA[
+			<p>Publishes journal metadata in ReDIF format for <a href="http://www.repec.org" target="_blank" rel="noopener">RePEc</a> indexing.</p>
+			<p>See what to know before activating the plugin and how to use it: <a href="https://github.com/lepidus/repec/blob/main/README.md#before-you-start" target="_blank" rel="noopener">Before You Start</a></p>
+		]]></description>
+		<description locale="en_US"><![CDATA[
+			<p>Publishes journal metadata in ReDIF format for <a href="http://www.repec.org" target="_blank" rel="noopener">RePEc</a> indexing.</p>
+			<p>See what to know before activating the plugin and how to use it: <a href="https://github.com/lepidus/repec/blob/main/README.md#before-you-start" target="_blank" rel="noopener">Before You Start</a></p>
+		]]></description>
+		<description locale="pt_BR"><![CDATA[
+			<p>Publica metadados da revista em formato ReDIF para indexação no <a href="http://www.repec.org" target="_blank" rel="noopener">RePEc</a>.</p>
+			<p>Veja o que saber antes de ativar o plugin e como utilizá-lo: <a href="https://github.com/lepidus/repec/blob/main/docs/README.pt_BR.md#antes-de-come%C3%A7ar" target="_blank" rel="noopener">Antes de começar</a></p>
+		]]></description>
+		<description locale="es"><![CDATA[
+			<p>Publica metadatos de la revista en formato ReDIF para su indexación en <a href="http://www.repec.org" target="_blank" rel="noopener">RePEc</a>.</p>
+			<p>Vea lo que debe saber antes de activar el complemento y cómo usarlo: <a href="https://github.com/lepidus/repec/blob/main/docs/README.es.md#antes-de-empezar" target="_blank" rel="noopener">Antes de empezar</a></p>
+		]]></description>
+		<description locale="es_ES"><![CDATA[
+			<p>Publica metadatos de la revista en formato ReDIF para su indexación en <a href="http://www.repec.org" target="_blank" rel="noopener">RePEc</a>.</p>
+			<p>Vea lo que debe saber antes de activar el complemento y cómo usarlo: <a href="https://github.com/lepidus/repec/blob/main/docs/README.es.md#antes-de-empezar" target="_blank" rel="noopener">Antes de empezar</a></p>
+		]]></description>
 		<maintainer>
 			<name>Lepidus Tecnologia Team</name>
 			<institution>Developed by Lepidus Tecnologia</institution>
