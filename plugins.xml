@@ -11863,22 +11863,22 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="selectionOfReviewingInterests">
-		<name locale="en">Selection Field in Reviewing Interests Area</name>
-		<name locale="en_US">Selection Field in Reviewing Interests Area</name>
-		<name locale="pt_BR">Campo de seleção no campo Áreas de Interesse de Avaliação</name>
-		<name locale="es">Campo de selección en el área de Intereses de Revisión</name>
-		<name locale="es_ES">Campo de selección en el área de Intereses de Revisión</name>
+		<name locale="en">Predefined reviewing interests</name>
+		<name locale="en_US">Predefined reviewing interests</name>
+		<name locale="pt_BR">Áreas de interesse predefinidas</name>
+		<name locale="es">Intereses de revisión predefinidos</name>
+		<name locale="es_ES">Intereses de revisión predefinidos</name>
 		<homepage>https://github.com/lepidus/selectionOfReviewingInterests</homepage>
-		<summary locale="en">Adds a selection field in the Reviewing Interests Area, with options defined from the plugin settings.</summary>
-		<summary locale="en_US">Adds a selection field in the Reviewing Interests Area, with options defined from the plugin settings.</summary>
-		<summary locale="pt_BR">Adiciona um campo de seleção na Áreas de Interesse de Avaliação, com as opções sendo definidas a partir das configurações do plugin.</summary>
-		<summary locale="es">Añade un campo de selección en el área de Intereses de Revisión, con opciones definidas desde la configuración del plugin.</summary>
-		<summary locale="es_ES">Añade un campo de selección en el área de Intereses de Revisión, con opciones definidas desde la configuración del plugin.</summary>
-		<description locale="en"><![CDATA[<p>Adds a selection field in the Reviewing Interests Area, with options defined from the plugin settings.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>Adds a selection field in the Reviewing Interests Area, with options defined from the plugin settings.</p>]]></description>
-		<description locale="pt_BR"><![CDATA[<p>Adiciona um campo de seleção na Áreas de Interesse de Avaliação, com as opções sendo definidas a partir das configurações do plugin.</p>]]></description>
-		<description locale="es"><![CDATA[<p>Añade un campo de selección en el área de Intereses de Revisión, con opciones definidas desde la configuración del plugin.</p>]]></description>
-		<description locale="es_ES"><![CDATA[<p>Añade un campo de selección en el área de Intereses de Revisión, con opciones definidas desde la configuración del plugin.</p>]]></description>
+		<summary locale="en">Replaces the reviewing interests field with a predefined list of options, and requires reviewers to select at least one interest before using the OJS dashboard.</summary>
+		<summary locale="en_US">Replaces the reviewing interests field with a predefined list of options, and requires reviewers to select at least one interest before using the OJS dashboard.</summary>
+		<summary locale="pt_BR">Substitui o campo de áreas de interesse de avaliação por uma lista predefinida de opções, e exige que os avaliadores selecionem ao menos uma área antes de usar o painel do OJS.</summary>
+		<summary locale="es">Reemplaza el campo de intereses de revisión por una lista predefinida de opciones, y exige que los revisores seleccionen al menos un interés antes de usar el panel de OJS.</summary>
+		<summary locale="es_ES">Reemplaza el campo de intereses de revisión por una lista predefinida de opciones, y exige que los revisores seleccionen al menos un interés antes de usar el panel de OJS.</summary>
+		<description locale="en"><![CDATA[<p>Replaces the reviewing interests field with a predefined list of options defined by the editor in the plugin settings.</p><p>Reviewers select their interests from this list instead of typing them. A reviewer who has no interest selected is automatically redirected to their profile page when trying to access the OJS dashboard, and must enable at least one reviewing interest before continuing. Editors can also filter reviewers by interest when assigning reviewers to a submission.</p><p><img src="https://github.com/lepidus/selectionOfReviewingInterests/raw/main/docs/predefinedReviewingInterestsDemo.gif"></p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Replaces the reviewing interests field with a predefined list of options defined by the editor in the plugin settings.</p><p>Reviewers select their interests from this list instead of typing them. A reviewer who has no interest selected is automatically redirected to their profile page when trying to access the OJS dashboard, and must enable at least one reviewing interest before continuing. Editors can also filter reviewers by interest when assigning reviewers to a submission.</p><p><img src="https://github.com/lepidus/selectionOfReviewingInterests/raw/main/docs/predefinedReviewingInterestsDemo.gif"></p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Substitui o campo de áreas de interesse de avaliação por uma lista predefinida de opções definidas pelo editor nas configurações do plugin.</p><p>Os avaliadores selecionam suas áreas de interesse a partir dessa lista, em vez de digitá-las. Um avaliador que não tenha nenhuma área de interesse selecionada é automaticamente redirecionado para a sua página de perfil ao tentar acessar o painel de controle do OJS, e precisa habilitar ao menos uma área de interesse antes de continuar. Os editores também podem filtrar os avaliadores por área de interesse ao designá-los para uma submissão.</p><p><img src="https://github.com/lepidus/selectionOfReviewingInterests/raw/main/docs/predefinedReviewingInterestsDemo.gif"></p>]]></description>
+		<description locale="es"><![CDATA[<p>Reemplaza el campo de intereses de revisión por una lista predefinida de opciones definidas por el editor en los ajustes del plugin.</p><p>Los revisores seleccionan sus intereses a partir de esta lista, en lugar de escribirlos. Un revisor que no tenga ningún interés seleccionado es redirigido automáticamente a su página de perfil al intentar acceder al panel de control de OJS, y debe habilitar al menos un interés antes de continuar. Los editores también pueden filtrar a los revisores por interés al asignarlos a un envío.</p><p><img src="https://github.com/lepidus/selectionOfReviewingInterests/raw/main/docs/predefinedReviewingInterestsDemo.gif"></p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Reemplaza el campo de intereses de revisión por una lista predefinida de opciones definidas por el editor en los ajustes del plugin.</p><p>Los revisores seleccionan sus intereses a partir de esta lista, en lugar de escribirlos. Un revisor que no tenga ningún interés seleccionado es redirigido automáticamente a su página de perfil al intentar acceder al panel de control de OJS, y debe habilitar al menos un interés antes de continuar. Los editores también pueden filtrar a los revisores por interés al asignarlos a un envío.</p><p><img src="https://github.com/lepidus/selectionOfReviewingInterests/raw/main/docs/predefinedReviewingInterestsDemo.gif"></p>]]></description>
 		<maintainer>
 			<name>Lepidus Tecnologia Team</name>
 			<institution>Developed by Lepidus Tecnologia</institution>
@@ -11947,6 +11947,47 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">This release preserves the user interests that may have been defined from other conexts of the same site. And fixes form interaction bugs.</description>
 			<description locale="pt_BR">Esta versão preserva os interesses do usuário que podem ter sido definidos a partir de outros contextos do mesmo portal. E corrige bugs de interação do formulário.</description>
 			<description locale="es_ES">Esta versión preserva los intereses del usuario que pueden haber sido definidos desde otros contextos del mismo sitio. Y corrige errores de interacción del formulario.</description>
+		</release>
+		<release date="2026-06-23" version="1.0.4.0" md5="82611088cf7966e7167726b53ef7d5e3">
+			<package>https://github.com/lepidus/selectionOfReviewingInterests/releases/download/v1.0.4.0/selectionOfReviewingInterests.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">If no interest options are set, the plugin no longer enables its features and validations. Fixed the error translation key in the configuration form. Renamed to "Predefined reviewing interests" and improved the plugin documentation.</description>
+			<description locale="pt_BR">Se nenhuma opção de área de interesse estiver configurada, o plugin não habilita mais seus recursos e validações. Corrigida a chave de tradução de erro no formulário de configuração. Renomeado para "Áreas de interesse predefinidas" e documentação do plugin aprimorada.</description>
+			<description locale="es_ES">Si no se configura ninguna opción de interés, el plugin ya no habilita sus funciones ni validaciones. Corregida la clave de traducción de error en el formulario de configuración. Renombrado a "Intereses de revisión predefinidos" y documentación del plugin mejorada.</description>
+		</release>
+		<release date="2026-06-23" version="2.0.5.0" md5="328142f88c14fb4d5efc53f052e73b39">
+			<package>https://github.com/lepidus/selectionOfReviewingInterests/releases/download/v2.0.5.0/selectionOfReviewingInterests.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">If no interest options are set, the plugin no longer enables its features and validations. Renamed to "Predefined reviewing interests" and improved the plugin documentation.</description>
+			<description locale="pt_BR">Se nenhuma opção de área de interesse estiver configurada, o plugin não habilita mais seus recursos e validações. Renomeado para "Áreas de interesse predefinidas" e documentação do plugin aprimorada.</description>
+			<description locale="es">Si no se configura ninguna opción de interés, el plugin ya no habilita sus funciones ni validaciones. Renombrado a "Intereses de revisión predefinidos" y documentación del plugin mejorada.</description>
+		</release>
+		<release date="2026-06-23" version="3.0.3.0" md5="ced86da505c37c2186170ba57e1bb021">
+			<package>https://github.com/lepidus/selectionOfReviewingInterests/releases/download/v3.0.3.0/selectionOfReviewingInterests.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">If no interest options are set, the plugin no longer enables its features and validations. Renamed to "Predefined reviewing interests" and improved the plugin documentation.</description>
+			<description locale="pt_BR">Se nenhuma opção de área de interesse estiver configurada, o plugin não habilita mais seus recursos e validações. Renomeado para "Áreas de interesse predefinidas" e documentação do plugin aprimorada.</description>
+			<description locale="es">Si no se configura ninguna opción de interés, el plugin ya no habilita sus funciones ni validaciones. Renombrado a "Intereses de revisión predefinidos" y documentación del plugin mejorada.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="websitePreview">
