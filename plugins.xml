@@ -10627,6 +10627,41 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Agrega cifrado de las respuestas de los usuarios</description>
 			<description locale="pt_BR">Adiciona criptografia das respostas dos usuários</description>
 		</release>
+		<release date="2026-06-17" version="0.10.0.0" md5="a8f3abb0fc5bed5da3ee35c9ce956867">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v0.10.0.0/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Adds reports for the current journal/server and for the whole site. Also allows the creation of question blocks and new questions.</description>
+			<description locale="es_ES">Agrega informes para la revista/servidor actual y para todo el sitio. También permite crear bloques de preguntas y nuevas preguntas.</description>
+			<description locale="pt_BR">Adiciona relatórios para a revista/servidor atual e para todo o site. Também permite a criação de blocos de perguntas e novas perguntas.</description>
+		</release>
 		<release date="2025-06-20" version="1.2.1.0" md5="db061af00f44103f5bbaa716ea21a99d">
 			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.2.1.0/deiaSurvey.tar.gz</package>
 			<compatibility application="ojs2">
@@ -10704,6 +10739,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Adds encryption of users responses</description>
 			<description locale="es">Agrega cifrado de las respuestas de los usuarios</description>
 			<description locale="pt_BR">Adiciona criptografia das respostas dos usuários</description>
+		</release>
+		<release date="2026-06-12" version="1.9.0.2" md5="e83d8c531e9a1a4f0bc4e4d55f8be166">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.9.0.2/deiaSurvey.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds reports for the current journal/server and for the whole site. Also allows the creation of question blocks and new questions.</description>
+			<description locale="es">Agrega informes para la revista/servidor actual y para todo el sitio. También permite crear bloques de preguntas y nuevas preguntas.</description>
+			<description locale="pt_BR">Adiciona relatórios para a revista/servidor atual e para todo o site. Também permite a criação de blocos de perguntas e novas perguntas.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="credit">
