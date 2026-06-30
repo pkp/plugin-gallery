@@ -12050,4 +12050,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="loginOtp">
+    <name locale="en">Login OTP via Email</name>
+    <name locale="en_US">Login OTP via Email</name>
+    <homepage>https://github.com/archicoop/loginOtp</homepage>
+    <summary locale="en">Two-factor authentication for OJS/OMP login via 6-digit one-time code sent by email.</summary>
+    <summary locale="en_US">Two-factor authentication for OJS/OMP login via 6-digit one-time code sent by email.</summary>
+    <description locale="en"><![CDATA[<p>Adds two-factor authentication to the login process by sending a one-time code (OTP) via email after a successful username/password login. Per-journal configuration: each journal independently decides which roles must complete the 2FA step. Site-level login is always protected. Plugin runs as an always-active system component. Compliant with Italian ACN Guidelines for Public Administrations and GDPR.</p>]]></description>
+    <description locale="en_US"><![CDATA[<p>Adds two-factor authentication to the login process by sending a one-time code (OTP) via email after a successful username/password login. Per-journal configuration: each journal independently decides which roles must complete the 2FA step. Site-level login is always protected. Plugin runs as an always-active system component. Compliant with Italian ACN Guidelines for Public Administrations and GDPR.</p>]]></description>
+    <maintainer>
+        <name>Archimede Informatica</name>
+        <institution>Archimede Informatica</institution>
+        <email>marziani@archicoop.it</email>
+    </maintainer>
+    <release date="2026-06-30" version="2.0.0.0" md5="3c8ac0ad3e61b2d4bab5900cb3b5fb4b">
+        <package>https://github.com/archicoop/loginOtp/releases/download/v2.0.0/loginOtp-2.0.0.tar.gz</package>
+        <compatibility application="ojs2">
+            <version>~3.5.0.0</version>
+        </compatibility>
+        <certification type="reviewed"/>
+        <description>Major refactor: per-journal configuration, OR-based rule set, plugin always active.</description>
+    </release>
+</plugin>
 </plugins>
