@@ -12050,4 +12050,43 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="viewcounter">
+		<name locale="en_US">View Counter</name>
+		<name locale="pt_BR">Contador de visualizações</name>
+		<homepage>https://github.com/OJSBR/viewcounter</homepage>
+		<summary locale="en_US">Shows each article's abstract views and downloads on the summary lists and the article page.</summary>
+		<summary locale="pt_BR">Mostra as visualizações do resumo e os downloads (galés) de cada artigo, nas listas e na página do artigo.</summary>
+		<description locale="en_US"><![CDATA[<p>A generic plugin that displays each article's abstract views and downloads (sum of galleys), discreetly next to the title on the article summary lists and on the article landing page. Where and how it appears is configurable per journal. On OJS 3.5 the counts are computed via the statistics service and exposed to the theme, with safe fallbacks.</p><p>Rewritten and maintained by <a href="https://ojsbr.com.br">OJSBR</a>, based on an original OJS 3.3 access/downloads counter by STI-FFLCH/USP and ABCD/USP.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Plugin genérico que mostra as visualizações do resumo e os downloads (soma das galés) de cada artigo, de forma discreta junto ao título nas listas e na página do artigo. Configurável por revista. No OJS 3.5 as contagens usam o serviço de estatísticas, com fallbacks seguros.</p><p>Reescrito e mantido pela <a href="https://ojsbr.com.br">OJSBR</a>, a partir de um contador de acessos/downloads original do OJS 3.3 da STI-FFLCH/USP e do ABCD/USP.</p>]]></description>
+		<maintainer>
+			<name>OJSBR</name>
+			<institution>STNT Tecnologia da Informação LTDA</institution>
+			<email>support@ojsbr.com</email>
+		</maintainer>
+		<release date="2026-06-29" version="1.2.0.0" md5="49437d811cb4eb7c17ea0541c0caedb5">
+			<package>https://github.com/OJSBR/viewcounter/releases/download/1.2.0.0/viewcounter-1.2.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.0</version>
+				<version>3.5.0.1</version>
+			</compatibility>
+			<description locale="en_US">OJS 3.5 release.</description>
+		</release>
+		<release date="2026-06-29" version="1.1.0.0" md5="a88da6bf3ef11b6f355d00e67fe76601">
+			<package>https://github.com/OJSBR/viewcounter/releases/download/1.1.0.0/viewcounter-1.1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
+				<version>3.4.0.2</version>
+				<version>3.4.0.3</version>
+				<version>3.4.0.4</version>
+				<version>3.4.0.5</version>
+				<version>3.4.0.6</version>
+				<version>3.4.0.7</version>
+				<version>3.4.0.8</version>
+				<version>3.4.0.9</version>
+			</compatibility>
+			<description locale="en_US">OJS 3.4 release.</description>
+		</release>
+	</plugin>
+
 </plugins>
