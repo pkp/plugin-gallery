@@ -7957,47 +7957,26 @@
 			<institution>Academy of Cognitive and Natural Sciences</institution>
 			<email>semerikov@gmail.com</email>
 		</maintainer>
-		<release date="2026-03-20" version="1.5.0.0" md5="44c2f5c3a69106682cf5a63da8a79f8d">
-			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.5.0-3.3/reviewerCertificate-v1.5.0-3.3.tar.gz</package>
+		<release date="2026-07-04" version="1.8.0.0" md5="5fe790440300bac2cad437ddb145b297">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.8.0-3.3/reviewerCertificate-1.8.0-3_3.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.3.0.0</version>
 			</compatibility>
-			<description>Composer TCPDF dependency, removed dangerous utility files, code brevity improvements, OJS 3.3.x-only code paths. OJS 3.3.x compatible.</description>
+			<description>Email certificate to reviewer with PDF attachment, files_dir configuration support, short locale code directories, stored XSS fix. OJS 3.3.x compatible (includes OJS 3.3 compatibility autoloader).</description>
 		</release>
-		<release date="2026-03-20" version="1.5.0.0" md5="f4f848e60ece5b5c5d11d55b8aef7338">
-			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.5.0-3.4/reviewerCertificate-v1.5.0-3.4.tar.gz</package>
+		<release date="2026-07-04" version="1.8.0.0" md5="2c7780d33d4ef85c442319c732f5e77f">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.8.0-3.4/reviewerCertificate-1.8.0-3_4.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
-			<description>Composer TCPDF dependency, removed dangerous utility files, code brevity improvements, OJS 3.4.x-only code paths. OJS 3.4.x compatible.</description>
+			<description>Email certificate to reviewer with PDF attachment, files_dir configuration support, short locale code directories, stored XSS fix. OJS 3.4.x compatible.</description>
 		</release>
-		<release date="2026-03-20" version="1.5.0.0" md5="0576ae4c3fdb5499d883f5686d38ce82">
-			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.5.0-3.5/reviewerCertificate-v1.5.0-3.5.tar.gz</package>
+		<release date="2026-07-04" version="1.8.0.0" md5="a8e3d307e002b7bbd72a9082b8c39138">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.8.0-3.5/reviewerCertificate-1.8.0-3_5.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
-			<description>Composer TCPDF dependency, removed dangerous utility files, code brevity improvements, OJS 3.5.x-only code paths. OJS 3.5.x compatible.</description>
-		</release>
-		<release date="2026-03-13" version="1.4.0.0" md5="5101e4cba8f77da3106297bd05c12ab0">
-			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.4.0-3.3/reviewerCertificate-v1.4.0-3.3.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.3.0.0</version>
-			</compatibility>
-			<description>Context isolation, HTML title sanitization, input validation. OJS 3.3.x compatible.</description>
-		</release>
-		<release date="2026-03-13" version="1.4.0.0" md5="90b8fd33b000f741e7f1a00de0df45ba">
-			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.4.0-3.4/reviewerCertificate-v1.4.0-3.4.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.4.0.0</version>
-			</compatibility>
-			<description>Context isolation, HTML title sanitization, input validation. OJS 3.4.x compatible.</description>
-		</release>
-		<release date="2026-03-13" version="1.4.0.0" md5="c2881550df8064a57949c357566a7206">
-			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.4.0-3.5/reviewerCertificate-v1.4.0-3.5.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.5.0.0</version>
-			</compatibility>
-			<description>Context isolation, HTML title sanitization, input validation. OJS 3.5.x compatible.</description>
+			<description>Email certificate to reviewer with PDF attachment, files_dir configuration support, short locale code directories, stored XSS fix. OJS 3.5.x compatible.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="reviewerCredits">
