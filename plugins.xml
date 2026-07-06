@@ -10408,6 +10408,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Corrige la validación de las preguntas personalizadas requeridas durante el envío.</description>
 			<description locale="pt_BR">Corrige a validação das perguntas personalizadas requeridas durante o envio.</description>
 		</release>
+		<release date="2026-07-06" version="1.1.0.3" md5="56dc1bf50cd2ea613c165ae414f47296">
+			<package>https://github.com/lepidus/customQuestions/releases/download/v1.1.0.3/customQuestions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Remove wrapper paragraph from question descriptions</description>
+			<description locale="es">Elimina el párrafo contenedor de las descripciones de las preguntas</description>
+			<description locale="pt_BR">Remove o parágrafo envoltório das descrições das perguntas</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="deiaSurvey">
 		<name locale="en">DEIA Survey</name>
