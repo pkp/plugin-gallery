@@ -11084,6 +11084,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Aprimora a segurança das credenciais da OA Switchboard armazenadas pelo plugin.</description>
 			<description locale="es">Mejora la seguridad de las credenciales de OA Switchboard almacenadas por el plugin.</description>
 		</release>
+		<release date="2026-07-09" version="3.0.1.1" md5="c558dfa0171956a845cde8178a35a997">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v3.0.1.1/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This plugin sends a P1 message to the OA Switchboard when a submission is published.</description>
+			<description locale="pt_BR">Esse plugin envia uma mensagem P1 para o OA Switchboard quando uma submissão é publicada.</description>
+			<description locale="es">Este módulo envía un mensaje P1 a la OA Switchboard cuando se publica un envío.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="deleteIncompleteSubmissions">
 		<name locale="en">Delete Incomplete Submissions</name>
