@@ -12058,4 +12058,25 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
+	<plugin category="importexport" product="copernicusNative">
+	  <name locale="en_US">Copernicus XML Export (Native)</name>
+	  <homepage>https://github.com/arissupriy/Copernicus-Native-OJS</homepage>
+	  <summary locale="en_US">Export issue metadata in Copernicus XML format directly via OJS API.</summary>
+	  <description locale="en_US"><![CDATA[<p>This plugin generates standard Index Copernicus XML directly via the OJS API. It is fully integrated with OJS 3.4/3.5 routing and dispatching system and provides a clean backend UI for issue selection. Developed by <a href="https://github.com/arissupriy">Aris Supriyanto</a>.</p>]]></description>
+	  <maintainer>
+	    <name>Aris Supriyanto</name>
+	    <institution>Developed by Aris SUpriyanto</institution>
+	    <email>aris.jrj@gmail.com</email>
+	  </maintainer>
+	  <!-- MD5 hash telah dihitung dan sesuai dengan paket -->
+	  <release date="2026-07-17" version="1.0.0.3" md5="0f3ad5ad438a5805f756d3bdd966b199">
+	    <package>https://github.com/arissupriy/Copernicus-Native-OJS/archive/refs/tags/v1_0_0-3.tar.gz</package>
+	    <compatibility application="ojs2">
+	        <version>3.5.0.0</version>
+	        <version>3.4.0.0</version>
+	    </compatibility>
+	    <description>Initial release.</description>
+	  </release>
+	</plugin>
+
 </plugins>
