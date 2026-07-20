@@ -7957,26 +7957,26 @@
 			<institution>Academy of Cognitive and Natural Sciences</institution>
 			<email>semerikov@gmail.com</email>
 		</maintainer>
-		<release date="2026-07-04" version="1.8.0.0" md5="5fe790440300bac2cad437ddb145b297">
-			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.8.0-3.3/reviewerCertificate-1.8.0-3_3.tar.gz</package>
+		<release date="2026-07-20" version="1.8.2.0" md5="6bad10716989344a16158d2956add760">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.8.2-3.3/reviewerCertificate-1.8.2-3_3.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.3.0.0</version>
 			</compatibility>
-			<description>Email certificate to reviewer with PDF attachment, files_dir configuration support, short locale code directories, stored XSS fix. OJS 3.3.x compatible (includes OJS 3.3 compatibility autoloader).</description>
+			<description>Fixes certificate emails rejected by SMTP relay size limits: oversized background images are downscaled before embedding, transport failures are detected and shown to the reviewer (previously a false success on OJS 3.4+), and a link-only fallback letter is sent when the attachment is still rejected. OJS 3.3.x compatible (includes OJS 3.3 compatibility autoloader).</description>
 		</release>
-		<release date="2026-07-04" version="1.8.0.0" md5="2c7780d33d4ef85c442319c732f5e77f">
-			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.8.0-3.4/reviewerCertificate-1.8.0-3_4.tar.gz</package>
+		<release date="2026-07-20" version="1.8.2.0" md5="51d944059dac071720fa152bd6470008">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.8.2-3.4/reviewerCertificate-1.8.2-3_4.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
-			<description>Email certificate to reviewer with PDF attachment, files_dir configuration support, short locale code directories, stored XSS fix. OJS 3.4.x compatible.</description>
+			<description>Fixes certificate emails rejected by SMTP relay size limits: oversized background images are downscaled before embedding, transport failures are detected and shown to the reviewer (previously a false success on OJS 3.4+), and a link-only fallback letter is sent when the attachment is still rejected. OJS 3.4.x compatible.</description>
 		</release>
-		<release date="2026-07-04" version="1.8.0.0" md5="a8e3d307e002b7bbd72a9082b8c39138">
-			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.8.0-3.5/reviewerCertificate-1.8.0-3_5.tar.gz</package>
+		<release date="2026-07-20" version="1.8.2.0" md5="b35e6c202863a4fe9781a66050a2715e">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.8.2-3.5/reviewerCertificate-1.8.2-3_5.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
-			<description>Email certificate to reviewer with PDF attachment, files_dir configuration support, short locale code directories, stored XSS fix. OJS 3.5.x compatible.</description>
+			<description>Fixes certificate emails rejected by SMTP relay size limits: oversized background images are downscaled before embedding, transport failures are detected and shown to the reviewer (previously a false success on OJS 3.4+), and a link-only fallback letter is sent when the attachment is still rejected. OJS 3.5.x compatible.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="reviewerCredits">
