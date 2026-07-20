@@ -11115,8 +11115,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Aprimora a segurança e a privacidade: reforça o fluxo de envio P1-PIO e remove os e-mails dos autores do payload P1-PIO.</description>
 			<description locale="es">Mejora la seguridad y la privacidad: refuerza el flujo de envío P1-PIO y elimina los correos electrónicos de los autores del payload P1-PIO.</description>
 		</release>
-		<release date="2026-07-09" version="3.0.1.1" md5="c558dfa0171956a845cde8178a35a997">
-			<package>https://github.com/lepidus/OASwitchboard/releases/download/v3.0.1.1/OASwitchboard.tar.gz</package>
+		<release date="2026-07-20" version="3.0.1.3" md5="b09cecda33c56a4d9703296d2c4b021a">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v3.0.1.3/OASwitchboard.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
