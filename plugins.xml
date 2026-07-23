@@ -12074,4 +12074,58 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="reviewerComments">
+		<name locale="en_US">Reviewer Comments</name>
+	
+		<homepage>https://github.com/stefesciberras/ojs-plugin-reviewer-comments</homepage>
+	
+		<summary locale="en_US">Insert reviewer comments and review form responses into editorial decision messages.</summary>
+	
+		<description locale="en_US"><![CDATA[
+			<p>
+				This plugin allows editors to insert reviewer comments and review form
+				responses into the editorial decision message. Reviewer responses are
+				appended to the existing message content and include the status of
+				checked and unchecked review form options.
+			</p>
+		]]></description>
+	
+		<installation locale="en_US"><![CDATA[
+			<p>
+				Install the plugin from the OJS Plugin Gallery, then enable it under
+				Settings &gt; Website &gt; Plugins.
+			</p>
+		]]></installation>
+	
+		<maintainer>
+			<name>Stephen Sciberras</name>
+			<institution>Malta Medical Journal</institution>
+			<email>stepehn.sciberras@mmsjournals.org</email>
+		</maintainer>
+	
+		<release
+			date="2026-07-19"
+			version="1.1.0.0"
+			md5="6c7d79a3834915fad3a11dfef11cc234">
+	
+			<package>https://github.com/stefesciberras/ojs-plugin-reviewer-comments/releases/download/1.1.0.0/reviewerComments-1.1.0.0.tar.gz</package>
+	
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
+				<version>3.4.0.2</version>
+				<version>3.4.0.3</version>
+				<version>3.4.0.4</version>
+				<version>3.4.0.5</version>
+				<version>3.4.0.6</version>
+				<version>3.4.0.7</version>
+				<version>3.4.0.8</version>
+				<version>3.4.0.9</version>
+			</compatibility>
+	
+			<description locale="en_US">
+				Initial public release for OJS 3.4.
+			</description>
+		</release>
+	</plugin>
 </plugins>
