@@ -12063,13 +12063,13 @@ the registration of DOIs with mEDRA.</p>]]></description>
         <institution>Archimede Informatica</institution>
         <email>marziani@archicoop.it</email>
     </maintainer>
-    <release date="2026-06-30" version="2.0.0.0" md5="3c8ac0ad3e61b2d4bab5900cb3b5fb4b">
-        <package>https://github.com/archicoop/loginOtp/releases/download/v2.0.0/loginOtp-2.0.0.tar.gz</package>
+    <release date="2026-07-30" version="2.0.1.0" md5="6c1f7ed74904362c1422b58e0105e573">
+        <package>https://github.com/archicoop/loginOtp/releases/download/v2.0.1/loginOtp-2.0.1.tar.gz</package>
         <compatibility application="ojs2">
             <version>~3.5.0.0</version>
         </compatibility>
         <certification type="reviewed"/>
-        <description>Major refactor: per-journal configuration, OR-based rule set, plugin always active.</description>
+        <description>Two-factor authentication via email OTP. Configurable per-journal by role.</description>
     </release>
 </plugin>
 </plugins>
