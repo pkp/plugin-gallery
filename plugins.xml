@@ -10421,6 +10421,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Elimina el párrafo contenedor de las descripciones de las preguntas</description>
 			<description locale="pt_BR">Remove o parágrafo envoltório das descrições das perguntas</description>
 		</release>
+		<release date="2026-08-06" version="2.0.0.0" md5="c4ba0007a70f28c642d913accadbdd20">
+			<package>https://github.com/lepidus/customQuestions/releases/download/v2.0.0.0/customQuestions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds compatibility with OJS and OPS 3.5.</description>
+			<description locale="es">Añade compatibilidad con OJS y OPS 3.5.</description>
+			<description locale="pt_BR">Adiciona compatibilidade com OJS e OPS 3.5.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="deiaSurvey">
 		<name locale="en">DEIA Survey</name>
