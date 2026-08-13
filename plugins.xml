@@ -1689,6 +1689,54 @@
 			<description locale="es_ES">Agrega soporte multilingüe al nombre del archivo README.</description>
 			<description locale="pt_BR">Adiciona suporte multilíngue ao nome do arquivo README.</description>
 		</release>
+		<release date="2026-08-03" version="2.8.13.0" md5="b0f83de1ea1d9038cc21a6bbf8b7b413">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v2.8.13.0/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release adds better handling of errors for when communication with Dataverse is interrupted.</description>
+			<description locale="es_ES">Esta versión mejora el manejo de errores cuando se interrumpe la comunicación con Dataverse.</description>
+			<description locale="pt_BR">Esta versão adiciona um melhor tratamento de erros para casos em que a comunicação com o Dataverse é interrompida.</description>
+		</release>
+		<release date="2026-07-31" version="3.4.5.2" md5="f727258ae072f617f83e3d20ca5fb57e">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.4.5.2/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release adds better handling of errors for when communication with Dataverse is interrupted</description>
+			<description locale="es">Esta versión mejora el manejo de errores cuando se interrumpe la comunicación con Dataverse.</description>
+			<description locale="pt_BR">Esta versão adiciona um melhor tratamento de erros para casos em que a comunicação com o Dataverse é interrompida.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
 		<name locale="en">Matomo</name>
