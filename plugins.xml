@@ -12221,4 +12221,27 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
+	<plugin category="blocks" product="accessibility">
+		<name locale="en">Accessibility Block</name>
+		<name locale="en_US">Accessibility Block</name>
+		<name locale="pt_BR">Bloco de Acessibilidade</name>
+		<homepage>https://github.com/OJSBR/accessibility</homepage>
+		<summary locale="en">A sidebar block with reader accessibility controls: increase and decrease zoom, high contrast and reset.</summary>
+		<summary locale="en_US">A sidebar block with reader accessibility controls: increase and decrease zoom, high contrast and reset.</summary>
+		<summary locale="pt_BR">Um bloco na barra lateral com controles de acessibilidade para o leitor: aumentar e diminuir zoom, alto contraste e redefinir.</summary>
+		<description locale="en"><![CDATA[<p>Adds a sidebar block with accessibility controls for readers: increase zoom (A+), decrease zoom (A&minus;), toggle a high-contrast mode, and reset. Zoom is applied in 10% steps (100%&ndash;200%) and high contrast switches the whole site to a black background with white text and yellow links. The reader's choices are stored in the browser and re-applied on every page of the journal until reset.</p><p>The controls are built for assistive technology: real <code>&lt;button&gt;</code> elements with <code>aria-label</code> and <code>aria-pressed</code>, a visually hidden live region that announces the current zoom level, and 40&nbsp;px minimum touch targets. The buttons reuse the active theme's own button style, so they follow the journal's colours, with a safe fallback on themes that do not define it.</p><p>The plugin ships in 6 languages (English, Portuguese, Spanish, French, Italian and German) and includes a Cypress functional test. It modifies no core files and adds no database schema; disabling it removes the block entirely.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Adds a sidebar block with accessibility controls for readers: increase zoom (A+), decrease zoom (A&minus;), toggle a high-contrast mode, and reset. Zoom is applied in 10% steps (100%&ndash;200%) and high contrast switches the whole site to a black background with white text and yellow links. The reader's choices are stored in the browser and re-applied on every page of the journal until reset.</p><p>The controls are built for assistive technology: real <code>&lt;button&gt;</code> elements with <code>aria-label</code> and <code>aria-pressed</code>, a visually hidden live region that announces the current zoom level, and 40&nbsp;px minimum touch targets. The buttons reuse the active theme's own button style, so they follow the journal's colours, with a safe fallback on themes that do not define it.</p><p>The plugin ships in 6 languages (English, Portuguese, Spanish, French, Italian and German) and includes a Cypress functional test. It modifies no core files and adds no database schema; disabling it removes the block entirely.</p>]]></description>
+		<maintainer>
+			<name>Eder Sotto</name>
+			<institution>OJSBR</institution>
+			<email>support@ojsbr.com</email>
+		</maintainer>
+		<release date="2026-07-22" version="1.0.1.0" md5="ef6a86be7bf8f3b7af161a2b3a0e582b">
+			<package>https://github.com/OJSBR/accessibility/releases/download/1.0.1.0/accessibility-1.0.1.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description>First release for OJS 3.5.</description>
+		</release>
+	</plugin>
 </plugins>
