@@ -12221,4 +12221,28 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="reviewerRecommendationManager">
+		<name locale="en">Reviewer Recommendation Manager</name>
+		<name locale="en_US">Reviewer Recommendation Manager</name>
+		<name locale="pt_BR">Gerenciador de Recomendações do Avaliador</name>
+		<homepage>https://github.com/OJSBR/reviewerRecommendationManager</homepage>
+		<summary locale="en">Rename (multilingual), reorder and disable the reviewer recommendations on OJS 3.4/3.5, preserving the review history.</summary>
+		<summary locale="en_US">Rename (multilingual), reorder and disable the reviewer recommendations on OJS 3.4/3.5, preserving the review history.</summary>
+		<summary locale="pt_BR">Renomear (multilíngue), reordenar e desativar as recomendações do avaliador no OJS 3.4/3.5, preservando o histórico dos pareceres.</summary>
+		<description locale="en"><![CDATA[<p>On OJS 3.4 and 3.5 the six reviewer recommendations (Accept Submission, Revisions Required, Resubmit for Review, Resubmit Elsewhere, Decline Submission, See Comments) are hard-coded. This plugin lets a journal <strong>rename them per language, reorder them and disable the ones it does not use</strong>, without patching OJS core.</p><p>Renaming is done through per-journal gettext override files, so the new wording appears everywhere the label is resolved. Reordering and disabling affect the <em>reviewer form only</em>: editors keep seeing the recommendation recorded on past reviews, so the historical record is never hidden or rewritten. The settings screen always shows the original OJS wording as a fixed reference and warns how many existing reviews already use each option.</p><p><strong>OJS 3.6 note:</strong> PKP has implemented customizable reviewer recommendations in the core for OJS 3.6 (pkp/pkp-lib#1660). This plugin is aimed at journals still running OJS 3.4 or 3.5.</p><p>Ships in 6 languages (English, Portuguese, Spanish, French, Italian and German) and includes a Cypress functional test. No core files are modified.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>On OJS 3.4 and 3.5 the six reviewer recommendations (Accept Submission, Revisions Required, Resubmit for Review, Resubmit Elsewhere, Decline Submission, See Comments) are hard-coded. This plugin lets a journal <strong>rename them per language, reorder them and disable the ones it does not use</strong>, without patching OJS core.</p><p>Renaming is done through per-journal gettext override files, so the new wording appears everywhere the label is resolved. Reordering and disabling affect the <em>reviewer form only</em>: editors keep seeing the recommendation recorded on past reviews, so the historical record is never hidden or rewritten. The settings screen always shows the original OJS wording as a fixed reference and warns how many existing reviews already use each option.</p><p><strong>OJS 3.6 note:</strong> PKP has implemented customizable reviewer recommendations in the core for OJS 3.6 (pkp/pkp-lib#1660). This plugin is aimed at journals still running OJS 3.4 or 3.5.</p><p>Ships in 6 languages (English, Portuguese, Spanish, French, Italian and German) and includes a Cypress functional test. No core files are modified.</p>]]></description>
+		<maintainer>
+			<name>Eder Sotto</name>
+			<institution>OJSBR</institution>
+			<email>support@ojsbr.com</email>
+		</maintainer>
+		<release date="2026-07-22" version="1.0.3.0" md5="586f015cc30063a462140f8ef109a6db">
+			<package>https://github.com/OJSBR/reviewerRecommendationManager/releases/download/1.0.3.0/reviewerRecommendationManager-1.0.3.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description>Release for OJS 3.4 and 3.5.</description>
+		</release>
+	</plugin>
 </plugins>
