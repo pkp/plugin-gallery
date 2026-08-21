@@ -8016,6 +8016,14 @@
 			<certification type="official"/>
 			<description>PKP|PN for OJS 3.4.x-x. Fixed minor bug when using the MariaDB database.</description>
 		</release>
+		<release date="2026-08-21" version="4.0.0.0" md5="25570f52e48de2d467a286901d1f0d36">
+			<package>https://github.com/pkp/pln/releases/download/v4_0_0-0/pln-v4_0_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>First release for OJS 3.5.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="citations">
 		<name locale="en">Scopus/Crossref Citations Plugin</name>
