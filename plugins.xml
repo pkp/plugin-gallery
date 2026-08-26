@@ -12229,4 +12229,41 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
+		<plugin category="generic" product="imsypAutoReader">
+		<name locale="en">IMSYP Auto Reader</name>
+		<name locale="en_US">IMSYP Auto Reader</name>
+
+		<homepage>https://www.imsyp.com/index.php/index/imsyp-auto-reader</homepage>
+
+		<summary locale="en">Automatically assigns the Reader role across journals and synchronizes active users in multi-journal OJS installations.</summary>
+		<summary locale="en_US">Automatically assigns the Reader role across journals and synchronizes active users in multi-journal OJS installations.</summary>
+
+		<description locale="en"><![CDATA[
+			<p>IMSYP Auto Reader is a site-wide plugin for Open Journal Systems (OJS) designed for multi-journal installations. It automatically assigns new registered users to the Reader role across enabled journals and synchronizes active users when a new journal is created or an existing journal is enabled.</p>
+			<p>Source code is available at <a href="https://github.com/younestc/imsypAutoReader">GitHub</a>.</p>
+		]]></description>
+
+		<description locale="en_US"><![CDATA[
+			<p>IMSYP Auto Reader is a site-wide plugin for Open Journal Systems (OJS) designed for multi-journal installations. It automatically assigns new registered users to the Reader role across enabled journals and synchronizes active users when a new journal is created or an existing journal is enabled.</p>
+			<p>Source code is available at <a href="https://github.com/younestc/imsypAutoReader">GitHub</a>.</p>
+		]]></description>
+
+		<maintainer>
+			<name>Younouss EL ouati</name>
+			<institution>IMSYP</institution>
+			<email>younousselouati@gmail.com</email>
+		</maintainer>
+
+		<release date="2026-08-26" version="1.1.0.0" md5="cce4c3b603c415d7395e23a7ad967c48">
+			<package>https://github.com/younestc/imsypAutoReader/releases/download/v1.1.0.0/imsypAutoReader-1.1.0.0.tar.gz</package>
+
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+
+			<description locale="en">Initial public release for OJS 3.5.x with automatic Reader assignment, queued journal synchronization, and CLI synchronization for existing active users.</description>
+			<description locale="en_US">Initial public release for OJS 3.5.x with automatic Reader assignment, queued journal synchronization, and CLI synchronization for existing active users.</description>
+		</release>
+	</plugin>
 </plugins>
+
