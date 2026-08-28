@@ -10976,6 +10976,37 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Corrige formação do título completo e melhora tratamento de dados de autores e filtro de idioma.</description>
 			<description locale="es_ES">Corrige la formación del título completo y mejora el manejo de datos de autores y filtrado por idioma.</description>
 		</release>
+		<release date="2026-04-20" version="1.0.4.2" md5="64d4b0a7d93f92c68b3da8f46edbb6fa">
+			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v1.0.4.2/doiForTranslation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Fixes the visibility of translations articles on issue listing and adds minor improvements</description>
+			<description locale="pt_BR">Corrige a visibilidade dos artigos de tradução na lista de problemas e traz pequenas melhorias</description>
+			<description locale="es_ES">Corrige la visibilidad de los artículos de traducción en la lista de problemas e introduce pequeñas mejoras</description>
+		</release>
+		<release date="2026-08-28" version="2.0.0.0" md5="1b904eb82829da0f6e9cca53e80337be">
+			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v2.0.0.0/doiForTranslation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Adapts plugin to OJS 3.5.0.</description>
+			<description locale="pt_BR">Adapta o plugin para o OJS 3.5.0.</description>
+			<description locale="es_ES">Adapta el modulo para OJS 3.5.0.</description>
+		</release>	
 	</plugin>
 	<plugin category="generic" product="reviewReminder">
 		<name locale="en">Review Reminder</name>
