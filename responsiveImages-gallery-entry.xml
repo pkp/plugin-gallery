@@ -1,8 +1,8 @@
 <plugin category="generic" product="responsiveImages">
-	<name locale="en_US">Responsive Images</name>
+	<name locale="en">Responsive Images</name>
 	<homepage>https://github.com/open-manuscript-initiative/ojs-responsive-images</homepage>
-	<summary locale="en_US">Generates responsive image variants and modern image formats for PKP publications.</summary>
-	<description locale="en_US"><![CDATA[<p>Generates responsive image variants for public-facing PKP content, including srcset/picture output, WebP and AVIF conversion when supported by the server, manifest-based caching, incremental optimization, and scheduled/background optimization support.</p>]]></description>
+	<summary locale="en">Generates responsive image variants and modern image formats for PKP publications.</summary>
+	<description locale="en"><![CDATA[<p>Generates responsive image variants for public-facing PKP content, including srcset/picture output, WebP and AVIF conversion when supported by the server, manifest-based caching, incremental optimization, and scheduled/background optimization support.</p>]]></description>
 	<maintainer>
 		<name>Open Manuscript Initiative</name>
 		<institution>Open Manuscript Initiative</institution>
@@ -14,6 +14,6 @@
 			<version>3.5.0.4</version>
 			<version>3.5.0.5</version>
 		</compatibility>
-		<description locale="en_US">Initial Plugin Gallery release for OJS 3.5. Adds responsive image generation, WebP/AVIF support, caching, and background optimization.</description>
+		<description locale="en">Initial Plugin Gallery release for OJS 3.5. Adds responsive image generation, WebP/AVIF support, caching, and background optimization.</description>
 	</release>
 </plugin>
