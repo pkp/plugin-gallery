@@ -12229,4 +12229,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="nastis">
+		<name locale="en">Nastis</name>
+		<name locale="vi">Nastis</name>
+		<homepage>https://github.com/thuanhuynhh/nastis</homepage>
+		<summary locale="en">Sync published article metadata and PDF galleys with the Vietnam Journals Online (VJOL) ingest API.</summary>
+		<summary locale="vi">Đồng bộ siêu dữ liệu bài báo đã xuất bản và bản PDF với API tiếp nhận của Vietnam Journals Online (VJOL).</summary>
+		<description locale="en"><![CDATA[<p>This plugin sends published article metadata and PDF galleys to the Vietnam Journals Online (VJOL) ingest API. It supports automatic and manual synchronization, connection testing, status tracking, and retry handling.</p>]]></description>
+		<description locale="vi"><![CDATA[<p>Plugin gửi siêu dữ liệu bài báo đã xuất bản và bản PDF tới API tiếp nhận của Vietnam Journals Online (VJOL). Plugin hỗ trợ đồng bộ tự động và thủ công, kiểm tra kết nối, theo dõi trạng thái và xử lý gửi lại.</p>]]></description>
+		<maintainer>
+			<name>Thuan Huynh</name>
+			<institution>Independent</institution>
+			<email>145774963+thuanhuynhh@users.noreply.github.com</email>
+		</maintainer>
+		<release date="2026-09-01" version="1.1.0.1" md5="d1843a36b9d9b2dcc40ec9256951007f">
+			<package>https://github.com/thuanhuynhh/nastis/releases/download/v1.1.0.1/nastis-1.1.0.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Initial release for OJS 3.5.</description>
+			<description locale="vi">Bản phát hành đầu tiên dành cho OJS 3.5.</description>
+		</release>
+	</plugin>
 </plugins>
