@@ -12304,4 +12304,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="reviewCopy">
+		<name locale="en_US">Review Copy Plugin</name>
+		<name locale="de_DE">Begutachtungskopie-Plugin</name>
+		<homepage>https://github.com/fpodschwadek/ojs-review-copy-plugin</homepage>
+		<summary locale="en_US">Creates standardised, reviewer-ready copies of submission documents by sending them to an external converter service.</summary>
+		<summary locale="de_DE">Erstellt standardisierte Begutachtungskopien von Einreichungen, indem sie an einen externen Konvertierungsdienst gesendet werden.</summary>
+		<description locale="en_US"><![CDATA[<p>When an author submits a manuscript or uploads a revision, this plugin sends each relevant file to an external converter service and stores the returned file as a review copy in the submission. Supports optional bearer-token authentication and is safe for multi-journal OJS installations. A reference converter implementation is linked from the plugin README.</p>]]></description>
+		<description locale="de_DE"><![CDATA[<p>Bei einer neuen Einreichung oder einer Überarbeitung sendet dieses Plugin jede relevante Datei an einen externen Konvertierungsdienst und legt die zurückgegebene Datei als Begutachtungskopie zur Einreichung ab. Unterstützt optionale Bearer-Token-Authentifizierung und ist für Multi-Journal-Installationen geeignet. Der Plugin-README verweist auf eine Referenzimplementierung eines Konverters.</p>]]></description>
+		<maintainer>
+			<name>Frodo Podschwadek</name>
+			<institution>Academy of Sciences and Literature | Mainz</institution>
+			<email>frodo.podschwadek@proton.me</email>
+		</maintainer>
+		<release date="2026-08-24" version="2.2.1.0" md5="97da868548ba4af1a90e7e3ad609a783">
+			<package>https://github.com/fpodschwadek/ojs-review-copy-plugin/releases/download/2.2.1/reviewCopy-2.2.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.4</version>
+			</compatibility>
+			<description locale="en_US">Initial gallery release. Adds optional bearer-token authentication for the converter service; includes EUPL v1.2 licence text.</description>
+			<description locale="de_DE">Erste Veröffentlichung im Plugin-Katalog. Bringt optionale Bearer-Token-Authentifizierung für den Konvertierungsdienst; enthält den EUPL-v1.2-Lizenztext.</description>
+		</release>
+	</plugin>
 </plugins>
