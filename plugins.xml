@@ -12304,4 +12304,22 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="chatwootIntegration">
+		<name locale="en_US">Chatwoot Integration</name>
+		<homepage>https://github.com/thathman/ojs-chatwoot-integration</homepage>
+		<summary locale="en_US">Live chat and an AI-agent-ready public support gateway for your journal, powered by Chatwoot.</summary>
+		<description locale="en_US"><![CDATA[<p>Adds a Chatwoot live chat widget to your OJS journal, with rich, presentation-only context (role, ORCID, active submissions, article context) sent to support agents &mdash; plus a full public Support Gateway: a verified-identity system, a 14-endpoint REST API, an MCP adapter for AI agent clients, generated public knowledge pages (fees, submissions, review, policies, and more), and one-click Chatwoot Captain provisioning (Knowledge Document, Custom Tools, Scenarios). Includes a consolidated admin health dashboard, manual Captain sync/repair, dead-letter retry, and configurable per-event delivery policy (private note, customer-visible message with explicit opt-in, or audit-only). Blind-review anonymity and cross-journal isolation are enforced server-side, never left to client-supplied data.</p><p>Does not include: OJS 3.6 compatibility, a public staff-mutation plane (staff-facing writes/diagnostics remain out of scope for this release), or the full admin-configurable verification EmailTemplate migration (the built-in PIN/link verification emails work; promoting them to editable OJS EmailTemplates is a documented follow-up).</p>]]></description>
+		<maintainer>
+			<name>Hendrix Nwaokolo</name>
+			<institution>Independent</institution>
+			<email>n.hendrix.e@gmail.com</email>
+		</maintainer>
+		<release date="2026-09-01" version="2.0.0.0" md5="752d100032f333ba9d142c485bbfd8ac">
+			<package>https://github.com/thathman/ojs-chatwoot-integration/releases/download/v2.0.0.0/chatwootIntegration-2.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.0</version>
+			</compatibility>
+			<description>Initial Plugin Gallery release. Live chat widget with rich journal context, plus a public Support Gateway (verified identity, REST API, MCP adapter, public knowledge pages, Chatwoot Captain provisioning) and an admin health/control plane. Targets OJS 3.5.x on PHP 8.2/8.3; MySQL integration-tested, MariaDB/PostgreSQL not yet equivalently tested. Does not include OJS 3.6 support or a public staff-mutation plane.</description>
+		</release>
+	</plugin>
 </plugins>
