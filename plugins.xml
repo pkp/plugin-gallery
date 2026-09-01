@@ -12304,4 +12304,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="customAdminSidebarMenu">
+		<name locale="en">Custom Admin Sidebar Menu</name>
+		<name locale="vi">Menu thanh bên quản trị tùy chỉnh</name>
+		<homepage>https://github.com/thuanhuynhh/customAdminSidebarMenu</homepage>
+		<summary locale="en">Add configurable menus with up to two levels to the OJS administration sidebar with role-based visibility.</summary>
+		<summary locale="vi">Thêm menu tùy chỉnh tối đa hai cấp vào thanh bên quản trị OJS và phân quyền hiển thị theo vai trò.</summary>
+		<description locale="en"><![CDATA[<p>This plugin adds configurable menu items with up to two levels to the OJS administration sidebar. It supports localized labels, role-based visibility, native OJS icons, internal OJS routes, external URLs, configurable ordering, and per-journal settings.</p>]]></description>
+		<description locale="vi"><![CDATA[<p>Plugin thêm các mục menu tùy chỉnh tối đa hai cấp vào thanh bên quản trị OJS. Plugin hỗ trợ nhãn đa ngôn ngữ, hiển thị theo vai trò, biểu tượng OJS, tuyến nội bộ OJS, URL bên ngoài, tùy chỉnh thứ tự và cấu hình riêng cho từng tạp chí.</p>]]></description>
+		<maintainer>
+			<name>Thuan Huynh</name>
+			<institution>Independent</institution>
+			<email>145774963+thuanhuynhh@users.noreply.github.com</email>
+		</maintainer>
+		<release date="2026-09-01" version="1.3.0.0" md5="354910c38aff70bc6e7643fc3c986a2d">
+			<package>https://github.com/thuanhuynhh/customAdminSidebarMenu/releases/download/v1.3.0.0/customAdminSidebarMenu-1.3.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Initial release for OJS 3.5.</description>
+			<description locale="vi">Bản phát hành đầu tiên dành cho OJS 3.5.</description>
+		</release>
+	</plugin>
 </plugins>
