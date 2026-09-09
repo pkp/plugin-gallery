@@ -11320,6 +11320,27 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Aprimora a segurança e a privacidade: reforça o fluxo de envio P1-PIO e remove os e-mails dos autores do payload P1-PIO.</description>
 			<description locale="es_ES">Mejora la seguridad y la privacidad: refuerza el flujo de envío P1-PIO y elimina los correos electrónicos de los autores del payload P1-PIO.</description>
 		</release>
+		<release date="2026-09-09" version="1.1.3.4" md5="45ed23882eb96b6a1a2d98b1b344fce4">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.3.4/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">The Sandbox option is no longer part of the plugin settings and is now enabled through config.inc.php. Journals that were using the Sandbox API just need to enter their production credentials to start sending messages. This release also fixes the upgrade through the plugin gallery.</description>
+			<description locale="pt_BR">A opção de Sandbox deixa de fazer parte das configurações do plugin e passa a ser habilitada pelo config.inc.php. Os periódicos que usavam a API de Sandbox precisam apenas informar as credenciais de produção para começar a enviar mensagens. Esta versão também corrige a atualização pela galeria de plugins.</description>
+			<description locale="es_ES">La opción de Sandbox deja de formar parte de la configuración del módulo y ahora se habilita mediante config.inc.php. Las revistas que utilizaban la API de Sandbox solo tienen que introducir sus credenciales de producción para empezar a enviar mensajes. Esta versión también corrige la actualización desde la galería de módulos.</description>
+		</release>
 		<release date="2025-11-14" version="2.0.2.0" md5="0bff84bf775eb92ea558b5aafda33838">
 			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.2.0/OASwitchboard.tar.gz</package>
 			<compatibility application="ojs2">
@@ -11339,6 +11360,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Improves security and privacy: hardens the P1-PIO delivery flow and removes author emails from the P1-PIO payload.</description>
 			<description locale="pt_BR">Aprimora a segurança e a privacidade: reforça o fluxo de envio P1-PIO e remove os e-mails dos autores do payload P1-PIO.</description>
 			<description locale="es">Mejora la seguridad y la privacidad: refuerza el flujo de envío P1-PIO y elimina los correos electrónicos de los autores del payload P1-PIO.</description>
+		</release>
+		<release date="2026-09-09" version="2.0.2.3" md5="f87dfd827bc1d79e0b5d9c9dc299b324">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.2.3/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">The Sandbox option is no longer part of the plugin settings and is now enabled through config.inc.php. Journals that were using the Sandbox API just need to enter their production credentials to start sending messages.</description>
+			<description locale="pt_BR">A opção de Sandbox deixa de fazer parte das configurações do plugin e passa a ser habilitada pelo config.inc.php. Os periódicos que usavam a API de Sandbox precisam apenas informar as credenciais de produção para começar a enviar mensagens.</description>
+			<description locale="es">La opción de Sandbox deja de formar parte de la configuración del módulo, y ahora se habilita mediante config.inc.php. Las revistas que utilizaban la API de Sandbox solo tienen que introducir sus credenciales de producción para empezar a enviar mensajes.</description>
 		</release>
 		<release date="2026-09-02" version="3.0.1.5" md5="47eda6e2e0edfce8d2ade2c7e5623050">
 			<package>https://github.com/lepidus/OASwitchboard/releases/download/v3.0.1.5/OASwitchboard.tar.gz</package>
