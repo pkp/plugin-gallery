@@ -6077,7 +6077,15 @@
 			<certification type="reviewed" />
 			<description>Initial release of the Ammonite Theme for version 3.4.0.0.</description>
 		</release>
-		<release date="2026-08-02" version="3.5.4.0" md5="7a7bbfeb4f59ae2f187ca75d67260cee">
+		<release date="2026-04-22" version="3.5.3.0" md5="cc07869bc0474beefc0a44680b29fa57">
+			<package>https://github.com/Godoy0722/ammoniteTheme/releases/download/v3.5.3/ammoniteTheme-3.5.3.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>Initial release of the Ammonite Theme for version 3.5.0.0.</description>
+		</release>
+		<release date="2026-09-02" version="3.5.4.0" md5="d3442f1e82864054004d405349193847">
 			<package>https://github.com/Godoy0722/ammoniteTheme/releases/download/v3.5.4/ammoniteTheme-3.5.4.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
