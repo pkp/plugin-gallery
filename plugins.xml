@@ -12404,4 +12404,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="liveKeywordSplitter">
+		<name locale="en">Live Keyword Splitter</name>
+		<name locale="vi">Plugin Tách Từ Khóa Tự Động</name>
+		<homepage>https://github.com/thuanhuynhh/liveKeywordSplitter</homepage>
+		<summary locale="en">Automatically split comma- or semicolon-separated keywords in submission and publication metadata forms.</summary>
+		<summary locale="vi">Tự động tách từ khóa phân cách bằng dấu phẩy hoặc dấu chấm phẩy trong biểu mẫu nộp bài và chỉnh sửa metadata.</summary>
+		<description locale="en"><![CDATA[<p>This plugin converts comma- or semicolon-separated keyword lists into individual OJS keyword tags. It works in the Submission Wizard and dynamically rendered publication metadata forms, and supports typing, pasting, and Enter-key processing without affecting other autosuggest fields.</p>]]></description>
+		<description locale="vi"><![CDATA[<p>Plugin chuyển danh sách từ khóa phân cách bằng dấu phẩy hoặc dấu chấm phẩy thành từng thẻ từ khóa OJS riêng biệt. Plugin hoạt động trong trình hướng dẫn nộp bài và các biểu mẫu metadata được hiển thị động, hỗ trợ nhập, dán và xử lý bằng phím Enter mà không ảnh hưởng đến các trường gợi ý khác.</p>]]></description>
+		<maintainer>
+			<name>Thuan Huynh</name>
+			<institution>Independent</institution>
+			<email>145774963+thuanhuynhh@users.noreply.github.com</email>
+		</maintainer>
+		<release date="2026-09-01" version="1.1.0.1" md5="4bdb5df8b7c2df4da36637ffd237f646">
+			<package>https://github.com/thuanhuynhh/liveKeywordSplitter/releases/download/v1.1.0.1/liveKeywordSplitter-1.1.0.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Improved keyword splitting with a minified browser asset for OJS 3.5.</description>
+			<description locale="vi">Cải thiện tính năng tách từ khóa với tài nguyên trình duyệt được thu gọn cho OJS 3.5.</description>
+		</release>
+	</plugin>
 </plugins>
