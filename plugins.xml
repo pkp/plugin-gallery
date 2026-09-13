@@ -12058,30 +12058,31 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<summary locale="en">Shows each article's abstract views and downloads on the summary lists and the article page.</summary>
 		<summary locale="en_US">Shows each article's abstract views and downloads on the summary lists and the article page.</summary>
 		<summary locale="pt_BR">Mostra as visualizações do resumo e os downloads (galés) de cada artigo, nas listas e na página do artigo.</summary>
-		<description locale="en"><![CDATA[<p>A generic plugin that displays each article's abstract views and downloads (sum of galleys), discreetly next to the title on the article summary lists and on the article landing page. Where it appears is configurable per journal. The badge is injected through the core content hooks (no core template is replaced) and the counts come from the statistics service, cached per submission for 24 hours.</p><p>Rewritten and maintained by <a href="https://ojsbr.com.br">OJSBR</a>, based on an original OJS 3.3 access/downloads counter by STI-FFLCH/USP and ABCD/USP.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>A generic plugin that displays each article's abstract views and downloads (sum of galleys), discreetly next to the title on the article summary lists and on the article landing page. Where it appears is configurable per journal. The badge is injected through the core content hooks (no core template is replaced) and the counts come from the statistics service, cached per submission for 24 hours.</p><p>Rewritten and maintained by <a href="https://ojsbr.com.br">OJSBR</a>, based on an original OJS 3.3 access/downloads counter by STI-FFLCH/USP and ABCD/USP.</p>]]></description>
-		<description locale="pt_BR"><![CDATA[<p>Plugin genérico que mostra as visualizações do resumo e os downloads (soma das galés) de cada artigo, de forma discreta junto ao título nas listas e na página do artigo. Configurável por revista. O selo é injetado pelos hooks de conteúdo do núcleo (nenhum template do núcleo é substituído) e as contagens vêm do serviço de estatísticas, com cache de 24 horas por submissão.</p><p>Reescrito e mantido pela <a href="https://ojsbr.com.br">OJSBR</a>, a partir de um contador de acessos/downloads original do OJS 3.3 da STI-FFLCH/USP e do ABCD/USP.</p>]]></description>
+		<description locale="en"><![CDATA[<p>A generic plugin that displays each article's abstract views and downloads (sum of galleys), discreetly next to the title on the article summary lists and on the article landing page. Where it appears is configurable per journal. The badge is injected through the core content hooks (no core template is replaced) and the counts come from the statistics service, cached per submission for 24 hours.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>A generic plugin that displays each article's abstract views and downloads (sum of galleys), discreetly next to the title on the article summary lists and on the article landing page. Where it appears is configurable per journal. The badge is injected through the core content hooks (no core template is replaced) and the counts come from the statistics service, cached per submission for 24 hours.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Plugin genérico que mostra as visualizações do resumo e os downloads (soma das galés) de cada artigo, de forma discreta junto ao título nas listas e na página do artigo. Configurável por revista. O selo é injetado pelos hooks de conteúdo do núcleo (nenhum template do núcleo é substituído) e as contagens vêm do serviço de estatísticas, com cache de 24 horas por submissão.</p>]]></description>
 		<maintainer>
 			<name>OJSBR</name>
 			<institution>STNT Tecnologia da Informação LTDA</institution>
 			<email>support@ojsbr.com</email>
 		</maintainer>
-		<release date="2026-09-05" version="1.3.0.0" md5="e77587635214c24adf72d88e67ea3b58">
-			<package>https://github.com/OJSBR/viewcounter/releases/download/1.3.0.0/viewcounter-1.3.0.0.tar.gz</package>
+		<release date="2026-09-13" version="1.3.0.1" md5="9862c9caa91c8d329cd2fd4c8edb3b23">
+			<package>https://github.com/OJSBR/viewcounter/releases/download/1.3.0.1/viewcounter-1.3.0.1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
+			<certification type="reviewed"/>
 			<description locale="en">OJS 3.5 release.</description>
 			<description locale="en_US">OJS 3.5 release.</description>
 		</release>
-		<release date="2026-09-05" version="1.1.1.0" md5="8b3b5defc9cfd0c807d4e8280c35ebce">
-			<package>https://github.com/OJSBR/viewcounter/releases/download/1.1.1.0/viewcounter-1.1.1.0.tar.gz</package>
+		<release date="2026-09-13" version="1.1.1.1" md5="d627346029b927ef713074c5f9766680">
+			<package>https://github.com/OJSBR/viewcounter/releases/download/1.1.1.1/viewcounter-1.1.1.1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
+			<certification type="reviewed"/>
 			<description locale="en">OJS 3.4 release.</description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
-
 </plugins>
