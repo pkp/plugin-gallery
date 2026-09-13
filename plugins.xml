@@ -4071,6 +4071,14 @@
 			<certification type="official" />
 			<description>Compatibility release for OJS 3.5.0-x.</description>
 		</release>
+		<release date="2026-07-21" version="3.5.4.0" md5="2a9b82ad224605f41e63fdb317f294c5">
+			<package>https://github.com/Godoy0722/smwImmersion/releases/download/v3.5.4/smwImmersion-v3.5.4.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0-x.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="ammoniteTheme">
 		<name locale="en">Ammonite Theme</name>
