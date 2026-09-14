@@ -1,6 +1,44 @@
 <?xml version="1.0"?>
 <plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
 
+	<plugin category="generic" product="publishingDepartment">
+		<name locale="en">Editorial Board Manager</name>
+		<name locale="en_US">Editorial Board Manager</name>
+		<homepage>https://github.com/mehedihasanhemel/ojs-editorial-board-plugin</homepage>
+		<summary locale="en">Replace the OJS Editorial Masthead with a drag-and-drop managed Editorial Board page with sections, photo crop tool, and social profile links.</summary>
+		<summary locale="en_US">Replace the OJS Editorial Masthead with a drag-and-drop managed Editorial Board page with sections, photo crop tool, and social profile links.</summary>
+		<description locale="en"><![CDATA[<p>Replaces the built-in OJS Editorial Team page with a fully-managed Editorial Board page. On first activation the plugin automatically adds an "Editorial Board" link to your primary navigation menu and redirects <code>/about/editorialTeam</code> here.</p><ul><li>Drag-and-drop reordering of members and sections (including moving members between sections)</li><li>Add, rename, and reorder sections (e.g. "Editorial Board", "Reviewers", "Advisory Council")</li><li>Member profiles: name, role/title, designation, photo</li><li>Client-side photo crop tool (Cropper.js) — crop on upload or re-crop existing photos</li><li>Social/academic profile links: Email, LinkedIn, ORCID, Google Scholar, Institution</li><li>Configurable page title via plugin Settings page</li><li>Multi-journal safe (data scoped by journal_id)</li></ul>]]></description>
+		<description locale="en_US"><![CDATA[<p>Replaces the built-in OJS Editorial Team page with a fully-managed Editorial Board page. On first activation the plugin automatically adds an "Editorial Board" link to your primary navigation menu and redirects <code>/about/editorialTeam</code> here.</p><ul><li>Drag-and-drop reordering of members and sections (including moving members between sections)</li><li>Add, rename, and reorder sections (e.g. "Editorial Board", "Reviewers", "Advisory Council")</li><li>Member profiles: name, role/title, designation, photo</li><li>Client-side photo crop tool (Cropper.js) — crop on upload or re-crop existing photos</li><li>Social/academic profile links: Email, LinkedIn, ORCID, Google Scholar, Institution</li><li>Configurable page title via plugin Settings page</li><li>Multi-journal safe (data scoped by journal_id)</li></ul>]]></description>
+		<maintainer>
+			<name>Md. Mehedi Hasan Hemel</name>
+			<institution>Military Institute of Science and Technology (MIST)</institution>
+			<email>hemel.cse@gmail.com</email>
+		</maintainer>
+		<release date="2026-07-07" version="1.1.0.0" md5="2a4536328bfe2a4cb3a155d71692be08">
+			<package>https://github.com/mehedihasanhemel/ojs-editorial-board-plugin/releases/download/v1.1.0/publishingDepartment-1.1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.0</version>
+				<version>3.4.0.1</version>
+				<version>3.4.0.2</version>
+				<version>3.4.0.3</version>
+				<version>3.4.0.4</version>
+				<version>3.4.0.5</version>
+				<version>3.4.0.6</version>
+				<version>3.4.0.7</version>
+				<version>3.4.0.8</version>
+				<version>3.4.0.9</version>
+				<version>3.5.0.0</version>
+				<version>3.5.0.1</version>
+				<version>3.5.0.2</version>
+				<version>3.5.0.3</version>
+				<version>3.5.0.4</version>
+				<version>3.5.0.5</version>
+			</compatibility>
+			<certification type="community"/>
+			<description>Initial public release.</description>
+		</release>
+	</plugin>
+
 	<plugin category="generic" product="iiifViewer">
 		<name locale="en_US">IIIF Viewer</name>
 		<homepage>https://github.com/ub-unibe-ch/iiifViewer</homepage>
