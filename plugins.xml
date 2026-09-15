@@ -12486,4 +12486,30 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="blindReviewGuard">
+		<name locale="en">Blind Review Guard</name>
+		<name locale="en_US">Blind Review Guard</name>
+		<name locale="pt_BR">Guardião da Avaliação Cega</name>
+		<homepage>https://github.com/OJSBR/blindReviewGuard</homepage>
+		<summary locale="en">Checks the files a reviewer is about to receive for anything that identifies the authors, and can remove the identifying metadata.</summary>
+		<summary locale="en_US">Checks the files a reviewer is about to receive for anything that identifies the authors, and can remove the identifying metadata.</summary>
+		<summary locale="pt_BR">Verifica nos arquivos que o avaliador vai receber tudo o que identifica os autores, e pode remover os metadados identificadores.</summary>
+		<description locale="en"><![CDATA[<p>Anonymous review rests on a checklist item asking authors to remove their identity from the files. Nothing verifies it, and the leak is rarely where anyone looks: document properties carry the account name of whoever created and last saved the file, every tracked change and comment carries the name of whoever made it, and the cover page carries the corresponding author's e-mail address.</p><p>This plugin checks the files a reviewer is about to receive, records what it found in the submission's activity log, warns the editor and can remove the identifying metadata. It reads the submission's own contributor list, so it looks for those names, e-mail addresses, ORCID iDs and affiliations. It works on the copy the editorial decision creates in the review stage, also when files come from the command line or a queued job. The identified version in the submission stage is never touched: a cleaned file is stored as a new file for the review copy only. It stays inactive in open review, never edits the text of a manuscript and never rewrites a PDF.</p><p>Office files (.docx, .xlsx, .pptx) are read and cleaned with ZipArchive; PDF files are inspected through the information dictionary, the XMP packet and a best-effort read of the content streams, within size limits, and the report says when the body could not be read. No external binary is required.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Anonymous review rests on a checklist item asking authors to remove their identity from the files. Nothing verifies it, and the leak is rarely where anyone looks: document properties carry the account name of whoever created and last saved the file, every tracked change and comment carries the name of whoever made it, and the cover page carries the corresponding author's e-mail address.</p><p>This plugin checks the files a reviewer is about to receive, records what it found in the submission's activity log, warns the editor and can remove the identifying metadata. It reads the submission's own contributor list, so it looks for those names, e-mail addresses, ORCID iDs and affiliations. It works on the copy the editorial decision creates in the review stage, also when files come from the command line or a queued job. The identified version in the submission stage is never touched: a cleaned file is stored as a new file for the review copy only. It stays inactive in open review, never edits the text of a manuscript and never rewrites a PDF.</p><p>Office files (.docx, .xlsx, .pptx) are read and cleaned with ZipArchive; PDF files are inspected through the information dictionary, the XMP packet and a best-effort read of the content streams, within size limits, and the report says when the body could not be read. No external binary is required.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>A avaliação cega se apoia num item de checklist pedindo ao autor que tire a identificação dos arquivos. Nada confere, e o vazamento raramente está onde alguém olha: as propriedades do documento trazem o nome da conta de quem criou e de quem salvou por último, cada marca de revisão e cada comentário trazem o nome de quem os fez, e a folha de rosto traz o e-mail do autor correspondente.</p><p>Este plugin verifica os arquivos que o avaliador vai receber, registra o que encontrou no histórico de atividades da submissão, avisa o editor e pode remover os metadados identificadores. Ele lê a lista de contribuidores da própria submissão, então procura aqueles nomes, e-mails, iDs ORCID e afiliações. Age sobre a cópia que a decisão editorial cria no estágio de avaliação, inclusive quando os arquivos chegam pela linha de comando ou por uma tarefa em fila. A versão identificada do estágio de submissão nunca é tocada: o arquivo limpo é gravado como arquivo novo, só para a cópia da avaliação. Fica inativo em avaliação aberta, nunca edita o texto do manuscrito e nunca reescreve um PDF.</p><p>Arquivos do Office (.docx, .xlsx, .pptx) são lidos e limpos com ZipArchive; PDFs são inspecionados pelo dicionário de informações, pelo pacote XMP e por uma leitura dos fluxos de conteúdo, com limites de tamanho, e o laudo informa quando o corpo não pôde ser lido. Não depende de binário externo.</p>]]></description>
+		<maintainer>
+			<name>OJSBR</name>
+			<institution>STNT Tecnologia da Informação LTDA</institution>
+			<email>support@ojsbr.com</email>
+		</maintainer>
+		<release date="2026-09-15" version="1.0.2.0" md5="fc10d13275b3b1cc8ab305ecffaf3ffd">
+			<package>https://github.com/OJSBR/blindReviewGuard/releases/download/1.0.2.0/blindReviewGuard-1.0.2.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OJS 3.5 release.</description>
+			<description locale="en_US">OJS 3.5 release.</description>
+		</release>
+	</plugin>
 </plugins>
