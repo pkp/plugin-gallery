@@ -12486,4 +12486,30 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="pdfFlipbook">
+		<name locale="en">PDF Flipbook Reader</name>
+		<name locale="en_US">PDF Flipbook Reader</name>
+		<name locale="pt_BR">Leitor Folhear (flipbook) de PDF</name>
+		<homepage>https://github.com/OJSBR/pdfFlipbook</homepage>
+		<summary locale="en">A page-turning reading mode for PDF books that sits beside the core PDF viewer instead of replacing it.</summary>
+		<summary locale="en_US">A page-turning reading mode for PDF books that sits beside the core PDF viewer instead of replacing it.</summary>
+		<summary locale="pt_BR">Um modo de leitura com virada de página para livros em PDF, ao lado do visualizador de PDF do núcleo em vez de substituí-lo.</summary>
+		<description locale="en"><![CDATA[<p>Adds a "Flip through" button next to every PDF on the book and chapter pages and opens a full-viewport reader with a two-page spread, page-turn animation, drag and keyboard navigation, zoom from 50% to 250% and full screen. It is built on StPageFlip and PDF.js, both shipped in the package, so no request leaves for a CDN; PDF.js never evaluates code from the file.</p><p>It never replaces the PDF viewer. The flipbook draws pages on canvas, so there is no text selection, search or screen-reader access, which is why it is an alternative and never the default: the ordinary PDF link stays where it was, and the flipbook links back to it. Pages are drawn around the current spread with a bounded cache, so a long book does not load in full before the first page appears.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Adds a "Flip through" button next to every PDF on the book and chapter pages and opens a full-viewport reader with a two-page spread, page-turn animation, drag and keyboard navigation, zoom from 50% to 250% and full screen. It is built on StPageFlip and PDF.js, both shipped in the package, so no request leaves for a CDN; PDF.js never evaluates code from the file.</p><p>It never replaces the PDF viewer. The flipbook draws pages on canvas, so there is no text selection, search or screen-reader access, which is why it is an alternative and never the default: the ordinary PDF link stays where it was, and the flipbook links back to it. Pages are drawn around the current spread with a bounded cache, so a long book does not load in full before the first page appears.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Acrescenta um botão "Folhear" ao lado de cada PDF nas páginas do livro e dos capítulos e abre um leitor em tela inteira com página dupla, animação de virada, navegação por arraste e teclado, zoom de 50% a 250% e tela cheia. É feito sobre o StPageFlip e o PDF.js, os dois no pacote, então nenhuma requisição sai para um CDN; o PDF.js nunca executa código do arquivo.</p><p>Nunca substitui o visualizador de PDF. O folhear desenha as páginas em canvas, então não há seleção de texto, busca nem acesso por leitor de tela, e por isso é uma alternativa, nunca o padrão: o link de PDF comum continua onde estava e o folhear tem um link de volta para ele. As páginas são desenhadas em volta da dupla atual, com cache limitado, então um livro longo não carrega inteiro antes de a primeira página aparecer.</p>]]></description>
+		<maintainer>
+			<name>OJSBR</name>
+			<institution>STNT Tecnologia da Informação LTDA</institution>
+			<email>support@ojsbr.com</email>
+		</maintainer>
+		<release date="2026-09-15" version="0.4.0.0" md5="6df276b76462796a844dc8740c513f61">
+			<package>https://github.com/OJSBR/pdfFlipbook/releases/download/0.4.0.0-omp3.5/pdfFlipbook-0.4.0.0-omp3.5.tar.gz</package>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OMP 3.5 release.</description>
+			<description locale="en_US">OMP 3.5 release.</description>
+		</release>
+	</plugin>
 </plugins>
