@@ -12486,4 +12486,30 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="audioPlayer">
+		<name locale="en">Audiobook Player</name>
+		<name locale="en_US">Audiobook Player</name>
+		<name locale="pt_BR">Player de audiolivro</name>
+		<homepage>https://github.com/OJSBR/audioPlayer</homepage>
+		<summary locale="en">Turns the audio files of a book into an audiobook: a play button next to each file and a player bar with seeking, continuous playback and resume.</summary>
+		<summary locale="en_US">Turns the audio files of a book into an audiobook: a play button next to each file and a player bar with seeking, continuous playback and resume.</summary>
+		<summary locale="pt_BR">Transforma os arquivos de áudio de um livro em audiolivro: botão de tocar ao lado de cada arquivo e uma barra de player com busca na faixa, reprodução em sequência e retomada.</summary>
+		<description locale="en"><![CDATA[<p>An audio publication format in OMP is a list of download links. A reader who wants to listen has to download each track and open it elsewhere, with no way to resume where they stopped.</p><p>This plugin adds a play button next to every audio file on the book page and a player bar with seeking inside the track, previous and next track, playback speed, continuous playback and resume from the last position. The download link is left untouched. Each press chooses continuous playback, resume and the default speed.</p><p>Seeking needs the server to answer HTTP Range requests, and the core file service answers Accept-Ranges: none, so the plugin serves the audio itself following RFC 9110 section 14.1: closed, open and suffix ranges, 206 with a correct Content-Range, and 416 for an unsatisfiable range. It does so inside the CatalogBookHandler::download hook, which is called only after the OMP access policy has run, so no access rule is repeated or bypassed.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>An audio publication format in OMP is a list of download links. A reader who wants to listen has to download each track and open it elsewhere, with no way to resume where they stopped.</p><p>This plugin adds a play button next to every audio file on the book page and a player bar with seeking inside the track, previous and next track, playback speed, continuous playback and resume from the last position. The download link is left untouched. Each press chooses continuous playback, resume and the default speed.</p><p>Seeking needs the server to answer HTTP Range requests, and the core file service answers Accept-Ranges: none, so the plugin serves the audio itself following RFC 9110 section 14.1: closed, open and suffix ranges, 206 with a correct Content-Range, and 416 for an unsatisfiable range. It does so inside the CatalogBookHandler::download hook, which is called only after the OMP access policy has run, so no access rule is repeated or bypassed.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Um formato de publicação em áudio no OMP é uma lista de links de download. Quem quer ouvir precisa baixar cada faixa e abrir em outro lugar, sem como retomar de onde parou.</p><p>Este plugin põe um botão de tocar ao lado de cada arquivo de áudio na página do livro e uma barra de player com busca dentro da faixa, faixa anterior e próxima, velocidade, reprodução em sequência e retomada da última posição. O link de download não é alterado. Cada editora escolhe a reprodução em sequência, a retomada e a velocidade padrão.</p><p>A busca na faixa depende de o servidor responder a requisições HTTP Range, e o serviço de arquivos do núcleo responde Accept-Ranges: none, então o plugin serve o áudio seguindo a RFC 9110, seção 14.1: faixas fechadas, abertas e de sufixo, 206 com Content-Range correto e 416 para faixa impossível. Faz isso dentro do hook CatalogBookHandler::download, chamado só depois de a política de acesso do OMP rodar, então nenhuma regra de acesso é repetida nem contornada.</p>]]></description>
+		<maintainer>
+			<name>OJSBR</name>
+			<institution>STNT Tecnologia da Informação LTDA</institution>
+			<email>support@ojsbr.com</email>
+		</maintainer>
+		<release date="2026-09-15" version="1.0.2.0" md5="56ce189a6cddc92c677e8dc41f724994">
+			<package>https://github.com/OJSBR/audioPlayer/releases/download/1.0.2.0-omp3.5/audioPlayer-1.0.2.0-omp3.5.tar.gz</package>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OMP 3.5 release.</description>
+			<description locale="en_US">OMP 3.5 release.</description>
+		</release>
+	</plugin>
 </plugins>
