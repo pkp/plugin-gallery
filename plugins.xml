@@ -12486,4 +12486,30 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="controlledVocabSplitter">
+		<name locale="en">Controlled Vocabulary Splitter</name>
+		<name locale="en_US">Controlled Vocabulary Splitter</name>
+		<name locale="pt_BR">Separador de Vocabulário Controlado</name>
+		<homepage>https://github.com/OJSBR/controlledVocabSplitter</homepage>
+		<summary locale="en">Splits keywords, subjects, disciplines and supporting agencies pasted as a single line into separate terms when a publication is saved or imported.</summary>
+		<summary locale="en_US">Splits keywords, subjects, disciplines and supporting agencies pasted as a single line into separate terms when a publication is saved or imported.</summary>
+		<summary locale="pt_BR">Separa palavras-chave, assuntos, áreas do conhecimento e agências de fomento coladas em uma linha só em termos separados, ao salvar ou importar a publicação.</summary>
+		<description locale="en"><![CDATA[<p>Authors often copy the whole keyword line of their manuscript and paste it into the keyword field, which stores one long term instead of several. This generic plugin splits keywords, subjects, disciplines and supporting agencies into the separate terms the author meant whenever a publication is saved (metadata form, submission wizard, REST API), created or imported with the native XML import, including from the command line. Each journal chooses which vocabularies are split and which separators are honoured (semicolon, comma followed by a space, period followed by a space); legal references such as "Law 13.964/2019" and species initials such as "S. aureus" are never cut. It works through core hooks only (Publication::edit, Publication::add and the native import filter) and adds nothing to the reader-facing site. A command-line tool repairs an existing archive, applying each journal's settings.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Authors often copy the whole keyword line of their manuscript and paste it into the keyword field, which stores one long term instead of several. This generic plugin splits keywords, subjects, disciplines and supporting agencies into the separate terms the author meant whenever a publication is saved (metadata form, submission wizard, REST API), created or imported with the native XML import, including from the command line. Each journal chooses which vocabularies are split and which separators are honoured (semicolon, comma followed by a space, period followed by a space); legal references such as "Law 13.964/2019" and species initials such as "S. aureus" are never cut. It works through core hooks only (Publication::edit, Publication::add and the native import filter) and adds nothing to the reader-facing site. A command-line tool repairs an existing archive, applying each journal's settings.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Autores costumam copiar a linha inteira de palavras-chave do manuscrito e colar no campo, o que grava um termo longo em vez de vários. Este plugin genérico separa palavras-chave, assuntos, áreas do conhecimento e agências de fomento nos termos que o autor quis dizer sempre que a publicação é salva (formulário de metadados, assistente de submissão, API REST), criada ou importada pela importação XML nativa, inclusive pela linha de comando. Cada revista escolhe quais vocabulários são separados e quais separadores valem (ponto e vírgula, vírgula seguida de espaço, ponto seguido de espaço); referências legais como "Lei 13.964/2019" e iniciais de espécie como "S. aureus" nunca são cortadas. Funciona só com hooks do núcleo (Publication::edit, Publication::add e o filtro da importação nativa) e não acrescenta nada ao site público. Uma ferramenta de linha de comando corrige um acervo já gravado, com a configuração de cada revista.</p>]]></description>
+		<maintainer>
+			<name>OJSBR</name>
+			<institution>STNT Tecnologia da Informação LTDA</institution>
+			<email>support@ojsbr.com</email>
+		</maintainer>
+		<release date="2026-09-15" version="1.0.1.1" md5="bae6c99265adfa4960a6b81603edfa0c">
+			<package>https://github.com/OJSBR/controlledVocabSplitter/releases/download/1.0.1.1/controlledVocabSplitter-1.0.1.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OJS 3.5 release.</description>
+			<description locale="en_US">OJS 3.5 release.</description>
+		</release>
+	</plugin>
 </plugins>
