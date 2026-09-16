@@ -8040,6 +8040,14 @@
 			<certification type="official"/>
 			<description>First release for OJS 3.5.</description>
 		</release>
+		<release date="2026-09-16" version="4.0.1.0" md5="0ace5e4bbd611e61ea29ce7740b4d2db">
+			<package>https://github.com/pkp/pln/releases/download/v4_0_1-0/pln-v4_0_1-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Fix for the scheduled task when running out of the task runner, fixed an query error under MariaDB, fixed display of many deposits and included a search/filter.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="citations">
 		<name locale="en">Scopus/Crossref Citations Plugin</name>
