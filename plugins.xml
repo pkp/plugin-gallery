@@ -7488,6 +7488,14 @@
 			<certification type="official"/>
 			<description>Maintenance release for OJS 3.4.0</description>
 		</release>
+		<release date="2025-09-17" version="1.1.0.2" md5="45a6c0b0b965c1a097c75a5d9f60aae2">
+			<package>https://github.com/pkp/swordServer/releases/download/v1_1_0-2/swordServer-v1_1_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Maintenance release for OJS 3.4.0</description>
+		</release>
 	</plugin>
 	<plugin category="gateways" product="pubIdResolver">
 		<name locale="en">Public Identifier Resolver</name>
