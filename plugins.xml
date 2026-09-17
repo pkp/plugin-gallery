@@ -8132,6 +8132,22 @@
 			<certification type="reviewed"/>
 			<description>The plugin was completely rewritten for OJS 3.4 and to clean up old (terrible) code and replace it with new, more maintainable, Sonarqube-tested code.</description>
 		</release>
+		<release date="2026-09-17" version="3.4.0.3" md5="45686a8bc8c283b09e31347d4ac50ea0">
+			<package>https://github.com/RBoelter/citations/releases/download/v3_4_0-3/citations-v3_4_0-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Fixes the Europe PMC citation count (an unscoped, unquoted DOI query matched free text instead of citing references, undercounting massively) and a PHP 8.1 json_decode() deprecation notice on unconfigured installs.</description>
+		</release>
+		<release date="2026-09-17" version="3.5.0.2" md5="dded42e8323168ee1d7c61435718090f">
+			<package>https://github.com/RBoelter/citations/releases/download/v3_5_0-2/citations-v3_5_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>First plugin gallery release for OJS 3.5. Fixes the Europe PMC citation count and a PHP 8.1 json_decode() deprecation notice on unconfigured installs.</description>
+		</release>
 	</plugin>
 	<plugin category="importexport" product="portico">
 		<name locale="en">Portico Plugin</name>
