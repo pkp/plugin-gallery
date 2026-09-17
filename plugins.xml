@@ -8068,7 +8068,7 @@
 		<maintainer>
 			<name>Ronny Bölter</name>
 			<institution>Leibniz Institute for Psychology (ZPID), Trier, Germany</institution>
-			<email>rb@leibniz-psychology.org</email>
+			<email>ronny+github@boelter.dev</email>
 		</maintainer>
 		<release date="2021-01-19" version="3.2.0.2" md5="e0195313373714a960243eb2a3d6b12e">
 			<package>https://github.com/RBoelter/citations/releases/download/v3_2_0-2/citations-v3_2_0-2.tar.gz</package>
