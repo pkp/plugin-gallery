@@ -1217,6 +1217,19 @@
 			<description locale="es_ES">Corrige el error "division by zero" que ocurría en ciertos escenarios.</description>
 			<description locale="pt_BR">Corrige erro "division by zero" que ocorria em certos cenários.</description>
 		</release>
+		<release date="2026-03-02" version="3.0.0.1" md5="27d9ad785cc5bbf03af0a67bb64307b1">
+			<package>https://github.com/lepidus/authorsHistory/releases/download/v3.0.0.1/authorsHistory.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Fixes the error "The requested URL was not recognized." when accessing the authors history in the submission workflow.</description>
+			<description locale="es">Corrige el error "The requested URL was not recognized." al acceder al historial de los autores en el flujo de trabajo del envío.</description>
+			<description locale="pt_BR">Corrige o erro "The requested URL was not recognized." ao acessar o histórico dos autores no fluxo de trabalho da submissão.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="pluginUpdateNotification">
 		<name locale="en">Plugins update notification</name>
