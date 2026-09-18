@@ -7420,7 +7420,7 @@
 		<maintainer>
 			<name>Ronny Bölter</name>
 			<institution>Leibniz Institute for Psychology (ZPID), Trier, Germany</institution>
-			<email>rb@leibniz-psychology.org</email>
+			<email>ronny+github@boelter.dev</email>
 		</maintainer>
 		<release date="2020-11-13" version="3.2.0.1" md5="f8ff333b6d35073b083a752aff3c89a1">
 			<package>https://github.com/RBoelter/announcementsBlock/releases/download/v3_2_0-1/announcementsBlock-v3_2_0-1.tar.gz</package>
@@ -7465,6 +7465,22 @@
 			</compatibility>
 			<certification type="reviewed"/>
 			<description>Settings for text alignment added</description>
+		</release>
+		<release date="2026-09-18" version="3.4.0.1" md5="743ea1e54184abc39978bff56fbdede9">
+			<package>https://github.com/RBoelter/announcementsBlock/releases/download/v3_4_0-1/announcementsBlock-v3_4_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>First plugin gallery release for OJS 3.4. The settings form now shows the announcement count that is actually in effect, the "Show all announcements" link has an Arabic label, and the announcement limit is applied after expired announcements are filtered out.</description>
+		</release>
+		<release date="2026-09-18" version="3.5.0.1" md5="acc80f2d73476f72cf44d67b28692d94">
+			<package>https://github.com/RBoelter/announcementsBlock/releases/download/v3_5_0-1/announcementsBlock-v3_5_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>First plugin gallery release for OJS 3.5. Includes the "Show all announcements" link and the fixed settings form; removes a dead index.php left over from the port.</description>
 		</release>
 	</plugin>
 	<plugin category="gateways" product="swordServer">
