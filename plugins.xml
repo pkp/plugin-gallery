@@ -5403,6 +5403,41 @@
 			<description>Lens Galley Application with  node 22+ support</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="reviewerCertificate">
+		<name locale="en">Reviewer Certificate</name>
+		<name locale="en_US">Reviewer Certificate</name>
+		<homepage>https://github.com/ssemerikov/reviewerCertificate</homepage>
+		<summary locale="en">Generates personalized PDF certificates for peer reviewers after completing reviews.</summary>
+		<summary locale="en_US">Generates personalized PDF certificates for peer reviewers after completing reviews.</summary>
+		<description locale="en"><![CDATA[<p>The Reviewer Certificate Plugin enables journals to automatically generate and distribute personalized PDF certificates of recognition to peer reviewers upon completion of their review assignments.</p><p>Features: customizable certificate templates with background images, dynamic content insertion (reviewer name, journal name, submission title, dates), QR code verification, batch generation, download tracking, and 32 language translations.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>The Reviewer Certificate Plugin enables journals to automatically generate and distribute personalized PDF certificates of recognition to peer reviewers upon completion of their review assignments.</p><p>Features: customizable certificate templates with background images, dynamic content insertion (reviewer name, journal name, submission title, dates), QR code verification, batch generation, download tracking, and 32 language translations.</p>]]></description>
+		<maintainer>
+			<name>Serhiy O. Semerikov</name>
+			<institution>Academy of Cognitive and Natural Sciences</institution>
+			<email>semerikov@gmail.com</email>
+		</maintainer>
+		<release date="2026-09-12" version="1.10.0.0" md5="d1ec6a3f7f44bab696199250ccc6b937">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.10.0-3.3/reviewerCertificate-1.10.0-3_3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<description>Addresses PKP review feedback: CSRF-protected batch actions, OJS-native database connections and schema migrations, transactional uploads respecting core permissions, durable notification tracking, PostgreSQL-safe queries, valid localized email templates, and smaller target-specific packages. Preserves issued certificates during upgrades. OJS 3.3.x compatible; includes the legacy compatibility loader and resolves dependencies against PHP 7.3.0.</description>
+		</release>
+		<release date="2026-09-12" version="1.10.0.0" md5="6a40d0a3c934d1172bc0e93bb3d8310e">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.10.0-3.4/reviewerCertificate-1.10.0-3_4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<description>Addresses PKP review feedback: CSRF-protected batch actions, OJS-native database connections and schema migrations, transactional uploads respecting core permissions, durable notification tracking, PostgreSQL-safe queries, valid localized email templates, and smaller target-specific packages. Preserves issued certificates during upgrades. OJS 3.4.x compatible; resolves dependencies against PHP 8.0.2.</description>
+		</release>
+		<release date="2026-09-12" version="1.10.0.0" md5="dd380b7dfc7bd156eca7225d46c361da">
+			<package>https://github.com/ssemerikov/reviewerCertificate/releases/download/v1.10.0-3.5/reviewerCertificate-1.10.0-3_5.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description>Addresses PKP review feedback: CSRF-protected batch actions, OJS-native database connections and schema migrations, transactional uploads respecting core permissions, durable notification tracking, PostgreSQL-safe queries, valid localized email templates, and smaller target-specific packages. Preserves issued certificates during upgrades. OJS 3.5.x compatible; resolves dependencies against PHP 8.2.0.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="reviewerCredits">
 		<name locale="en">Reviewer Credits Plugin</name>
 		<name locale="en_US">Reviewer Credits Plugin</name>
