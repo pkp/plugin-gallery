@@ -12566,4 +12566,48 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="blocks" product="accessibility">
+		<name locale="en">Accessibility Block (Zoom &amp; Contrast)</name>
+		<name locale="en_US">Accessibility Block (Zoom &amp; Contrast)</name>
+		<name locale="pt_BR">Bloco de Acessibilidade (Zoom e Contraste)</name>
+		<homepage>https://github.com/OJSBR/accessibility</homepage>
+		<summary locale="en">A sidebar block with reader accessibility controls: increase and decrease zoom, high contrast and reset.</summary>
+		<summary locale="en_US">A sidebar block with reader accessibility controls: increase and decrease zoom, high contrast and reset.</summary>
+		<summary locale="pt_BR">Um bloco na barra lateral com controles de acessibilidade para o leitor: aumentar e diminuir o zoom, alto contraste e redefinir.</summary>
+		<description locale="en"><![CDATA[<p>Adds a sidebar block with accessibility controls for readers: increase zoom (A+), decrease zoom (A&minus;), a high-contrast mode and reset. Zoom goes in 10% steps from 100% to 200%, and high contrast switches the site to a black background with white text and yellow links. The reader's choices are kept in the browser and applied again on every page that shows the block, until reset.</p><p>The controls are built for assistive technology: real button elements with aria-label and aria-pressed, a visually hidden live region that announces the zoom level, and 40&nbsp;px minimum touch targets. The buttons reuse the button style of the active theme, with a fallback for themes that do not define one. The plugin modifies no core file and adds no database table; disabling it removes the block.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Adds a sidebar block with accessibility controls for readers: increase zoom (A+), decrease zoom (A&minus;), a high-contrast mode and reset. Zoom goes in 10% steps from 100% to 200%, and high contrast switches the site to a black background with white text and yellow links. The reader's choices are kept in the browser and applied again on every page that shows the block, until reset.</p><p>The controls are built for assistive technology: real button elements with aria-label and aria-pressed, a visually hidden live region that announces the zoom level, and 40&nbsp;px minimum touch targets. The buttons reuse the button style of the active theme, with a fallback for themes that do not define one. The plugin modifies no core file and adds no database table; disabling it removes the block.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Acrescenta à barra lateral um bloco com controles de acessibilidade para o leitor: aumentar o zoom (A+), diminuir o zoom (A&minus;), modo de alto contraste e redefinir. O zoom vai de 10% em 10%, de 100% a 200%, e o alto contraste deixa o site com fundo preto, texto branco e links amarelos. As escolhas do leitor ficam no navegador e são aplicadas de novo em toda página que mostra o bloco, até redefinir.</p><p>Os controles foram feitos para tecnologia assistiva: botões de verdade com aria-label e aria-pressed, uma região viva oculta que anuncia o nível de zoom e alvos de toque de no mínimo 40&nbsp;px. Os botões reaproveitam o estilo de botão do tema ativo, com alternativa para temas que não o definem. O plugin não altera arquivo do núcleo nem cria tabela; ao desativá-lo, o bloco some.</p>]]></description>
+		<maintainer>
+			<name>OJSBR</name>
+			<institution>STNT Tecnologia da Informação LTDA</institution>
+			<email>support@ojsbr.com</email>
+		</maintainer>
+		<release date="2026-09-15" version="1.0.2.1" md5="c0099ef52913c6f0ddf620849b759f6a">
+			<package>https://github.com/OJSBR/accessibility/releases/download/1.0.2.1/accessibility-1.0.2.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OJS 3.5 release.</description>
+			<description locale="en_US">OJS 3.5 release.</description>
+		</release>
+		<release date="2026-09-15" version="1.0.2.1" md5="5bb5b63721053839b67347441c225cac">
+			<package>https://github.com/OJSBR/accessibility/releases/download/1.0.2.1-ojs3.4/accessibility-1.0.2.1-ojs3.4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OJS 3.4 release.</description>
+			<description locale="en_US">OJS 3.4 release.</description>
+		</release>
+		<release date="2026-09-15" version="1.0.2.1" md5="54a607b066b5087ffbd00a7c4c24cae4">
+			<package>https://github.com/OJSBR/accessibility/releases/download/1.0.2.1-ojs3.3/accessibility-1.0.2.1-ojs3.3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OJS 3.3 release.</description>
+			<description locale="en_US">OJS 3.3 release.</description>
+		</release>
+	</plugin>
 </plugins>
