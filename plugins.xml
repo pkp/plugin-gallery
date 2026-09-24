@@ -12566,4 +12566,36 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="epubJsViewer">
+		<name locale="en">EPUB.js Viewer</name>
+		<name locale="en_US">EPUB.js Viewer</name>
+		<name locale="pt_BR">Visualizador EPUB.js</name>
+		<homepage>https://github.com/OJSBR/epubJsViewer</homepage>
+		<summary locale="en">Reads EPUB galleys and publication formats in the browser, with table of contents, paging and zoom, instead of downloading the file.</summary>
+		<summary locale="en_US">Reads EPUB galleys and publication formats in the browser, with table of contents, paging and zoom, instead of downloading the file.</summary>
+		<summary locale="pt_BR">Abre composições e formatos EPUB no navegador, com sumário, paginação e zoom, em vez de baixar o arquivo.</summary>
+		<description locale="en"><![CDATA[<p>Without a reader, an EPUB is a download: the reader leaves the site, and whether the file opens depends on what is installed on their device. This plugin opens it in place, with a table of contents, paging, zoom and reading modes, and keeps the download link.</p><p>The same plugin serves OJS, OPS and OMP: it uses the galley view hooks of OJS and OPS and the publication format view of OMP, after the core has checked access. The reading engine, epub.js, and JSZip are shipped in the package, so no request leaves for a CDN, and scripts inside a book never run. The reader page keeps the core footer hook, so analytics plugins work on it as on the PDF viewer.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Without a reader, an EPUB is a download: the reader leaves the site, and whether the file opens depends on what is installed on their device. This plugin opens it in place, with a table of contents, paging, zoom and reading modes, and keeps the download link.</p><p>The same plugin serves OJS, OPS and OMP: it uses the galley view hooks of OJS and OPS and the publication format view of OMP, after the core has checked access. The reading engine, epub.js, and JSZip are shipped in the package, so no request leaves for a CDN, and scripts inside a book never run. The reader page keeps the core footer hook, so analytics plugins work on it as on the PDF viewer.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Sem leitor, um EPUB é um download: o leitor sai do site e se o arquivo abre ou não depende do que estiver instalado no aparelho. Este plugin abre o arquivo no lugar, com sumário, paginação, zoom e modos de leitura, e mantém o link de download.</p><p>O mesmo plugin atende OJS, OPS e OMP: usa os hooks de visualização de composição do OJS e do OPS e a visualização do formato de publicação do OMP, depois de o núcleo conferir o acesso. O motor de leitura, epub.js, e o JSZip vão no pacote, então nenhuma requisição sai para um CDN, e scripts dentro do livro nunca rodam. A página do leitor mantém o hook de rodapé do núcleo, então plugins de estatística funcionam nela como no visualizador de PDF.</p>]]></description>
+		<maintainer>
+			<name>OJSBR</name>
+			<institution>STNT Tecnologia da Informação LTDA</institution>
+			<email>support@ojsbr.com</email>
+		</maintainer>
+		<release date="2026-09-15" version="1.2.1.0" md5="ad4b3cadc4ff4c31e50ab36eae42b343">
+			<package>https://github.com/OJSBR/epubJsViewer/releases/download/1.2.1.0/epubJsViewer-1.2.1.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OJS, OMP and OPS 3.5 release.</description>
+			<description locale="en_US">OJS, OMP and OPS 3.5 release.</description>
+		</release>
+	</plugin>
 </plugins>
