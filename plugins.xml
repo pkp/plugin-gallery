@@ -12566,4 +12566,39 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="reviewerRecommendationManager">
+		<name locale="en">Reviewer Recommendation Manager</name>
+		<name locale="en_US">Reviewer Recommendation Manager</name>
+		<name locale="pt_BR">Gerenciador de Recomendações do Avaliador</name>
+		<homepage>https://github.com/OJSBR/reviewerRecommendationManager</homepage>
+		<summary locale="en">Rename (per language), reorder and disable the reviewer recommendations on OJS 3.4 and 3.5, keeping the review history intact.</summary>
+		<summary locale="en_US">Rename (per language), reorder and disable the reviewer recommendations on OJS 3.4 and 3.5, keeping the review history intact.</summary>
+		<summary locale="pt_BR">Renomeia (por idioma), reordena e desativa as recomendações do avaliador no OJS 3.4 e 3.5, sem mexer no histórico das avaliações.</summary>
+		<description locale="en"><![CDATA[<p>On OJS 3.4 and 3.5 the six reviewer recommendations (Accept Submission, Revisions Required, Resubmit for Review, Resubmit Elsewhere, Decline Submission, See Comments) are fixed. This plugin lets a journal rename them per language, reorder them and disable the ones it does not use, without changing OJS core.</p><p>Renaming uses per-journal gettext override files, so the new wording appears wherever the label is shown. Reordering and disabling affect the reviewer form only: editors still see the recommendation recorded on past reviews, so the record is never hidden or rewritten. The settings screen always shows the original OJS wording as a reference and how many existing reviews use each option. Labels are saved as plain text.</p><p>OJS 3.6 brings customizable reviewer recommendations to the core (pkp/pkp-lib#1660); this plugin is for journals on OJS 3.4 or 3.5.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>On OJS 3.4 and 3.5 the six reviewer recommendations (Accept Submission, Revisions Required, Resubmit for Review, Resubmit Elsewhere, Decline Submission, See Comments) are fixed. This plugin lets a journal rename them per language, reorder them and disable the ones it does not use, without changing OJS core.</p><p>Renaming uses per-journal gettext override files, so the new wording appears wherever the label is shown. Reordering and disabling affect the reviewer form only: editors still see the recommendation recorded on past reviews, so the record is never hidden or rewritten. The settings screen always shows the original OJS wording as a reference and how many existing reviews use each option. Labels are saved as plain text.</p><p>OJS 3.6 brings customizable reviewer recommendations to the core (pkp/pkp-lib#1660); this plugin is for journals on OJS 3.4 or 3.5.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>No OJS 3.4 e 3.5 as seis recomendações do avaliador (Aceitar submissão, Correções obrigatórias, Submeter novamente para avaliação, Submeter para outra revista, Rejeitar submissão, Ver comentários) são fixas. Este plugin permite que a revista as renomeie por idioma, reordene e desative as que não usa, sem alterar o núcleo do OJS.</p><p>A renomeação usa arquivos gettext de sobreposição por revista, então o novo texto aparece onde quer que o rótulo seja exibido. Reordenar e desativar afetam só o formulário do avaliador: os editores continuam vendo a recomendação registrada nas avaliações antigas, então o histórico nunca é escondido nem reescrito. A tela de configurações mostra sempre o texto original do OJS como referência e quantas avaliações já usam cada opção. Os rótulos são gravados como texto simples.</p><p>O OJS 3.6 traz recomendações personalizáveis no núcleo (pkp/pkp-lib#1660); este plugin é para revistas no OJS 3.4 ou 3.5.</p>]]></description>
+		<maintainer>
+			<name>OJSBR</name>
+			<institution>STNT Tecnologia da Informação LTDA</institution>
+			<email>support@ojsbr.com</email>
+		</maintainer>
+		<release date="2026-09-15" version="1.0.4.1" md5="9b21a6cdb59aef87957b8e56bceb8dcc">
+			<package>https://github.com/OJSBR/reviewerRecommendationManager/releases/download/1.0.4.1/reviewerRecommendationManager-1.0.4.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OJS 3.5 release.</description>
+			<description locale="en_US">OJS 3.5 release.</description>
+		</release>
+		<release date="2026-09-15" version="1.0.4.2" md5="3463cb122b75a038f09982877ab85fd2">
+			<package>https://github.com/OJSBR/reviewerRecommendationManager/releases/download/1.0.4.2-ojs3.4/reviewerRecommendationManager-1.0.4.2-ojs3.4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OJS 3.4 release.</description>
+			<description locale="en_US">OJS 3.4 release.</description>
+		</release>
+	</plugin>
 </plugins>
