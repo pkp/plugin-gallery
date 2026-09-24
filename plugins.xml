@@ -12566,4 +12566,25 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin>
+	    <name>OJS Acceptance Certificate Designer</name>
+	    <homepage>https://github.com/diyaaalobaidy/OJSAcceptanceCerificateDesigner</homepage>
+	    <summary locale="en_US">Design and issue custom acceptance certificates for accepted manuscripts.</summary>
+	    <description locale="en_US">A plugin that allows editors to create, customize, and issue acceptance certificates directly within OJS.</description>
+	    <maintainer>
+	        <name>Dheyaa Saifulislam Ali</name>
+	        <email>diyaa.alobaidy.1994@gmail.com</email>
+	    </maintainer>
+	    <releases>
+	        <release date="2026-09-18" version="1.0.0.0" md5="2051265df6c955f3c8b073cc2c10c19d">
+	            <package>https://github.com/diyaaalobaidy/OJSAcceptanceCerificateDesigner/releases/download/v1.0.0.0/acceptanceLetter-v1.0.0.0.tar.gz</package>
+	            <compatibility application="ojs2">
+	                <version>3.5.0.0</version>
+	            </compatibility>
+				<certification type="reviewed"/>
+				<description locale="en">OJS 3.5 release.</description>
+				<description locale="en_US">OJS 3.5 release.</description>
+	        </release>
+	    </releases>
+</plugin>
 </plugins>
