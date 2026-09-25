@@ -9599,6 +9599,14 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<certification type="partner" />
 			<description>Release of the inlineHtmlGalley plugin for OJS 3.x </description>
 		</release>
+		<release date="2026-09-25" version="1.4.0.2" md5="780486faa670393006a47a3ddb185ad4">
+			<package>https://github.com/ulsdevteam/inlineHtmlGalley/releases/download/v1.4.0-2/inlineHtmlGalley-1.4.0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the inlineHtmlGalley plugin for OJS 3.5</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="plaudit">
 		<name locale="en">Plaudit</name>
