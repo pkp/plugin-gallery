@@ -1689,6 +1689,54 @@
 			<description locale="es_ES">Agrega soporte multilingüe al nombre del archivo README.</description>
 			<description locale="pt_BR">Adiciona suporte multilíngue ao nome do arquivo README.</description>
 		</release>
+		<release date="2026-09-14" version="2.8.14.1" md5="a154b013ef8071e7340ce7118f86aec7">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v2.8.14.1/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release improves the plugin report, adding new columns and filtering options</description>
+			<description locale="es_ES">Esta versión mejora los informes del plugin añadiendo nuevas columnas y opciones de filtrado</description>
+			<description locale="pt_BR">Esta versão melhora o relatório do plugin, adicionando novas colunas e opções de filtragem</description>
+		</release>
+		<release date="2026-09-14" version="3.4.6.2" md5="dc1558ad21de38375dadbf852aa749f2">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.4.6.2/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release improves the plugin report, adding new columns and filtering options</description>
+			<description locale="es">Esta versión mejora los informes del plugin añadiendo nuevas columnas y opciones de filtrado</description>
+			<description locale="pt_BR">Esta versão melhora o relatório do plugin, adicionando novas colunas e opções de filtragem</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
 		<name locale="en">Matomo</name>
@@ -4071,6 +4119,14 @@
 			<certification type="official" />
 			<description>Compatibility release for OJS 3.5.0-x.</description>
 		</release>
+		<release date="2026-07-21" version="3.5.4.0" md5="2a9b82ad224605f41e63fdb317f294c5">
+			<package>https://github.com/Godoy0722/smwImmersion/releases/download/v3.5.4/smwImmersion-v3.5.4.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0-x.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="ammoniteTheme">
 		<name locale="en">Ammonite Theme</name>
@@ -4095,6 +4151,14 @@
 		</release>
 		<release date="2026-04-22" version="3.5.3.0" md5="cc07869bc0474beefc0a44680b29fa57">
 			<package>https://github.com/Godoy0722/ammoniteTheme/releases/download/v3.5.3/ammoniteTheme-3.5.3.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description>Initial release of the Ammonite Theme for version 3.5.0.0.</description>
+		</release>
+		<release date="2026-09-02" version="3.5.4.0" md5="d3442f1e82864054004d405349193847">
+			<package>https://github.com/Godoy0722/ammoniteTheme/releases/download/v3.5.4/ammoniteTheme-3.5.4.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
@@ -5523,6 +5587,20 @@
 			<certification type="partner" />
 			<description>Release of the Admin Notification Manager plugin for OJS 3.4</description>
 		</release>
+		<release date="2026-09-08" version="1.4.0-0" md5="9961e72e897e6277a292002ccd9d80a1">
+			<package>https://github.com/ulsdevteam/pkp-adminNotificationManager/releases/download/v1.4.0.0/adminNotificationManager-1.4.0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the Admin Notification Manager plugin for OJS/OMP/OPS 3.5</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="emailIssueToc">
 		<name locale="en">Email Issue Table of Contents</name>
@@ -6315,12 +6393,15 @@
 			<package>https://github.com/ulsdevteam/pkp-sitesearch/releases/download/v1.2.0.0/sitesearch-1.2.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
 			</compatibility>
 			<compatibility application="omp">
 				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
 			</compatibility>
 			<compatibility application="ops">
 				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the Sitesearch plugin for OJS/OMP/OPS 3.4</description>
@@ -7404,7 +7485,7 @@
 		<maintainer>
 			<name>Ronny Bölter</name>
 			<institution>Leibniz Institute for Psychology (ZPID), Trier, Germany</institution>
-			<email>rb@leibniz-psychology.org</email>
+			<email>ronny+github@boelter.dev</email>
 		</maintainer>
 		<release date="2020-11-13" version="3.2.0.1" md5="f8ff333b6d35073b083a752aff3c89a1">
 			<package>https://github.com/RBoelter/announcementsBlock/releases/download/v3_2_0-1/announcementsBlock-v3_2_0-1.tar.gz</package>
@@ -7450,6 +7531,22 @@
 			<certification type="reviewed"/>
 			<description>Settings for text alignment added</description>
 		</release>
+		<release date="2026-09-18" version="3.4.0.1" md5="743ea1e54184abc39978bff56fbdede9">
+			<package>https://github.com/RBoelter/announcementsBlock/releases/download/v3_4_0-1/announcementsBlock-v3_4_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>First plugin gallery release for OJS 3.4. The settings form now shows the announcement count that is actually in effect, the "Show all announcements" link has an Arabic label, and the announcement limit is applied after expired announcements are filtered out.</description>
+		</release>
+		<release date="2026-09-18" version="3.5.0.1" md5="acc80f2d73476f72cf44d67b28692d94">
+			<package>https://github.com/RBoelter/announcementsBlock/releases/download/v3_5_0-1/announcementsBlock-v3_5_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>First plugin gallery release for OJS 3.5. Includes the "Show all announcements" link and the fixed settings form; removes a dead index.php left over from the port.</description>
+		</release>
 	</plugin>
 	<plugin category="gateways" product="swordServer">
 		<name locale="en">Sword Server Plugin</name>
@@ -7466,6 +7563,14 @@
 		</maintainer>
 		<release date="2025-03-04" version="1.1.0.1" md5="4b2c71f568c7ec55f23d460999cb114e">
 			<package>https://github.com/pkp/swordServer/releases/download/v1_1_0-1/swordServer-v1_1_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Maintenance release for OJS 3.4.0</description>
+		</release>
+		<release date="2025-09-17" version="1.1.0.2" md5="45a6c0b0b965c1a097c75a5d9f60aae2">
+			<package>https://github.com/pkp/swordServer/releases/download/v1_1_0-2/swordServer-v1_1_0-2.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
@@ -8023,6 +8128,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>First release for OJS 3.5.</description>
+		</release>
+		<release date="2026-09-16" version="4.0.1.0" md5="0ace5e4bbd611e61ea29ce7740b4d2db">
+			<package>https://github.com/pkp/pln/releases/download/v4_0_1-0/pln-v4_0_1-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Fix for the scheduled task when running out of the task runner, fixed an query error under MariaDB, fixed display of many deposits and included a search/filter.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="citations">
@@ -9170,6 +9283,72 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta versión corrige un error menor que afectaba a la recuperación de los títulos de las secciones.</description>
 			<description locale="pt_BR">This release fixes a minor error which affected retrieving of section titles</description>
 		</release>
+		<release date="2026-08-25" version="2.4.6.4" md5="24cf5c2a2e803cdb36ba66460e2a99d3">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.6.4/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release fixes a error in the retrieving of editors/moderators</description>
+			<description locale="es_ES">Esta versión corrige un error en la recuperación de editores/moderadores.</description>
+			<description locale="pt_BR">Esta versão corrige um erro na recuperação de editores/moderadores.</description>
+		</release>
+		<release date="2026-09-04" version="2.4.6.6" md5="b8c1d6e62223aae985903c900a80cdff">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.6.6/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release fixes a minor error which affected the retrieving of submissions' last decisions</description>
+			<description locale="es_ES">Esta versión corrige un error menor que afectaba a la recuperación de las últimas decisiones de envíos</description>
+			<description locale="pt_BR">Esta versão corrige um pequeno erro que afetava a recuperação das últimas decisões de submissões</description>
+		</release>
 		<release date="2024-11-06" version="3.0.2.1" md5="267623738b12e249beec161a43722c3d">
 			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.2.1/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
@@ -9222,6 +9401,32 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Esta versión corrige un error menor que afectaba a la recuperación de los títulos de las secciones.</description>
 			<description locale="pt_BR">This release fixes a minor error which affected retrieving of section titles</description>
 		</release>
+		<release date="2026-08-25" version="3.0.6.2" md5="5db5029571820911c83f0e19b6ae3bae">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.6.2/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes a error in the retrieving of editors/moderators</description>
+			<description locale="es">Esta versión corrige un error en la recuperación de editores/moderadores.</description>
+			<description locale="pt_BR">Esta versão corrige um erro na recuperação de editores/moderadores.</description>
+		</release>
+		<release date="2026-09-02" version="3.0.6.3" md5="8b4b236aeabb9fe03b26875551aab923">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.6.3/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes minor issues in report generation</description>
+			<description locale="es">Esta versión corrige pequeños errores en la generación del informe</description>
+			<description locale="pt_BR">Esta versão corrige pequenos erros na geração do relatório</description>
+		</release>
 		<release date="2026-07-31" version="4.0.1.1" md5="08a91acf7b7766e602255755919536e1">
 			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v4.0.1.1/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
@@ -9234,6 +9439,32 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">This release fixes a minor error which affected retrieving of section titles.</description>
 			<description locale="es">Esta versión corrige un error menor que afectaba a la recuperación de los títulos de las secciones.</description>
 			<description locale="pt_BR">This release fixes a minor error which affected retrieving of section titles</description>
+		</release>
+		<release date="2026-08-25" version="4.0.1.2" md5="239a9341cfe793cc4ef225600cb35947">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v4.0.1.2/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes a error in the retrieving of editors/moderators</description>
+			<description locale="es">Esta versión corrige un error en la recuperación de editores/moderadores.</description>
+			<description locale="pt_BR">Esta versão corrige um erro na recuperação de editores/moderadores.</description>
+		</release>
+		<release date="2026-09-03" version="4.0.1.3" md5="18664dc309b2e3348de0f9b3382ee9c9">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v4.0.1.3/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes minor issues in report generation</description>
+			<description locale="es">Esta versión corrige pequeños errores en la generación del informe</description>
+			<description locale="pt_BR">Esta versão corrige pequenos erros na geração do relatório</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="epubViewer">
@@ -9367,6 +9598,14 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			</compatibility>
 			<certification type="partner" />
 			<description>Release of the inlineHtmlGalley plugin for OJS 3.x </description>
+		</release>
+		<release date="2026-09-25" version="1.4.0.2" md5="780486faa670393006a47a3ddb185ad4">
+			<package>https://github.com/ulsdevteam/inlineHtmlGalley/releases/download/v1.4.0-2/inlineHtmlGalley-1.4.0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="partner" />
+			<description>Release of the inlineHtmlGalley plugin for OJS 3.5</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="plaudit">
@@ -11181,6 +11420,48 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Aprimora a segurança das credenciais da OA Switchboard armazenadas pelo plugin.</description>
 			<description locale="es_ES">Mejora la seguridad de las credenciales de OA Switchboard almacenadas por el plugin.</description>
 		</release>
+		<release date="2026-07-20" version="1.1.3.2" md5="8dd173a9ed131aeca3e50ea00fd05798">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.3.2/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Improves security and privacy: hardens the P1-PIO delivery flow and removes author emails from the P1-PIO payload.</description>
+			<description locale="pt_BR">Aprimora a segurança e a privacidade: reforça o fluxo de envio P1-PIO e remove os e-mails dos autores do payload P1-PIO.</description>
+			<description locale="es_ES">Mejora la seguridad y la privacidad: refuerza el flujo de envío P1-PIO y elimina los correos electrónicos de los autores del payload P1-PIO.</description>
+		</release>
+		<release date="2026-09-09" version="1.1.3.4" md5="45ed23882eb96b6a1a2d98b1b344fce4">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.3.4/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">The Sandbox option is no longer part of the plugin settings and is now enabled through config.inc.php. Journals that were using the Sandbox API just need to enter their production credentials to start sending messages. This release also fixes the upgrade through the plugin gallery.</description>
+			<description locale="pt_BR">A opção de Sandbox deixa de fazer parte das configurações do plugin e passa a ser habilitada pelo config.inc.php. Os periódicos que usavam a API de Sandbox precisam apenas informar as credenciais de produção para começar a enviar mensagens. Esta versão também corrige a atualização pela galeria de plugins.</description>
+			<description locale="es_ES">La opción de Sandbox deja de formar parte de la configuración del módulo y ahora se habilita mediante config.inc.php. Las revistas que utilizaban la API de Sandbox solo tienen que introducir sus credenciales de producción para empezar a enviar mensajes. Esta versión también corrige la actualización desde la galería de módulos.</description>
+		</release>
 		<release date="2025-11-14" version="2.0.2.0" md5="0bff84bf775eb92ea558b5aafda33838">
 			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.2.0/OASwitchboard.tar.gz</package>
 			<compatibility application="ojs2">
@@ -11190,6 +11471,36 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Improves the security of the OA Switchboard credentials stored by the plugin.</description>
 			<description locale="pt_BR">Aprimora a segurança das credenciais da OA Switchboard armazenadas pelo plugin.</description>
 			<description locale="es">Mejora la seguridad de las credenciales de OA Switchboard almacenadas por el plugin.</description>
+		</release>
+		<release date="2026-07-20" version="2.0.2.2" md5="f9ea8c01bc0ca0faee1886e4bdd2edbf">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.2.2/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Improves security and privacy: hardens the P1-PIO delivery flow and removes author emails from the P1-PIO payload.</description>
+			<description locale="pt_BR">Aprimora a segurança e a privacidade: reforça o fluxo de envio P1-PIO e remove os e-mails dos autores do payload P1-PIO.</description>
+			<description locale="es">Mejora la seguridad y la privacidad: refuerza el flujo de envío P1-PIO y elimina los correos electrónicos de los autores del payload P1-PIO.</description>
+		</release>
+		<release date="2026-09-09" version="2.0.2.3" md5="f87dfd827bc1d79e0b5d9c9dc299b324">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.2.3/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">The Sandbox option is no longer part of the plugin settings and is now enabled through config.inc.php. Journals that were using the Sandbox API just need to enter their production credentials to start sending messages.</description>
+			<description locale="pt_BR">A opção de Sandbox deixa de fazer parte das configurações do plugin e passa a ser habilitada pelo config.inc.php. Os periódicos que usavam a API de Sandbox precisam apenas informar as credenciais de produção para começar a enviar mensagens.</description>
+			<description locale="es">La opción de Sandbox deja de formar parte de la configuración del módulo, y ahora se habilita mediante config.inc.php. Las revistas que utilizaban la API de Sandbox solo tienen que introducir sus credenciales de producción para empezar a enviar mensajes.</description>
+		</release>
+		<release date="2026-09-02" version="3.0.1.5" md5="47eda6e2e0edfce8d2ade2c7e5623050">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v3.0.1.5/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This plugin sends a P1 message to the OA Switchboard when a submission is published.</description>
+			<description locale="pt_BR">Esse plugin envia uma mensagem P1 para o OA Switchboard quando uma submissão é publicada.</description>
+			<description locale="es">Este módulo envía un mensaje P1 a la OA Switchboard cuando se publica un envío.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="deleteIncompleteSubmissions">
@@ -11356,6 +11667,22 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Changes deletion form to improve usability.</description>
 			<description locale="es">Cambia el formulario de eliminación para mejorar la usabilidad.</description>
 			<description locale="pt_BR">Altera o formulário de exclusão para melhorar a usabilidade.</description>
+		</release>
+		<release date="2026-08-31" version="0.2.4.0" md5="36c787293e3bd9433b30c70cc83b9e2c">
+			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.2.4.0/deleteIncompleteSubmissions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds compatibility with OMP.</description>
+			<description locale="es">Añade compatibilidad con OMP.</description>
+			<description locale="pt_BR">Adiciona compatibilidade com OMP.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="carinianaPreservation">
@@ -12229,41 +12556,67 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Versión inicial para OJS 3.5+</description>
 		</release>
 	</plugin>
-		<plugin category="generic" product="imsypAutoReader">
+	<plugin category="generic" product="viewcounter">
+		<name locale="en">View Counter</name>
+		<name locale="en_US">View Counter</name>
+		<name locale="pt_BR">Contador de visualizações</name>
+		<homepage>https://github.com/OJSBR/viewcounter</homepage>
+		<summary locale="en">Shows each article's abstract views and downloads on the summary lists and the article page.</summary>
+		<summary locale="en_US">Shows each article's abstract views and downloads on the summary lists and the article page.</summary>
+		<summary locale="pt_BR">Mostra as visualizações do resumo e os downloads (galés) de cada artigo, nas listas e na página do artigo.</summary>
+		<description locale="en"><![CDATA[<p>A generic plugin that displays each article's abstract views and downloads (sum of galleys), discreetly next to the title on the article summary lists and on the article landing page. Where it appears is configurable per journal. The badge is injected through the core content hooks (no core template is replaced) and the counts come from the statistics service, cached per submission for 24 hours.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>A generic plugin that displays each article's abstract views and downloads (sum of galleys), discreetly next to the title on the article summary lists and on the article landing page. Where it appears is configurable per journal. The badge is injected through the core content hooks (no core template is replaced) and the counts come from the statistics service, cached per submission for 24 hours.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Plugin genérico que mostra as visualizações do resumo e os downloads (soma das galés) de cada artigo, de forma discreta junto ao título nas listas e na página do artigo. Configurável por revista. O selo é injetado pelos hooks de conteúdo do núcleo (nenhum template do núcleo é substituído) e as contagens vêm do serviço de estatísticas, com cache de 24 horas por submissão.</p>]]></description>
+		<maintainer>
+			<name>OJSBR</name>
+			<institution>STNT Tecnologia da Informação LTDA</institution>
+			<email>support@ojsbr.com</email>
+		</maintainer>
+		<release date="2026-09-13" version="1.3.0.1" md5="9862c9caa91c8d329cd2fd4c8edb3b23">
+			<package>https://github.com/OJSBR/viewcounter/releases/download/1.3.0.1/viewcounter-1.3.0.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OJS 3.5 release.</description>
+			<description locale="en_US">OJS 3.5 release.</description>
+		</release>
+		<release date="2026-09-13" version="1.1.1.1" md5="d627346029b927ef713074c5f9766680">
+			<package>https://github.com/OJSBR/viewcounter/releases/download/1.1.1.1/viewcounter-1.1.1.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OJS 3.4 release.</description>
+			<description locale="en_US">OJS 3.4 release.</description>
+		</release>
+	</plugin>
+	<plugin category="generic" product="imsypAutoReader">
 		<name locale="en">IMSYP Auto Reader</name>
 		<name locale="en_US">IMSYP Auto Reader</name>
-
 		<homepage>https://www.imsyp.com/index.php/index/imsyp-auto-reader</homepage>
-
 		<summary locale="en">Automatically assigns the Reader role across journals and synchronizes active users in multi-journal OJS installations.</summary>
 		<summary locale="en_US">Automatically assigns the Reader role across journals and synchronizes active users in multi-journal OJS installations.</summary>
-
 		<description locale="en"><![CDATA[
 			<p>IMSYP Auto Reader is a site-wide plugin for Open Journal Systems (OJS) designed for multi-journal installations. It automatically assigns new registered users to the Reader role across enabled journals and synchronizes active users when a new journal is created or an existing journal is enabled.</p>
 			<p>Source code is available at <a href="https://github.com/younestc/imsypAutoReader">GitHub</a>.</p>
 		]]></description>
-
 		<description locale="en_US"><![CDATA[
 			<p>IMSYP Auto Reader is a site-wide plugin for Open Journal Systems (OJS) designed for multi-journal installations. It automatically assigns new registered users to the Reader role across enabled journals and synchronizes active users when a new journal is created or an existing journal is enabled.</p>
 			<p>Source code is available at <a href="https://github.com/younestc/imsypAutoReader">GitHub</a>.</p>
 		]]></description>
-
 		<maintainer>
 			<name>Younouss EL ouati</name>
 			<institution>IMSYP</institution>
 			<email>younousselouati@gmail.com</email>
 		</maintainer>
-
 		<release date="2026-08-26" version="1.1.0.0" md5="cce4c3b603c415d7395e23a7ad967c48">
 			<package>https://github.com/younestc/imsypAutoReader/releases/download/v1.1.0.0/imsypAutoReader-1.1.0.0.tar.gz</package>
-
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
-
 			<description locale="en">Initial public release for OJS 3.5.x with automatic Reader assignment, queued journal synchronization, and CLI synchronization for existing active users.</description>
 			<description locale="en_US">Initial public release for OJS 3.5.x with automatic Reader assignment, queued journal synchronization, and CLI synchronization for existing active users.</description>
 		</release>
 	</plugin>
 </plugins>
-
