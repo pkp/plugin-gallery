@@ -11252,6 +11252,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Añade el envío de un recordatorio semanal a los evaluadores con todas las evaluaciones pendientes.</description>
 			<description locale="pt_BR">Adiciona o envio de um lembrete semanal para os avaliadores, contendo todas as avaliações pendentes.</description>
 		</release>
+		<release date="2026-01-29" version="0.2.0.1" md5="358f375847b89b015559dcaa8d455749">
+			<package>https://github.com/lepidus/reviewReminder/releases/download/v0.2.0.1/reviewReminder.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Fixes minor problem in migration.</description>
+			<description locale="es">Corrige un problema menor en la migración.</description>
+			<description locale="pt_BR">Corrige um problema menor na migração.</description>
+		</release>
+		<release date="2026-09-17" version="1.0.0.0" md5="8f56b443e8a73c8446887f599df57d16">
+			<package>https://github.com/lepidus/reviewReminder/releases/download/v1.0.0.0/reviewReminder.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adapts plugin to OJS 3.5.0.</description>
+			<description locale="es">Adapta el modulo para OJS 3.5.0.</description>
+			<description locale="pt_BR">Adapta o plugin para o OJS 3.5.0.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="OASwitchboard">
 		<name locale="en">OA Switchboard Plugin</name>
