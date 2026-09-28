@@ -9807,17 +9807,20 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	<plugin category="generic" product="toggleRequiredMetadata">
 		<name locale="en">Toggle Required Metadata</name>
 		<name locale="en_US">Toggle Required Metadata</name>
-		<name locale="pt_BR">Alternar Metadados requeridos</name>
+		<name locale="pt_BR">Alternar metadados obrigatórios</name>
 		<name locale="es_ES">Alternar los metadatos requeridos</name>
+		<name locale="es">Alternar los metadatos requeridos</name>
 		<homepage>https://github.com/lepidus/toggleRequiredMetadata</homepage>
-		<summary locale="en">This plugin makes the "affiliation" and "ORCID" fields required.</summary>
-		<summary locale="en_US">This plugin makes the "affiliation" and "ORCID" fields required.</summary>
-		<summary locale="pt_BR">Este plugin torna os campos "afiliação" e "ORCID" de preenchimento obrigatório.</summary>
-		<summary locale="es_ES">Este plugin hace que los campos "afiliación" y "ORCID" sean obligatorios.</summary>
-		<description locale="en"><![CDATA[<p>This plugin makes the "affiliation" and "ORCID" fields required.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin makes the "affiliation" and "ORCID" fields required.</p>]]></description>
-		<description locale="pt_BR"><![CDATA[<p>Este plugin torna os campos "afiliação" e "ORCID" de preenchimento obrigatório.</p>]]></description>
-		<description locale="es_ES"><![CDATA[<p>Este módulo hace que los campos "afiliación" y "ORCID" sean obligatorios.</p>]]></description>
+		<summary locale="en">Makes the affiliation, the biography statement and the ORCID iD of the contributors required in submissions.</summary>
+		<summary locale="en_US">Makes the affiliation, the biography statement and the ORCID iD of the contributors required in submissions.</summary>
+		<summary locale="pt_BR">Torna obrigatórios a afiliação, o resumo da biografia e o ORCID iD dos contribuidores nas submissões.</summary>
+		<summary locale="es_ES">Hace obligatorios la afiliación, el resumen biográfico y el ORCID iD de los colaboradores en los envíos.</summary>
+		<summary locale="es">Hace obligatorios la afiliación, el resumen biográfico y el ORCID iD de los colaboradores en los envíos.</summary>
+		<description locale="en"><![CDATA[<p>Lets you require more information from the contributors of a submission: the affiliation, the biography statement and the ORCID iD. Choose which of them to require in the plugin settings.</p><p>The requirements are checked when the author finishes the submission, which can only be sent once they are met. When ORCID verification is in use, at least one contributor must have a verified ORCID iD and the verification must have been requested from the others; the workflow shows who has not verified yet.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Lets you require more information from the contributors of a submission: the affiliation, the biography statement and the ORCID iD. Choose which of them to require in the plugin settings.</p><p>The requirements are checked when the author finishes the submission, which can only be sent once they are met. When ORCID verification is in use, at least one contributor must have a verified ORCID iD and the verification must have been requested from the others; the workflow shows who has not verified yet.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Permite exigir mais informações dos contribuidores de uma submissão: a afiliação, o resumo da biografia e o ORCID iD. Escolha quais delas exigir nas configurações do plugin.</p><p>Os requisitos são verificados quando o autor conclui a submissão, que só pode ser enviada depois que eles forem atendidos. Quando a verificação ORCID está em uso, pelo menos um contribuidor precisa ter o ORCID iD verificado e a verificação precisa ter sido solicitada aos demais; o fluxo editorial mostra quem ainda não fez a verificação.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Permite exigir más información a los colaboradores de un envío: la afiliación, el resumen biográfico y el ORCID iD. Elija cuáles exigir en la configuración del módulo.</p><p>Los requisitos se comprueban cuando el autor finaliza el envío, que solo puede enviarse una vez cumplidos. Cuando se utiliza la verificación ORCID, al menos un colaborador debe tener el ORCID iD verificado y se debe haber solicitado la verificación a los demás; el flujo editorial muestra quién aún no lo ha verificado.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Permite exigir más información a los colaboradores de un envío: la afiliación, el resumen biográfico y el ORCID iD. Elija cuáles exigir en la configuración del módulo.</p><p>Los requisitos se comprueban cuando el autor finaliza el envío, que solo puede enviarse una vez cumplidos. Cuando se utiliza la verificación ORCID, al menos un colaborador debe tener el ORCID iD verificado y se debe haber solicitado la verificación a los demás; el flujo editorial muestra quién aún no lo ha verificado.</p>]]></description>
 		<maintainer>
 			<name>Lepidus Tecnologia Team</name>
 			<institution>Lepidus Tecnologia</institution>
