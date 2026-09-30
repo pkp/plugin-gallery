@@ -11462,6 +11462,27 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">A opção de Sandbox deixa de fazer parte das configurações do plugin e passa a ser habilitada pelo config.inc.php. Os periódicos que usavam a API de Sandbox precisam apenas informar as credenciais de produção para começar a enviar mensagens. Esta versão também corrige a atualização pela galeria de plugins.</description>
 			<description locale="es_ES">La opción de Sandbox deja de formar parte de la configuración del módulo y ahora se habilita mediante config.inc.php. Las revistas que utilizaban la API de Sandbox solo tienen que introducir sus credenciales de producción para empezar a enviar mensajes. Esta versión también corrige la actualización desde la galería de módulos.</description>
 		</release>
+		<release date="2026-09-18" version="1.1.4.0" md5="c4b3706d164972e8b59026fa5de6ebc9">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.4.0/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">When the Funding plugin is in use, the grant (award) numbers of the article's funders are now also sent to the OA Switchboard.</description>
+			<description locale="pt_BR">Quando o plugin Funding está em uso, os números dos auxílios (award numbers) dos financiadores do artigo agora também são enviados ao OA Switchboard.</description>
+			<description locale="es_ES">Cuando se utiliza el módulo Funding, los números de las ayudas (award numbers) de los financiadores del artículo ahora también se envían a OA Switchboard.</description>
+		</release>
 		<release date="2025-11-14" version="2.0.2.0" md5="0bff84bf775eb92ea558b5aafda33838">
 			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.2.0/OASwitchboard.tar.gz</package>
 			<compatibility application="ojs2">
@@ -11492,6 +11513,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">A opção de Sandbox deixa de fazer parte das configurações do plugin e passa a ser habilitada pelo config.inc.php. Os periódicos que usavam a API de Sandbox precisam apenas informar as credenciais de produção para começar a enviar mensagens.</description>
 			<description locale="es">La opción de Sandbox deja de formar parte de la configuración del módulo, y ahora se habilita mediante config.inc.php. Las revistas que utilizaban la API de Sandbox solo tienen que introducir sus credenciales de producción para empezar a enviar mensajes.</description>
 		</release>
+		<release date="2026-09-18" version="2.0.3.0" md5="6b0cc9ad1eda61beee7cc4363dbc4e56">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.3.0/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">When the Funding plugin is in use, the grant (award) numbers of the article's funders are now also sent to the OA Switchboard.</description>
+			<description locale="pt_BR">Quando o plugin Funding está em uso, os números dos auxílios (award numbers) dos financiadores do artigo agora também são enviados ao OA Switchboard.</description>
+			<description locale="es">Cuando se utiliza el módulo Funding, los números de las ayudas (award numbers) de los financiadores del artículo ahora también se envían a OA Switchboard.</description>
+		</release>
 		<release date="2026-09-02" version="3.0.1.5" md5="47eda6e2e0edfce8d2ade2c7e5623050">
 			<package>https://github.com/lepidus/OASwitchboard/releases/download/v3.0.1.5/OASwitchboard.tar.gz</package>
 			<compatibility application="ojs2">
@@ -11501,6 +11532,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">This plugin sends a P1 message to the OA Switchboard when a submission is published.</description>
 			<description locale="pt_BR">Esse plugin envia uma mensagem P1 para o OA Switchboard quando uma submissão é publicada.</description>
 			<description locale="es">Este módulo envía un mensaje P1 a la OA Switchboard cuando se publica un envío.</description>
+		</release>
+		<release date="2026-09-18" version="3.0.2.0" md5="0e00a8648312aa2fdea8d631112be387">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v3.0.2.0/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">When the Funding plugin is in use, the grant (award) numbers of the article's funders are now also sent to the OA Switchboard.</description>
+			<description locale="pt_BR">Quando o plugin Funding está em uso, os números dos auxílios (award numbers) dos financiadores do artigo agora também são enviados ao OA Switchboard.</description>
+			<description locale="es">Cuando se utiliza el módulo Funding, los números de las ayudas (award numbers) de los financiadores del artículo ahora también se envían a OA Switchboard.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="deleteIncompleteSubmissions">
