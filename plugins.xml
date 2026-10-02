@@ -12636,4 +12636,36 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="reports" product="responseExporter">
+		<name locale="en">Review Response Exporter</name>
+		<name locale="en_US">Review Response Exporter</name>
+		<name locale="pt_BR">Exportador de Respostas de Avaliação</name>
+		<homepage>https://github.com/webfelipemaia/responseExporter</homepage>
+		<summary locale="en">Exports the review form responses submitted by reviewers to a CSV file.</summary>
+		<summary locale="en_US">Exports the review form responses submitted by reviewers to a CSV file.</summary>
+		<summary locale="pt_BR">Exporta para CSV as respostas dos formulários de avaliação preenchidas pelos avaliadores.</summary>
+		<description locale="en"><![CDATA[<p>Report plugin (Statistics &gt; Reports) that generates a CSV file with one row per review assignment, containing reviewer data, the email of the submission's primary contact and the answers given in the review form, one column per question. Radio button, drop-down and checkbox answers are exported as their option labels.</p><p>An optional setting exports numerical answers only, for statistical analysis.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Report plugin (Statistics &gt; Reports) that generates a CSV file with one row per review assignment, containing reviewer data, the email of the submission's primary contact and the answers given in the review form, one column per question. Radio button, drop-down and checkbox answers are exported as their option labels.</p><p>An optional setting exports numerical answers only, for statistical analysis.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Plugin de relatório (Estatísticas &gt; Relatórios) que gera um arquivo CSV com uma linha por avaliação, contendo dados do avaliador, o e-mail do contato principal da submissão e as respostas do formulário de avaliação, com uma coluna por pergunta. Respostas de botões de opção, listas suspensas e caixas de seleção são exportadas com o texto das opções.</p><p>Uma configuração opcional exporta apenas as respostas numéricas, para análises estatísticas.</p>]]></description>
+		<maintainer>
+			<name>Felipe Maia Barbosa</name>
+			<institution>Arquivo Nacional</institution>
+			<email>felipe.barbosa@gestao.an.gov.br</email>
+		</maintainer>
+		<release date="2026-10-01" version="1.0.0.0" md5="68b12467c06b0f8f715403ec39c89c18">
+			<package>https://github.com/webfelipemaia/responseExporter/releases/download/v1_0_0-0/responseExporter-v1_0_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Initial release, for OJS and OMP 3.4 and 3.5 (MySQL/MariaDB and PostgreSQL).</description>
+			<description locale="en_US">Initial release, for OJS and OMP 3.4 and 3.5 (MySQL/MariaDB and PostgreSQL).</description>
+			<description locale="pt_BR">Versão inicial, para OJS e OMP 3.4 e 3.5 (MySQL/MariaDB e PostgreSQL).</description>
+		</release>
+	</plugin>
 </plugins>
