@@ -12636,4 +12636,48 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="crossrefComplete">
+		<name locale="en">Complete Records for Crossref</name>
+		<name locale="en_US">Complete Records for Crossref</name>
+		<homepage>https://github.com/SmartScholarsIndia/complete-records-for-crossref</homepage>
+		<summary locale="en">Completes the deposits OJS's Crossref plugin sends — reference lists, affiliations (with ROR IDs) and Crossmark — checks them against Crossref's published schema before they are sent, and reads each record back from Crossref.</summary>
+		<summary locale="en_US">Completes the deposits OJS's Crossref plugin sends — reference lists, affiliations (with ROR IDs) and Crossmark — checks them against Crossref's published schema before they are sent, and reads each record back from Crossref.</summary>
+		<description locale="en"><![CDATA[<p>OJS's own Crossref plugin sends titles, authors with ORCID iDs, abstracts, dates, pages, licences and full-text links, but no reference list, no affiliations before OJS 3.5 and no Crossmark. This plugin completes each deposit with what the journal already holds in OJS:</p><ul><li>the article's reference list (a reference carries its DOI only when it names exactly one);</li><li>each author's affiliation — structured, with its ROR ID when one is stored, from schema 5.3.1 on;</li><li>Crossmark, when the journal enters its Crossmark policy DOI, with Crossref's Crossmark button on the article page.</li></ul><p>It works on a copy of OJS's file, only adds, checks the result against the schema's order rules and against Crossref's own published schema, and sends OJS's file unchanged if anything is wrong. After the deposit, a read-back window compares each record at Crossref, element by element, with what was sent. It sends nothing by itself and never asks for the Crossref login (that stays in OJS's Crossref plugin).</p><p>Requires OJS's Crossref plugin. Maintained by Smart Scholars; issues on the repository are answered within two working days.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>OJS's own Crossref plugin sends titles, authors with ORCID iDs, abstracts, dates, pages, licences and full-text links, but no reference list, no affiliations before OJS 3.5 and no Crossmark. This plugin completes each deposit with what the journal already holds in OJS:</p><ul><li>the article's reference list (a reference carries its DOI only when it names exactly one);</li><li>each author's affiliation — structured, with its ROR ID when one is stored, from schema 5.3.1 on;</li><li>Crossmark, when the journal enters its Crossmark policy DOI, with Crossref's Crossmark button on the article page.</li></ul><p>It works on a copy of OJS's file, only adds, checks the result against the schema's order rules and against Crossref's own published schema, and sends OJS's file unchanged if anything is wrong. After the deposit, a read-back window compares each record at Crossref, element by element, with what was sent. It sends nothing by itself and never asks for the Crossref login (that stays in OJS's Crossref plugin).</p><p>Requires OJS's Crossref plugin. Maintained by Smart Scholars; issues on the repository are answered within two working days.</p>]]></description>
+		<installation locale="en"><![CDATA[<p>Download the package for your OJS line and use Settings → Website → Plugins → Upload a new plugin, or install it from the Plugin Gallery. Enable Complete Records for Crossref; references and affiliations are on by default. Enter your Crossmark policy DOI only when that page has its own DOI at Crossref.</p>]]></installation>
+		<installation locale="en_US"><![CDATA[<p>Download the package for your OJS line and use Settings → Website → Plugins → Upload a new plugin, or install it from the Plugin Gallery. Enable Complete Records for Crossref; references and affiliations are on by default. Enter your Crossmark policy DOI only when that page has its own DOI at Crossref.</p>]]></installation>
+		<maintainer>
+			<name>Smart Scholars</name>
+			<institution>Smart Scholars</institution>
+			<email>mou@smartscholars.in</email>
+		</maintainer>
+		<release date="2026-10-03" version="1.0.0.5" md5="e51c13e98059a0aaaf4d47e88e562366">
+			<package>https://github.com/SmartScholarsIndia/complete-records-for-crossref/releases/download/v1.0.0.5/crossrefComplete-1.0.0.5-ojs3.3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.21</version>
+				<version>3.3.0.23</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<description locale="en">The release for OJS 3.3. Every element is added only where the file lacks it; the completed file is checked against Crossref's schema before OJS sends it.</description>
+			<description locale="en_US">The release for OJS 3.3. Every element is added only where the file lacks it; the completed file is checked against Crossref's schema before OJS sends it.</description>
+		</release>
+		<release date="2026-10-03" version="1.0.0.5" md5="363ca97b527c67aa422c247b8784aac0">
+			<package>https://github.com/SmartScholarsIndia/complete-records-for-crossref/releases/download/v1.0.0.5/crossrefComplete-1.0.0.5-ojs3.4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.11</version>
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<description locale="en">The release for OJS 3.4. Every element is added only where the file lacks it; the completed file is checked against Crossref's schema before OJS sends it.</description>
+			<description locale="en_US">The release for OJS 3.4. Every element is added only where the file lacks it; the completed file is checked against Crossref's schema before OJS sends it.</description>
+		</release>
+		<release date="2026-10-03" version="1.0.0.5" md5="a58806cec1d45ebb8d4856e848214322">
+			<package>https://github.com/SmartScholarsIndia/complete-records-for-crossref/releases/download/v1.0.0.5/crossrefComplete-1.0.0.5-ojs3.5.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.5</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">The release for OJS 3.5. Every element is added only where the file lacks it; the completed file is checked against Crossref's schema before OJS sends it.</description>
+			<description locale="en_US">The release for OJS 3.5. Every element is added only where the file lacks it; the completed file is checked against Crossref's schema before OJS sends it.</description>
+		</release>
+	</plugin>
 </plugins>
