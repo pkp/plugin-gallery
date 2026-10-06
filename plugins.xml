@@ -12636,4 +12636,34 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="editorialDocumentPreviewer">
+		<name locale="en">Editorial Document Previewer</name>
+		<name locale="en_US">Editorial Document Previewer</name>
+		<name locale="id">Editorial Document Previewer</name>
+		<name locale="id_ID">Editorial Document Previewer</name>
+		<homepage>https://github.com/Dhimi999/ojs-document-previewer</homepage>
+		<summary locale="en">Instant in-browser document and manuscript previewer across all editorial workflow stages.</summary>
+		<summary locale="en_US">Instant in-browser document and manuscript previewer across all editorial workflow stages.</summary>
+		<summary locale="id">Pratinjau dokumen naskah langsung di peramban pada seluruh tahapan alur kerja editorial.</summary>
+		<summary locale="id_ID">Pratinjau dokumen naskah langsung di peramban pada seluruh tahapan alur kerja editorial.</summary>
+		<description locale="en"><![CDATA[<p>Enables instant in-browser modal previews for submitted documents, manuscripts, and supplementary files (.docx, .pdf, images, spreadsheets) across all editorial workflow stages without requiring manual downloads. Features 100% client-side rendering for manuscript privacy, native zoom/paging controls, and full role-based access control.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Enables instant in-browser modal previews for submitted documents, manuscripts, and supplementary files (.docx, .pdf, images, spreadsheets) across all editorial workflow stages without requiring manual downloads. Features 100% client-side rendering for manuscript privacy, native zoom/paging controls, and full role-based access control.</p>]]></description>
+		<description locale="id"><![CDATA[<p>Memungkinkan pratinjau dokumen naskah dan berkas lampiran (.docx, .pdf, gambar, spreadsheet) langsung di peramban pada seluruh tahapan alur kerja editorial tanpa perlu mengunduh berkas terlebih dahulu. Dilengkapi rendering 100% sisi klien untuk menjaga kerahasiaan naskah, kontrol zoom/halaman, dan kontrol akses berbasis peran.</p>]]></description>
+		<description locale="id_ID"><![CDATA[<p>Memungkinkan pratinjau dokumen naskah dan berkas lampiran (.docx, .pdf, gambar, spreadsheet) langsung di peramban pada seluruh tahapan alur kerja editorial tanpa perlu mengunduh berkas terlebih dahulu. Dilengkapi rendering 100% sisi klien untuk menjaga kerahasiaan naskah, kontrol zoom/halaman, dan kontrol akses berbasis peran.</p>]]></description>
+		<maintainer>
+			<name>Dhimas Rizky Handoko</name>
+			<institution>Center of Agronursing for Community, Family, and Elderly Health Studies, Universitas Jember</institution>
+			<email>dhimasss.rizky@gmail.com</email>
+		</maintainer>
+		<release date="2026-10-05" version="0.2.4.0" md5="a03ff44c7ac5aaed3ed252eea5456af1">
+			<package>https://github.com/Dhimi999/ojs-document-previewer/releases/download/v0.2.4.0/editorialDocumentPreviewer-v0.2.4.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Initial release supporting OJS 3.5+.</description>
+			<description locale="en_US">Initial release supporting OJS 3.5+.</description>
+			<description locale="id">Rilis awal mendukung OJS 3.5+.</description>
+		</release>
+	</plugin>
 </plugins>
