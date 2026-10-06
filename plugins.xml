@@ -1262,6 +1262,19 @@
 			<description locale="es_ES">Corrige el error "division by zero" que ocurría en ciertos escenarios.</description>
 			<description locale="pt_BR">Corrige erro "division by zero" que ocorria em certos cenários.</description>
 		</release>
+		<release date="2026-10-01" version="3.0.0.2" md5="1589c94008eed67185e6c21ae135e4b6">
+			<package>https://github.com/lepidus/authorsHistory/releases/download/v3.0.0.2/authorsHistory.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Restricts access to the authors history to users who can access the submission.</description>
+			<description locale="es">Restringe el acceso al historial de los autores a los usuarios que pueden acceder al envío.</description>
+			<description locale="pt_BR">Restringe o acesso ao histórico dos autores aos usuários que podem acessar a submissão.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="pluginUpdateNotification">
 		<name locale="en">Plugins update notification</name>
