@@ -12649,4 +12649,74 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="reviewersControlReport">
+		<name locale="en">Reviewers Control Report</name>
+		<name locale="en_US">Reviewers Control Report</name>
+		<name locale="es">Informe de Control de Evaluadores</name>
+		<name locale="es_ES">Informe de Control de Evaluadores</name>
+		<name locale="pt_BR">Relatório de Controle de Avaliadores</name>
+		<homepage>https://github.com/lepidus/ReviewersControlReport</homepage>
+		<summary locale="en">Report for editors to manage the journal's reviewers and export reviewing activity as CSV.</summary>
+		<summary locale="en_US">Report for editors to manage the journal's reviewers and export reviewing activity as CSV.</summary>
+		<summary locale="es">Informe para que los editores gestionen a los evaluadores de la revista y exporten la actividad de evaluación en CSV.</summary>
+		<summary locale="es_ES">Informe para que los editores gestionen a los evaluadores de la revista y exporten la actividad de evaluación en CSV.</summary>
+		<summary locale="pt_BR">Relatório para os editores gerenciarem os avaliadores da revista e exportarem a atividade de avaliação em CSV.</summary>
+		<description locale="en"><![CDATA[<p>Adds a page under <em>Statistics &gt; Reports</em> with a control report for editors to manage the journal's reviewers. It lists the reviewers and the reviews they completed, lets managers edit reviewers, and exports the data as CSV reports (by reviewers or by reviews), optionally filtered by period.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Adds a page under <em>Statistics &gt; Reports</em> with a control report for editors to manage the journal's reviewers. It lists the reviewers and the reviews they completed, lets managers edit reviewers, and exports the data as CSV reports (by reviewers or by reviews), optionally filtered by period.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Agrega una página en <em>Estadísticas &gt; Informes</em> con un informe de control para que los editores gestionen a los evaluadores de la revista. Lista a los evaluadores y las evaluaciones que concluyeron, permite a los gestores editar a los evaluadores y exporta los datos en informes CSV (por evaluadores o por evaluaciones), con filtro opcional por período.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Agrega una página en <em>Estadísticas &gt; Informes</em> con un informe de control para que los editores gestionen a los evaluadores de la revista. Lista a los evaluadores y las evaluaciones que concluyeron, permite a los gestores editar a los evaluadores y exporta los datos en informes CSV (por evaluadores o por evaluaciones), con filtro opcional por período.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Adiciona uma página em <em>Estatísticas &gt; Relatórios</em> com um relatório de controle para os editores gerenciarem os avaliadores da revista. Lista os avaliadores e as avaliações que concluíram, permite que gerentes editem os avaliadores e exporta os dados em relatórios CSV (por avaliadores ou por avaliações), com filtro opcional por período.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Lepidus Tecnologia</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2026-10-07" version="1.4.6.3" md5="22083613119f2363f2c67b5d58dbe0d2">
+			<package>https://github.com/lepidus/ReviewersControlReport/releases/download/v1.4.6.3/reviewersControlReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Report for editors to manage reviewers, under Statistics &gt; Reports: lists the journal's reviewers and their completed reviews, lets you edit reviewers and export CSV reports.</description>
+			<description locale="en_US">Report for editors to manage reviewers, under Statistics &gt; Reports: lists the journal's reviewers and their completed reviews, lets you edit reviewers and export CSV reports.</description>
+			<description locale="es">Informe para que los editores gestionen a los evaluadores, en Estadísticas &gt; Informes: lista los evaluadores de la revista y sus evaluaciones concluidas, permite editar a los evaluadores y exportar informes en CSV.</description>
+			<description locale="es_ES">Informe para que los editores gestionen a los evaluadores, en Estadísticas &gt; Informes: lista los evaluadores de la revista y sus evaluaciones concluidas, permite editar a los evaluadores y exportar informes en CSV.</description>
+			<description locale="pt_BR">Relatório para os editores gerenciarem os avaliadores, em Estatísticas &gt; Relatórios: lista os avaliadores da revista e suas avaliações concluídas, permite editar avaliadores e exportar relatórios em CSV.</description>
+		</release>
+		<release date="2026-10-07" version="2.0.0.2" md5="bd88c0e9476d25da94d73801a523bfdf">
+			<package>https://github.com/lepidus/ReviewersControlReport/releases/download/v2.0.0.2/reviewersControlReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Report for editors to manage reviewers, under Statistics &gt; Reports: lists the journal's reviewers and their completed reviews, lets you edit reviewers and export CSV reports.</description>
+			<description locale="en_US">Report for editors to manage reviewers, under Statistics &gt; Reports: lists the journal's reviewers and their completed reviews, lets you edit reviewers and export CSV reports.</description>
+			<description locale="es">Informe para que los editores gestionen a los evaluadores, en Estadísticas &gt; Informes: lista los evaluadores de la revista y sus evaluaciones concluidas, permite editar a los evaluadores y exportar informes en CSV.</description>
+			<description locale="es_ES">Informe para que los editores gestionen a los evaluadores, en Estadísticas &gt; Informes: lista los evaluadores de la revista y sus evaluaciones concluidas, permite editar a los evaluadores y exportar informes en CSV.</description>
+			<description locale="pt_BR">Relatório para os editores gerenciarem os avaliadores, em Estatísticas &gt; Relatórios: lista os avaliadores da revista e suas avaliações concluídas, permite editar avaliadores e exportar relatórios em CSV.</description>
+		</release>
+		<release date="2026-10-07" version="3.0.0.1" md5="3fdeb9513ae84e652ff295ce5bd7a7a3">
+			<package>https://github.com/lepidus/ReviewersControlReport/releases/download/v3.0.0.1/reviewersControlReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Report for editors to manage reviewers, under Statistics &gt; Reports: lists the journal's reviewers and their completed reviews, lets you edit reviewers and export CSV reports.</description>
+			<description locale="en_US">Report for editors to manage reviewers, under Statistics &gt; Reports: lists the journal's reviewers and their completed reviews, lets you edit reviewers and export CSV reports.</description>
+			<description locale="es">Informe para que los editores gestionen a los evaluadores, en Estadísticas &gt; Informes: lista los evaluadores de la revista y sus evaluaciones concluidas, permite editar a los evaluadores y exportar informes en CSV.</description>
+			<description locale="es_ES">Informe para que los editores gestionen a los evaluadores, en Estadísticas &gt; Informes: lista los evaluadores de la revista y sus evaluaciones concluidas, permite editar a los evaluadores y exportar informes en CSV.</description>
+			<description locale="pt_BR">Relatório para os editores gerenciarem os avaliadores, em Estatísticas &gt; Relatórios: lista os avaliadores da revista e suas avaliações concluídas, permite editar avaliadores e exportar relatórios em CSV.</description>
+		</release>
+	</plugin>
 </plugins>
