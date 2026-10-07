@@ -12649,4 +12649,62 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="fgvOpenRank">
+		<name locale="en">FGV OpenRank</name>
+		<name locale="en_US">FGV OpenRank</name>
+		<name locale="es">FGV OpenRank</name>
+		<name locale="es_ES">FGV OpenRank</name>
+		<name locale="pt_BR">FGV OpenRank</name>
+		<homepage>https://github.com/lepidus/FGV-OpenRank</homepage>
+		<summary locale="en">Displays a tabbed block on the journal homepage with its most recent, most read, most cited and trending articles, plus a highlight tab for the editorial team's own content.</summary>
+		<summary locale="en_US">Displays a tabbed block on the journal homepage with its most recent, most read, most cited and trending articles, plus a highlight tab for the editorial team's own content.</summary>
+		<summary locale="es">Muestra en la página de inicio de la revista un bloque de pestañas con los artículos más recientes, más leídos, más citados y en tendencia, además de una pestaña destacada para el contenido que elija el equipo editorial.</summary>
+		<summary locale="es_ES">Muestra en la página de inicio de la revista un bloque de pestañas con los artículos más recientes, más leídos, más citados y en tendencia, además de una pestaña destacada para el contenido que elija el equipo editorial.</summary>
+		<summary locale="pt_BR">Exibe na página inicial da revista um bloco de abas com os artigos mais recentes, mais lidos, mais citados e em alta, além de uma aba de destaque para o conteúdo que a equipe editorial quiser.</summary>
+		<description locale="en"><![CDATA[<p>Adds a ranking block to the journal homepage. The block lists articles in tabs (Most recent, Most read, Most cited, Trending and a free-content Highlight tab), and the journal manager decides which tabs appear, in what order, with which title, description and number of items. Data comes from the journal's own metadata and usage statistics, from Crossref citations and from Altmetric scores, served from a cache refreshed daily by a scheduled task.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Adds a ranking block to the journal homepage. The block lists articles in tabs (Most recent, Most read, Most cited, Trending and a free-content Highlight tab), and the journal manager decides which tabs appear, in what order, with which title, description and number of items. Data comes from the journal's own metadata and usage statistics, from Crossref citations and from Altmetric scores, served from a cache refreshed daily by a scheduled task.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Agrega un bloque de clasificación a la página de inicio de la revista. El bloque presenta los artículos en pestañas (Más recientes, Más leídos, Más citados, En tendencia y una pestaña Destacado de contenido libre), y el gestor de la revista decide qué pestañas aparecen, en qué orden, con qué título, descripción y cantidad de elementos. Los datos provienen de los metadatos y las estadísticas de uso de la propia revista, de las citas de Crossref y de la puntuación de Altmetric, servidos desde una caché actualizada diariamente por una tarea programada.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Agrega un bloque de clasificación a la página de inicio de la revista. El bloque presenta los artículos en pestañas (Más recientes, Más leídos, Más citados, En tendencia y una pestaña Destacado de contenido libre), y el gestor de la revista decide qué pestañas aparecen, en qué orden, con qué título, descripción y cantidad de elementos. Los datos provienen de los metadatos y las estadísticas de uso de la propia revista, de las citas de Crossref y de la puntuación de Altmetric, servidos desde una caché actualizada diariamente por una tarea programada.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Adiciona um bloco de ranqueamento à página inicial da revista. O bloco lista os artigos em abas (Mais recentes, Mais lidos, Mais citados, Em alta e uma aba Destaque de conteúdo livre), e o gerente da revista decide quais abas aparecem, em que ordem, com qual título, descrição e quantidade de itens. Os dados vêm dos metadados e das estatísticas de uso da própria revista, das citações da Crossref e da pontuação Altmetric, servidos a partir de um cache atualizado diariamente por uma tarefa agendada.</p>]]></description>
+		<maintainer>
+			<name>Fundação Getulio Vargas – Sistema de Bibliotecas – Biblioteca Digital</name>
+			<institution>Fundação Getulio Vargas in collaboration with Lepidus</institution>
+			<email>biblioteca.digital@fgv.br</email>
+		</maintainer>
+		<release date="2026-10-07" version="0.0.6.0" md5="a511ec0b8fd6c5b590ea5cd736600f19">
+			<package>https://github.com/lepidus/FGV-OpenRank/releases/download/v0.0.6.0/fgvOpenRank.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Block for the journal homepage, set up under Settings &gt; Website &gt; Plugins: shows the most recent, most read, most cited and trending articles in tabs, plus a highlight tab, and lets you choose the tabs, their order, titles and position on the page.</description>
+			<description locale="en_US">Block for the journal homepage, set up under Settings &gt; Website &gt; Plugins: shows the most recent, most read, most cited and trending articles in tabs, plus a highlight tab, and lets you choose the tabs, their order, titles and position on the page.</description>
+			<description locale="es">Bloque para la página de inicio de la revista, configurado en Ajustes &gt; Sitio web &gt; Módulos: muestra en pestañas los artículos más recientes, más leídos, más citados y en tendencia, además de una pestaña destacada, y permite elegir las pestañas, su orden, sus títulos y su posición en la página.</description>
+			<description locale="es_ES">Bloque para la página de inicio de la revista, configurado en Ajustes &gt; Sitio web &gt; Módulos: muestra en pestañas los artículos más recientes, más leídos, más citados y en tendencia, además de una pestaña destacada, y permite elegir las pestañas, su orden, sus títulos y su posición en la página.</description>
+			<description locale="pt_BR">Bloco para a página inicial da revista, configurado em Configurações &gt; Website &gt; Plugins: mostra em abas os artigos mais recentes, mais lidos, mais citados e em alta, além de uma aba de destaque, e permite escolher as abas, sua ordem, seus títulos e sua posição na página.</description>
+		</release>
+		<release date="2026-10-07" version="1.1.0.0" md5="45a91caaf72f53e5c1a6cba87d93af0e">
+			<package>https://github.com/lepidus/FGV-OpenRank/releases/download/v1.1.0.0/fgvOpenRank.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Block for the journal homepage, set up under Settings &gt; Website &gt; Plugins: shows the most recent, most read, most cited and trending articles in tabs, plus a highlight tab, and lets you choose the tabs, their order, titles and position on the page.</description>
+			<description locale="en_US">Block for the journal homepage, set up under Settings &gt; Website &gt; Plugins: shows the most recent, most read, most cited and trending articles in tabs, plus a highlight tab, and lets you choose the tabs, their order, titles and position on the page.</description>
+			<description locale="es">Bloque para la página de inicio de la revista, configurado en Ajustes &gt; Sitio web &gt; Módulos: muestra en pestañas los artículos más recientes, más leídos, más citados y en tendencia, además de una pestaña destacada, y permite elegir las pestañas, su orden, sus títulos y su posición en la página.</description>
+			<description locale="es_ES">Bloque para la página de inicio de la revista, configurado en Ajustes &gt; Sitio web &gt; Módulos: muestra en pestañas los artículos más recientes, más leídos, más citados y en tendencia, además de una pestaña destacada, y permite elegir las pestañas, su orden, sus títulos y su posición en la página.</description>
+			<description locale="pt_BR">Bloco para a página inicial da revista, configurado em Configurações &gt; Website &gt; Plugins: mostra em abas os artigos mais recentes, mais lidos, mais citados e em alta, além de uma aba de destaque, e permite escolher as abas, sua ordem, seus títulos e sua posição na página.</description>
+		</release>
+	</plugin>
 </plugins>
