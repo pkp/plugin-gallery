@@ -12649,4 +12649,35 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="referenceVerify">
+		<name locale="en">ReferenceVerify</name>
+		<name locale="en_US">ReferenceVerify</name>
+		<homepage>https://github.com/cuneytozdemir/referenceverify-ojs</homepage>
+		<summary locale="en">Check the references and in-text citations of a submission file with ReferenceVerify from the editorial workflow.</summary>
+		<summary locale="en_US">Check the references and in-text citations of a submission file with ReferenceVerify from the editorial workflow.</summary>
+		<description locale="en"><![CDATA[<p>Adds a ReferenceVerify panel (OJS 3.5) or tab (OJS 3.3 and 3.4) to the editorial workflow. For each Word, PDF or RTF manuscript file an editor can open a reference check, an in-text citation check or a consolidated report on <a href="https://referenceverify.com/" target="_blank">ReferenceVerify</a>: fabricated or mismatched references, retracted works, citations missing from the reference list and references never cited. Report summaries can be added back to the submission as editor discussions, and reviewer suggestions with conflict-of-interest flags are available.</p><p>The plugin contacts ReferenceVerify only when an editor clicks one of its buttons; the data sent for each action is listed in the plugin description and README. A ReferenceVerify account and a plugin key for the journal are required.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Adds a ReferenceVerify panel (OJS 3.5) or tab (OJS 3.3 and 3.4) to the editorial workflow. For each Word, PDF or RTF manuscript file an editor can open a reference check, an in-text citation check or a consolidated report on <a href="https://referenceverify.com/" target="_blank">ReferenceVerify</a>: fabricated or mismatched references, retracted works, citations missing from the reference list and references never cited. Report summaries can be added back to the submission as editor discussions, and reviewer suggestions with conflict-of-interest flags are available.</p><p>The plugin contacts ReferenceVerify only when an editor clicks one of its buttons; the data sent for each action is listed in the plugin description and README. A ReferenceVerify account and a plugin key for the journal are required.</p>]]></description>
+		<maintainer>
+			<name>Cüneyt Özdemir</name>
+			<institution>Siirt University</institution>
+			<email>referenceverify@medikal.ai</email>
+		</maintainer>
+		<release date="2026-10-07" version="1.2.1.1" md5="70e6721c17d68ef48a19b22ead9b2a8f">
+			<package>https://github.com/cuneytozdemir/referenceverify-ojs/releases/download/v1_2_1-1/referenceVerify-v1_2_1-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">OJS 3.4 and 3.5 release.</description>
+			<description locale="en_US">OJS 3.4 and 3.5 release.</description>
+		</release>
+		<release date="2026-10-07" version="1.2.1.0" md5="dd5a8380232d4517495e9918be4cdbba">
+			<package>https://github.com/cuneytozdemir/referenceverify-ojs/releases/download/v1_2_1-0/referenceVerify-v1_2_1-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<description locale="en">OJS 3.3 release.</description>
+			<description locale="en_US">OJS 3.3 release.</description>
+		</release>
+	</plugin>
 </plugins>
