@@ -12649,4 +12649,28 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="themes" product="encounters">
+		<name locale="en">Encounters</name>
+		<name locale="en_US">Encounters</name>
+		<homepage>https://github.com/Junhao-Han/encounters-theme</homepage>
+		<summary locale="en">A standalone OJS theme developed for the Encounters journal.</summary>
+		<summary locale="en_US">A standalone OJS theme developed for the Encounters journal.</summary>
+		<description locale="en"><![CDATA[<p>Encounters brings a fresher design to the journal and makes the website easier to use. It includes English, Spanish, and French interface text, a responsive homepage with issue and article sections, and a submission checklist editor with separate fields for each requirement. Existing journal content is preserved.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Encounters brings a fresher design to the journal and makes the website easier to use. It includes English, Spanish, and French interface text, a responsive homepage with issue and article sections, and a submission checklist editor with separate fields for each requirement. Existing journal content is preserved.</p>]]></description>
+		<installation locale="en">After enabling the plugin, go to Settings > Website > Appearance, select Encounters, and save your changes. See the theme README for homepage image and Forthcoming Articles setup.</installation>
+		<installation locale="en_US">After enabling the plugin, go to Settings > Website > Appearance, select Encounters, and save your changes. See the theme README for homepage image and Forthcoming Articles setup.</installation>
+		<maintainer>
+			<name>Junhao Han</name>
+			<institution>Queen's University</institution>
+			<email>18jh88@queensu.ca</email>
+		</maintainer>
+		<release date="2026-10-08" version="1.0.0.0" md5="6db3d413b6680d183ad80922badea41b">
+			<package>https://github.com/Junhao-Han/encounters-theme/releases/download/v1.0.0.0/encounters-1.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.5</version>
+			</compatibility>
+			<description locale="en">Initial release. Developed and tested with OJS 3.5.0-5.</description>
+			<description locale="en_US">Initial release. Developed and tested with OJS 3.5.0-5.</description>
+		</release>
+	</plugin>
 </plugins>
