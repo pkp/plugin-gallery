@@ -12649,4 +12649,86 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="thoth">
+		<name locale="en">Thoth Plugin</name>
+		<name locale="en_US">Thoth Plugin</name>
+		<name locale="pt_BR">Plugin Thoth</name>
+		<name locale="es">Módulo Thoth</name>
+		<name locale="es_ES">Módulo Thoth</name>
+		<homepage>https://github.com/thoth-pub/thoth-omp-plugin</homepage>
+		<summary locale="en">Register and synchronize book and chapter metadata between OMP and Thoth.</summary>
+		<summary locale="en_US">Register and synchronize book and chapter metadata between OMP and Thoth.</summary>
+		<summary locale="pt_BR">Registra e sincroniza metadados de livros e capítulos entre OMP e Thoth.</summary>
+		<summary locale="es">Registra y sincroniza metadatos de libros y capítulos entre OMP y Thoth.</summary>
+		<summary locale="es_ES">Registra y sincroniza metadatos de libros y capítulos entre OMP y Thoth.</summary>
+		<description locale="en"><![CDATA[
+			<p>Integrates OMP with Thoth, an open metadata management platform for books.</p>
+			<p>Register and synchronize book and chapter metadata for dissemination in ONIX, MARC, KBART, and Crossref XML.</p>
+		]]></description>
+		<description locale="en_US"><![CDATA[
+			<p>Integrates OMP with Thoth, an open metadata management platform for books.</p>
+			<p>Register and synchronize book and chapter metadata for dissemination in ONIX, MARC, KBART, and Crossref XML.</p>
+		]]></description>
+		<description locale="pt_BR"><![CDATA[
+			<p>Integra o OMP com o Thoth, uma plataforma aberta de gestão de metadados para livros.</p>
+			<p>Permite registrar e sincronizar metadados de livros e capítulos para disseminação em ONIX, MARC, KBART e Crossref XML.</p>
+		]]></description>
+		<description locale="es"><![CDATA[
+			<p>Integra OMP con Thoth, una plataforma abierta de gestión de metadatos para libros.</p>
+			<p>Permite registrar y sincronizar metadatos de libros y capítulos para su diseminación en ONIX, MARC, KBART y Crossref XML.</p>
+		]]></description>
+		<description locale="es_ES"><![CDATA[
+			<p>Integra OMP con Thoth, una plataforma abierta de gestión de metadatos para libros.</p>
+			<p>Permite registrar y sincronizar metadatos de libros y capítulos para su diseminación en ONIX, MARC, KBART y Crossref XML.</p>
+		]]></description>
+		<maintainer>
+			<name>Thoth Open Metadata</name>
+			<institution>Thoth Open Metadata in collaboration with Lepidus Tecnologia</institution>
+			<email>info@thoth.pub</email>
+		</maintainer>
+		<release date="2026-10-09" version="1.0.0.0" md5="3759c30ea9c657e438e56eaea6279724">
+			<package>https://github.com/thoth-pub/thoth-omp-plugin/releases/download/v1.0.0.0/thoth.tar.gz</package>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<description locale="en">Initial stable release for OMP 3.3.0</description>
+			<description locale="en_US">Initial stable release for OMP 3.3.0</description>
+			<description locale="pt_BR">Versão estável inicial para OMP 3.3.0</description>
+			<description locale="es">Versión estable inicial para OMP 3.3.0</description>
+			<description locale="es_ES">Versión estable inicial para OMP 3.3.0</description>
+		</release>
+		<release date="2026-10-09" version="2.0.0.0" md5="db601f8e9e88562bc999938c6585142a">
+			<package>https://github.com/thoth-pub/thoth-omp-plugin/releases/download/v2.0.0.0/thoth.tar.gz</package>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<description locale="en">Initial stable release for OMP 3.4.0</description>
+			<description locale="en_US">Initial stable release for OMP 3.4.0</description>
+			<description locale="pt_BR">Versão estável inicial para OMP 3.4.0</description>
+			<description locale="es">Versión estable inicial para OMP 3.4.0</description>
+			<description locale="es_ES">Versión estable inicial para OMP 3.4.0</description>
+		</release>
+		<release date="2026-10-09" version="3.0.0.0" md5="bba5d97bed7d782bb89b0ff9eee210d5">
+			<package>https://github.com/thoth-pub/thoth-omp-plugin/releases/download/v3.0.0.0/thoth.tar.gz</package>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Initial stable release for OMP 3.5.0</description>
+			<description locale="en_US">Initial stable release for OMP 3.5.0</description>
+			<description locale="pt_BR">Versão estável inicial para OMP 3.5.0</description>
+			<description locale="es">Versión estable inicial para OMP 3.5.0</description>
+			<description locale="es_ES">Versión estable inicial para OMP 3.5.0</description>
+		</release>
+	</plugin>
 </plugins>
