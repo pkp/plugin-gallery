@@ -9865,17 +9865,20 @@ the registration of DOIs with mEDRA.</p>]]></description>
 	<plugin category="generic" product="toggleRequiredMetadata">
 		<name locale="en">Toggle Required Metadata</name>
 		<name locale="en_US">Toggle Required Metadata</name>
-		<name locale="pt_BR">Alternar Metadados requeridos</name>
+		<name locale="pt_BR">Alternar metadados obrigatórios</name>
 		<name locale="es_ES">Alternar los metadatos requeridos</name>
+		<name locale="es">Alternar los metadatos requeridos</name>
 		<homepage>https://github.com/lepidus/toggleRequiredMetadata</homepage>
-		<summary locale="en">This plugin makes the "affiliation" and "ORCID" fields required.</summary>
-		<summary locale="en_US">This plugin makes the "affiliation" and "ORCID" fields required.</summary>
-		<summary locale="pt_BR">Este plugin torna os campos "afiliação" e "ORCID" de preenchimento obrigatório.</summary>
-		<summary locale="es_ES">Este plugin hace que los campos "afiliación" y "ORCID" sean obligatorios.</summary>
-		<description locale="en"><![CDATA[<p>This plugin makes the "affiliation" and "ORCID" fields required.</p>]]></description>
-		<description locale="en_US"><![CDATA[<p>This plugin makes the "affiliation" and "ORCID" fields required.</p>]]></description>
-		<description locale="pt_BR"><![CDATA[<p>Este plugin torna os campos "afiliação" e "ORCID" de preenchimento obrigatório.</p>]]></description>
-		<description locale="es_ES"><![CDATA[<p>Este módulo hace que los campos "afiliación" y "ORCID" sean obligatorios.</p>]]></description>
+		<summary locale="en">Makes the affiliation, the biography statement and the ORCID iD of the contributors required in submissions.</summary>
+		<summary locale="en_US">Makes the affiliation, the biography statement and the ORCID iD of the contributors required in submissions.</summary>
+		<summary locale="pt_BR">Torna obrigatórios a afiliação, o resumo da biografia e o ORCID iD dos contribuidores nas submissões.</summary>
+		<summary locale="es_ES">Hace obligatorios la afiliación, el resumen biográfico y el ORCID iD de los colaboradores en los envíos.</summary>
+		<summary locale="es">Hace obligatorios la afiliación, el resumen biográfico y el ORCID iD de los colaboradores en los envíos.</summary>
+		<description locale="en"><![CDATA[<p>Lets you require more information from the contributors of a submission: the affiliation, the biography statement and the ORCID iD. Choose which of them to require in the plugin settings.</p><p>The requirements are checked when the author finishes the submission, which can only be sent once they are met. When ORCID verification is in use, at least one contributor must have a verified ORCID iD and the verification must have been requested from the others; the workflow shows who has not verified yet.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Lets you require more information from the contributors of a submission: the affiliation, the biography statement and the ORCID iD. Choose which of them to require in the plugin settings.</p><p>The requirements are checked when the author finishes the submission, which can only be sent once they are met. When ORCID verification is in use, at least one contributor must have a verified ORCID iD and the verification must have been requested from the others; the workflow shows who has not verified yet.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Permite exigir mais informações dos contribuidores de uma submissão: a afiliação, o resumo da biografia e o ORCID iD. Escolha quais delas exigir nas configurações do plugin.</p><p>Os requisitos são verificados quando o autor conclui a submissão, que só pode ser enviada depois que eles forem atendidos. Quando a verificação ORCID está em uso, pelo menos um contribuidor precisa ter o ORCID iD verificado e a verificação precisa ter sido solicitada aos demais; o fluxo editorial mostra quem ainda não fez a verificação.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Permite exigir más información a los colaboradores de un envío: la afiliación, el resumen biográfico y el ORCID iD. Elija cuáles exigir en la configuración del módulo.</p><p>Los requisitos se comprueban cuando el autor finaliza el envío, que solo puede enviarse una vez cumplidos. Cuando se utiliza la verificación ORCID, al menos un colaborador debe tener el ORCID iD verificado y se debe haber solicitado la verificación a los demás; el flujo editorial muestra quién aún no lo ha verificado.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Permite exigir más información a los colaboradores de un envío: la afiliación, el resumen biográfico y el ORCID iD. Elija cuáles exigir en la configuración del módulo.</p><p>Los requisitos se comprueban cuando el autor finaliza el envío, que solo puede enviarse una vez cumplidos. Cuando se utiliza la verificación ORCID, al menos un colaborador debe tener el ORCID iD verificado y se debe haber solicitado la verificación a los demás; el flujo editorial muestra quién aún no lo ha verificado.</p>]]></description>
 		<maintainer>
 			<name>Lepidus Tecnologia Team</name>
 			<institution>Lepidus Tecnologia</institution>
@@ -10279,6 +10282,22 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Esta versión añade una comprobación de los metadatos necesarios durante el envío.</description>
 			<description locale="pt_BR">Esta versão adiciona uma verificação de metadados obrigatórios durante o envio.</description>
 		</release>
+		<release date="2026-08-05" version="2.2.2.2" md5="6ba96238929fa694074301cd0b25bdfd">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v2.2.2.2/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en">The ORCID requirement now also works with the ORCID Profile plugin enabled: to finish a submission, at least one contributor must have an authenticated ORCID iD and the ORCID authorization must have been requested from the others. The workflow shows which contributors have not authenticated their ORCID iD yet.</description>
+			<description locale="es">El requisito de ORCID ahora también funciona con el módulo Perfil ORCID activo: para finalizar el envío, al menos un colaborador debe tener el ORCID iD autenticado y se debe haber solicitado la autorización ORCID a los demás. El flujo editorial muestra qué colaboradores aún no han autenticado su ORCID iD.</description>
+			<description locale="pt_BR">O requisito de ORCID agora também funciona com o plugin Perfil ORCID ativo: para concluir a submissão, pelo menos um contribuidor precisa ter o ORCID iD autenticado e a autorização ORCID precisa ter sido solicitada aos demais. O fluxo editorial mostra quais contribuidores ainda não autenticaram o ORCID iD.</description>
+		</release>
 		<release date="2024-04-01" version="1.3.0.0" md5="cfed7481621745cce1c5972ecbeab00b">
 			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v1.3.0/toggleRequiredMetadata.tar.gz</package>
 			<compatibility application="ojs2">
@@ -10327,6 +10346,71 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">This version adds checks for required metadata during submission.</description>
 			<description locale="es_ES">Esta versión añade comprobaciones de los metadatos necesarios durante el envío.</description>
 			<description locale="pt_BR">Esta versão adiciona verificações de metadados necessários durante o envio.</description>
+		</release>
+		<release date="2026-08-04" version="1.4.1.6" md5="16aefe63d3eb92803d6a33fc74d3d921">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v1.4.1.6/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en_US">The ORCID requirement now also works with the ORCID Profile plugin enabled: to finish a submission, at least one contributor must have an authenticated ORCID iD and the ORCID authorization must have been requested from the others. The workflow shows which contributors have not authenticated their ORCID iD yet, and missing contributor information is now listed next to the contributors.</description>
+			<description locale="es_ES">El requisito de ORCID ahora también funciona con el módulo Perfil ORCID activo: para finalizar el envío, al menos un colaborador debe tener el ORCID iD autenticado y se debe haber solicitado la autorización ORCID a los demás. El flujo editorial muestra qué colaboradores aún no han autenticado su ORCID iD, y la información obligatoria que falta ahora se muestra junto a los colaboradores.</description>
+			<description locale="pt_BR">O requisito de ORCID agora também funciona com o plugin Perfil ORCID ativo: para concluir a submissão, pelo menos um contribuidor precisa ter o ORCID iD autenticado e a autorização ORCID precisa ter sido solicitada aos demais. O fluxo editorial mostra quais contribuidores ainda não autenticaram o ORCID iD, e os dados obrigatórios que faltam passam a ser listados junto aos contribuidores.</description>
+		</release>
+		<release date="2026-08-26" version="3.0.0.1" md5="900a9b9116aeadf02e0ceaf2166d150a">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v3.0.0.1/toggleRequiredMetadata.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed" />
+			<description locale="en">Makes the affiliation, the biography statement and the ORCID iD of the contributors required to finish a submission. Choose which of them to require in the plugin settings.</description>
+			<description locale="es">Hace obligatorios la afiliación, el resumen biográfico y el ORCID iD de los colaboradores para finalizar un envío. Elija cuáles exigir en la configuración del módulo.</description>
+			<description locale="pt_BR">Torna obrigatórios a afiliação, o resumo da biografia e o ORCID iD dos contribuidores para concluir uma submissão. Escolha quais exigir nas configurações do plugin.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="doiInSummary">
