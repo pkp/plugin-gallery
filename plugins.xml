@@ -12649,4 +12649,31 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="journalLens">
+		<name locale="en">JournalLens Credibility Badge</name>
+		<homepage>https://github.com/SynapSci/JournalLens-OJS-Plugin</homepage>
+		<summary locale="en">Shows the journal's JournalLens Credibility Score as a badge in the page footer and/or the sidebar. The score appears only on the journal's registered websites.</summary>
+		<description locale="en"><![CDATA[<p>Displays the journal's <a href="https://journallens.info">JournalLens</a> Credibility Score (0-100, with a High, Medium or Low level) as a small badge in the page footer and/or as a sidebar block. The journal is identified by its online or print ISSN; no account or API key is needed.</p><p>The badge image is loaded by the reader's browser, so JournalLens can check which website it is shown on. The score is shown only on the journal's registered websites; anywhere else, for example on a copy of the journal's site, the badge shows "Verify" instead of a score. Clicking the badge opens a public page where readers can check whether the site they came from is a registered website of the journal.</p><p>The OJS server never contacts JournalLens and the plugin stores nothing. If the badge cannot be loaded, it is hidden. Translations: English, Spanish, Brazilian Portuguese, Indonesian and Swedish.</p>]]></description>
+		<installation locale="en"><![CDATA[<p>Enable "JournalLens Credibility Badge" under Settings &gt; Website &gt; Plugins. To use the sidebar block, add "JournalLens Credibility Badge (sidebar)" under Settings &gt; Website &gt; Appearance &gt; Setup &gt; Sidebar Management. The footer badge can be turned off in the plugin settings.</p>]]></installation>
+		<maintainer>
+			<name>JournalLens Support</name>
+			<institution>JournalLens</institution>
+			<email>support@journallens.info</email>
+		</maintainer>
+		<release date="2026-09-30" version="1.1.0.0" md5="748a0cce23f239b3ece8300e352580b9">
+			<package>https://journallens.info/downloads/ojs-plugin/journalLens-1.1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Initial release for OJS 3.4 and 3.5 (tested on 3.4.0-11 and 3.5.0-5).</description>
+		</release>
+		<release date="2026-09-30" version="1.0.0.0" md5="12b2dc0a21709dfb78b47e026b0324d7">
+			<package>https://journallens.info/downloads/ojs-plugin/journalLens-1.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<description locale="en">Initial release for OJS 3.3 (tested on 3.3.0-23).</description>
+		</release>
+	</plugin>
 </plugins>
