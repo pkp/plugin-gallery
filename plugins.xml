@@ -16139,22 +16139,12 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Independent</institution>
 			<email>wilfriedfouillaret@gmail.com</email>
 		</maintainer>
-		<release date="2026-04-26" version="2.0.4.0" md5="f5a754ca27ff2d24f7b0d9544f7b483f">
-			<package>https://github.com/h7r/ojs-metadata-curation/releases/download/v2.0.4.0/nvMetadataCuration-2.0.4.0.tar.gz</package>
+		<release date="2026-10-13" version="2.0.4.1" md5="b5395cf829409e028e3e34e8d30ace1a">
+			<package>https://github.com/h7r/ojs-metadata-curation/releases/download/v2.0.4.1/nvMetadataCuration-2.0.4.1.tar.gz</package>
 			<compatibility application="ojs2">
-				<version>3.4.0.0</version>
-				<version>3.4.0.1</version>
-				<version>3.4.0.2</version>
-				<version>3.4.0.3</version>
-				<version>3.4.0.4</version>
-				<version>3.4.0.5</version>
-				<version>3.4.0.6</version>
-				<version>3.4.0.7</version>
-				<version>3.4.0.8</version>
-				<version>3.4.0.9</version>
-				<version>3.4.0.10</version>
+				<version>~3.4.0.0</version>
 			</compatibility>
-			<description locale="en">First public release for the PKP Plugin Gallery — full SPARQL keyword autocomplete, validated ORCID/ROR contributor lookup, backoffice metadata audit dashboard, trilingual EN/ES/FR. Free and unlimited.</description>
+			<description locale="en">First release for the PKP Plugin Gallery — SPARQL keyword autocomplete, validated ORCID/ROR contributor lookup, backoffice metadata audit dashboard, trilingual EN/ES/FR. Free and unlimited. Includes output escaping in the audit dashboard template.</description>
 		</release>
 	</plugin>
 </plugins>
