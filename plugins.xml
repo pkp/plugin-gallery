@@ -11462,8 +11462,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">A opção de Sandbox deixa de fazer parte das configurações do plugin e passa a ser habilitada pelo config.inc.php. Os periódicos que usavam a API de Sandbox precisam apenas informar as credenciais de produção para começar a enviar mensagens. Esta versão também corrige a atualização pela galeria de plugins.</description>
 			<description locale="es_ES">La opción de Sandbox deja de formar parte de la configuración del módulo y ahora se habilita mediante config.inc.php. Las revistas que utilizaban la API de Sandbox solo tienen que introducir sus credenciales de producción para empezar a enviar mensajes. Esta versión también corrige la actualización desde la galería de módulos.</description>
 		</release>
-		<release date="2026-10-15" version="1.1.5.0" md5="382c0169cc247a890b5934fa16009860">
-			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.5.0/OASwitchboard.tar.gz</package>
+		<release date="2026-10-16" version="1.1.5.1" md5="9b9fdfa4321e4c96198362aeaeaa6f17">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.5.1/OASwitchboard.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -11533,8 +11533,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Esse plugin envia uma mensagem P1 para o OA Switchboard quando uma submissão é publicada.</description>
 			<description locale="es">Este módulo envía un mensaje P1 a la OA Switchboard cuando se publica un envío.</description>
 		</release>
-		<release date="2026-10-15" version="3.0.3.0" md5="7eac6a8fd623286bb52a989957dbf734">
-			<package>https://github.com/lepidus/OASwitchboard/releases/download/v3.0.3.0/OASwitchboard.tar.gz</package>
+		<release date="2026-10-16" version="3.0.3.1" md5="bb6857e2f10cbde064694927d61df039">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v3.0.3.1/OASwitchboard.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
