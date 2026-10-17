@@ -12630,6 +12630,24 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>STNT Tecnologia da Informação LTDA</institution>
 			<email>support@ojsbr.com</email>
 		</maintainer>
+		<release date="2026-10-17" version="1.3.1.0" md5="04f0ce4920e8dba69c3b603356e618d1">
+			<package>https://github.com/OJSBR/viewcounter/releases/download/1.3.1.0/viewcounter-1.3.1.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OJS 3.5 release. Downloads count galleys only, as in Statistics &gt; Articles; the counts are no longer part of the title's accessible name.</description>
+			<description locale="en_US">OJS 3.5 release. Downloads count galleys only, as in Statistics &gt; Articles; the counts are no longer part of the title's accessible name.</description>
+		</release>
+		<release date="2026-10-17" version="1.1.2.0" md5="e132236d7ac5f6d9b4d909f53ed4242b">
+			<package>https://github.com/OJSBR/viewcounter/releases/download/1.1.2.0/viewcounter-1.1.2.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">OJS 3.4 release. Downloads count galleys only, as in Statistics &gt; Articles; the counts are no longer part of the title's accessible name.</description>
+			<description locale="en_US">OJS 3.4 release. Downloads count galleys only, as in Statistics &gt; Articles; the counts are no longer part of the title's accessible name.</description>
+		</release>
 		<release date="2026-09-13" version="1.3.0.1" md5="9862c9caa91c8d329cd2fd4c8edb3b23">
 			<package>https://github.com/OJSBR/viewcounter/releases/download/1.3.0.1/viewcounter-1.3.0.1.tar.gz</package>
 			<compatibility application="ojs2">
