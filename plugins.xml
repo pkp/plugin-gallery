@@ -10338,8 +10338,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">El requisito de ORCID ahora también funciona con el módulo Perfil ORCID activo: para finalizar el envío, al menos un colaborador debe tener el ORCID iD autenticado y se debe haber solicitado la autorización ORCID a los demás. El flujo editorial muestra qué colaboradores siguen pendientes y qué hacer, y la información obligatoria que falta se muestra en el formulario de envío, también en OMP. Elija cuáles exigir en la configuración del módulo.</description>
 			<description locale="pt_BR">O requisito de ORCID agora também funciona com o plugin Perfil ORCID ativo: para concluir a submissão, pelo menos um contribuidor precisa ter o ORCID iD autenticado e a autorização ORCID precisa ter sido solicitada aos demais. O fluxo editorial mostra quais contribuidores ainda estão pendentes e o que fazer, e os dados obrigatórios que faltam são listados no formulário de submissão, também no OMP. Escolha quais delas exigir nas configurações do plugin.</description>
 		</release>
-		<release date="2026-10-16" version="3.0.0.2" md5="851e987e5584f40447c736f7a573a13c">
-			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v3.0.0.2/toggleRequiredMetadata.tar.gz</package>
+		<release date="2026-10-16" version="3.0.0.3" md5="bacae65df92a8879c80fe6c1aa61cc73">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v3.0.0.3/toggleRequiredMetadata.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
