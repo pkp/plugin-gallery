@@ -11540,6 +11540,27 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">A opção de Sandbox deixa de fazer parte das configurações do plugin e passa a ser habilitada pelo config.inc.php. Os periódicos que usavam a API de Sandbox precisam apenas informar as credenciais de produção para começar a enviar mensagens. Esta versão também corrige a atualização pela galeria de plugins.</description>
 			<description locale="es_ES">La opción de Sandbox deja de formar parte de la configuración del módulo y ahora se habilita mediante config.inc.php. Las revistas que utilizaban la API de Sandbox solo tienen que introducir sus credenciales de producción para empezar a enviar mensajes. Esta versión también corrige la actualización desde la galería de módulos.</description>
 		</release>
+		<release date="2026-10-16" version="1.1.5.1" md5="9b9fdfa4321e4c96198362aeaeaa6f17">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v1.1.5.1/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US"><![CDATA[<ul><li>Sends the grant numbers from the Funding plugin.</li><li>Articles published in scheduled issues are now sent.</li><li>General fixes.</li></ul>]]></description>
+			<description locale="pt_BR"><![CDATA[<ul><li>Envia os números de auxílio do plugin Funding.</li><li>Artigos publicados em edições agendadas agora são enviados.</li><li>Correções gerais.</li></ul>]]></description>
+			<description locale="es_ES"><![CDATA[<ul><li>Envía los números de ayuda del módulo Funding.</li><li>Los artículos publicados en números programados ahora se envían.</li><li>Correcciones generales.</li></ul>]]></description>
+		</release>
 		<release date="2025-11-14" version="2.0.2.0" md5="0bff84bf775eb92ea558b5aafda33838">
 			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.2.0/OASwitchboard.tar.gz</package>
 			<compatibility application="ojs2">
@@ -11570,6 +11591,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">A opção de Sandbox deixa de fazer parte das configurações do plugin e passa a ser habilitada pelo config.inc.php. Os periódicos que usavam a API de Sandbox precisam apenas informar as credenciais de produção para começar a enviar mensagens.</description>
 			<description locale="es">La opción de Sandbox deja de formar parte de la configuración del módulo, y ahora se habilita mediante config.inc.php. Las revistas que utilizaban la API de Sandbox solo tienen que introducir sus credenciales de producción para empezar a enviar mensajes.</description>
 		</release>
+		<release date="2026-10-15" version="2.0.4.0" md5="1162ff5b75a94d999f8288bbe6ad64c3">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v2.0.4.0/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en"><![CDATA[<ul><li>Sends the grant numbers from the Funding plugin.</li><li>Articles published in scheduled issues, or with DOIs assigned at publication, are now sent.</li><li>General fixes.</li></ul>]]></description>
+			<description locale="pt_BR"><![CDATA[<ul><li>Envia os números de auxílio do plugin Funding.</li><li>Artigos publicados em edições agendadas, ou com DOI atribuído na publicação, agora são enviados.</li><li>Correções gerais.</li></ul>]]></description>
+			<description locale="es"><![CDATA[<ul><li>Envía los números de ayuda del módulo Funding.</li><li>Los artículos publicados en números programados, o con DOI asignado al publicar, ahora se envían.</li><li>Correcciones generales.</li></ul>]]></description>
+		</release>
 		<release date="2026-09-02" version="3.0.1.5" md5="47eda6e2e0edfce8d2ade2c7e5623050">
 			<package>https://github.com/lepidus/OASwitchboard/releases/download/v3.0.1.5/OASwitchboard.tar.gz</package>
 			<compatibility application="ojs2">
@@ -11579,6 +11610,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">This plugin sends a P1 message to the OA Switchboard when a submission is published.</description>
 			<description locale="pt_BR">Esse plugin envia uma mensagem P1 para o OA Switchboard quando uma submissão é publicada.</description>
 			<description locale="es">Este módulo envía un mensaje P1 a la OA Switchboard cuando se publica un envío.</description>
+		</release>
+		<release date="2026-10-16" version="3.0.3.1" md5="bb6857e2f10cbde064694927d61df039">
+			<package>https://github.com/lepidus/OASwitchboard/releases/download/v3.0.3.1/OASwitchboard.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en"><![CDATA[<ul><li>Sends the grant numbers from the Funding plugin.</li><li>Fixes the publication date sent to OA Switchboard.</li><li>Articles published in scheduled issues, or with DOIs assigned at publication, are now sent.</li><li>Editors can check and resend the message in the article's OA Switchboard tab.</li></ul>]]></description>
+			<description locale="pt_BR"><![CDATA[<ul><li>Envia os números de auxílio do plugin Funding.</li><li>Corrige a data de publicação enviada ao OA Switchboard.</li><li>Artigos publicados em edições agendadas, ou com DOI atribuído na publicação, agora são enviados.</li><li>Editores podem acompanhar e reenviar a mensagem na aba OA Switchboard do artigo.</li></ul>]]></description>
+			<description locale="es"><![CDATA[<ul><li>Envía los números de ayuda del módulo Funding.</li><li>Corrige la fecha de publicación enviada a OA Switchboard.</li><li>Los artículos publicados en números programados, o con DOI asignado al publicar, ahora se envían.</li><li>Los editores pueden seguir y reenviar el mensaje en la pestaña OA Switchboard del artículo.</li></ul>]]></description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="deleteIncompleteSubmissions">
