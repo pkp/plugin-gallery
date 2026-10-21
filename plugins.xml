@@ -11310,6 +11310,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Añade el envío de un recordatorio semanal a los evaluadores con todas las evaluaciones pendientes.</description>
 			<description locale="pt_BR">Adiciona o envio de um lembrete semanal para os avaliadores, contendo todas as avaliações pendentes.</description>
 		</release>
+		<release date="2026-10-16" version="0.2.0.3" md5="acd7e157c21c59d59781ebb542a25aa5">
+			<package>https://github.com/lepidus/reviewReminder/releases/download/v0.2.0.3/reviewReminder.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en"><![CDATA[<ul><li>General fixes in weekly reminders, the review acceptance reminder deadline, calendar invitations and weekly task scheduling.</li><li>The weekly task is unscheduled when the plugin is disabled in all journals.</li><li>Calendar invitations no longer write temporary files to the server.</li></ul>]]></description>
+			<description locale="es"><![CDATA[<ul><li>Correcciones generales en los recordatorios semanales, el plazo del recordatorio de aceptación de la evaluación, las invitaciones de calendario y la programación de la tarea semanal.</li><li>La tarea semanal se desprograma cuando el módulo está deshabilitado en todas las revistas.</li><li>Las invitaciones de calendario ya no escriben archivos temporales en el servidor.</li></ul>]]></description>
+			<description locale="pt_BR"><![CDATA[<ul><li>Correções gerais nos lembretes semanais, no prazo do lembrete de aceite da avaliação, nos convites de calendário e no agendamento da tarefa semanal.</li><li>A tarefa semanal é desagendada quando o plugin é desabilitado em todas as revistas.</li><li>Os convites de calendário não gravam mais arquivos temporários no servidor.</li></ul>]]></description>
+		</release>
+		<release date="2026-10-16" version="1.0.0.1" md5="f2a630462d9a4f55cb1ec5830d7688ee">
+			<package>https://github.com/lepidus/reviewReminder/releases/download/v1.0.0.1/reviewReminder.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adapts plugin to OJS 3.5.0.</description>
+			<description locale="es">Adapta el módulo para OJS 3.5.0.</description>
+			<description locale="pt_BR">Adapta o plugin para o OJS 3.5.0.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="OASwitchboard">
 		<name locale="en">OA Switchboard Plugin</name>
