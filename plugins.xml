@@ -1782,8 +1782,8 @@
 			<description locale="es_ES">Esta versión mejora los informes del plugin añadiendo nuevas columnas y opciones de filtrado</description>
 			<description locale="pt_BR">Esta versão melhora o relatório do plugin, adicionando novas colunas e opções de filtragem</description>
 		</release>
-		<release date="2026-09-14" version="3.4.6.2" md5="dc1558ad21de38375dadbf852aa749f2">
-			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.4.6.2/dataverse.tar.gz</package>
+		<release date="2026-10-23" version="3.4.6.3" md5="6e8de5060910dfec302309d8d89b18b3">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.4.6.3/dataverse.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
@@ -1791,9 +1791,9 @@
 				<version>~3.4.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en">This release improves the plugin report, adding new columns and filtering options</description>
-			<description locale="es">Esta versión mejora los informes del plugin añadiendo nuevas columnas y opciones de filtrado</description>
-			<description locale="pt_BR">Esta versão melhora o relatório do plugin, adicionando novas colunas e opções de filtragem</description>
+			<description locale="en">Prevents the installer from recording the plugin version as the core version.</description>
+			<description locale="es">Evita que el instalador registre la versión del módulo como versión del núcleo.</description>
+			<description locale="pt_BR">Evita que o instalador registre a versão do plugin como versão do núcleo.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
