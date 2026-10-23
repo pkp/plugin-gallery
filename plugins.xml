@@ -10421,6 +10421,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Elimina el párrafo contenedor de las descripciones de las preguntas</description>
 			<description locale="pt_BR">Remove o parágrafo envoltório das descrições das perguntas</description>
 		</release>
+		<release date="2026-10-21" version="1.1.0.4" md5="cf1337ee8a9494e2e92a613452dd6113">
+			<package>https://github.com/lepidus/customQuestions/releases/download/v1.1.0.4/customQuestions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Restricts custom question deletion to the current context.</description>
+			<description locale="es">Restringe la eliminación de preguntas personalizadas al contexto actual.</description>
+			<description locale="pt_BR">Restringe a exclusão de perguntas personalizadas ao contexto atual.</description>
+		</release>
 		<release date="2026-08-06" version="2.0.0.0" md5="c4ba0007a70f28c642d913accadbdd20">
 			<package>https://github.com/lepidus/customQuestions/releases/download/v2.0.0.0/customQuestions.tar.gz</package>
 			<compatibility application="ojs2">
@@ -10433,6 +10446,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Adds compatibility with OJS and OPS 3.5.</description>
 			<description locale="es">Añade compatibilidad con OJS y OPS 3.5.</description>
 			<description locale="pt_BR">Adiciona compatibilidade com OJS e OPS 3.5.</description>
+		</release>
+		<release date="2026-10-21" version="2.0.0.1" md5="27586df004c0f7347e83f6d7a7e78dcc">
+			<package>https://github.com/lepidus/customQuestions/releases/download/v2.0.0.1/customQuestions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Restricts custom question deletion to the current context.</description>
+			<description locale="es">Restringe la eliminación de preguntas personalizadas al contexto actual.</description>
+			<description locale="pt_BR">Restringe a exclusão de perguntas personalizadas ao contexto atual.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="deiaSurvey">
