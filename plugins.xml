@@ -1782,6 +1782,19 @@
 			<description locale="es_ES">Esta versión mejora los informes del plugin añadiendo nuevas columnas y opciones de filtrado</description>
 			<description locale="pt_BR">Esta versão melhora o relatório do plugin, adicionando novas colunas e opções de filtragem</description>
 		</release>
+		<release date="2026-10-23" version="3.4.8.3" md5="8a4dcfcfb95e20c438b593e310e25796">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.4.8.3/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Uses a datepicker for date metadata fields, fixes errors when uploading multiple tabular files, and restores missing locale keys.</description>
+			<description locale="es">Utiliza un selector de fechas para los campos de metadatos de fecha, corrige errores al cargar varios archivos tabulares y restaura claves de traducción faltantes.</description>
+			<description locale="pt_BR">Utiliza um seletor de datas nos campos de metadados de data, corrige erros no envio de múltiplos arquivos tabulares e restaura chaves de tradução ausentes.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
 		<name locale="en">Matomo</name>
