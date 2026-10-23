@@ -10997,16 +10997,6 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Corrige problemas de segurança no tratamento de traduções: a referência à submissão traduzida não pode mais ser alterada pela API, o artigo original só é exibido quando pertence à mesma revista e está publicado, e a relação no Crossref só é enviada para originais válidos e no idioma da original.</description>
 			<description locale="es_ES">Corrige problemas de seguridad en el manejo de traducciones: la referencia al envío traducido ya no puede modificarse a través de la API, el artículo original solo se muestra cuando pertenece a la misma revista y está publicado, y la relación en Crossref solo se envía para originales válidos y en el idioma del original.</description>
 		</release>
-		<release date="2026-10-23" version="2.0.0.2" md5="079c7b6d85189625cba47f6188e1f95d">
-			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v2.0.0.2/doiForTranslation.tar.gz</package>
-			<compatibility application="ojs2">
-				<version>~3.5.0.0</version>
-			</compatibility>
-			<certification type="reviewed"/>
-			<description locale="en">Fixes security issues in the access control of translations and sends the original language title to Crossref in the language of the original article.</description>
-			<description locale="pt_BR">Corrige problemas de segurança no controle de acesso das traduções e envia ao Crossref o título original no idioma do artigo original.</description>
-			<description locale="es">Corrige problemas de seguridad en el control de acceso de las traducciones y envía a Crossref el título original en el idioma del artículo original.</description>
-		</release>
 	</plugin>
 	<plugin category="generic" product="reviewReminder">
 		<name locale="en">Review Reminder</name>
