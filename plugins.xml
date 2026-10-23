@@ -10976,8 +10976,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Corrige formação do título completo e melhora tratamento de dados de autores e filtro de idioma.</description>
 			<description locale="es_ES">Corrige la formación del título completo y mejora el manejo de datos de autores y filtrado por idioma.</description>
 		</release>
-		<release date="2026-04-20" version="1.0.4.2" md5="64d4b0a7d93f92c68b3da8f46edbb6fa">
-			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v1.0.4.2/doiForTranslation.tar.gz</package>
+		<release date="2026-10-23" version="1.0.4.3" md5="db6b0babc4e155cb11292db5038e9739">
+			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v1.0.4.3/doiForTranslation.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -10993,20 +10993,20 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.3.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en_US">Fixes the visibility of translations articles on issue listing and adds minor improvements</description>
-			<description locale="pt_BR">Corrige a visibilidade dos artigos de tradução na lista de problemas e traz pequenas melhorias</description>
-			<description locale="es_ES">Corrige la visibilidad de los artículos de traducción en la lista de problemas e introduce pequeñas mejoras</description>
+			<description locale="en_US">Fixes security issues in the handling of translations: the translated submission reference can no longer be changed through the API, the original article is only shown when it belongs to the same journal and is published, and the Crossref relation is only sent for valid originals and in the language of the original.</description>
+			<description locale="pt_BR">Corrige problemas de segurança no tratamento de traduções: a referência à submissão traduzida não pode mais ser alterada pela API, o artigo original só é exibido quando pertence à mesma revista e está publicado, e a relação no Crossref só é enviada para originais válidos e no idioma da original.</description>
+			<description locale="es_ES">Corrige problemas de seguridad en el manejo de traducciones: la referencia al envío traducido ya no puede modificarse a través de la API, el artículo original solo se muestra cuando pertenece a la misma revista y está publicado, y la relación en Crossref solo se envía para originales válidos y en el idioma del original.</description>
 		</release>
-		<release date="2026-08-28" version="2.0.0.0" md5="1b904eb82829da0f6e9cca53e80337be">
-			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v2.0.0.0/doiForTranslation.tar.gz</package>
+		<release date="2026-10-23" version="2.0.0.2" md5="079c7b6d85189625cba47f6188e1f95d">
+			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v2.0.0.2/doiForTranslation.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en_US">Adapts plugin to OJS 3.5.0.</description>
-			<description locale="pt_BR">Adapta o plugin para o OJS 3.5.0.</description>
-			<description locale="es_ES">Adapta el modulo para OJS 3.5.0.</description>
-		</release>	
+			<description locale="en">Fixes security issues in the access control of translations and sends the original language title to Crossref in the language of the original article.</description>
+			<description locale="pt_BR">Corrige problemas de segurança no controle de acesso das traduções e envia ao Crossref o título original no idioma do artigo original.</description>
+			<description locale="es">Corrige problemas de seguridad en el control de acceso de las traducciones y envía a Crossref el título original en el idioma del artículo original.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="reviewReminder">
 		<name locale="en">Review Reminder</name>
