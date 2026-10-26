@@ -12738,8 +12738,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Archimede Informatica</institution>
 			<email>marziani@archicoop.it</email>
 		</maintainer>
-		<release date="2026-05-29" version="1.0.0.0" md5="b409ecc97be837d228d4ce6575082c17">
-			<package>https://github.com/archicoop/loginOtp/releases/download/v1.0.0/loginOtp-1.0.0.tar.gz</package>
+		<release date="2026-10-26" version="2.0.1.1" md5="842eaeee74588d7dfca489bdfddc9c2d">
+			<package>https://github.com/archicoop/loginOtp/releases/download/v2.0.1.1/loginOtp-2.0.1.1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.5.0.4</version>
 			</compatibility>
@@ -12747,7 +12747,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
     			<version>3.5.0.4</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description>Initial release. Email OTP at login with role-based configuration and hierarchy support.</description>
+			<description>Email OTP at login with role-based configuration and hierarchy support.</description>
 		</release>
 	</plugin>
 </plugins>
