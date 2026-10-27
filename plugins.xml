@@ -1795,6 +1795,19 @@
 			<description locale="es">Evita que el instalador registre la versión del módulo como versión del núcleo.</description>
 			<description locale="pt_BR">Evita que o instalador registre a versão do plugin como versão do núcleo.</description>
 		</release>
+		<release date="2026-10-27" version="3.4.8.4" md5="6fada687a228010e5d69cb0de95663bc">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.4.8.4/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Repairs core version corruption caused by the Dataverse plugin.</description>
+			<description locale="es">Repara la corrupción de la versión del núcleo causada por el módulo Dataverse.</description>
+			<description locale="pt_BR">Repara a corrupção da versão do núcleo causada pelo plugin Dataverse.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
 		<name locale="en">Matomo</name>
