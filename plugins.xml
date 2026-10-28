@@ -12728,4 +12728,49 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="aiTransparencyDeclaration">
+		<name locale="en_US">AI Transparency Declaration (AITD)</name>
+		<name locale="es_ES">Declaración de Transparencia sobre el Uso de Inteligencia Artificial (AITD)</name>
+		<name locale="pt_BR">Declaração de Transparência sobre o Uso de Inteligência Artificial (AITD)</name>
+		<homepage>https://github.com/ismacacerescorrea/AiTransparencyDeclaration</homepage>
+		<summary locale="en_US">Records and displays structured declarations about the use of artificial intelligence in scholarly publications.</summary>
+		<summary locale="es_ES">Registra y presenta declaraciones estructuradas sobre el uso de inteligencia artificial en publicaciones científicas.</summary>
+		<summary locale="pt_BR">Registra e apresenta declarações estruturadas sobre o uso de inteligência artificial em publicações científicas.</summary>
+		<description locale="en_US"><![CDATA[<p>AI Transparency Declaration (AITD) supports structured disclosure of artificial intelligence use in scholarly publishing. It integrates declarations into editorial processes and makes the corresponding information visible in the public presentation of articles (OJS) and preprints (OPS). The plugin is based on the AITD Model v1.1 developed by Sergio Santamarina and Carlos Authier, with contributions from Aamir Sohail. The adaptation for PKP platforms is developed by Ismael Cáceres-Correa. Licensed under the GNU Affero General Public License v3.0.</p><p>Model: <a href="https://doi.org/10.5281/zenodo.18601557">https://doi.org/10.5281/zenodo.18601557</a>.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>AI Transparency Declaration (AITD) permite registrar declaraciones estructuradas sobre el uso de inteligencia artificial en la publicación científica. Integra estas declaraciones en los procesos editoriales y presenta su información en las páginas públicas de los artículos (OJS) y preprints (OPS). El plugin se basa en el Modelo AITD v1.1, desarrollado por Sergio Santamarina y Carlos Authier, con contribuciones de Aamir Sohail. La adaptación para las plataformas PKP fue desarrollada por Ismael Cáceres-Correa. Licencia GNU Affero General Public License v3.0.</p><p>Modelo: <a href="https://doi.org/10.5281/zenodo.18601557">https://doi.org/10.5281/zenodo.18601557</a>.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>O AI Transparency Declaration (AITD) permite registrar declarações estruturadas sobre o uso de inteligência artificial na publicação científica. Integra essas declarações aos processos editoriais e apresenta as informações nas páginas públicas dos artigos (OJS) e preprints (OPS). O plugin baseia-se no Modelo AITD v1.1, desenvolvido por Sergio Santamarina e Carlos Authier, com contribuições de Aamir Sohail. A adaptação para as plataformas PKP foi desenvolvida por Ismael Cáceres-Correa. Licença GNU Affero General Public License v3.0.</p><p>Modelo: <a href="https://doi.org/10.5281/zenodo.18601557">https://doi.org/10.5281/zenodo.18601557</a>.</p>]]></description>
+		<maintainer>
+			<name>Ismael Cáceres-Correa</name>
+			<institution>Sociedad Realidad e Historia</institution>
+			<email>sociedadrealidadehistoriaspa@gmail.com</email>
+		</maintainer>
+		<release date="2026-10-09" version="1.1.0.0" md5="06b39bd6fc0fb1e26e204dbe75b1d4b3">
+			<package>https://github.com/ismacacerescorrea/AiTransparencyDeclaration/releases/download/v1.1.0.0/aiTransparencyDeclaration.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.22</version>
+			</compatibility>
+			<description locale="en_US">AITD release tested on OJS 3.3.0-22; declaration presentation styles are embedded in the templates.</description>
+		</release>
+		<release date="2026-10-09" version="1.2.0.0" md5="ce73a7f2d46598416f3a5638e9f6cbb1">
+			<package>https://github.com/ismacacerescorrea/AiTransparencyDeclaration/releases/download/v1.2.0.0/aitd-ojs-3-4-0-10.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.4.0.10</version>
+			</compatibility>
+			<description locale="en_US">AITD release tested on OJS 3.4.0-10; declaration presentation styles are embedded in the templates.</description>
+		</release>
+		<release date="2026-10-09" version="1.3.0.0" md5="38bff312ab308a6bafdea230642bf2d0">
+			<package>https://github.com/ismacacerescorrea/AiTransparencyDeclaration/releases/download/v1.3.0.0/aitd-ojs-3-5-0-5.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.5</version>
+			</compatibility>
+			<description locale="en_US">AITD release tested on OJS 3.5.0-5; declaration presentation styles are embedded in the templates.</description>
+		</release>
+		<release date="2026-10-09" version="1.4.0.0" md5="5d80eaca5a161a5d1a1ed34276c663dd">
+			<package>https://github.com/ismacacerescorrea/AiTransparencyDeclaration/releases/download/v1.4.0/aitd_ops_3-0-5-0.tar.gz</package>
+			<compatibility application="ops">
+				<version>3.5.0.5</version>
+			</compatibility>
+			<description locale="en_US">AITD release tested on OPS 3.5.0-5; declaration presentation styles are embedded in the templates.</description>
+		</release>
+	</plugin>
 </plugins>
