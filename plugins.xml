@@ -12728,4 +12728,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="loginOtp">
+		<name locale="en_US">Login OTP via Email</name>
+		<homepage>https://github.com/archicoop/loginOtp</homepage>
+		<summary locale="en_US">Adds two-factor authentication to the login process by sending a one-time code (OTP) via email.</summary>
+		<description locale="en_US"><![CDATA[<p>Adds two-factor authentication (2FA) to the login process. After entering valid credentials, users receive a 6-digit one-time code via email. No additional app required.</p><p>Features: per-journal configuration of the roles that require OTP, with Site Administrators, Managers and Subscription Managers always protected; brute-force protection (lockout after 5 failed codes); flood protection (one code per minute and 5 unused codes per hour per user); SHA-256 hashed OTP stored in session only; compatible with login-blocking plugins and login captcha.</p><p>Compliant with Italian ACN guidelines and GDPR. More information at the <a href="https://github.com/archicoop/loginOtp">plugin repository</a>.</p>]]></description>		
+		<maintainer>
+			<name>Monica Marziani</name>
+			<institution>Archimede Informatica</institution>
+			<email>marziani@archicoop.it</email>
+		</maintainer>
+		<release date="2026-10-28" version="2.0.2.4" md5="6d9c8859e34d5015c5830589d38ee1dc">
+			<package>https://github.com/archicoop/loginOtp/releases/download/v2.0.2.4/loginOtp-2.0.2.4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.4</version>
+			</compatibility>
+			<compatibility application="omp">
+    			<version>3.5.0.4</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Email OTP at login with per-journal role configuration, enforcement on every journal of the site, protected roles that always require OTP, per-user send limits, and compatibility with login captcha and login-blocking plugins.</description>
+		</release>
+	</plugin>
 </plugins>
