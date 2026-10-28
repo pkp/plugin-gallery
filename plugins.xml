@@ -1799,9 +1799,11 @@
 			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.4.8.4/dataverse.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
+				<version>3.4.6.2</version>
 			</compatibility>
 			<compatibility application="ops">
 				<version>~3.4.0.0</version>
+				<version>3.4.6.2</version>
 			</compatibility>
 			<certification type="reviewed"/>
 			<description locale="en">Repairs core version corruption caused by the Dataverse plugin.</description>
