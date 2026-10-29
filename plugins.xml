@@ -12728,4 +12728,22 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="browseByAuthor">
+		<name locale="en">Browse by Author</name>
+		<homepage>https://github.com/DiCaver/browseByAuthor</homepage>
+		<summary locale="en">Alphabetical author index (A-Z), sorted by the rules of your journal's language.</summary>
+		<description locale="en"><![CDATA[<p>Brings back the author index that OJS removed from core in 3.4, at its old address (search/authors), so existing links keep working.</p><p>Authors of published articles are sorted and grouped by initial letter with the collation rules of a language you choose, so letters such as Č, Š, Ž, Ø or Ñ get their own place in the alphabet. Letter navigation, optional article counts, and an "Author Index" navigation menu item type. Each name links to a search for that author's articles. English and Slovenian translations.</p>]]></description>
+		<maintainer>
+			<name>Marko Zakrajsek</name>
+			<institution>Independent</institution>
+			<email>marko@zakrajsek.org</email>
+		</maintainer>
+		<release date="2026-10-29" version="1.0.0.0" md5="b95e88ac6291cbaff94b08bd663bb8fc">
+			<package>https://github.com/DiCaver/browseByAuthor/releases/download/v1.0.0.0/browseByAuthor-1.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">First release, for OJS 3.5</description>
+		</release>
+	</plugin>
 </plugins>
