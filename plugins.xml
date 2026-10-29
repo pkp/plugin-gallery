@@ -1,6 +1,25 @@
 <?xml version="1.0"?>
 <plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
 
+    	<plugin category="generic" product="editorialMastheadProfiles">
+    	<name locale="en_US">Editorial Masthead Profiles</name>
+    	<homepage>https://github.com/open-manuscript-initiative/ojs-editorial-masthead-profiles</homepage>
+    	<summary locale="en_US">Adds public profile pages for members of an OJS editorial masthead.</summary>
+    	<description locale="en_US"><![CDATA[<p>Adds public profile pages for current editorial masthead members and links member names from the standard OJS Editorial Masthead page. Profiles use journal-scoped OJS user and masthead data and support localized interface strings.</p>]]></description>
+    	<maintainer>
+	    	<name>Open Manuscript Initiative</name>
+    		<institution>Open Manuscript Initiative</institution>
+    		<email>vargawebkiado@gmail.com</email>
+    	</maintainer>
+    	<release date="2026-08-30" version="1.0.7.0" md5="aad491e1cc353807c824546e2a381b8c">
+    		<package>https://github.com/open-manuscript-initiative/ojs-editorial-masthead-profiles/releases/download/v1.0.7.0/editorialMastheadProfiles-1.0.7.0.tar.gz</package>
+    		<compatibility application="ojs2">
+	    		<version>3.5.0.4</version>
+    			<version>3.5.0.5</version>
+    		</compatibility>
+	    	<description locale="en_US">Initial Plugin Gallery release. Adds standalone editorial masthead profile pages and links for OJS 3.5.</description>
+    	</release>
+    </plugin>
 	<plugin category="generic" product="iiifViewer">
 		<name locale="en_US">IIIF Viewer</name>
 		<homepage>https://github.com/ub-unibe-ch/iiifViewer</homepage>
