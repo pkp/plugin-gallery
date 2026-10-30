@@ -10224,8 +10224,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Esta versión añade una comprobación de los metadatos necesarios durante el envío.</description>
 			<description locale="pt_BR">Esta versão adiciona uma verificação de metadados obrigatórios durante o envio.</description>
 		</release>
-		<release date="2026-10-16" version="2.2.2.3" md5="fc65f771732322261a69788709a9d9d5">
-			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v2.2.2.3/toggleRequiredMetadata.tar.gz</package>
+		<release date="2026-10-28" version="2.2.2.4" md5="5cc19f0253aa4790f6905539d39f04f9">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v2.2.2.4/toggleRequiredMetadata.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
@@ -10289,8 +10289,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta versión añade comprobaciones de los metadatos necesarios durante el envío.</description>
 			<description locale="pt_BR">Esta versão adiciona verificações de metadados necessários durante o envio.</description>
 		</release>
-		<release date="2026-10-16" version="1.4.1.7" md5="8a36267e786ac8ed5f2fc5915c16f040">
-			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v1.4.1.7/toggleRequiredMetadata.tar.gz</package>
+		<release date="2026-10-28" version="1.4.1.8" md5="3da473b9c82aa18f066b6c519de7d341">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v1.4.1.8/toggleRequiredMetadata.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -10338,8 +10338,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">El requisito de ORCID ahora también funciona con el módulo Perfil ORCID activo: para finalizar el envío, al menos un colaborador debe tener el ORCID iD autenticado y se debe haber solicitado la autorización ORCID a los demás. El flujo editorial muestra qué colaboradores siguen pendientes y qué hacer, y la información obligatoria que falta se muestra en el formulario de envío, también en OMP. Elija cuáles exigir en la configuración del módulo.</description>
 			<description locale="pt_BR">O requisito de ORCID agora também funciona com o plugin Perfil ORCID ativo: para concluir a submissão, pelo menos um contribuidor precisa ter o ORCID iD autenticado e a autorização ORCID precisa ter sido solicitada aos demais. O fluxo editorial mostra quais contribuidores ainda estão pendentes e o que fazer, e os dados obrigatórios que faltam são listados no formulário de submissão, também no OMP. Escolha quais delas exigir nas configurações do plugin.</description>
 		</release>
-		<release date="2026-10-16" version="3.0.0.3" md5="bacae65df92a8879c80fe6c1aa61cc73">
-			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v3.0.0.3/toggleRequiredMetadata.tar.gz</package>
+		<release date="2026-10-28" version="3.0.0.4" md5="70f31e9a791c23d5dc8fec04b87924ea">
+			<package>https://github.com/lepidus/toggleRequiredMetadata/releases/download/v3.0.0.4/toggleRequiredMetadata.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
