@@ -11320,6 +11320,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es"><![CDATA[<ul><li>Correcciones generales en los recordatorios semanales, el plazo del recordatorio de aceptación de la evaluación, las invitaciones de calendario y la programación de la tarea semanal.</li><li>La tarea semanal se desprograma cuando el módulo está deshabilitado en todas las revistas.</li><li>Las invitaciones de calendario ya no escriben archivos temporales en el servidor.</li></ul>]]></description>
 			<description locale="pt_BR"><![CDATA[<ul><li>Correções gerais nos lembretes semanais, no prazo do lembrete de aceite da avaliação, nos convites de calendário e no agendamento da tarefa semanal.</li><li>A tarefa semanal é desagendada quando o plugin é desabilitado em todas as revistas.</li><li>Os convites de calendário não gravam mais arquivos temporários no servidor.</li></ul>]]></description>
 		</release>
+		<release date="2026-10-28" version="0.4.0.0" md5="cd81bb89ed715807fdfa06a814591a51">
+			<package>https://github.com/lepidus/reviewReminder/releases/download/v0.4.0.0/reviewReminder.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds the option to turn off the weekly reminder per journal, a option to edit/translate reminders and improvements in reminders and calendar invite.</description>
+			<description locale="es">Añade la opción de desactivar el recordatorio semanal por revista, una opción para editar o traducir los recordatorios, y mejoras en los recordatorios y las invitaciones del calendario.</description>
+			<description locale="pt_BR">Adiciona a opção de desativar o lembrete semanal por revista, uma opção para editar/traduzir lembretes e melhorias nos lembretes e nos convites do calendário</description>
+		</release>
 		<release date="2026-10-16" version="1.0.0.1" md5="f2a630462d9a4f55cb1ec5830d7688ee">
 			<package>https://github.com/lepidus/reviewReminder/releases/download/v1.0.0.1/reviewReminder.tar.gz</package>
 			<compatibility application="ojs2">
@@ -11329,6 +11339,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Adapts plugin to OJS 3.5.0.</description>
 			<description locale="es">Adapta el módulo para OJS 3.5.0.</description>
 			<description locale="pt_BR">Adapta o plugin para o OJS 3.5.0.</description>
+		</release>
+		<release date="2026-10-28" version="1.2.0.0" md5="7cdb1c579938623a7126e929d6e30ce0">
+			<package>https://github.com/lepidus/reviewReminder/releases/download/v1.2.0.0/reviewReminder.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds the option to turn off the weekly reminder per journal, a option to edit/translate reminders and improvements in reminders and calendar invite.</description>
+			<description locale="es">Añade la opción de desactivar el recordatorio semanal por revista, una opción para editar o traducir los recordatorios, y mejoras en los recordatorios y las invitaciones del calendario.</description>
+			<description locale="pt_BR">Adiciona a opção de desativar o lembrete semanal por revista, uma opção para editar/traduzir lembretes e melhorias nos lembretes e nos convites do calendário</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="OASwitchboard">
