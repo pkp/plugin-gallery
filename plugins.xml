@@ -12753,7 +12753,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Compilatio</institution>
 			<email>support@compilatio.net</email>
 		</maintainer>
-		<release date="2026-11-02" version="1.0.0.6" md5="aaeb65254d8137b5718150049283334e">
+		<release date="2026-11-02" version="1.0.0.6" md5="61611fd5d317753b4ae9bdf7589b395e">
 			<package>https://github.com/compilatio/Compilatio-OJS-Plugin/releases/download/V1.0.0.6/compilatio-1.0.0.6.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
