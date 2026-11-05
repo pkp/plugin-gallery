@@ -12823,4 +12823,23 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+  <plugin category="generic" product="scholar9Review">
+    <name locale="en">Scholar9 Transparent Peer Review</name>
+    <name locale="en_US">Scholar9 Transparent Peer Review</name>
+    <homepage>https://github.com/sequencernd/scholar9Review</homepage>
+    <summary locale="en">Connect an OJS journal to Scholar9 for reviewer discovery and peer-review communication.</summary>
+    <summary locale="en_US">Connect an OJS journal to Scholar9 for reviewer discovery and peer-review communication.</summary>
+    <description locale="en"><![CDATA[<p>Integrates journal API-access requests, reviewer selection, messages, file sharing, review updates, ratings and controlled public review links with Scholar9. An approved Scholar9 service account and API credentials are required. New access applications also send journal/contact details to inquiry@ojscloud.com. See the repository README for data disclosure, service requirements and setup.</p>]]></description>
+    <description locale="en_US"><![CDATA[<p>Integrates journal API-access requests, reviewer selection, messages, file sharing, review updates, ratings and controlled public review links with Scholar9. An approved Scholar9 service account and API credentials are required. New access applications also send journal/contact details to inquiry@ojscloud.com. See the repository README for data disclosure, service requirements and setup.</p>]]></description>
+    <maintainer>
+      <name>SEQUENCE RESEARCH &amp; DEVELOPMENT PRIVATE LIMITED</name>
+      <institution>SEQUENCE RESEARCH &amp; DEVELOPMENT PRIVATE LIMITED</institution>
+      <email>inquiry@ojscloud.com</email>
+    </maintainer>
+    <release date="2026-11-05" version="1.3.5.1" md5="3e5e77f88691ac6f2701a1b65d2c5eb5">
+      <package>https://github.com/sequencernd/scholar9Review/releases/download/v1.3.5.1/scholar9Review-1.3.5.1.tar.gz</package>
+      <compatibility application="ojs2"><version>3.4.0.5</version><version>3.5.0.5</version></compatibility>
+      <description locale="en">Initial Gallery submission of the Scholar9 integration. GPL-2.0-or-later.</description>
+    </release>
+  </plugin>
 </plugins>
