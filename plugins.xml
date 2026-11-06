@@ -11368,6 +11368,16 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Corrige formação do título completo e melhora tratamento de dados de autores e filtro de idioma.</description>
 			<description locale="es_ES">Corrige la formación del título completo y mejora el manejo de datos de autores y filtrado por idioma.</description>
 		</release>
+		<release date="2026-11-06" version="2.0.0.6" md5="a2409e5cd61df0a28d9300bab009b920">
+			<package>https://github.com/lepidus/DoiForTranslation/releases/download/v2.0.0.6/doiForTranslation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adapts the plugin to OJS 3.5. Only users who can make editorial decisions on a submission, such as journal managers and section editors, can create a translation; other participants can still see existing translations. Incomplete submissions can no longer be translated, and an invalid language now returns the language unavailable message.</description>
+			<description locale="pt_BR">Adapta o plugin para o OJS 3.5. Somente usuários que podem tomar decisões editoriais sobre uma submissão, como gerentes de revista e editores de seção, podem criar uma tradução; os demais participantes continuam vendo as traduções existentes. Submissões incompletas não podem mais ser traduzidas, e um idioma inválido agora retorna a mensagem de idioma indisponível.</description>
+			<description locale="es">Adapta el plugin a OJS 3.5. Solo los usuarios que pueden tomar decisiones editoriales sobre un envío, como los gestores de revista y los editores de sección, pueden crear una traducción; los demás participantes siguen viendo las traducciones existentes. Los envíos incompletos ya no se pueden traducir, y un idioma no válido ahora devuelve el mensaje de idioma no disponible.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="reviewReminder">
 		<name locale="en">Review Reminder</name>
