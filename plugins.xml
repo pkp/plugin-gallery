@@ -12823,4 +12823,28 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="submissionCaptcha">
+		<name locale="en">Submission Captcha</name>
+		<name locale="en_US">Submission Captcha</name>
+		<name locale="de">Captcha für Einreichungen</name>
+		<homepage>https://github.com/marianpg/ojs-submission-captcha</homepage>
+		<summary locale="en">Requires a reCAPTCHA or ALTCHA before a new submission is created.</summary>
+		<summary locale="en_US">Requires a reCAPTCHA or ALTCHA before a new submission is created.</summary>
+		<summary locale="de">Verlangt ein reCAPTCHA oder ALTCHA, bevor eine neue Einreichung angelegt wird.</summary>
+		<description locale="en"><![CDATA[<p>Adds a captcha to the first page of the submission wizard. No submission is created until it has been solved, so automated accounts can no longer create draft submissions or upload files to them. The response is verified on the server with the validators of OJS itself.</p><p>Supports both captchas of OJS 3.5 and uses their settings from the <code>[captcha]</code> section of <code>config.inc.php</code>: reCAPTCHA v2 (when <code>recaptcha</code> is <code>On</code> and both keys are set) and the self-hosted ALTCHA (when <code>altcha</code> is <code>On</code> and <code>altcha_hmackey</code> is set). ALTCHA challenges expire after an hour and are accepted only once. Everyone has to solve the captcha, including editors; creating submissions through the REST API is not possible while the plugin is enabled.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Adds a captcha to the first page of the submission wizard. No submission is created until it has been solved, so automated accounts can no longer create draft submissions or upload files to them. The response is verified on the server with the validators of OJS itself.</p><p>Supports both captchas of OJS 3.5 and uses their settings from the <code>[captcha]</code> section of <code>config.inc.php</code>: reCAPTCHA v2 (when <code>recaptcha</code> is <code>On</code> and both keys are set) and the self-hosted ALTCHA (when <code>altcha</code> is <code>On</code> and <code>altcha_hmackey</code> is set). ALTCHA challenges expire after an hour and are accepted only once. Everyone has to solve the captcha, including editors; creating submissions through the REST API is not possible while the plugin is enabled.</p>]]></description>
+		<description locale="de"><![CDATA[<p>Fügt der ersten Seite des Einreichungsassistenten ein Captcha hinzu. Erst wenn es gelöst ist, wird die Einreichung angelegt; automatisierte Konten können so keine Entwürfe mehr anlegen und keine Dateien hochladen. Die Antwort wird auf dem Server mit den Prüfungen von OJS selbst verifiziert.</p><p>Unterstützt beide Captchas von OJS 3.5 und verwendet deren Einstellungen aus dem Abschnitt <code>[captcha]</code> der <code>config.inc.php</code>: reCAPTCHA v2 (wenn <code>recaptcha</code> auf <code>On</code> steht und beide Schlüssel gesetzt sind) und das selbst gehostete ALTCHA (wenn <code>altcha</code> auf <code>On</code> steht und <code>altcha_hmackey</code> gesetzt ist). ALTCHA-Aufgaben laufen nach einer Stunde ab und gelten nur einmal. Alle müssen das Captcha lösen, auch die Redaktion; Einreichungen über die REST-API sind bei aktivem Plugin nicht möglich.</p>]]></description>
+		<maintainer>
+			<name>Marian P. Gajda</name>
+			<institution>Independent</institution>
+			<email>marianpgajda@gmail.com</email>
+		</maintainer>
+		<release date="2026-11-07" version="1.0.0.0" md5="d87e9be7605a08f237bcc2f77e39f53d">
+			<package>https://github.com/marianpg/ojs-submission-captcha/releases/download/1.0.0.0/submissionCaptcha-1.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description>Initial release for OJS 3.5.</description>
+		</release>
+	</plugin>
 </plugins>
