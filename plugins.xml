@@ -12823,4 +12823,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="submissionRateLimit">
+		<name locale="en">Submission Rate Limit</name>
+		<name locale="en_US">Submission Rate Limit</name>
+		<homepage>https://github.com/Atilla-Wohllebe/submissionRateLimit</homepage>
+		<summary locale="en">Protects journals against spam and mass submissions by limiting how many submissions a user account can start and complete within configurable time periods.</summary>
+		<summary locale="en_US">Protects journals against spam and mass submissions by limiting how many submissions a user account can start and complete within configurable time periods.</summary>
+		<description locale="en"><![CDATA[<p>Protects journals against spam and mass submissions. Journal managers can define up to four rules per journal, each allowing at most a given number of submissions per user account within a period of minutes, hours or days (for example 1 per 15 minutes, 2 per hour and 5 per day).</p><p>Starting a new submission and completing a submission are counted separately against the same rules. Unfinished submissions count as well, and deleting a submission does not reset the counter. When a limit is reached, the "Start a new submission" page or the final "Submit" step is blocked and the author is told when to try again, without disclosing the configured limits. Site administrators, journal managers, editors and journal assistants can be exempted (enabled by default).</p><p>No core files or templates are modified. Settings and the submission log are stored in the database. Translations: English and German.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Protects journals against spam and mass submissions. Journal managers can define up to four rules per journal, each allowing at most a given number of submissions per user account within a period of minutes, hours or days (for example 1 per 15 minutes, 2 per hour and 5 per day).</p><p>Starting a new submission and completing a submission are counted separately against the same rules. Unfinished submissions count as well, and deleting a submission does not reset the counter. When a limit is reached, the "Start a new submission" page or the final "Submit" step is blocked and the author is told when to try again, without disclosing the configured limits. Site administrators, journal managers, editors and journal assistants can be exempted (enabled by default).</p><p>No core files or templates are modified. Settings and the submission log are stored in the database. Translations: English and German.</p>]]></description>
+		<maintainer>
+			<name>Atilla Wohllebe</name>
+			<institution>Wohllebe &amp; Ross Publishing</institution>
+			<email>atilla.wohllebe@gmail.com</email>
+		</maintainer>
+		<release date="2026-11-07" version="1.1.2.0" md5="3002ae5a92643d0aa4f05bd6f7b9fbff">
+			<package>https://github.com/Atilla-Wohllebe/submissionRateLimit/releases/download/v1.1.2.0/submissionRateLimit-1.1.2.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Initial release for OJS 3.5.</description>
+			<description locale="en_US">Initial release for OJS 3.5.</description>
+		</release>
+	</plugin>
 </plugins>
