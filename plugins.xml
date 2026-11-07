@@ -1,6 +1,30 @@
 <?xml version="1.0"?>
 <plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
-
+	<plugin category="generic" product="hideGenerator">
+		<name locale="en_US">Hide Generator Meta Tag</name>
+		<homepage>https://github.com/Atilla-Wohllebe/hideGenerator</homepage>
+		<summary locale="en_US">Removes the generator meta tag (OJS version fingerprint) from the HTML output</summary>
+		<description locale="en_US"><![CDATA[<p>Removes the generator meta tag (the OJS version fingerprint) from the HTML output to make version fingerprinting harder. No core files are modified, so the plugin survives upgrades.</p>]]></description>
+		<maintainer>
+			<name>Atilla Wohllebe</name>
+			<institution>Wohllebe &amp; Ross Publishing</institution>
+			<email>atilla.wohllebe@gmail.com</email>
+		</maintainer>
+		<release date="2026-11-07" version="1.0.0.0" md5="36839ca9b85844057248971e7d739fc9">
+			<package>https://github.com/Atilla-Wohllebe/hideGenerator/releases/download/1.0.0.0/hideGenerator.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.0</version>
+				<version>3.5.0.1</version>
+				<version>3.5.0.2</version>
+				<version>3.5.0.3</version>
+				<version>3.5.0.4</version>
+				<version>3.5.0.5</version>
+				<version>3.5.0.6</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description>Initial release.</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="iiifViewer">
 		<name locale="en_US">IIIF Viewer</name>
 		<homepage>https://github.com/ub-unibe-ch/iiifViewer</homepage>
