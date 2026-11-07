@@ -22,7 +22,7 @@
 				<version>3.5.0.6</version>
 				<version>~3.5.0.0</version>
 			</compatibility>
-			<description>Initial release.</description>
+			<description>Initial release, version 1.0.0.0.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="iiifViewer">
