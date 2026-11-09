@@ -888,6 +888,14 @@
 			<certification type="official" />
 			<description>Compatibility release of the QuickSubmit plugin for OJS 3.5.0.</description>
 		</release>
+		<release date="2026-11-09" version="1.0.7.3" md5="37215216e389e9ffaef088368fc00c5e">
+			<package>https://github.com/pkp/quickSubmit/releases/download/v1_0_7-3/quickSubmit-v1_0_7-3.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix release of the QuickSubmit plugin for OJS 3.4.0.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="allowedUploads">
 		<name locale="en">Allowed Uploads</name>
@@ -10542,7 +10550,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Corrige erro na migração do plugin.</description>
 			<description locale="es_ES">Corrige error en la migración del módulo.</description>
 		</release>
-		<release date="2026-08-20" version="3.0.0.0" md5="1cd22168f62d8251827c8d629946cf5c"> 
+		<release date="2026-08-20" version="3.0.0.0" md5="1cd22168f62d8251827c8d629946cf5c">
 			<package>https://github.com/lepidus/doiInSummary/releases/download/v3.0.0.0/doiInSummary.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
@@ -10552,7 +10560,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">Adapts plugin to OJS 3.5.0.</description>
 			<description locale="pt_BR">Adapta o plugin para o OJS 3.5.0.</description>
 			<description locale="es_ES">Adapta el modulo para OJS 3.5.0.</description>
-		</release>		
+		</release>
 	</plugin>
 	<plugin category="themes" product="gopher">
 		<name locale="en">Gopher Theme</name>
