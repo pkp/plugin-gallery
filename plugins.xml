@@ -12831,4 +12831,49 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="openbadges">
+		<name locale="en">Open Badges</name>
+		<name locale="en_US">Open Badges</name>
+		<homepage>https://github.com/Glaux-PA/openbadges</homepage>
+		<summary locale="en">Adds Open Science badges to articles: Open Data, Open Materials, Preregistered and Open Revision.</summary>
+		<summary locale="en_US">Adds Open Science badges to articles: Open Data, Open Materials, Preregistered and Open Revision.</summary>
+		<description locale="en"><![CDATA[
+			<p>Editors, managers and authors can award Open Science badges to each submission from the workflow. The badges are shown on the article page, as small icons in the issue lists, and as <code>open-badge</code> meta tags in the page head.</p>
+			<p>See the <a href="https://github.com/Glaux-PA/openbadges/blob/main/README.md" target="_blank" rel="noopener">README</a> for details.</p>
+		]]></description>
+		<description locale="en_US"><![CDATA[
+			<p>Editors, managers and authors can award Open Science badges to each submission from the workflow. The badges are shown on the article page, as small icons in the issue lists, and as <code>open-badge</code> meta tags in the page head.</p>
+			<p>See the <a href="https://github.com/Glaux-PA/openbadges/blob/main/README.md" target="_blank" rel="noopener">README</a> for details.</p>
+		]]></description>
+		<maintainer>
+			<name>Glaux Publicaciones Académicas</name>
+			<institution>Glaux Publicaciones Académicas</institution>
+			<email>sistemas@glaux.es</email>
+		</maintainer>
+		<release date="2026-11-09" version="1.0.0.4" md5="e4bc0213e0154c1cedfe043d46c83143">
+			<package>https://github.com/Glaux-PA/openbadges/releases/download/v1.0.0.4/openbadges-v1.0.0.4.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Release for OJS 3.3.</description>
+		</release>
+		<release date="2026-11-10" version="1.1.0.0" md5="b6f3ee8cc9130af09f87ce8346a37ced">
+			<package>https://github.com/Glaux-PA/openbadges/releases/download/v1.1.0.0/openbadges-v1.1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Release for OJS 3.4.</description>
+		</release>
+		<release date="2026-11-10" version="1.2.0.0" md5="e1ab217912d7e0da24548553d9410c22">
+			<package>https://github.com/Glaux-PA/openbadges/releases/download/v1.2.0.0/openbadges-v1.2.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Release for OJS 3.5.</description>
+		</release>
+	</plugin>
 </plugins>
