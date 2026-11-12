@@ -1484,6 +1484,16 @@
 			<description locale="es">Mejora el algoritmo de detección y corrige problemas con el estilo del título y la detección de comillas.</description>
 			<description locale="pt_BR">Melhora o algoritmo de detecção e corrige problemas com estilo de título e detecção de aspas.</description>
 		</release>
+		<release date="2026-11-09" version="2.2.9.4" md5="6aed65a78011f0c5ad0b20c05d59a668">
+			<package>https://github.com/lepidus/contentAnalysis/releases/download/v2.2.9.4/contentAnalysis.tar.gz</package>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Security fixes: the English title is now displayed safely in the Document verification tab, and only users with access to a submission can change its research ethics and document type answers.</description>
+			<description locale="es">Correcciones de seguridad: el título en inglés ahora se muestra de forma segura en la pestaña Verificación del documento, y solo los usuarios con acceso a un envío pueden cambiar sus respuestas sobre ética de la investigación y tipo de documento.</description>
+			<description locale="pt_BR">Correções de segurança: o título em inglês agora é exibido com segurança na aba Verificação do documento, e somente usuários com acesso à submissão podem alterar as respostas sobre ética em pesquisa e tipo de documento.</description>
+		</release>
 		<release date="2025-02-20" version="1.6.0.0" md5="e0790924caa13bd2f1bb17f8a0e66499">
 			<package>https://github.com/lepidus/contentAnalysis/releases/download/v1.6.0/contentAnalysis.tar.gz</package>
 			<compatibility application="ops">
@@ -1504,6 +1514,37 @@
 			<description locale="en_US">This release adds the checking for data availability statement presence in the document.</description>
 			<description locale="es_ES">Esta versión agrega la verificación de la presencia de la declaración de disponibilidad de datos en el documento.</description>
 			<description locale="pt_BR">Esta versão adiciona a verificação da presença da declaração de disponibilidade de dados no documento.</description>
+		</release>
+		<release date="2026-11-09" version="1.6.0.1" md5="b554d8fa2c1cc42b96846b7d451f5c98">
+			<package>https://github.com/lepidus/contentAnalysis/releases/download/v1.6.0.1/contentAnalysis.tar.gz</package>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Security fixes: the English title is now displayed safely in the Document verification tab, and the document analysis no longer deletes the analyzed galley file.</description>
+			<description locale="es_ES">Correcciones de seguridad: el título en inglés ahora se muestra de forma segura en la pestaña Verificación del documento, y el análisis del documento ya no elimina el archivo de la galerada analizada.</description>
+			<description locale="pt_BR">Correções de segurança: o título em inglês agora é exibido com segurança na aba Verificação do documento, e a análise do documento não exclui mais o arquivo de composição analisado.</description>
+		</release>
+		<release date="2026-11-09" version="3.0.4.4" md5="b9af6148a60ece99ebaff933f810ff2d">
+			<package>https://github.com/lepidus/contentAnalysis/releases/download/v3.0.4.4/contentAnalysis.tar.gz</package>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds compatibility with OPS 3.5. Security fixes: the document analysis no longer deletes the analyzed galley file, Document verification data follows the OPS submission access rules, and third-party components were updated.</description>
+			<description locale="es">Añade compatibilidad con OPS 3.5. Correcciones de seguridad: el análisis del documento ya no elimina el archivo de la galerada analizada, los datos de Verificación del documento siguen las reglas de acceso a envíos de OPS y se actualizaron componentes de terceros.</description>
+			<description locale="pt_BR">Adiciona compatibilidade com o OPS 3.5. Correções de segurança: a análise do documento não exclui mais o arquivo de composição analisado, os dados da Verificação do documento seguem as regras de acesso a submissões do OPS e componentes de terceiros foram atualizados.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="dataverse">
