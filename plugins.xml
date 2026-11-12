@@ -1235,6 +1235,19 @@
 			<description locale="es">Optimiza la generación del historial con una ejecución casi 90% más rápida. Corrige errores que afectaban a autores sin correo electrónico y envíos duplicados en el historial.</description>
 			<description locale="pt_BR">Otimiza a geração do histórico com execução quase 90% mais rápida. Corrige bugs que afetavam autores sem e-mail e submissões duplicadas no histórico.</description>
 		</release>
+		<release date="2026-11-09" version="2.0.4.1" md5="1c9569f9a7f710419c521ab27a93947a">
+			<package>https://github.com/lepidus/authorsHistory/releases/download/v2.0.4.1/authorsHistory.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Security fix: the Authors History tab is now shown only to site administrators, managers and section editors (moderators in OPS), no longer to authors.</description>
+			<description locale="es">Corrección de seguridad: la pestaña Historial de autores ahora solo se muestra a administradores del sitio, gestores y editores de sección (moderadores en OPS), y ya no a los autores.</description>
+			<description locale="pt_BR">Correção de segurança: a aba Histórico de autores agora é exibida somente para administradores do site, gerentes e editores de seção (moderadores no OPS), e não mais para autores.</description>
+		</release>
 		<release date="2025-12-17" version="1.1.4.1" md5="e3c2e77fd99963ca90b70809f1825c4b">
 			<package>https://github.com/lepidus/authorsHistory/releases/download/v1.1.4.1/authorsHistory.tar.gz</package>
 			<compatibility application="ojs2">
@@ -1269,6 +1282,41 @@
 			<description locale="en_US">Fixes "division by zero" error that occurred in certain scenarios.</description>
 			<description locale="es_ES">Corrige el error "division by zero" que ocurría en ciertos escenarios.</description>
 			<description locale="pt_BR">Corrige erro "division by zero" que ocorria em certos cenários.</description>
+		</release>
+		<release date="2026-11-09" version="1.1.4.2" md5="b6e9269c4359f0926b90d7382fbb72dd">
+			<package>https://github.com/lepidus/authorsHistory/releases/download/v1.1.4.2/authorsHistory.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Security fix: the Authors History tab is now shown only to site administrators, managers and section editors (moderators in OPS), no longer to authors.</description>
+			<description locale="es_ES">Corrección de seguridad: la pestaña Historial de autores ahora solo se muestra a administradores del sitio, gestores y editores de sección (moderadores en OPS), y ya no a los autores.</description>
+			<description locale="pt_BR">Correção de segurança: a aba Histórico de autores agora é exibida somente para administradores do site, gerentes e editores de seção (moderadores no OPS), e não mais para autores.</description>
 		</release>
 		<release date="2026-10-01" version="3.0.0.2" md5="1589c94008eed67185e6c21ae135e4b6">
 			<package>https://github.com/lepidus/authorsHistory/releases/download/v3.0.0.2/authorsHistory.tar.gz</package>
