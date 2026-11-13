@@ -3448,6 +3448,41 @@
 			<description locale="es_ES">Soluciona problema de eficacia en la recuperación de palabras clave.</description>
 			<description locale="pt_BR">Corrige problema de desempenho na recuperação das palavras-chave.</description>
 		</release>
+		<release date="2026-11-09" version="1.2.1.1" md5="14d4792b0159496cdf68854f066bcfec">
+			<package>https://github.com/lepidus/keywordCloud/releases/download/v1.2.1.1/keywordCloud.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Security fix: the d3 libraries are now shipped with the plugin instead of being loaded from external websites.</description>
+			<description locale="es_ES">Corrección de seguridad: las bibliotecas d3 ahora se incluyen en el plugin en lugar de cargarse desde sitios web externos.</description>
+			<description locale="pt_BR">Correção de segurança: as bibliotecas d3 agora são distribuídas com o plugin em vez de carregadas de sites externos.</description>
+		</release>
 		<release date="2024-05-23" version="2.1.1.0" md5="b546dd98126a5d199af5d4255d2a3a7f">
 			<package>https://github.com/lepidus/keywordCloud/releases/download/v2.1.1.0/keywordCloud.tar.gz</package>
 			<compatibility application="ojs2">
@@ -3460,6 +3495,19 @@
 			<description locale="en">Fixes performance issue in keywords retrieval.</description>
 			<description locale="es">Soluciona problema de eficacia en la recuperación de palabras clave.</description>
 			<description locale="pt_BR">Corrige problema de desempenho na recuperação das palavras-chave.</description>
+		</release>
+		<release date="2026-11-09" version="2.1.1.1" md5="d47a41f37753c48ab0152bb5f23e4e1d">
+			<package>https://github.com/lepidus/keywordCloud/releases/download/v2.1.1.1/keywordCloud.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Security fix: the d3 libraries are now shipped with the plugin instead of being loaded from external websites.</description>
+			<description locale="es">Corrección de seguridad: las bibliotecas d3 ahora se incluyen en el plugin en lugar de cargarse desde sitios web externos.</description>
+			<description locale="pt_BR">Correção de segurança: as bibliotecas d3 agora são distribuídas com o plugin em vez de carregadas de sites externos.</description>
 		</release>
 		<release date="2025-11-06" version="3.0.0.0" md5="fbbdbd98efb23bf531dbfe7c734904d2">
 			<package>https://github.com/lepidus/keywordCloud/releases/download/v3.0.0.0/keywordCloud.tar.gz</package>
@@ -3499,6 +3547,19 @@
 			<description locale="en">Fixes keywords loading issue.</description>
 			<description locale="es">Soluciona problema de carga de palabras clave.</description>
 			<description locale="pt_BR">Corrige problema de carregamento das palavras-chave.</description>
+		</release>
+		<release date="2026-11-09" version="3.0.0.3" md5="c7d300d21ae436743d1289b7397a49fd">
+			<package>https://github.com/lepidus/keywordCloud/releases/download/v3.0.0.3/keywordCloud.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.4</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.4</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Security fix: the d3 libraries are now shipped with the plugin instead of being loaded from external websites. The cloud again sizes keywords by frequency, and numeric keywords are displayed correctly.</description>
+			<description locale="es">Corrección de seguridad: las bibliotecas d3 ahora se incluyen en el plugin en lugar de cargarse desde sitios web externos. La nube vuelve a dimensionar las palabras clave según su frecuencia, y las palabras clave numéricas se muestran correctamente.</description>
+			<description locale="pt_BR">Correção de segurança: as bibliotecas d3 agora são distribuídas com o plugin em vez de carregadas de sites externos. A nuvem volta a dimensionar as palavras-chave pela frequência, e palavras-chave numéricas são exibidas corretamente.</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="bootstrap3">
