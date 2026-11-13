@@ -14829,8 +14829,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Agrega cifrado de las respuestas de los usuarios</description>
 			<description locale="pt_BR">Adiciona criptografia das respostas dos usuários</description>
 		</release>
-		<release date="2026-11-05" version="0.10.1.2" md5="2f6a0aaeeb24eb09cf0cb762a174faef">
-			<package>https://github.com/lepidus/deiaSurvey/releases/download/v0.10.1.2/deiaSurvey.tar.gz</package>
+		<release date="2026-11-09" version="0.10.1.4" md5="5145348716a27ff25c55fcfa3d618d79">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v0.10.1.4/deiaSurvey.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.0</version>
 				<version>3.3.0.1</version>
@@ -14860,9 +14860,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.3.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en_US">Improves the migration of responses for external authors who registered a user in the site. Improves authentication security in the questionnaire page.</description>
-			<description locale="es_ES">Mejora la migración de las respuestas de los autores externos que se han registrado como usuarios en la página web. Mejora la seguridad de la autenticación en la página del cuestionario.</description>
-			<description locale="pt_BR">Melhora a migração das respostas de autores externos que se cadastraram no site. Melhora a segurança da autenticação na página do questionário.</description>
+			<description locale="en_US">This version fixes security issues. Upgrading is recommended.</description>
+			<description locale="es_ES">Esta versión corrige problemas de seguridad. Se recomienda actualizar.</description>
+			<description locale="pt_BR">Esta versão corrige problemas de segurança. Recomenda-se a atualização.</description>
 		</release>
 		<release date="2025-06-20" version="1.2.1.0" md5="db061af00f44103f5bbaa716ea21a99d">
 			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.2.1.0/deiaSurvey.tar.gz</package>
@@ -14942,8 +14942,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Agrega cifrado de las respuestas de los usuarios</description>
 			<description locale="pt_BR">Adiciona criptografia das respostas dos usuários</description>
 		</release>
-		<release date="2026-11-05" version="1.9.1.2" md5="095143c6a71bdc1313f16de190118844">
-			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.9.1.2/deiaSurvey.tar.gz</package>
+		<release date="2026-11-09" version="1.9.1.3" md5="18c81606b36aab245c960e6f77d3408a">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v1.9.1.3/deiaSurvey.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
@@ -14951,12 +14951,12 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.4.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en">Improves the migration of responses for external authors who registered a user in the site. Improves authentication security in the questionnaire page.</description>
-			<description locale="es">Mejora la migración de las respuestas de los autores externos que se han registrado como usuarios en la página web. Mejora la seguridad de la autenticación en la página del cuestionario.</description>
-			<description locale="pt_BR">Melhora a migração das respostas de autores externos que se cadastraram no site. Melhora a segurança da autenticação na página do questionário.</description>
+			<description locale="en">This version fixes security issues. Upgrading is recommended.</description>
+			<description locale="es">Esta versión corrige problemas de seguridad. Se recomienda actualizar.</description>
+			<description locale="pt_BR">Esta versão corrige problemas de segurança. Recomenda-se a atualização.</description>
 		</release>
-		<release date="2026-11-05" version="2.0.1.2" md5="050b5305aa7272982be523480cae09a9">
-			<package>https://github.com/lepidus/deiaSurvey/releases/download/v2.0.1.2/deiaSurvey.tar.gz</package>
+		<release date="2026-11-09" version="2.0.1.3" md5="7b871b71c2bfe4440635b39ae3301ed5">
+			<package>https://github.com/lepidus/deiaSurvey/releases/download/v2.0.1.3/deiaSurvey.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
@@ -14964,9 +14964,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.5.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en">Improves the migration of responses for external authors who registered a user in the site. Improves authentication security in the questionnaire page.</description>
-			<description locale="es">Mejora la migración de las respuestas de los autores externos que se han registrado como usuarios en la página web. Mejora la seguridad de la autenticación en la página del cuestionario.</description>
-			<description locale="pt_BR">Melhora a migração das respostas de autores externos que se cadastraram no site. Melhora a segurança da autenticação na página do questionário.</description>
+			<description locale="en">This version fixes security issues. Upgrading is recommended.</description>
+			<description locale="es">Esta versión corrige problemas de seguridad. Se recomienda actualizar.</description>
+			<description locale="pt_BR">Esta versão corrige problemas de segurança. Recomenda-se a atualização.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="credit">
