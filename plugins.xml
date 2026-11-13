@@ -2284,6 +2284,20 @@
 			<certification type="reviewed"/>
 			<description>Bugfix release for v3.4.</description>
 		</release>
+		<release date="2026-10-29" version="3.5.0.3" md5="e1e0b75086d9de03d7c01b3ca8e86b77">
+			<package>https://github.com/pkp/funding/releases/download/3.5.0.3/funding-stable-3_5_0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release for v3.5.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="customHeader">
 		<name locale="en">Custom Header Plugin</name>
