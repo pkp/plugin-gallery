@@ -9415,6 +9415,39 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta versión corrige un error menor que afectaba a la recuperación de las últimas decisiones de envíos</description>
 			<description locale="pt_BR">Esta versão corrige um pequeno erro que afetava a recuperação das últimas decisões de submissões</description>
 		</release>
+		<release date="2026-11-09" version="2.4.6.8" md5="3fa8601735928fe821ce492f5b042391">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.6.8/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Security fix: texts starting with formula symbols are now exported as text, so they are not interpreted as formulas when the report is opened in a spreadsheet.</description>
+			<description locale="es_ES">Corrección de seguridad: los textos que empiezan con símbolos de fórmula ahora se exportan como texto, para que no se interpreten como fórmulas al abrir el informe en una hoja de cálculo.</description>
+			<description locale="pt_BR">Correção de segurança: textos que começam com símbolos de fórmula agora são exportados como texto, para que não sejam interpretados como fórmulas quando o relatório é aberto em uma planilha.</description>
+		</release>
 		<release date="2024-11-06" version="3.0.2.1" md5="267623738b12e249beec161a43722c3d">
 			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.2.1/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
@@ -9493,6 +9526,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Esta versión corrige pequeños errores en la generación del informe</description>
 			<description locale="pt_BR">Esta versão corrige pequenos erros na geração do relatório</description>
 		</release>
+		<release date="2026-11-09" version="3.0.6.4" md5="6b675578cdfd60e45fc6d573b9d2babc">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.6.4/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Security fix: texts starting with formula symbols are now exported as text, so they are not interpreted as formulas when the report is opened in a spreadsheet.</description>
+			<description locale="es">Corrección de seguridad: los textos que empiezan con símbolos de fórmula ahora se exportan como texto, para que no se interpreten como fórmulas al abrir el informe en una hoja de cálculo.</description>
+			<description locale="pt_BR">Correção de segurança: textos que começam com símbolos de fórmula agora são exportados como texto, para que não sejam interpretados como fórmulas quando o relatório é aberto em uma planilha.</description>
+		</release>
 		<release date="2026-07-31" version="4.0.1.1" md5="08a91acf7b7766e602255755919536e1">
 			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v4.0.1.1/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
@@ -9531,6 +9577,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">This release fixes minor issues in report generation</description>
 			<description locale="es">Esta versión corrige pequeños errores en la generación del informe</description>
 			<description locale="pt_BR">Esta versão corrige pequenos erros na geração do relatório</description>
+		</release>
+		<release date="2026-11-09" version="4.0.1.4" md5="3582bb9bf54321620c8e75d0ae7dd700">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v4.0.1.4/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Security fix: texts starting with formula symbols are now exported as text, so they are not interpreted as formulas when the report is opened in a spreadsheet.</description>
+			<description locale="es">Corrección de seguridad: los textos que empiezan con símbolos de fórmula ahora se exportan como texto, para que no se interpreten como fórmulas al abrir el informe en una hoja de cálculo.</description>
+			<description locale="pt_BR">Correção de segurança: textos que começam com símbolos de fórmula agora são exportados como texto, para que não sejam interpretados como fórmulas quando o relatório é aberto em uma planilha.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="epubViewer">
