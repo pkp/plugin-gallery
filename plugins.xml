@@ -12876,4 +12876,25 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="copyPublicationInformation">
+	<name locale="en">Copy Publication Information</name>
+	<name locale="en_US">Copy Publication Information</name>
+	<homepage>https://github.com/deanting-777/ojs-CopyPublicationInformationPlugin</homepage>
+	<summary locale="en">This plugin adds a 'Copy Publication Information' button on article pages, which allows one-click copying of the publication information of the article.</summary>
+	<summary locale="en_US">This plugin adds a 'Copy Publication Information' button on article pages, which allows one-click copying of the publication information of the article.</summary>
+	<description locale="en"><![CDATA[<p>A generic plugin that adds a Copy Publication Information button to article pages, allowing users to copy all published article information with a single click, including the article title, journal name, author(s), DOI, keywords, abstract, article URL, full-text PDF URL, “How to Cite” information, and other relevant metadata.</p>]]></description>
+	<description locale="en_US"><![CDATA[<p>A generic plugin that adds a Copy Publication Information button to article pages, allowing users to copy all published article information with a single click, including the article title, journal name, author(s), DOI, keywords, abstract, article URL, full-text PDF URL, “How to Cite” information, and other relevant metadata.</p>]]></description>
+	<maintainer>
+		<name>Dean Ting</name>
+		<institution>Ginsland Software</institution>
+		<email>dqq118@gmail.com</email>
+	</maintainer>
+	<release date="2026-10-30" version="1.0.0.0" md5="f5d87ec36eb67e13d27bcf824cb9347cb3a4034a">
+		<package>https://github.com/deanting-777/ojs-CopyPublicationInformationPlugin/releases/download/v1.0.0/copyPublicationInformation.tar.gz</package>
+		<compatibility application="ojs2">
+			<version>~3.5.0.0</version>
+		</compatibility>
+		<description>Initial release for OJS 3.5.x.</description>
+	</release>
+</plugin>
 </plugins>
