@@ -12889,7 +12889,7 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>JSENetwork</institution>
 			<email>stefano@natangelo.dev</email>
 		</maintainer>
-		<release date="2026-11-15" version="1.0.0" md5="d87674acda4139d7706ecf9187702ad5">
+		<release date="2026-11-15" version="1.0.0" md5="f3729af6e1a21f0d64e5f4e00f231bf6">
 			<package>https://github.com/SNatangelo/ojs-journal-quota/releases/download/v1.0.0/journalQuota-1.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.5.0.6</version>
