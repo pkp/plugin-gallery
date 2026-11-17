@@ -1795,20 +1795,50 @@
 			<description locale="es">Evita que el instalador registre la versión del módulo como versión del núcleo.</description>
 			<description locale="pt_BR">Evita que o instalador registre a versão do plugin como versão do núcleo.</description>
 		</release>
-		<release date="2026-10-27" version="3.4.8.4" md5="6fada687a228010e5d69cb0de95663bc">
-			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.4.8.4/dataverse.tar.gz</package>
+		<release date="2026-11-17" version="3.4.8.7" md5="cc476d3ffb8fdc1190210efb73d99bef">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.4.8.7/dataverse.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
+				<version>3.4.1.0</version>
+				<version>3.4.1.1</version>
+				<version>3.4.2.0</version>
+				<version>3.4.2.1</version>
+				<version>3.4.2.2</version>
+				<version>3.4.2.3</version>
+				<version>3.4.3.0</version>
+				<version>3.4.4.0</version>
+				<version>3.4.4.1</version>
+				<version>3.4.4.3</version>
+				<version>3.4.5.1</version>
+				<version>3.4.5.2</version>
+				<version>3.4.6.0</version>
+				<version>3.4.6.1</version>
 				<version>3.4.6.2</version>
+				<version>3.4.8.0</version>
 			</compatibility>
 			<compatibility application="ops">
 				<version>~3.4.0.0</version>
+				<version>3.4.1.0</version>
+				<version>3.4.1.1</version>
+				<version>3.4.2.0</version>
+				<version>3.4.2.1</version>
+				<version>3.4.2.2</version>
+				<version>3.4.2.3</version>
+				<version>3.4.3.0</version>
+				<version>3.4.4.0</version>
+				<version>3.4.4.1</version>
+				<version>3.4.4.3</version>
+				<version>3.4.5.1</version>
+				<version>3.4.5.2</version>
+				<version>3.4.6.0</version>
+				<version>3.4.6.1</version>
 				<version>3.4.6.2</version>
+				<version>3.4.8.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en">Repairs core version corruption caused by the Dataverse plugin.</description>
-			<description locale="es">Repara la corrupción de la versión del núcleo causada por el módulo Dataverse.</description>
-			<description locale="pt_BR">Repara a corrupção da versão do núcleo causada pelo plugin Dataverse.</description>
+			<description locale="en">Repairs incorrect core version records, including sites whose OJS/OPS files were upgraded afterwards. Affected administrators must run php tools/upgrade.php upgrade from the application root after updating the plugin. Also includes deposit operation tracking in a new table and configurable Dataverse API timeouts.</description>
+			<description locale="es">Repara los registros incorrectos de la versión del núcleo, incluso en sitios cuyos archivos de OJS/OPS se actualizaron después. Los administradores afectados deben ejecutar php tools/upgrade.php upgrade desde la raíz de la aplicación después de actualizar el módulo. También incluye una nueva tabla para registrar las operaciones de depósito y tiempos de espera configurables para la API de Dataverse.</description>
+			<description locale="pt_BR">Repara registros incorretos da versão do core, inclusive em instalações cujos arquivos do OJS/OPS foram atualizados depois. Administradores afetados devem executar php tools/upgrade.php upgrade na raiz da aplicação após atualizar o plugin. Também inclui uma nova tabela para registrar operações de depósito e tempos limite configuráveis para a API do Dataverse.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
