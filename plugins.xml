@@ -2172,18 +2172,18 @@
 	<plugin category="generic" product="funding">
 		<name locale="en">Funding</name>
 		<name locale="en_US">Funding</name>
-		<homepage>https://github.com/ajnyga/funding/</homepage>
+		<homepage>https://github.com/pkp/funding/</homepage>
 		<summary locale="en">Adds submission funding data using the Crossref funders registry.</summary>
 		<summary locale="en_US">Adds submission funding data using the Crossref funders registry.</summary>
 		<description locale="en"><![CDATA[<p>This plugin adds submission funding data using the Crossref funders registry, considers the data in the Crossref and DataCite XML export and displays them on the submission view page.</p>]]></description>
 		<description locale="en_US"><![CDATA[<p>This plugin adds submission funding data using the Crossref funders registry, considers the data in the Crossref and DataCite XML export and displays them on the submission view page.</p>]]></description>
 		<maintainer>
-			<name>Antti-Jussi Nygård</name>
-			<institution/>
-			<email>ajnyga@gmail.com</email>
+			<name>Public Knowledge Project</name>
+			<institution>Public Knowledge Project</institution>
+			<email>pkp.contact@gmail.com</email>
 		</maintainer>
 		<release date="2023-02-17" version="2.1.4.2" md5="e51bad76697fd6746de343a2c4f50414">
-			<package>https://github.com/ajnyga/funding/releases/download/2.1.4.2/funding.tar.gz</package>
+			<package>https://github.com/pkp/funding/releases/download/2.1.4.2/funding.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.1</version>
 				<version>3.3.0.2</version>
@@ -2227,7 +2227,7 @@
 			<description>This release adds support for OPS 3.3.0. It also adds translation for Brazilian Portuguese</description>
 		</release>
 		<release date="2024-12-18" version="3.3.0.4" md5="ce358ebd6db2cf6554f708fc1ce22cc4">
-			<package>https://github.com/ajnyga/funding/releases/download/3.3.0.4/funding.tar.gz</package>
+			<package>https://github.com/pkp/funding/releases/download/3.3.0.4/funding.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.1</version>
 				<version>3.3.0.2</version>
@@ -2271,7 +2271,7 @@
 			<description>Bugfix release for v3.3.</description>
 		</release>
 		<release date="2024-12-18" version="3.4.0.4" md5="eb73d8955d58106b61622a6bf0a8932f">
-			<package>https://github.com/ajnyga/funding/releases/download/3.4.0.4/funding.tar.gz</package>
+			<package>https://github.com/pkp/funding/releases/download/3.4.0.4/funding.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
