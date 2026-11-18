@@ -1,6 +1,23 @@
 <?xml version="1.0"?>
 <plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
-
+<plugin category="generic" product="ojs">
+	<name locale="en">Dummy Data Generator</name>
+	<homepage>https://github.com/munir-abbasi/dummyDataGenerator</homepage>
+	<summary locale="en">Generate dummy users, submissions, and issues for OJS testing environments.</summary>
+	<description locale="en">The Dummy Data Generator plugin extends the OJS users API with plugin-defined routes for generating dummy users, submissions, and issues, and for cleaning up generated data. It is intended for development and testing environments only.</description>
+	<maintainer>
+		<name>Munir Abbasi</name>
+		<institution>SyntaxHouse</institution>
+		<email>munir@syntaxhouse.com</email>
+	</maintainer>
+	<release date="2026-03-26" version="1.0.0" md5="7ebde987f13cafb5d58b1a11409d6d8a">
+		<package>https://github.com/munir-abbasi/dummyDataGenerator/releases/download/v1.0.0/dummyDataGenerator-v1.0.0.tar.gz</package>
+		<compatibility application="ojs">
+			<version>~3.5.0.0</version>
+		</compatibility>
+		<description locale="en">Initial release of the Dummy Data Generator plugin for OJS 3.5. Adds plugin-defined API routes under /api/v1/users for generating dummy users, submissions, issues, and cleanup data for testing.</description>
+	</release>
+</plugin>
 	<plugin category="generic" product="iiifViewer">
 		<name locale="en_US">IIIF Viewer</name>
 		<homepage>https://github.com/ub-unibe-ch/iiifViewer</homepage>
