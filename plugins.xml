@@ -1803,6 +1803,51 @@
 			<description locale="es">Evita que el instalador registre la versión del módulo como versión del núcleo.</description>
 			<description locale="pt_BR">Evita que o instalador registre a versão do plugin como versão do núcleo.</description>
 		</release>
+		<release date="2026-11-18" version="3.4.8.8" md5="ed7996fabb7c0683afba68a07c756d6b">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.4.8.8/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+				<version>3.4.1.0</version>
+				<version>3.4.1.1</version>
+				<version>3.4.2.0</version>
+				<version>3.4.2.1</version>
+				<version>3.4.2.2</version>
+				<version>3.4.2.3</version>
+				<version>3.4.3.0</version>
+				<version>3.4.4.0</version>
+				<version>3.4.4.1</version>
+				<version>3.4.4.3</version>
+				<version>3.4.5.1</version>
+				<version>3.4.5.2</version>
+				<version>3.4.6.0</version>
+				<version>3.4.6.1</version>
+				<version>3.4.6.2</version>
+				<version>3.4.8.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+				<version>3.4.1.0</version>
+				<version>3.4.1.1</version>
+				<version>3.4.2.0</version>
+				<version>3.4.2.1</version>
+				<version>3.4.2.2</version>
+				<version>3.4.2.3</version>
+				<version>3.4.3.0</version>
+				<version>3.4.4.0</version>
+				<version>3.4.4.1</version>
+				<version>3.4.4.3</version>
+				<version>3.4.5.1</version>
+				<version>3.4.5.2</version>
+				<version>3.4.6.0</version>
+				<version>3.4.6.1</version>
+				<version>3.4.6.2</version>
+				<version>3.4.8.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Repairs incorrect core version records, including on sites that upgraded OJS or OPS after the issue occurred. Administrators of affected sites must run php tools/upgrade.php upgrade from the application root after updating the plugin. This release also tracks deposits in a new database table, allows retries when ingest checks fail before an upload is sent, and removes local associations for datasets that no longer exist in Dataverse. Dataverse API timeouts can be adjusted optionally in config.inc.php.</description>
+			<description locale="es">Repara los registros incorrectos de la versión del núcleo, incluso en instalaciones que actualizaron OJS u OPS después de que se produjera el problema. Los administradores de las instalaciones afectadas deben ejecutar php tools/upgrade.php upgrade desde la raíz de la aplicación después de actualizar el módulo. Esta versión también registra los depósitos en una nueva tabla de la base de datos, permite reintentarlos cuando falla la comprobación de la ingestión antes del envío del archivo y elimina las asociaciones locales con conjuntos de datos que ya no existen en Dataverse. Los tiempos de espera de la API de Dataverse se pueden ajustar de forma opcional en config.inc.php.</description>
+			<description locale="pt_BR">Repara registros incorretos da versão do core, inclusive em instalações que atualizaram o OJS ou o OPS após o problema. Administradores das instalações afetadas devem executar php tools/upgrade.php upgrade na raiz da aplicação após atualizar o plugin. Esta versão também registra os depósitos em uma nova tabela do banco de dados, permite novas tentativas quando a verificação do ingest falha antes do envio do arquivo e remove as associações locais com conjuntos de dados que já não existem no Dataverse. Os tempos limite da API do Dataverse podem ser ajustados opcionalmente em config.inc.php.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
 		<name locale="en">Matomo</name>
