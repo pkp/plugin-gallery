@@ -2486,6 +2486,20 @@
 			<certification type="official" />
 			<description>Bugfix release of the custom header plugin for OJS/OMP/OPS 3.5.0.</description>
 		</release>
+		<release date="2026-11-16" version="1.0.5.2" md5="a82a4310203fb497aea625a0499d64ed">
+			<package>https://github.com/pkp/customHeader/releases/download/v1_0_5-2/customHeader-v1_0_5-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Bugfix release of the custom header plugin for OJS/OMP/OPS 3.5.0.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="customLocale">
 		<name locale="en">Custom Locale Plugin</name>
