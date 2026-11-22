@@ -12882,8 +12882,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<homepage>https://github.com/SNatangelo/ojs-journal-quota</homepage>
 		<summary locale="en_US">Per-journal storage quotas and usage tracking for multi-journal OJS installations.</summary>
 		<summary locale="it_IT">Quote di spazio e monitoraggio dell'uso disco per ogni rivista nelle installazioni OJS multi-rivista.</summary>
-		<description locale="en_US">Site administrators can configure default and per-journal storage quotas, inspect usage, notify journal managers at warning thresholds, and block new submissions or uploads when limits are reached. Developed for OJS 3.5.0-6 and installed and functioning on JSENetwork with MySQL. An automated OJS integration and HTTP regression suite is available in the repository, with 128 checks in the reference local dataset.</description>
-		<description locale="it_IT">Gli amministratori possono definire quote disco predefinite e per singola rivista, consultare l'uso dello spazio, inviare avvisi ai journal manager e bloccare nuovi invii o caricamenti al raggiungimento dei limiti. Sviluppato per OJS 3.5.0-6 e installato e funzionante su JSENetwork con MySQL. Nel repository è disponibile una suite automatizzata di integrazione OJS e regressione HTTP, con 128 controlli nel dataset locale di riferimento.</description>
+		<description locale="en_US">Journal Quota tracks disk usage separately for each journal in a multi-journal OJS installation. Site administrators can configure default and journal-specific quotas, monitor usage, set warning thresholds and enforce storage limits. Journal managers can view their usage and receive alerts. When the applicable limit is reached, new submissions and file uploads are blocked while existing files remain accessible.</description>
+		<description locale="it_IT">Journal Quota monitora lo spazio disco utilizzato da ciascuna rivista nelle installazioni OJS multi-rivista. Gli amministratori del sito possono configurare quote predefinite e specifiche per rivista, controllare l'utilizzo, impostare soglie di avviso e applicare limiti di spazio. I responsabili delle riviste possono consultare il proprio utilizzo e ricevere notifiche. Al raggiungimento del limite applicabile, vengono bloccati nuovi invii e caricamenti, mentre i file esistenti restano accessibili.</description>
 		<maintainer>
 			<name>Stefano Natangelo</name>
 			<institution>JSENetwork</institution>
@@ -12894,8 +12894,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<compatibility application="ojs2">
 				<version>3.5.0.6</version>
 			</compatibility>
-			<description locale="en_US">Initial AGPL-3.0-only release for OJS 3.5.0-6. Running on JSENetwork with MySQL. The repository provides 64 documented development checks and an automated OJS/MariaDB integration and HTTP regression suite (101 CLI and 27 HTTP checks in the reference local dataset). GitHub Actions runs syntax checks; the integration suite runs separately on a local OJS copy.</description>
-			<description locale="it_IT">Prima versione AGPL-3.0-only per OJS 3.5.0-6. In funzione su JSENetwork con MySQL. Il repository include 64 prove di sviluppo documentate e una suite automatizzata di integrazione OJS/MariaDB e regressione HTTP (101 controlli CLI e 27 HTTP nel dataset locale di riferimento). GitHub Actions esegue controlli sintattici; la suite di integrazione si esegue separatamente su una copia locale di OJS.</description>
+			<description locale="en_US">Initial release with per-journal disk usage tracking, configurable storage quotas, usage overviews, threshold alerts and restrictions on new submissions and file uploads when storage limits are reached.</description>
+			<description locale="it_IT">Versione iniziale con monitoraggio dello spazio per rivista, quote configurabili, riepiloghi dell'utilizzo, avvisi al raggiungimento delle soglie e blocco di nuovi invii e caricamenti quando vengono raggiunti i limiti di spazio.</description>
 		</release>
 	</plugin>
 </plugins>
