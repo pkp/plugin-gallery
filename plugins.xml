@@ -13159,4 +13159,27 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="mobileDashboard">
+		<name locale="en">Mobile Dashboard</name>
+		<name locale="en_US">Mobile Dashboard</name>
+		<homepage>https://github.com/SNatangelo/ojs-mobile-dashboard</homepage>
+		<summary locale="en">Makes the OJS 3.5 editorial back end usable on a phone, with no changes above 900 px.</summary>
+		<summary locale="en_US">Makes the OJS 3.5 editorial back end usable on a phone, with no changes above 900 px.</summary>
+		<description locale="en"><![CDATA[<p>A site-wide generic plugin with no settings that adapts the OJS 3.5 back end to phone screens: a slide-in menu, tabs on one row that can be swiped, labelled cards instead of wide tables, fewer nested boxes, and side panels and forms that fit the screen. Above 900 px nothing changes. English and Italian localizations.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>A site-wide generic plugin with no settings that adapts the OJS 3.5 back end to phone screens: a slide-in menu, tabs on one row that can be swiped, labelled cards instead of wide tables, fewer nested boxes, and side panels and forms that fit the screen. Above 900 px nothing changes. English and Italian localizations.</p>]]></description>
+		<maintainer>
+			<name>Stefano Natangelo</name>
+			<institution/>
+			<email>stefano@natangelo.dev</email>
+		</maintainer>
+		<release date="2026-11-23" version="1.0.0.0" md5="e629d0c6ae6eb4d207f65c077cd9259a">
+			<package>https://github.com/SNatangelo/ojs-mobile-dashboard/releases/download/v1.0.0/mobileDashboard-1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">First release, for OJS 3.5.</description>
+			<description locale="en_US">First release, for OJS 3.5.</description>
+		</release>
+	</plugin>
 </plugins>
