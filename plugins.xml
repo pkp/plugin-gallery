@@ -13159,4 +13159,44 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="documentPreview">
+		<name locale="en">Document Preview</name>
+		<name locale="en_US">Document Preview</name>
+		<homepage>https://github.com/cboulanger/ojs-document-preview</homepage>
+		<summary locale="en">Lets editors, reviewers and authors read submitted documents in the browser instead of downloading them. Converted in the browser; supports DOCX and ODT, other formats can be added as renderers.</summary>
+		<summary locale="en_US">Lets editors, reviewers and authors read submitted documents in the browser instead of downloading them. Converted in the browser; supports DOCX and ODT, other formats can be added as renderers.</summary>
+		<description locale="en"><![CDATA[<p>Adds a preview of submitted documents to the editorial workflow. A preview button appears before the file names of documents in a supported format: in the workflow's file lists, discussion attachments, the reviewer's files and the file selection dialogs. It opens the document as simple HTML (headings, paragraphs, emphasis, lists, tables, links, images, footnotes and endnotes) in a dialog, with a link to download the original file.</p>
+<ul>
+<li>Supported formats: DOCX, converted with <a href="https://github.com/mwilliamson/mammoth.js">mammoth.js</a> (BSD 2-Clause, included in the plugin), and OpenDocument text (ODT, also the single-file FODT), converted by the plugin itself. Further formats can be added as renderers, also by other plugins.</li>
+<li>Files are recognised by the extension of their name, or, if the name has none, by the media type OJS stored for them.</li>
+<li>The file is loaded through OJS's own download link, so OJS's access rules apply unchanged: the preview never shows more than the user could download.</li>
+<li>The conversion happens in the browser. Nothing is converted or stored on the server; no database tables, no settings.</li>
+<li>The document is shown in a sandboxed frame: it can't run scripts, access OJS or load external resources.</li>
+<li>Simplified preview: page layout, headers, footers, comments, tracked changes and the file's metadata are not shown.</li>
+<li>English and German.</li>
+</ul>]]></description>
+		<description locale="en_US"><![CDATA[<p>Adds a preview of submitted documents to the editorial workflow. A preview button appears before the file names of documents in a supported format: in the workflow's file lists, discussion attachments, the reviewer's files and the file selection dialogs. It opens the document as simple HTML (headings, paragraphs, emphasis, lists, tables, links, images, footnotes and endnotes) in a dialog, with a link to download the original file.</p>
+<ul>
+<li>Supported formats: DOCX, converted with <a href="https://github.com/mwilliamson/mammoth.js">mammoth.js</a> (BSD 2-Clause, included in the plugin), and OpenDocument text (ODT, also the single-file FODT), converted by the plugin itself. Further formats can be added as renderers, also by other plugins.</li>
+<li>Files are recognised by the extension of their name, or, if the name has none, by the media type OJS stored for them.</li>
+<li>The file is loaded through OJS's own download link, so OJS's access rules apply unchanged: the preview never shows more than the user could download.</li>
+<li>The conversion happens in the browser. Nothing is converted or stored on the server; no database tables, no settings.</li>
+<li>The document is shown in a sandboxed frame: it can't run scripts, access OJS or load external resources.</li>
+<li>Simplified preview: page layout, headers, footers, comments, tracked changes and the file's metadata are not shown.</li>
+<li>English and German.</li>
+</ul>]]></description>
+		<maintainer>
+			<name>Christian Boulanger</name>
+			<institution>Max Planck Institute for Legal History and Legal Theory</institution>
+			<email>info@bibliograph.org</email>
+		</maintainer>
+		<release date="2026-11-24" version="0.2.1.0" md5="1de9016df40612242a88251146c6d306">
+			<package>https://github.com/cboulanger/ojs-document-preview/releases/download/v0.2.1/documentPreview-v0.2.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Footnote links stay in the preview in Firefox and Safari</description>
+			<description locale="en_US">Footnote links stay in the preview in Firefox and Safari</description>
+		</release>
+	</plugin>
 </plugins>
