@@ -13159,4 +13159,46 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="bookReviewManager">
+		<name locale="en">Book Review Manager</name>
+		<name locale="en_US">Book Review Manager</name>
+		<homepage>https://github.com/cboulanger/ojs-book-review-manager</homepage>
+		<summary locale="en">Manages book reviews from the work offered for review to the published review: offers, reviewer selection and invitations, review agreements, review copies and publisher contacts.</summary>
+		<summary locale="en_US">Manages book reviews from the work offered for review to the published review: offers, reviewer selection and invitations, review agreements, review copies and publisher contacts.</summary>
+		<description locale="en"><![CDATA[<p>For journals that publish book reviews. The plugin manages the whole path from a work offered for review to the published review:</p>
+<ul>
+<li>a public list of works offered for review, with metadata looked up by DOI (Crossref) or ISBN;</li>
+<li>a book review editor role, with a responsible editor for each offer;</li>
+<li>direct reservation or bidding, and invitations to reviewers (one by one, in a sequential round, or all at once) with one-click links;</li>
+<li>review agreements with due dates and reminders;</li>
+<li>review copies tracked from the request to the publisher to their receipt and, if needed, their return;</li>
+<li>review essays covering several works;</li>
+<li>a history of every step and email, editable email templates (English, German, Finnish) and a REST API for imports.</li>
+</ul>
+<p>Authors attach the reviewed work to their submission, and readers see it on the article page. Data of the Objects for Review plugin can be imported.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>For journals that publish book reviews. The plugin manages the whole path from a work offered for review to the published review:</p>
+<ul>
+<li>a public list of works offered for review, with metadata looked up by DOI (Crossref) or ISBN;</li>
+<li>a book review editor role, with a responsible editor for each offer;</li>
+<li>direct reservation or bidding, and invitations to reviewers (one by one, in a sequential round, or all at once) with one-click links;</li>
+<li>review agreements with due dates and reminders;</li>
+<li>review copies tracked from the request to the publisher to their receipt and, if needed, their return;</li>
+<li>review essays covering several works;</li>
+<li>a history of every step and email, editable email templates (English, German, Finnish) and a REST API for imports.</li>
+</ul>
+<p>Authors attach the reviewed work to their submission, and readers see it on the article page. Data of the Objects for Review plugin can be imported.</p>]]></description>
+		<maintainer>
+			<name>Christian Boulanger</name>
+			<institution>Max Planck Institute for Legal History and Legal Theory</institution>
+			<email>info@bibliograph.org</email>
+		</maintainer>
+		<release date="2026-11-24" version="1.1.0.0" md5="53b92ffeb23176d7509fedae09865b17">
+			<package>https://github.com/cboulanger/ojs-book-review-manager/releases/download/v1.1.0/bookReviewManager-v1.1.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Editor workflow improvements: change due dates, link reviews to submissions, history notes, sortable reservation cards, linked identifiers</description>
+			<description locale="en_US">Editor workflow improvements: change due dates, link reviews to submissions, history notes, sortable reservation cards, linked identifiers</description>
+		</release>
+	</plugin>
 </plugins>
