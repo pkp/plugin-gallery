@@ -13159,4 +13159,44 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="dossierManager">
+		<name locale="en">Dossier Manager</name>
+		<name locale="en_US">Dossier Manager</name>
+		<homepage>https://github.com/cboulanger/ojs-dossier-manager</homepage>
+		<summary locale="en">Plans special issues, thematic sections and review symposia with commissioned contributions: invitations with personal submission links, tracking of the submissions and reminders.</summary>
+		<summary locale="en_US">Plans special issues, thematic sections and review symposia with commissioned contributions: invitations with personal submission links, tracking of the submissions and reminders.</summary>
+		<description locale="en"><![CDATA[<p>For journals that publish groups of commissioned articles together: special issues, thematic sections, review symposia, forums. Editors plan such a <em>dossier</em> in OJS instead of spreadsheets and email threads:</p>
+<ul>
+<li>dossiers with a type, title and description, target issue and section, submission deadline and one or more responsible editors;</li>
+<li>planned contributions with a working title and a contributor, chosen from the journal's users or created ad hoc, and optional individual deadlines;</li>
+<li>an editable invitation email with the dossier, the planned contributions, the guidelines, the deadline and a personal submission link;</li>
+<li>submissions started from that link are ordinary OJS submissions, attached to their contribution, put into the target section (also an editors-only one) and assigned to the target issue; the responsible editors are assigned to them;</li>
+<li>automatic reminders before and after the deadline, with a configurable maximum;</li>
+<li>notices to the responsible editors, immediately or as a daily summary, and a history of every step and email;</li>
+<li>a "Dossier editor" role, e.g. for guest editors, and email templates in English and German.</li>
+</ul>]]></description>
+		<description locale="en_US"><![CDATA[<p>For journals that publish groups of commissioned articles together: special issues, thematic sections, review symposia, forums. Editors plan such a <em>dossier</em> in OJS instead of spreadsheets and email threads:</p>
+<ul>
+<li>dossiers with a type, title and description, target issue and section, submission deadline and one or more responsible editors;</li>
+<li>planned contributions with a working title and a contributor, chosen from the journal's users or created ad hoc, and optional individual deadlines;</li>
+<li>an editable invitation email with the dossier, the planned contributions, the guidelines, the deadline and a personal submission link;</li>
+<li>submissions started from that link are ordinary OJS submissions, attached to their contribution, put into the target section (also an editors-only one) and assigned to the target issue; the responsible editors are assigned to them;</li>
+<li>automatic reminders before and after the deadline, with a configurable maximum;</li>
+<li>notices to the responsible editors, immediately or as a daily summary, and a history of every step and email;</li>
+<li>a "Dossier editor" role, e.g. for guest editors, and email templates in English and German.</li>
+</ul>]]></description>
+		<maintainer>
+			<name>Christian Boulanger</name>
+			<institution>Max Planck Institute for Legal History and Legal Theory</institution>
+			<email>info@bibliograph.org</email>
+		</maintainer>
+		<release date="2026-11-24" version="0.2.0.0" md5="6c765f494d3a573af4cf84f8c942c641">
+			<package>https://github.com/cboulanger/ojs-dossier-manager/releases/download/v0.2.0/dossierManager-v0.2.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Guest editors with read-only access, HTML editor for the invitation email and the dossier description, deleting dossiers</description>
+			<description locale="en_US">Guest editors with read-only access, HTML editor for the invitation email and the dossier description, deleting dossiers</description>
+		</release>
+	</plugin>
 </plugins>
