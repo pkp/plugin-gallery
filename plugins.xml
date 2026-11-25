@@ -13190,13 +13190,13 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>Max Planck Institute for Legal History and Legal Theory</institution>
 			<email>info@bibliograph.org</email>
 		</maintainer>
-		<release date="2026-11-24" version="0.2.0.0" md5="6c765f494d3a573af4cf84f8c942c641">
-			<package>https://github.com/cboulanger/ojs-dossier-manager/releases/download/v0.2.0/dossierManager-v0.2.0.tar.gz</package>
+		<release date="2026-11-25" version="0.2.2.0" md5="33d44edac7862d6eca0b3bc89168d2ea">
+			<package>https://github.com/cboulanger/ojs-dossier-manager/releases/download/v0.2.2/dossierManager-v0.2.2.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
-			<description locale="en">Guest editors with read-only access, HTML editor for the invitation email and the dossier description, deleting dossiers</description>
-			<description locale="en_US">Guest editors with read-only access, HTML editor for the invitation email and the dossier description, deleting dossiers</description>
+			<description locale="en">Planned dossiers visible to all journal editors, "My dossiers" menu item, language choice for invitation emails</description>
+			<description locale="en_US">Planned dossiers visible to all journal editors, "My dossiers" menu item, language choice for invitation emails</description>
 		</release>
 	</plugin>
 </plugins>
