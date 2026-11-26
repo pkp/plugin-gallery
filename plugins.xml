@@ -13207,4 +13207,44 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="dashboardCollapse">
+		<name locale="en">Collapsible Dashboard Menu</name>
+		<name locale="en_US">Collapsible Dashboard Menu</name>
+		<homepage>https://github.com/cboulanger/ojs-dashboard-collapse</homepage>
+		<summary locale="en">Collapses the left menu of the editorial backend to its icons, so that pages have more room on smaller screens. A click on an icon opens the menu as a drawer over the page; counts in the menu become badges on the icons.</summary>
+		<summary locale="en_US">Collapses the left menu of the editorial backend to its icons, so that pages have more room on smaller screens. A click on an icon opens the menu as a drawer over the page; counts in the menu become badges on the icons.</summary>
+		<description locale="en"><![CDATA[<p>The left menu of OJS's editorial backend takes about a third of a laptop screen. This plugin collapses it to a narrow column of icons, so that the dashboards, the workflow and the settings have the room.</p>
+<ul>
+<li>A click on an icon with a submenu (Dashboards, Settings, …) opens the whole menu as a drawer over the page, with that section expanded. The page doesn't move. The drawer closes again when a link is chosen, when the mouse leaves it, on a click outside or with Escape.</li>
+<li>Icons with a direct link (e.g. Tools) just follow it.</li>
+<li>Counts at the end of menu names, such as "My dossiers (2)" added by other plugins, are shown as badges on the icons and, in the open menu, after the names.</li>
+<li>Hovering an icon shows its name in a tooltip beside it; entries without an icon show the first letter of their name. The icon of the current page's section is marked.</li>
+<li>A button at the top of the menu keeps it open as before; the choice is remembered in the browser.</li>
+<li>Keyboard: the drawer opens when the focus enters the menu and closes when it leaves. The names stay readable for screen readers.</li>
+<li>No database tables, no settings. English and German.</li>
+</ul>]]></description>
+		<description locale="en_US"><![CDATA[<p>The left menu of OJS's editorial backend takes about a third of a laptop screen. This plugin collapses it to a narrow column of icons, so that the dashboards, the workflow and the settings have the room.</p>
+<ul>
+<li>A click on an icon with a submenu (Dashboards, Settings, …) opens the whole menu as a drawer over the page, with that section expanded. The page doesn't move. The drawer closes again when a link is chosen, when the mouse leaves it, on a click outside or with Escape.</li>
+<li>Icons with a direct link (e.g. Tools) just follow it.</li>
+<li>Counts at the end of menu names, such as "My dossiers (2)" added by other plugins, are shown as badges on the icons and, in the open menu, after the names.</li>
+<li>Hovering an icon shows its name in a tooltip beside it; entries without an icon show the first letter of their name. The icon of the current page's section is marked.</li>
+<li>A button at the top of the menu keeps it open as before; the choice is remembered in the browser.</li>
+<li>Keyboard: the drawer opens when the focus enters the menu and closes when it leaves. The names stay readable for screen readers.</li>
+<li>No database tables, no settings. English and German.</li>
+</ul>]]></description>
+		<maintainer>
+			<name>Christian Boulanger</name>
+			<institution>Max Planck Institute for Legal History and Legal Theory</institution>
+			<email>info@bibliograph.org</email>
+		</maintainer>
+		<release date="2026-11-26" version="0.1.0.0" md5="7cf1c8b40bbfbe53f76f0d992d0a25f6">
+			<package>https://github.com/cboulanger/ojs-dashboard-collapse/releases/download/v0.1.0/dashboardCollapse-v0.1.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">First release: collapses the backend's left menu to icons, with a drawer over the page, count badges and name tooltips.</description>
+			<description locale="en_US">First release: collapses the backend's left menu to icons, with a drawer over the page, count badges and name tooltips.</description>
+		</release>
+	</plugin>
 </plugins>
