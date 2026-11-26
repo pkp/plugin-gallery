@@ -12502,8 +12502,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution>STNT Tecnologia da Informação LTDA</institution>
 			<email>support@ojsbr.com</email>
 		</maintainer>
-		<release date="2026-09-15" version="1.0.4.1" md5="9b21a6cdb59aef87957b8e56bceb8dcc">
-			<package>https://github.com/OJSBR/reviewerRecommendationManager/releases/download/1.0.4.1/reviewerRecommendationManager-1.0.4.1.tar.gz</package>
+		<release date="2026-11-26" version="5.0.0.0" md5="ef2333f3f198dbfff7a7914b4e1a77e1">
+			<package>https://github.com/OJSBR/reviewerRecommendationManager/releases/download/5.0.0.0/reviewerRecommendationManager-5.0.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
@@ -12511,8 +12511,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">OJS 3.5 release.</description>
 			<description locale="en_US">OJS 3.5 release.</description>
 		</release>
-		<release date="2026-09-15" version="1.0.4.2" md5="3463cb122b75a038f09982877ab85fd2">
-			<package>https://github.com/OJSBR/reviewerRecommendationManager/releases/download/1.0.4.2-ojs3.4/reviewerRecommendationManager-1.0.4.2-ojs3.4.tar.gz</package>
+		<release date="2026-11-26" version="4.0.0.0" md5="3f97a9e6bcf2ffaeb7a77b4c56c0ccf7">
+			<package>https://github.com/OJSBR/reviewerRecommendationManager/releases/download/4.0.0.0/reviewerRecommendationManager-4.0.0.0.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.4.0.0</version>
 			</compatibility>
