@@ -13163,26 +13163,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<name locale="en">Document Preview</name>
 		<name locale="en_US">Document Preview</name>
 		<homepage>https://github.com/cboulanger/ojs-document-preview</homepage>
-		<summary locale="en">Lets editors, reviewers and authors read submitted documents in the browser instead of downloading them. Converted in the browser; supports DOCX and ODT, other formats can be added as renderers.</summary>
-		<summary locale="en_US">Lets editors, reviewers and authors read submitted documents in the browser instead of downloading them. Converted in the browser; supports DOCX and ODT, other formats can be added as renderers.</summary>
-		<description locale="en"><![CDATA[<p>Adds a preview of submitted documents to the editorial workflow. A preview button appears before the file names of documents in a supported format: in the workflow's file lists, discussion attachments, the reviewer's files and the file selection dialogs. It opens the document as simple HTML (headings, paragraphs, emphasis, lists, tables, links, images, footnotes and endnotes) in a dialog, with a link to download the original file.</p>
+		<summary locale="en">Lets editors, reviewers and authors read submitted documents in the browser instead of downloading them. Converted in the browser; supports DOCX, ODT, PDF (with the PDF.js viewer that comes with OJS) and images, other formats can be added as renderers.</summary>
+		<summary locale="en_US">Lets editors, reviewers and authors read submitted documents in the browser instead of downloading them. Converted in the browser; supports DOCX, ODT, PDF (with the PDF.js viewer that comes with OJS) and images, other formats can be added as renderers.</summary>
+		<description locale="en"><![CDATA[<p>Adds a preview of submitted documents to the editorial workflow. A preview button appears before the file names of documents in a supported format: in the workflow's file lists, discussion attachments, the reviewer's files and the file selection dialogs. It opens the document in a dialog, with a link to download the original file: text documents as simple HTML (headings, paragraphs, emphasis, lists, tables, links, images, footnotes and endnotes), PDF files in the PDF.js viewer, images as they are.</p>
 <ul>
-<li>Supported formats: DOCX, converted with <a href="https://github.com/mwilliamson/mammoth.js">mammoth.js</a> (BSD 2-Clause, included in the plugin), and OpenDocument text (ODT, also the single-file FODT), converted by the plugin itself. Further formats can be added as renderers, also by other plugins.</li>
+<li>Supported formats: DOCX, converted with <a href="https://github.com/mwilliamson/mammoth.js">mammoth.js</a> (BSD 2-Clause, included in the plugin), and OpenDocument text (ODT, also the single-file FODT), converted by the plugin itself; PDF, shown with the viewer of OJS's own <em>PDF.js PDF Viewer</em> plugin (which must be installed, it need not be enabled); and images (PNG, JPEG, GIF, WebP, AVIF, BMP, SVG). Further formats can be added as renderers, also by other plugins.</li>
 <li>Files are recognised by the extension of their name, or, if the name has none, by the media type OJS stored for them.</li>
 <li>The file is loaded through OJS's own download link, so OJS's access rules apply unchanged: the preview never shows more than the user could download.</li>
 <li>The conversion happens in the browser. Nothing is converted or stored on the server; no database tables, no settings.</li>
-<li>The document is shown in a sandboxed frame: it can't run scripts, access OJS or load external resources.</li>
-<li>Simplified preview: page layout, headers, footers, comments, tracked changes and the file's metadata are not shown.</li>
+<li>Text documents and images are shown in a sandboxed frame: they can't run scripts, access OJS or load external resources. PDF files are shown in the PDF.js viewer, with JavaScript in the PDF turned off and links opening in a new tab.</li>
+<li>Text documents get a simplified preview: page layout, headers, footers, comments, tracked changes and the file's metadata are not shown.</li>
 <li>English and German.</li>
 </ul>]]></description>
-		<description locale="en_US"><![CDATA[<p>Adds a preview of submitted documents to the editorial workflow. A preview button appears before the file names of documents in a supported format: in the workflow's file lists, discussion attachments, the reviewer's files and the file selection dialogs. It opens the document as simple HTML (headings, paragraphs, emphasis, lists, tables, links, images, footnotes and endnotes) in a dialog, with a link to download the original file.</p>
+		<description locale="en_US"><![CDATA[<p>Adds a preview of submitted documents to the editorial workflow. A preview button appears before the file names of documents in a supported format: in the workflow's file lists, discussion attachments, the reviewer's files and the file selection dialogs. It opens the document in a dialog, with a link to download the original file: text documents as simple HTML (headings, paragraphs, emphasis, lists, tables, links, images, footnotes and endnotes), PDF files in the PDF.js viewer, images as they are.</p>
 <ul>
-<li>Supported formats: DOCX, converted with <a href="https://github.com/mwilliamson/mammoth.js">mammoth.js</a> (BSD 2-Clause, included in the plugin), and OpenDocument text (ODT, also the single-file FODT), converted by the plugin itself. Further formats can be added as renderers, also by other plugins.</li>
+<li>Supported formats: DOCX, converted with <a href="https://github.com/mwilliamson/mammoth.js">mammoth.js</a> (BSD 2-Clause, included in the plugin), and OpenDocument text (ODT, also the single-file FODT), converted by the plugin itself; PDF, shown with the viewer of OJS's own <em>PDF.js PDF Viewer</em> plugin (which must be installed, it need not be enabled); and images (PNG, JPEG, GIF, WebP, AVIF, BMP, SVG). Further formats can be added as renderers, also by other plugins.</li>
 <li>Files are recognised by the extension of their name, or, if the name has none, by the media type OJS stored for them.</li>
 <li>The file is loaded through OJS's own download link, so OJS's access rules apply unchanged: the preview never shows more than the user could download.</li>
 <li>The conversion happens in the browser. Nothing is converted or stored on the server; no database tables, no settings.</li>
-<li>The document is shown in a sandboxed frame: it can't run scripts, access OJS or load external resources.</li>
-<li>Simplified preview: page layout, headers, footers, comments, tracked changes and the file's metadata are not shown.</li>
+<li>Text documents and images are shown in a sandboxed frame: they can't run scripts, access OJS or load external resources. PDF files are shown in the PDF.js viewer, with JavaScript in the PDF turned off and links opening in a new tab.</li>
+<li>Text documents get a simplified preview: page layout, headers, footers, comments, tracked changes and the file's metadata are not shown.</li>
 <li>English and German.</li>
 </ul>]]></description>
 		<maintainer>
@@ -13197,6 +13197,14 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			</compatibility>
 			<description locale="en">Footnote links stay in the preview in Firefox and Safari</description>
 			<description locale="en_US">Footnote links stay in the preview in Firefox and Safari</description>
+		</release>
+		<release date="2026-11-26" version="0.2.2.0" md5="6cf7a67b054891ab5c49964cb33df334">
+			<package>https://github.com/cboulanger/ojs-document-preview/releases/download/v0.2.2/documentPreview-v0.2.2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">PDF preview (with the PDF.js viewer of OJS) and image preview</description>
+			<description locale="en_US">PDF preview (with the PDF.js viewer of OJS) and image preview</description>
 		</release>
 	</plugin>
 </plugins>
