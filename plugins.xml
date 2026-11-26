@@ -13207,4 +13207,28 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="referenceCheck">
+		<name locale="en">Reference Check</name>
+		<name locale="en_US">Reference Check</name>
+		<homepage>https://github.com/mahmood726-cyber/ojs-reference-check</homepage>
+		<summary locale="en">Lets editors check a reference list for retracted or corrected work and for DOIs that do not resolve.</summary>
+		<summary locale="en_US">Lets editors check a reference list for retracted or corrected work and for DOIs that do not resolve.</summary>
+		<description locale="en"><![CDATA[<p>Adds a panel to the References section of a publication. An editor can check the saved reference list for work that has been retracted, withdrawn, flagged with an expression of concern or corrected, and for DOIs that do not resolve.</p><p>It is an aid, not a verdict. References without a DOI are not checked, and "No notice found" means only that Crossref held no notice when asked. It never changes a submission or blocks an editorial step.</p><p>The text read as a DOI in each reference is sent to the Crossref REST API and to doi.org. No account is needed and there is nothing to configure.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Adds a panel to the References section of a publication. An editor can check the saved reference list for work that has been retracted, withdrawn, flagged with an expression of concern or corrected, and for DOIs that do not resolve.</p><p>It is an aid, not a verdict. References without a DOI are not checked, and "No notice found" means only that Crossref held no notice when asked. It never changes a submission or blocks an editorial step.</p><p>The text read as a DOI in each reference is sent to the Crossref REST API and to doi.org. No account is needed and there is nothing to configure.</p>]]></description>
+		<maintainer>
+			<name>Mahmood Ahmad</name>
+			<institution>Royal Free Hospital</institution>
+			<email>mahmood.ahmad2@nhs.net</email>
+		</maintainer>
+		<release date="2026-11-26" version="1.0.0.0" md5="a7d4910c259682dfadefa58b5fb94236">
+			<package>https://github.com/mahmood726-cyber/ojs-reference-check/releases/download/v1.0.0.0/referenceCheck-1.0.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.4</version>
+				<version>3.5.0.5</version>
+				<version>3.5.0.6</version>
+			</compatibility>
+			<description locale="en">Initial release.</description>
+			<description locale="en_US">Initial release.</description>
+		</release>
+	</plugin>
 </plugins>
