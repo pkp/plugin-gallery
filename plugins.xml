@@ -13200,5 +13200,13 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Editor workflow improvements: change due dates, link reviews to submissions, history notes, sortable reservation cards, linked identifiers</description>
 			<description locale="en_US">Editor workflow improvements: change due dates, link reviews to submissions, history notes, sortable reservation cards, linked identifiers</description>
 		</release>
+		<release date="2026-11-27" version="1.2.0.0" md5="4255962b37af66e0574cc678900f45b7">
+			<package>https://github.com/cboulanger/ojs-book-review-manager/releases/download/v1.2.0/bookReviewManager-v1.2.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Choose the language of emails before sending (invitations, messages, contract offers, review copy steps)</description>
+			<description locale="en_US">Choose the language of emails before sending (invitations, messages, contract offers, review copy steps)</description>
+		</release>
 	</plugin>
 </plugins>
