@@ -2017,8 +2017,8 @@
 			<description locale="es">Correcciones de seguridad. Un conjunto de datos solo puede asociarse a un único envío, y los enlaces de la declaración de datos se abren en una nueva pestaña. Los administradores de instalaciones cuyo almacenamiento de Dataverse se accede por HTTP simple o en una red privada deben desactivar las redirecciones de descarga de ese almacenamiento en Dataverse.</description>
 			<description locale="pt_BR">Correções de segurança. Um conjunto de dados passa a poder ser associado a uma única submissão, e os links da declaração de dados abrem numa nova aba. Administradores de instalações cujo armazenamento do Dataverse é acessado por HTTP simples ou numa rede privada devem desativar o redirecionamento de downloads desse armazenamento no Dataverse.</description>
 		</release>
-		<release date="2026-11-26" version="4.0.0.6" md5="d4121e4b8921d72043f5ba2daffe2395">
-			<package>https://github.com/lepidus/dataversePlugin/releases/download/v4.0.0.6/dataverse.tar.gz</package>
+		<release date="2026-11-27" version="4.0.0.7" md5="5700dcc03339967c26356bed9a654281">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v4.0.0.7/dataverse.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>~3.5.0.0</version>
 			</compatibility>
