@@ -13172,14 +13172,13 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<institution/>
 			<email>stefano@natangelo.dev</email>
 		</maintainer>
-		<release date="2026-11-23" version="1.0.0.0" md5="e629d0c6ae6eb4d207f65c077cd9259a">
-			<package>https://github.com/SNatangelo/ojs-mobile-dashboard/releases/download/v1.0.0/mobileDashboard-1.0.0.tar.gz</package>
+		<release date="2026-11-27" version="1.0.0.1" md5="10505e67c2d40458667850bdd23c2fd9">
+			<package>https://github.com/SNatangelo/ojs-mobile-dashboard/releases/download/v1.0.0.1/mobileDashboard-1.0.0.1.tar.gz</package>
 			<compatibility application="ojs2">
-				<version>~3.5.0.0</version>
+				<version>3.5.0.6</version>
 			</compatibility>
-			<certification type="reviewed"/>
-			<description locale="en">First release, for OJS 3.5.</description>
-			<description locale="en_US">First release, for OJS 3.5.</description>
+			<description locale="en">Initial Gallery release for OJS 3.5.0-6; maintenance packaging and documentation update.</description>
+			<description locale="en_US">Initial Gallery release for OJS 3.5.0-6; maintenance packaging and documentation update.</description>
 		</release>
 	</plugin>
 </plugins>
