@@ -13207,4 +13207,26 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="journalQuota">
+		<name locale="en_US">Journal Quota</name>
+		<name locale="it_IT">Journal Quota</name>
+		<homepage>https://github.com/SNatangelo/ojs-journal-quota</homepage>
+		<summary locale="en_US">Per-journal storage quotas and usage tracking for multi-journal OJS installations.</summary>
+		<summary locale="it_IT">Quote di spazio e monitoraggio dell'uso disco per ogni rivista nelle installazioni OJS multi-rivista.</summary>
+		<description locale="en_US">Journal Quota tracks disk usage separately for each journal in a multi-journal OJS installation. Site administrators can configure default and journal-specific quotas, monitor usage, set warning thresholds and enforce storage limits. Journal managers can view their usage and receive alerts. When the applicable limit is reached, new submissions and file uploads are blocked while existing files remain accessible.</description>
+		<description locale="it_IT">Journal Quota monitora lo spazio disco utilizzato da ciascuna rivista nelle installazioni OJS multi-rivista. Gli amministratori del sito possono configurare quote predefinite e specifiche per rivista, controllare l'utilizzo, impostare soglie di avviso e applicare limiti di spazio. I responsabili delle riviste possono consultare il proprio utilizzo e ricevere notifiche. Al raggiungimento del limite applicabile, vengono bloccati nuovi invii e caricamenti, mentre i file esistenti restano accessibili.</description>
+		<maintainer>
+			<name>Stefano Natangelo</name>
+			<institution>JSENetwork</institution>
+			<email>stefano@natangelo.dev</email>
+		</maintainer>
+		<release date="2026-11-27" version="1.0.0.1" md5="67d0fe903f07c7a0e5056d243f6a3d3c">
+			<package>https://github.com/SNatangelo/ojs-journal-quota/releases/download/v1.0.0.1/journalQuota-1.0.0.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.5.0.6</version>
+			</compatibility>
+			<description locale="en_US">Initial release with per-journal disk usage tracking, configurable storage quotas, usage overviews, threshold alerts and restrictions on new submissions and file uploads when storage limits are reached.</description>
+			<description locale="it_IT">Versione iniziale con monitoraggio dello spazio per rivista, quote configurabili, riepiloghi dell'utilizzo, avvisi al raggiungimento delle soglie e blocco di nuovi invii e caricamenti quando vengono raggiunti i limiti di spazio.</description>
+		</release>
+	</plugin>
 </plugins>
