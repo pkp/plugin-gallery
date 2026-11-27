@@ -7206,6 +7206,17 @@
 			<certification type="official"/>
 			<description>Updated to reinclude Quicksubmit plugin compatibility</description>
 		</release>
+		<release date="2026-11-24" version="3.0.0.1" md5="33f8aef819dcc0ac80375175459d61ae">
+			<package>https://github.com/pkp/authorRequirements/releases/download/v3.0.0-1/authorRequirements-v3.0.0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.4</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.5.0.4</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Updated for OJS/OMP 3.5 compatibility</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="controlPublicFiles">
 		<name locale="en">Control Public Files</name>
