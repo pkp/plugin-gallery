@@ -13256,5 +13256,13 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">Choose the language of emails before sending (invitations, messages, contract offers, review copy steps)</description>
 			<description locale="en_US">Choose the language of emails before sending (invitations, messages, contract offers, review copy steps)</description>
 		</release>
+		<release date="2026-11-27" version="1.3.0.0" md5="098f5aeba787e968dd6d954a95a6a7d0">
+			<package>https://github.com/cboulanger/ojs-book-review-manager/releases/download/v1.3.0/bookReviewManager-v1.3.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Publisher's page and open access status of works, also in the invitation emails</description>
+			<description locale="en_US">Publisher's page and open access status of works, also in the invitation emails</description>
+		</release>
 	</plugin>
 </plugins>
