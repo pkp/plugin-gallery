@@ -13207,4 +13207,42 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="editorAssignments">
+		<name locale="en">Editor Assignments</name>
+		<name locale="en_US">Editor Assignments</name>
+		<homepage>https://github.com/cboulanger/ojs-editor-assignments</homepage>
+		<summary locale="en">Shows journal managers which editor is assigned to which active submission, with links to email an editor, transfer a submission to another editor and remove an assignment.</summary>
+		<summary locale="en_US">Shows journal managers which editor is assigned to which active submission, with links to email an editor, transfer a submission to another editor and remove an assignment.</summary>
+		<description locale="en"><![CDATA[<p>A page for journal managers that shows how the active submissions (neither published nor declined) are distributed among the editors, under the new left menu entry <em>Editor assignments</em>:</p>
+<ul>
+<li>one row per editor (all section editors, and everybody else assigned as editor) with the number of submissions and a table of them: ID, authors and title, linked to the workflow;</li>
+<li><em>Email editor</em>: a prefilled message about the submission, recorded in its email log;</li>
+<li><em>Transfer to other editor</em>: assigns another journal manager or section editor and removes the previous one, optionally with OJS's email "Editor assigned";</li>
+<li><em>Remove assignment</em>, and <em>Assign editor</em> for submissions without editor;</li>
+<li>changes are recorded in the submission's activity log, as with OJS's participants list;</li>
+<li>English and German.</li>
+</ul>]]></description>
+		<description locale="en_US"><![CDATA[<p>A page for journal managers that shows how the active submissions (neither published nor declined) are distributed among the editors, under the new left menu entry <em>Editor assignments</em>:</p>
+<ul>
+<li>one row per editor (all section editors, and everybody else assigned as editor) with the number of submissions and a table of them: ID, authors and title, linked to the workflow;</li>
+<li><em>Email editor</em>: a prefilled message about the submission, recorded in its email log;</li>
+<li><em>Transfer to other editor</em>: assigns another journal manager or section editor and removes the previous one, optionally with OJS's email "Editor assigned";</li>
+<li><em>Remove assignment</em>, and <em>Assign editor</em> for submissions without editor;</li>
+<li>changes are recorded in the submission's activity log, as with OJS's participants list;</li>
+<li>English and German.</li>
+</ul>]]></description>
+		<maintainer>
+			<name>Christian Boulanger</name>
+			<institution>Max Planck Institute for Legal History and Legal Theory</institution>
+			<email>info@bibliograph.org</email>
+		</maintainer>
+		<release date="2026-11-23" version="0.1.1.0" md5="0b82fa558e3ce6da6510b9fea5f71892">
+			<package>https://github.com/cboulanger/ojs-editor-assignments/releases/download/v0.1.1/editorAssignments-v0.1.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Show only journal editors by default; checkbox "Show all assignments" for all editorial roles</description>
+			<description locale="en_US">Show only journal editors by default; checkbox "Show all assignments" for all editorial roles</description>
+		</release>
+	</plugin>
 </plugins>
