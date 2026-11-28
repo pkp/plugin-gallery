@@ -13246,5 +13246,13 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">First release: collapses the backend's left menu to icons, with a drawer over the page, count badges and name tooltips.</description>
 			<description locale="en_US">First release: collapses the backend's left menu to icons, with a drawer over the page, count badges and name tooltips.</description>
 		</release>
+		<release date="2026-11-28" version="0.1.1.0" md5="4248f715785c5a627ed26f38c846951e">
+			<package>https://github.com/cboulanger/ojs-dashboard-collapse/releases/download/v0.1.1/dashboardCollapse-v0.1.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<description locale="en">Steps aside on screens up to 900px when Mobile Dashboard is enabled, so that both plugins work together on phones.</description>
+			<description locale="en_US">Steps aside on screens up to 900px when Mobile Dashboard is enabled, so that both plugins work together on phones.</description>
+		</release>
 	</plugin>
 </plugins>
